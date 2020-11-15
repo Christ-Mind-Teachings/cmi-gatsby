@@ -1,0 +1,729 @@
+[
+  {
+    "title": "The Jeshua Letters",
+    "image": "/assets/img/wom/tjl-toc.jpg",
+    "bookId": "tjl",
+    "bid": "01",
+    "toc": [
+      {
+        "title": "Acknowledgements",
+        "url": "/wom/tjl/ack"
+      },
+      {
+        "title": "Foreword",
+        "url": "/wom/tjl/foreword"
+      },
+      {
+        "title": "Chapter One",
+        "url": "/wom/tjl/chap01"
+      },
+      {
+        "title": "Chapter Two",
+        "url": "/wom/tjl/chap02"
+      },
+      {
+        "title": "Chapter Three",
+        "url": "/wom/tjl/chap03"
+      },
+      {
+        "title": "Chapter Four",
+        "url": "/wom/tjl/chap04"
+      },
+      {
+        "title": "Chapter Five",
+        "url": "/wom/tjl/chap05"
+      },
+      {
+        "title": "Chapter Six",
+        "url": "/wom/tjl/chap06"
+      },
+      {
+        "title": "Chapter Seven",
+        "url": "/wom/tjl/chap07"
+      },
+      {
+        "title": "Chapter Eight",
+        "url": "/wom/tjl/chap08"
+      },
+      {
+        "title": "Chapter Nine",
+        "url": "/wom/tjl/chap09"
+      },
+      {
+        "title": "Chapter Ten",
+        "url": "/wom/tjl/chap10"
+      },
+      {
+        "title": "Chapter Eleven",
+        "url": "/wom/tjl/chap11"
+      },
+      {
+        "title": "Chapter Twelve",
+        "url": "/wom/tjl/chap12"
+      },
+      {
+        "title": "Epilogue",
+        "url": "/wom/tjl/epilogue"
+      }
+    ]
+  },
+  {
+    "title": "The Way of the Servant",
+    "image": "/assets/img/wom/wos-toc.jpg",
+    "bookId": "wos",
+    "bid": "02",
+    "toc": [
+      {
+        "title": "Foreword",
+        "url": "/wom/wos/foreword"
+      },
+      {
+        "title": "Preface",
+        "url": "/wom/wos/preface"
+      },
+      {
+        "title": "Book One",
+        "url": "/wom/wos/chap01"
+      },
+      {
+        "title": "Book Two",
+        "url": "/wom/wos/chap02"
+      },
+      {
+        "title": "Book Three",
+        "url": "/wom/wos/chap03"
+      },
+      {
+        "title": "Book Four",
+        "url": "/wom/wos/chap04"
+      },
+      {
+        "title": "After Words",
+        "url": "/wom/wos/afterwords"
+      },
+      {
+        "title": "Epilogue",
+        "url": "/wom/wos/epilog"
+      },
+      {
+        "title": "Prayer of Remembrance",
+        "url": "/wom/wos/prayer"
+      }
+    ]
+  },
+  {
+    "title": "The Early Years",
+    "image": "/assets/img/wom/early-toc.jpg",
+    "bookId": "early",
+    "bid": "03",
+    "toc": [
+      {
+        "title": "The Blessing of Forgiveness",
+        "url": "/wom/early/ble",
+        "contents": [
+          {
+            "title": "Q1. Profound Time of Year",
+            "url": "/wom/early/bleq1"
+          },
+          {
+            "title": "Q2. Living in Community",
+            "url": "/wom/early/bleq2"
+          },
+          {
+            "title": "Q3. Co-creating Christ",
+            "url": "/wom/early/bleq3"
+          },
+          {
+            "title": "Q4. 12/12",
+            "url": "/wom/early/bleq4"
+          }
+        ]
+      },
+      {
+        "title": "Choose to See",
+        "url": "/wom/early/c2s",
+        "contents": [
+          {
+            "title": "Q1. What is the symbolism of Crucifixion?",
+            "url": "/wom/early/c2sq1"
+          },
+          {
+            "title": "Q2. How do I know when I have surrendered to the Holy Spirit?",
+            "url": "/wom/early/c2sq2"
+          },
+          {
+            "title": "Q3. What is my role in bringing Heaven to Earth?",
+            "url": "/wom/early/c2sq3"
+          },
+          {
+            "title": "Q4. Is Christ different from Jeshua?",
+            "url": "/wom/early/c2sq4"
+          },
+          {
+            "title": "Q5. Please speak of non-physical reality.",
+            "url": "/wom/early/c2sq5"
+          }
+        ]
+      },
+      {
+        "title": "Heaven on Earth",
+        "url": "/wom/early/hoe",
+        "contents": [
+          {
+            "title": "Q1. About asking unclear questions.",
+            "url": "/wom/early/hoeq1"
+          },
+          {
+            "title": "Q2. How to develop greater clarity.",
+            "url": "/wom/early/hoeq2"
+          },
+          {
+            "title": "Q3. What is it like living as Christ?",
+            "url": "/wom/early/hoeq3"
+          },
+          {
+            "title": "Q4. About Shanti Christo membership",
+            "url": "/wom/early/hoeq4"
+          }
+        ]
+      },
+      {
+        "title": "Ignorance is Bliss",
+        "url": "/wom/early/ign"
+      },
+      {
+        "title": "Mastering Communication",
+        "url": "/wom/early/com",
+        "contents": [
+          {
+            "title": "Q1. Please elaborate on two quotes from ACIM",
+            "url": "/wom/early/comq1"
+          }
+        ]
+      },
+      {
+        "title": "Decide to be Christ",
+        "url": "/wom/early/dbc"
+      },
+      {
+        "title": "Death and Earth Changes",
+        "url": "/wom/early/dth",
+        "contents": [
+          {
+            "title": "Q1. About war and racial tension",
+            "url": "/wom/early/dthq1"
+          },
+          {
+            "title": "Q2. About physical Earth changes",
+            "url": "/wom/early/dthq2"
+          },
+          {
+            "title": "Q3. About the role of Shanti Christo",
+            "url": "/wom/early/dthq3"
+          },
+          {
+            "title": "Q4. Are we going to experience 3 days of darkness?",
+            "url": "/wom/early/dthq4"
+          },
+          {
+            "title": "Q5. What is the difference between Jeshua and Germaine?",
+            "url": "/wom/early/dthq5"
+          },
+          {
+            "title": "Q6. About being unaware of your death",
+            "url": "/wom/early/dthq6"
+          },
+          {
+            "title": "Q7. About going through the tunnel at death",
+            "url": "/wom/early/dthq7"
+          },
+          {
+            "title": "Q8. Is God self-aware?",
+            "url": "/wom/early/dthq8"
+          },
+          {
+            "title": "Q9. Is there a force outside of God?",
+            "url": "/wom/early/dthq9"
+          },
+          {
+            "title": "Q10. About Shanti Christo",
+            "url": "/wom/early/dthq10"
+          }
+        ]
+      },
+      {
+        "title": "The Divine Feminine",
+        "url": "/wom/early/fem"
+      },
+      {
+        "title": "Grace as Reality",
+        "url": "/wom/early/gar"
+      },
+      {
+        "title": "Healing",
+        "url": "/wom/early/hea"
+      },
+      {
+        "title": "The Holy Instant",
+        "url": "/wom/early/hoi"
+      },
+      {
+        "title": "The Holy Spirit",
+        "url": "/wom/early/hsp"
+      },
+      {
+        "title": "Joy I",
+        "url": "/wom/early/joy1"
+      },
+      {
+        "title": "Joy II",
+        "url": "/wom/early/joy2"
+      },
+      {
+        "title": "Love Heals All Things",
+        "url": "/wom/early/lht",
+        "contents": [
+          {
+            "title": "Q1. Question One",
+            "url": "/wom/early/lhtq1"
+          },
+          {
+            "title": "Q2. Question Two",
+            "url": "/wom/early/lhtq2"
+          },
+          {
+            "title": "Q3. Question Three",
+            "url": "/wom/early/lhtq3"
+          },
+          {
+            "title": "Q4. Question Four",
+            "url": "/wom/early/lhtq4"
+          },
+          {
+            "title": "Q5. Question Five",
+            "url": "/wom/early/lhtq5"
+          },
+          {
+            "title": "Q6. Question Six",
+            "url": "/wom/early/lhtq6"
+          },
+          {
+            "title": "Q7. Question Seven",
+            "url": "/wom/early/lhtq7"
+          },
+          {
+            "title": "Q8. Question Eight",
+            "url": "/wom/early/lhtq8"
+          }
+        ]
+      },
+      {
+        "title": "Meaning of Ascension",
+        "url": "/wom/early/moa"
+      },
+      {
+        "title": "Become the Master of Time",
+        "url": "/wom/early/mot"
+      },
+      {
+        "title": "Awakening",
+        "url": "/wom/early/wak"
+      },
+      {
+        "title": "Walk with Me",
+        "url": "/wom/early/wlk"
+      }
+    ]
+  },
+  {
+    "title": "The Way of the Heart",
+    "image": "/assets/img/wom/woh-toc.jpg",
+    "bookId": "woh",
+    "bid": "04",
+    "toc": [
+      {
+        "url": "/wom/woh/l01",
+        "title": "Lesson One",
+        "contents": [
+          {
+            "title": "Q1. What Motivates You?",
+            "url": "/wom/woh/l01q1"
+          },
+          {
+            "title": "Q2. What is the role of sexuality in spiritual evolution?",
+            "url": "/wom/woh/l01q2"
+          },
+          {
+            "title": "Q3. What is required for physical healing?",
+            "url": "/wom/woh/l01q3"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l02",
+        "title": "Lesson Two",
+        "contents": [
+          {
+            "title": "Q1. About fasting for 40 days and nights",
+            "url": "/wom/woh/l02q1"
+          },
+          {
+            "title": "Q2. Please comment on Mary",
+            "url": "/wom/woh/l02q2"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l03",
+        "title": "Lesson Three"
+      },
+      {
+        "url": "/wom/woh/l04",
+        "title": "Lesson Four",
+        "url": "/wom/woh/l04"
+      },
+      {
+        "url": "/wom/woh/l05",
+        "title": "Lesson Five"
+      },
+      {
+        "url": "/wom/woh/l06",
+        "title": "Lesson Six",
+        "contents": [
+          {
+            "title": "Q1. How to integrate breathwork with ACIM?",
+            "url": "/wom/woh/l06q1"
+          },
+          {
+            "title": "Q2. Is there a need to work with the Dark Side?",
+            "url": "/wom/woh/l06q2"
+          },
+          {
+            "title": "Q3. About ego habits",
+            "url": "/wom/woh/l06q3"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l07",
+        "title": "Lesson Seven",
+        "contents": [
+          {
+            "title": "Q1. About being a servant of God",
+            "url": "/wom/woh/l07q1"
+          },
+          {
+            "title": "Q2. About twin flames and soul mates",
+            "url": "/wom/woh/l07q2"
+          },
+          {
+            "title": "Q3. How to bring awareness to unconscious blocks",
+            "url": "/wom/woh/l07q3"
+          },
+          {
+            "title": "Q4. Using dicipline and self-control to end strong attachments",
+            "url": "/wom/woh/l07q4"
+          },
+          {
+            "title": "Q5. About Christian Pentecostal and the New Age movement",
+            "url": "/wom/woh/l07q5"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l08",
+        "title": "Lesson Eight",
+        "contents": [
+          {
+            "title": "Q1. About the Holy Spirit",
+            "url": "/wom/woh/l08q1"
+          },
+          {
+            "title": "Q2. About healing",
+            "url": "/wom/woh/l08q2"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l09",
+        "title": "Lesson Nine",
+        "contents": [
+          {
+            "title": "Q1. About self forgiveness",
+            "url": "/wom/woh/l09q1"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l10",
+        "title": "Lesson Ten",
+        "contents": [
+          {
+            "title": "Q1. About Astrology",
+            "url": "/wom/woh/l10q1"
+          },
+          {
+            "title": "Q2. About the symbology of the Cross",
+            "url": "/wom/woh/l10q2"
+          },
+          {
+            "title": "Q3. About Iniations",
+            "url": "/wom/woh/l10q3"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l11",
+        "title": "Lesson Eleven",
+        "contents": [
+          {
+            "title": "Q1. What is our responsibility to the poor?",
+            "url": "/wom/woh/l11q1"
+          },
+          {
+            "title": "Q2. How can we help the poor?",
+            "url": "/wom/woh/l11q2"
+          },
+          {
+            "title": "Q3. How to teach a young child about peace and love?",
+            "url": "/wom/woh/l11q3"
+          }
+        ]
+      },
+      {
+        "url": "/wom/woh/l12",
+        "title": "Lesson Twelve",
+        "contents": [
+          {
+            "title": "Q1. Why did you say, 'Father, why hast Thou forsaken me?'",
+            "url": "/wom/woh/l12q1"
+          },
+          {
+            "title": "Q2. Please speak about Mary Magdalene?",
+            "url": "/wom/woh/l12q2"
+          },
+          {
+            "title": "Q3. Please speak about St. Germain",
+            "url": "/wom/woh/l12q3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "The Way of Transformation",
+    "image": "/assets/img/wom/wot-toc.jpg",
+    "bookId": "wot",
+    "bid": "05",
+    "toc": [
+      {
+        "title": "Lesson One",
+        "url": "/wom/wot/l01",
+        "contents": [
+          {
+            "title": "Q1. Who are the other Masters occasionally mentioned?",
+            "url": "/wom/wot/l01q1"
+          },
+          {
+            "title": "Q2. What is the difference between judgment and discernment?",
+            "url": "/wom/wot/l01q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Two",
+        "url": "/wom/wot/l02"
+      },
+      {
+        "title": "Lesson Three",
+        "url": "/wom/wot/l03"
+      },
+      {
+        "title": "Lesson Four",
+        "url": "/wom/wot/l04"
+      },
+      {
+        "title": "Lesson Five",
+        "url": "/wom/wot/l05"
+      },
+      {
+        "title": "Lesson Six",
+        "url": "/wom/wot/l06",
+        "contents": [
+          {
+            "title": "Q1. About vulnerability",
+            "url": "/wom/wot/l06q1"
+          },
+          {
+            "title": "Q2. What was the message of the Cross?",
+            "url": "/wom/wot/l06q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Seven",
+        "url": "/wom/wot/l07",
+        "contents": [
+          {
+            "title": "Q1. Please talk about Enlightenment",
+            "url": "/wom/wot/l07q1"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Eight",
+        "url": "/wom/wot/l08"
+      },
+      {
+        "title": "Lesson Nine",
+        "url": "/wom/wot/l09",
+        "contents": [
+          {
+            "title": "Q1. About Guidance",
+            "url": "/wom/wot/l09q1"
+          },
+          {
+            "title": "Q2. All events are neutral",
+            "url": "/wom/wot/l09q2"
+          },
+          {
+            "title": "Q3. About Christ Consciousness and Individuality",
+            "url": "/wom/wot/l09q3"
+          },
+          {
+            "title": "Q4. About not being in denial of the shadow",
+            "url": "/wom/wot/l09q4"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Ten",
+        "url": "/wom/wot/l10"
+      },
+      {
+        "title": "Lesson Eleven",
+        "url": "/wom/wot/l11",
+        "contents": [
+          {
+            "title": "Q1. Do we have our own unique purpose?",
+            "url": "/wom/wot/l11q1"
+          },
+          {
+            "title": "Q2. About The Lineage",
+            "url": "/wom/wot/l11q2"
+          },
+          {
+            "title": "Q3. About specialness, holiness, and sexuality",
+            "url": "/wom/wot/l11q3"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Twelve",
+        "url": "/wom/wot/l12"
+      }
+    ]
+  },
+  {
+    "title": "The Way of Knowing",
+    "image": "/assets/img/wom/wok-toc.jpg",
+    "bookId": "wok",
+    "bid": "06",
+    "toc": [
+      {
+        "title": "Lesson One",
+        "url": "/wom/wok/l01"
+      },
+      {
+        "title": "Lesson Two",
+        "url": "/wom/wok/l02",
+        "contents": [
+          {
+            "title": "Q1. Please define knowledge or knowing",
+            "url": "/wom/wok/l02q1"
+          },
+          {
+            "title": "Q2. How best to be with glee clubs and attack?",
+            "url": "/wom/wok/l02q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Three",
+        "url": "/wom/wok/l03",
+        "contents": [
+          {
+            "title": "Q1. About love of self and others",
+            "url": "/wom/wok/l03q1"
+          },
+          {
+            "title": "Q2. About guidance of the Holy Spirit",
+            "url": "/wom/wok/l03q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Four",
+        "url": "/wom/wok/l04",
+        "contents": [
+          {
+            "title": "Q1. What are the Great Rays of Light mentioned in ACIM?",
+            "url": "/wom/wok/l04q1"
+          },
+          {
+            "title": "Q2. Does everyone have a unique essence?",
+            "url": "/wom/wok/l04q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Five",
+        "url": "/wom/wok/l05"
+      },
+      {
+        "title": "Lesson Six",
+        "url": "/wom/wok/l06",
+        "contents": [
+          {
+            "title": "Q1. What is the difference between Joy and Pleasure?",
+            "url": "/wom/wok/l06q1"
+          },
+          {
+            "title": "Q2. About Shanti Christo",
+            "url": "/wom/wok/l06q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Seven",
+        "url": "/wom/wok/l07"
+      },
+      {
+        "title": "Lesson Eight",
+        "url": "/wom/wok/l08"
+      },
+      {
+        "title": "Lesson Nine",
+        "url": "/wom/wok/l09"
+      },
+      {
+        "title": "Lesson Ten",
+        "url": "/wom/wok/l10",
+        "contents": [
+          {
+            "title": "Q1. About Bible Codes",
+            "url": "/wom/wok/l10q1"
+          },
+          {
+            "title": "Q2. Please talk about the free will of children",
+            "url": "/wom/wok/l10q2"
+          }
+        ]
+      },
+      {
+        "title": "Lesson Eleven",
+        "url": "/wom/wok/l11"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2826 @@
+[
+  {
+    "title": "You Are the Answer",
+    "image": "/assets/img/raj/yaa-toc.jpg",
+    "bookId": "yaa",
+    "bid": "01",
+    "toc": [
+      {
+        "title": "Acknowledgments",
+        "url": "/raj/yaa/acknowledgments"
+      },
+      {
+        "title": "Foreword",
+        "url": "/raj/yaa/foreword"
+      },
+      {
+        "title": "Feb 7, 1982",
+        "url": "/raj/yaa/020782"
+      },
+      {
+        "title": "Feb 8, 1982",
+        "url": "/raj/yaa/020882"
+      },
+      {
+        "title": "Feb 9, 1982",
+        "url": "/raj/yaa/020982"
+      },
+      {
+        "title": "Feb 10, 1982",
+        "url": "/raj/yaa/021082"
+      },
+      {
+        "title": "Feb 11, 1982 Morning",
+        "url": "/raj/yaa/021182a"
+      },
+      {
+        "title": "Feb 11, 1982 Evening",
+        "url": "/raj/yaa/021182b"
+      },
+      {
+        "title": "Feb 12, 1982",
+        "url": "/raj/yaa/021282"
+      },
+      {
+        "title": "Feb 13, 1982",
+        "url": "/raj/yaa/021382"
+      },
+      {
+        "title": "Feb 14, 1982",
+        "url": "/raj/yaa/021482"
+      },
+      {
+        "title": "Feb 16, 1982",
+        "url": "/raj/yaa/021682"
+      },
+      {
+        "title": "Feb 17, 1982",
+        "url": "/raj/yaa/021782"
+      },
+      {
+        "title": "Feb 18, 1982 Morning",
+        "url": "/raj/yaa/021882a"
+      },
+      {
+        "title": "Feb 18, 1982 Afternoon",
+        "url": "/raj/yaa/021882b"
+      },
+      {
+        "title": "Feb 18, 1982 Evening",
+        "url": "/raj/yaa/021882c"
+      },
+      {
+        "title": "Feb 19, 1982",
+        "url": "/raj/yaa/021982"
+      },
+      {
+        "title": "Feb 20, 1982",
+        "url": "/raj/yaa/022082"
+      },
+      {
+        "title": "Feb 21, 1982 Afternoon",
+        "url": "/raj/yaa/022182a"
+      },
+      {
+        "title": "Feb 21, 1982 Evening",
+        "url": "/raj/yaa/022182b"
+      },
+      {
+        "title": "Feb 23, 1982 Midnight",
+        "url": "/raj/yaa/022382a"
+      },
+      {
+        "title": "Feb 23, 1982 Afternoon",
+        "url": "/raj/yaa/022382b"
+      },
+      {
+        "title": "Feb 23, 1982 Evening",
+        "url": "/raj/yaa/022382c"
+      },
+      {
+        "title": "Feb 24, 1982",
+        "url": "/raj/yaa/022482"
+      },
+      {
+        "title": "Feb 25, 1982",
+        "url": "/raj/yaa/022582"
+      },
+      {
+        "title": "Feb 26, 1982 Afternoon",
+        "url": "/raj/yaa/022682a"
+      },
+      {
+        "title": "Feb 26, 1982 Evening",
+        "url": "/raj/yaa/022682b"
+      },
+      {
+        "title": "Feb 26, 1982 Late Evening",
+        "url": "/raj/yaa/022682c"
+      },
+      {
+        "title": "Feb 27, 1982",
+        "url": "/raj/yaa/022782"
+      },
+      {
+        "title": "Feb 28, 1982",
+        "url": "/raj/yaa/022882"
+      },
+      {
+        "title": "Mar 1, 1982 Afternoon",
+        "url": "/raj/yaa/030182a"
+      },
+      {
+        "title": "Mar 1, 1982 Evening",
+        "url": "/raj/yaa/030182b"
+      },
+      {
+        "title": "Mar 2, 1982",
+        "url": "/raj/yaa/030282"
+      },
+      {
+        "title": "Mar 3, 1982",
+        "url": "/raj/yaa/030382"
+      },
+      {
+        "title": "Mar 4, 1982 Afternoon",
+        "url": "/raj/yaa/030482a"
+      },
+      {
+        "title": "Mar 4, 1982 Evening",
+        "url": "/raj/yaa/030482b"
+      },
+      {
+        "title": "Mar 5, 1982 Afternoon",
+        "url": "/raj/yaa/030582a"
+      },
+      {
+        "title": "Mar 5, 1982 Evening",
+        "url": "/raj/yaa/030582b"
+      },
+      {
+        "title": "Mar 6, 1982 Morning",
+        "url": "/raj/yaa/030682a"
+      },
+      {
+        "title": "Mar 6, 1982 Early Afternoon",
+        "url": "/raj/yaa/030682b"
+      },
+      {
+        "title": "Mar 6, 1982 Late Afternoon",
+        "url": "/raj/yaa/030682c"
+      },
+      {
+        "title": "Mar 6, 1982 Early Evening",
+        "url": "/raj/yaa/030682d"
+      },
+      {
+        "title": "Mar 6, 1982 Late Evening",
+        "url": "/raj/yaa/030682e"
+      },
+      {
+        "title": "Mar 8, 1982",
+        "url": "/raj/yaa/030882"
+      },
+      {
+        "title": "Mar 9, 1982",
+        "url": "/raj/yaa/030982"
+      },
+      {
+        "title": "Mar 10, 1982 Midnight",
+        "url": "/raj/yaa/031082a"
+      },
+      {
+        "title": "Mar 10, 1982 Morning",
+        "url": "/raj/yaa/031082b"
+      },
+      {
+        "title": "Mar 10, 1982 Evening",
+        "url": "/raj/yaa/031082c"
+      },
+      {
+        "title": "Mar 11, 1982",
+        "url": "/raj/yaa/031182"
+      },
+      {
+        "title": "Mar 13, 1982",
+        "url": "/raj/yaa/031382"
+      },
+      {
+        "title": "Mar 15, 1982",
+        "url": "/raj/yaa/031582"
+      },
+      {
+        "title": "Mar 19, 1982",
+        "url": "/raj/yaa/031982"
+      },
+      {
+        "title": "Mar 29, 1982",
+        "url": "/raj/yaa/032982"
+      },
+      {
+        "title": "Mar 30, 1982",
+        "url": "/raj/yaa/033082"
+      },
+      {
+        "title": "Apr 27, 1982",
+        "url": "/raj/yaa/042782"
+      },
+      {
+        "title": "Apr 28, 1982",
+        "url": "/raj/yaa/042882"
+      },
+      {
+        "title": "Apr 29, 1982",
+        "url": "/raj/yaa/042982"
+      },
+      {
+        "title": "Apr 30, 1982",
+        "url": "/raj/yaa/043082"
+      },
+      {
+        "title": "May 1, 1982",
+        "url": "/raj/yaa/050182"
+      },
+      {
+        "title": "May 2, 1982",
+        "url": "/raj/yaa/050282"
+      },
+      {
+        "title": "May 3, 1982",
+        "url": "/raj/yaa/050382"
+      },
+      {
+        "title": "May 7, 1982",
+        "url": "/raj/yaa/050782"
+      },
+      {
+        "title": "May 9, 1982",
+        "url": "/raj/yaa/050982"
+      },
+      {
+        "title": "May 10, 1982 Morning",
+        "url": "/raj/yaa/051082a"
+      },
+      {
+        "title": "May 10, 1982 Afternoon",
+        "url": "/raj/yaa/051082b"
+      },
+      {
+        "title": "May 10, 1982 Evening",
+        "url": "/raj/yaa/051082c"
+      },
+      {
+        "title": "May 11, 1982",
+        "url": "/raj/yaa/051182"
+      },
+      {
+        "title": "May 15, 1982",
+        "url": "/raj/yaa/051582"
+      },
+      {
+        "title": "May 17, 1982",
+        "url": "/raj/yaa/051782"
+      },
+      {
+        "title": "May 28, 1982",
+        "url": "/raj/yaa/052882"
+      },
+      {
+        "title": "May 30, 1982",
+        "url": "/raj/yaa/053082"
+      },
+      {
+        "title": "Jun 3, 1982",
+        "url": "/raj/yaa/060382"
+      },
+      {
+        "title": "Jun 10, 1982",
+        "url": "/raj/yaa/061082"
+      },
+      {
+        "title": "Jun 12, 1982",
+        "url": "/raj/yaa/061282"
+      },
+      {
+        "title": "Jun 14, 1982",
+        "url": "/raj/yaa/061482"
+      },
+      {
+        "title": "Jun 19, 1982",
+        "url": "/raj/yaa/061982"
+      },
+      {
+        "title": "Jun 21, 1982",
+        "url": "/raj/yaa/062182"
+      },
+      {
+        "title": "Afterword",
+        "url": "/raj/yaa/afterword"
+      }
+    ]
+  },
+  {
+    "title": "Graduation: The End of Illusion",
+    "image": "/assets/img/raj/grad-toc.jpg",
+    "bookId": "grad",
+    "bid": "02",
+    "toc": [
+      {
+        "title": "Author's Note",
+        "url": "/raj/grad/g000002"
+      },
+      {
+        "title": "Foreword",
+        "url": "/raj/grad/g000003"
+      },
+      {
+        "title": "Jan 4, 1991",
+        "url": "/raj/grad/g010491"
+      },
+      {
+        "title": "Jan 5, 1991",
+        "url": "/raj/grad/g010591"
+      },
+      {
+        "title": "Jan 14, 1991",
+        "url": "/raj/grad/g011491"
+      },
+      {
+        "title": "Jan 15, 1991",
+        "url": "/raj/grad/g011591"
+      },
+      {
+        "title": "Jan 16, 1991",
+        "url": "/raj/grad/g011691"
+      },
+      {
+        "title": "Jan 18, 1991",
+        "url": "/raj/grad/g011891"
+      },
+      {
+        "title": "Jan 20, 1991",
+        "url": "/raj/grad/g012091"
+      },
+      {
+        "title": "Jan 25, 1991",
+        "url": "/raj/grad/g012591"
+      },
+      {
+        "title": "Jan 27, 1991",
+        "url": "/raj/grad/g012791"
+      },
+      {
+        "title": "Feb 2, 1991",
+        "url": "/raj/grad/g020291"
+      },
+      {
+        "title": "Feb 5, 1991",
+        "url": "/raj/grad/g020591"
+      },
+      {
+        "title": "Feb 6, 1991",
+        "url": "/raj/grad/g020691"
+      },
+      {
+        "title": "Feb 12, 1991",
+        "url": "/raj/grad/g021291"
+      },
+      {
+        "title": "Feb 13, 1991",
+        "url": "/raj/grad/g021391"
+      },
+      {
+        "title": "Feb 14, 1991",
+        "url": "/raj/grad/g021491"
+      },
+      {
+        "title": "Feb 20, 1991",
+        "url": "/raj/grad/g022091"
+      },
+      {
+        "title": "Feb 25, 1991",
+        "url": "/raj/grad/g022591"
+      },
+      {
+        "title": "Mar 2, 1991",
+        "url": "/raj/grad/g030291"
+      },
+      {
+        "title": "Mar 8, 1991",
+        "url": "/raj/grad/g030891"
+      },
+      {
+        "title": "Mar 14, 1991",
+        "url": "/raj/grad/g031491"
+      },
+      {
+        "title": "Mar 19, 1991",
+        "url": "/raj/grad/g031991"
+      },
+      {
+        "title": "Mar 20, 1991",
+        "url": "/raj/grad/g032091"
+      },
+      {
+        "title": "Mar 21, 1991",
+        "url": "/raj/grad/g032191"
+      },
+      {
+        "title": "Mar 22, 1991",
+        "url": "/raj/grad/g032291"
+      },
+      {
+        "title": "Mar 25, 1991",
+        "url": "/raj/grad/g032591"
+      },
+      {
+        "title": "Mar 29, 1991",
+        "url": "/raj/grad/g032991"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2002",
+    "image": "/assets/img/raj/sg2002-toc.jpg",
+    "bookId": "sg2002",
+    "bid": "03",
+    "toc": [
+      {
+        "desc": "T31.II Walking with Christ",
+        "url": "/raj/sg2002/061202",
+        "title": "Jun 12, 2002"
+      },
+      {
+        "desc": "T31.VIII Choose Once Again",
+        "url": "/raj/sg2002/073102",
+        "title": "Jul 31, 2002"
+      },
+      {
+        "desc": "T1.In Introduction and Meaning of Miracles",
+        "url": "/raj/sg2002/080702",
+        "title": "Aug 7, 2002"
+      },
+      {
+        "desc": "*No transcript available for this session*",
+        "url": "/raj/sg2002/081402",
+        "title": "Aug 14, 2002"
+      },
+      {
+        "desc": "T1.I Principles of Miracles, Principle 33-41",
+        "url": "/raj/sg2002/082802",
+        "title": "Aug 28, 2002"
+      },
+      {
+        "desc": "T1.I Principles of Miracles, Principle 42-46",
+        "url": "/raj/sg2002/090402",
+        "title": "Sep 4, 2002"
+      },
+      {
+        "desc": "T1.I Principles of Miracles, Principle 47",
+        "url": "/raj/sg2002/091102",
+        "title": "Sep 11, 2002"
+      },
+      {
+        "desc": "T1.II Revelation, Time and Miracles",
+        "url": "/raj/sg2002/091802",
+        "title": "Sep 18, 2002"
+      },
+      {
+        "desc": "T1.III Atonement and Miracles",
+        "url": "/raj/sg2002/092502",
+        "title": "Sep 25, 2002"
+      },
+      {
+        "desc": "T1.IV The Escape from Darkness",
+        "url": "/raj/sg2002/100202",
+        "title": "Oct 2, 2002"
+      },
+      {
+        "desc": "T1.V Wholeness and Spirit",
+        "url": "/raj/sg2002/101002",
+        "title": "Oct 10, 2002"
+      },
+      {
+        "desc": "T1.VI The Illusion of Needs",
+        "url": "/raj/sg2002/101702",
+        "title": "Oct 17, 2002"
+      },
+      {
+        "desc": "T1.VII Distortions of Miracle Impulses",
+        "url": "/raj/sg2002/102402",
+        "title": "Oct 24, 2002"
+      },
+      {
+        "desc": "T2.I The Origins of Separation",
+        "url": "/raj/sg2002/103102",
+        "title": "Oct 31, 2002"
+      },
+      {
+        "desc": "T2.II The Atonement as Defense",
+        "url": "/raj/sg2002/110702",
+        "title": "Nov 7, 2002"
+      },
+      {
+        "desc": "It's All About Gift",
+        "url": "/raj/sg2002/112102",
+        "title": "Nov 21, 2002"
+      },
+      {
+        "desc": "T2.III The Alter of God",
+        "url": "/raj/sg2002/120502",
+        "title": "Dec 5, 2002"
+      },
+      {
+        "desc": "T2.IV Healing as Release from Fear",
+        "url": "/raj/sg2002/121202",
+        "title": "Dec 12, 2002"
+      },
+      {
+        "desc": "T2.V The Function of the Miracle Worker",
+        "url": "/raj/sg2002/121902",
+        "title": "Dec 19, 2002"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2003",
+    "image": "/assets/img/raj/sg2003-toc.jpg",
+    "bookId": "sg2003",
+    "bid": "04",
+    "toc": [
+      {
+        "desc": "T2.V The Function of the Miracle Worker",
+        "url": "/raj/sg2003/010203",
+        "title": "Jan 2, 2003"
+      },
+      {
+        "desc": "T2.VI Fear and Conflict",
+        "url": "/raj/sg2003/010903",
+        "title": "Jan 9, 2003"
+      },
+      {
+        "desc": "T2.VI Fear and Conflict",
+        "url": "/raj/sg2003/011603",
+        "title": "Jan 16, 2003"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2003/012303",
+        "title": "Jan 23, 2003"
+      },
+      {
+        "desc": "T2.VII Cause and Effect",
+        "url": "/raj/sg2003/020603",
+        "title": "Feb 6, 2003"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2003/021303",
+        "title": "Feb 13, 2003"
+      },
+      {
+        "desc": "T2.VII Cause and Effect",
+        "url": "/raj/sg2003/022003",
+        "title": "Feb 20, 2003"
+      },
+      {
+        "desc": "T2.VII Cause and Effect",
+        "url": "/raj/sg2003/022703",
+        "title": "Feb 27, 2003"
+      },
+      {
+        "desc": "T2.VIII The Meaning of the Last Judgment",
+        "url": "/raj/sg2003/030603",
+        "title": "Mar 6, 2003"
+      },
+      {
+        "desc": "T2.V.A Special Principles for Miracle Workers",
+        "url": "/raj/sg2003/031303",
+        "title": "Mar 13, 2003"
+      },
+      {
+        "desc": "T3.I Atonement without Sacrifice",
+        "url": "/raj/sg2003/032003",
+        "title": "Mar 20, 2003"
+      },
+      {
+        "desc": "T3.I Atonement without Sacrifice",
+        "url": "/raj/sg2003/032703",
+        "title": "Mar 27, 2003"
+      },
+      {
+        "desc": "T3.I Atonement without Sacrifice",
+        "url": "/raj/sg2003/040303",
+        "title": "Apr 3, 2003"
+      },
+      {
+        "desc": "T3.II Miracles as True Perception",
+        "url": "/raj/sg2003/041003",
+        "title": "Apr 10, 2003"
+      },
+      {
+        "desc": "T3.II Miracles as True Perception",
+        "url": "/raj/sg2003/042403",
+        "title": "Apr 24, 2003"
+      },
+      {
+        "desc": "T3.III Perception vs Knowledge",
+        "url": "/raj/sg2003/050103",
+        "title": "May 1, 2003"
+      },
+      {
+        "desc": "T3.IV Error and the Ego",
+        "url": "/raj/sg2003/051103",
+        "title": "May 11, 2003"
+      },
+      {
+        "desc": "T3.IV Error and the Ego",
+        "url": "/raj/sg2003/051803",
+        "title": "May 18, 2003"
+      },
+      {
+        "desc": "T3.IV Error and the Ego",
+        "url": "/raj/sg2003/052503",
+        "title": "May 25, 2003"
+      },
+      {
+        "desc": "T3.IV Error and the Ego",
+        "url": "/raj/sg2003/060103",
+        "title": "Jun 1, 2003"
+      },
+      {
+        "desc": "T3.V Beyond Pereception",
+        "url": "/raj/sg2003/060803",
+        "title": "Jun 8, 2003"
+      },
+      {
+        "desc": "T3.VI Judgement and the Authority Problem",
+        "url": "/raj/sg2003/061503",
+        "title": "Jun 15, 2003"
+      },
+      {
+        "desc": "T3.VI Judgement and the Authority Problem",
+        "url": "/raj/sg2003/062203",
+        "title": "Jun 22, 2003"
+      },
+      {
+        "desc": "T4.In Introduction",
+        "url": "/raj/sg2003/062903",
+        "title": "Jun 29, 2003"
+      },
+      {
+        "desc": "<small>Begin reading from the Sparkly Edition</small><br/>T4.1 Right Teaching and Right Learning",
+        "url": "/raj/sg2003/070603",
+        "title": "Jul 6, 2003"
+      },
+      {
+        "desc": "T4.1 Right Teaching and Right Learning",
+        "url": "/raj/sg2003/071303",
+        "title": "Jul 13, 2003"
+      },
+      {
+        "desc": "T4.2 The Ego and False Autonomy",
+        "url": "/raj/sg2003/072003",
+        "title": "Jul 20, 2003"
+      },
+      {
+        "desc": "T4.2 The Ego and False Autonomy",
+        "url": "/raj/sg2003/072703",
+        "title": "Jul 27, 2003"
+      },
+      {
+        "desc": "T4.3 Love without Conflict",
+        "url": "/raj/sg2003/080303",
+        "title": "Aug 3, 2003"
+      },
+      {
+        "desc": "T4.4 The Escape from Fear",
+        "url": "/raj/sg2003/081003",
+        "title": "Aug 10, 2003"
+      },
+      {
+        "desc": "T4.5 The Ego-Body Illusion",
+        "url": "/raj/sg2003/081703",
+        "title": "Aug 17, 2003"
+      },
+      {
+        "desc": "T4.5 The Ego-Body Illusion",
+        "url": "/raj/sg2003/082403",
+        "title": "Aug 24, 2003"
+      },
+      {
+        "desc": "T4.7 Creation and Communication",
+        "url": "/raj/sg2003/083103",
+        "title": "Aug 31, 2003"
+      },
+      {
+        "desc": "T4.8 True Rehabilitation",
+        "url": "/raj/sg2003/090703",
+        "title": "Sep 7, 2003"
+      },
+      {
+        "desc": "T5.1 Healing as Joining",
+        "url": "/raj/sg2003/091403",
+        "title": "Sep 14, 2003"
+      },
+      {
+        "desc": "T5.3 The Voice for God",
+        "url": "/raj/sg2003/092103",
+        "title": "Sep 21, 2003"
+      },
+      {
+        "desc": "T5.4 The Guide to Salvation",
+        "url": "/raj/sg2003/092803",
+        "title": "Sep 28, 2003"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2003/101203",
+        "title": "Oct 12, 2003"
+      },
+      {
+        "desc": "T5.4 The Guide to Salvation",
+        "url": "/raj/sg2003/101903",
+        "title": "Oct 19, 2003"
+      },
+      {
+        "desc": "T5.5 Therapy and Teaching",
+        "url": "/raj/sg2003/102603",
+        "title": "Oct 26, 2003"
+      },
+      {
+        "desc": "T5.6 The Two Decisions",
+        "url": "/raj/sg2003/110203",
+        "title": "Nov 2, 2003"
+      },
+      {
+        "desc": "T5.6 The Two Decisions",
+        "url": "/raj/sg2003/110903",
+        "title": "Nov 9, 2003"
+      },
+      {
+        "desc": "T5.7 Time and Eternity",
+        "url": "/raj/sg2003/111603",
+        "title": "Nov 16, 2003"
+      },
+      {
+        "desc": "T5.8 The Eternal Fixation",
+        "url": "/raj/sg2003/112303",
+        "title": "Nov 23, 2003"
+      },
+      {
+        "desc": "T6.1 The Message of the Crucifixion",
+        "url": "/raj/sg2003/120703",
+        "title": "Dec 7, 2003"
+      },
+      {
+        "desc": "T6.1 The Message of the Crucifixion",
+        "url": "/raj/sg2003/121403",
+        "title": "Dec 14, 2003"
+      },
+      {
+        "desc": "T6.1 The Message of the Crucifixion",
+        "url": "/raj/sg2003/122103",
+        "title": "Dec 21, 2003"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2004",
+    "image": "/assets/img/raj/sg2004-toc.jpg",
+    "bookId": "sg2004",
+    "bid": "05",
+    "toc": [
+      {
+        "desc": "T6.2 The Uses of Projection",
+        "url": "/raj/sg2004/011104",
+        "title": "Jan 11, 2004"
+      },
+      {
+        "desc": "T6.2 The Uses of Projection",
+        "url": "/raj/sg2004/011804",
+        "title": "Jan 18, 2004"
+      },
+      {
+        "desc": "T6.2 The Uses of Projection",
+        "url": "/raj/sg2004/012504",
+        "title": "Jan 25, 2004"
+      },
+      {
+        "desc": "T6.3 The Relinquishment of Attack",
+        "url": "/raj/sg2004/020104",
+        "title": "Feb 1, 2004"
+      },
+      {
+        "desc": "T6.4 The Only Answer",
+        "url": "/raj/sg2004/020804",
+        "title": "Feb 8, 2004"
+      },
+      {
+        "desc": "T6.5 'To Have, Give All to All'",
+        "url": "/raj/sg2004/021504",
+        "title": "Feb 15, 2004"
+      },
+      {
+        "desc": "T6.5 'To Have, Give All to All'",
+        "url": "/raj/sg2004/022204",
+        "title": "Feb 22, 2004"
+      },
+      {
+        "desc": "T6.6 'To Have Peace, Teach Peace to Learn It'",
+        "url": "/raj/sg2004/030704",
+        "title": "Mar 7, 2004"
+      },
+      {
+        "desc": "T6.7 'Be Vigilant Only for God and His Kingdom'",
+        "url": "/raj/sg2004/031404",
+        "title": "Mar 14, 2004"
+      },
+      {
+        "desc": "T7 Introduction",
+        "url": "/raj/sg2004/032804",
+        "title": "Mar 28, 2004"
+      },
+      {
+        "desc": "T7.1 Bargaining versus Healing",
+        "url": "/raj/sg2004/040404",
+        "title": "Apr 4, 2004"
+      },
+      {
+        "desc": "T7.3 The Unified Curriculum",
+        "url": "/raj/sg2004/041104",
+        "title": "Apr 11, 2004"
+      },
+      {
+        "desc": "T7.3 The Unified Curriculum",
+        "url": "/raj/sg2004/041804",
+        "title": "Apr 18, 2004"
+      },
+      {
+        "desc": "T7.4 The Recognition of Truth",
+        "url": "/raj/sg2004/042504",
+        "title": "Apr 25, 2004"
+      },
+      {
+        "desc": "T7.5 Healing and the Changelessness of Mind",
+        "url": "/raj/sg2004/050204",
+        "title": "May 2, 2004"
+      },
+      {
+        "desc": "T7.6 From Vigilance to Peace",
+        "url": "/raj/sg2004/050904",
+        "title": "May 9, 2004"
+      },
+      {
+        "desc": "T7.6 From Vigilance to Peace",
+        "url": "/raj/sg2004/051604",
+        "title": "May 16, 2004"
+      },
+      {
+        "desc": "T7.6 From Vigilance to Peace",
+        "url": "/raj/sg2004/052304",
+        "title": "May 23, 2004"
+      },
+      {
+        "desc": "T7.7 The Total Commitment",
+        "url": "/raj/sg2004/053004",
+        "title": "May 30, 2004"
+      },
+      {
+        "desc": "T7.7 The Total Commitment",
+        "url": "/raj/sg2004/061304",
+        "title": "Jun 13, 2004"
+      },
+      {
+        "desc": "T7.7 The Total Commitment",
+        "url": "/raj/sg2004/062004",
+        "title": "Jun 20, 2004"
+      },
+      {
+        "desc": "T7.8 The Defense of Conflict",
+        "url": "/raj/sg2004/062704",
+        "title": "Jun 27, 2004"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2004/071104",
+        "title": "Jul 11, 2004"
+      },
+      {
+        "desc": "T7.9 The Extension of the Kingdom",
+        "url": "/raj/sg2004/071804",
+        "title": "Jul 18, 2004"
+      },
+      {
+        "desc": "T7.10 The Confusion of Strength and Weakness",
+        "url": "/raj/sg2004/072504",
+        "title": "Jul 25, 2004"
+      },
+      {
+        "desc": "T7.11 The State of Grace",
+        "url": "/raj/sg2004/080104",
+        "title": "Aug 1, 2004"
+      },
+      {
+        "desc": "T8 The Journey Back",
+        "url": "/raj/sg2004/080804",
+        "title": "Aug 8, 2004"
+      },
+      {
+        "desc": "T8.1 The Direction of the Curriculum",
+        "url": "/raj/sg2004/081504",
+        "title": "Aug 15, 2004"
+      },
+      {
+        "desc": "T8.2 The Rationale for Choice",
+        "url": "/raj/sg2004/082204",
+        "title": "Aug 22, 2004"
+      },
+      {
+        "desc": "T8.3 The Holy Encounter",
+        "url": "/raj/sg2004/090504",
+        "title": "Sep 5, 2004"
+      },
+      {
+        "desc": "T8.3 The Holy Encounter",
+        "url": "/raj/sg2004/091204",
+        "title": "Sep 12, 2004"
+      },
+      {
+        "desc": "T8.4 The Light of the World",
+        "url": "/raj/sg2004/091904",
+        "title": "Sep 19, 2004"
+      },
+      {
+        "desc": "T8.4 The Light of the World",
+        "url": "/raj/sg2004/092604",
+        "title": "Sep 26, 2004"
+      },
+      {
+        "desc": "T8.4 The Light of the World",
+        "url": "/raj/sg2004/100304",
+        "title": "Oct 3, 2004"
+      },
+      {
+        "desc": "T8.5 The Power of Joint Decision",
+        "url": "/raj/sg2004/101004",
+        "title": "Oct 10, 2004"
+      },
+      {
+        "desc": "T8.5 The Power of Joint Decision",
+        "url": "/raj/sg2004/101704",
+        "title": "Oct 17, 2004"
+      },
+      {
+        "desc": "T8.6 Communication and the Ego-Body Equation",
+        "url": "/raj/sg2004/102404",
+        "title": "Oct 24, 2004"
+      },
+      {
+        "desc": "T8.6 Communication and the Ego-Body Equation",
+        "url": "/raj/sg2004/110704",
+        "title": "Nov 7, 2004"
+      },
+      {
+        "desc": "T8.8 Healing as Corrected Perception",
+        "url": "/raj/sg2004/112104",
+        "title": "Nov 21, 2004"
+      },
+      {
+        "desc": "T8.8 Healing as Corrected Perception",
+        "url": "/raj/sg2004/112804",
+        "title": "Nov 28, 2004"
+      },
+      {
+        "desc": "T8.9 The Acceptance of Reality",
+        "url": "/raj/sg2004/120504",
+        "title": "Dec 5, 2004"
+      },
+      {
+        "desc": "T8.9 The Acceptance of Reality",
+        "url": "/raj/sg2004/121204",
+        "title": "Dec 12, 2004"
+      },
+      {
+        "desc": "T8.10 The Answer to Prayer",
+        "url": "/raj/sg2004/121904",
+        "title": "Dec 19, 2004"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2005",
+    "image": "/assets/img/raj/sg2005-toc.jpg",
+    "bookId": "sg2005",
+    "bid": "06",
+    "toc": [
+      {
+        "desc": "T8.10 The Answer to Prayer",
+        "url": "/raj/sg2005/010205",
+        "title": "Jan 2, 2005"
+      },
+      {
+        "desc": "T9 Introduction",
+        "url": "/raj/sg2005/011605",
+        "title": "Jan 16, 2005"
+      },
+      {
+        "desc": "T9.2 Atonement as a Lesson in Sharing",
+        "url": "/raj/sg2005/012305",
+        "title": "Jan 23, 2005"
+      },
+      {
+        "desc": "T9.2 Atonement as a Lesson in Sharing",
+        "url": "/raj/sg2005/013005",
+        "title": "Jan 30, 2005"
+      },
+      {
+        "desc": "T9.3 The Unhealed Healer",
+        "url": "/raj/sg2005/021305",
+        "title": "Feb 13, 2005"
+      },
+      {
+        "desc": "T9.3 The Unhealed Healer",
+        "url": "/raj/sg2005/022005",
+        "title": "Feb 20, 2005"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2005/030605",
+        "title": "Mar 6, 2005"
+      },
+      {
+        "desc": "T9.5 Salvation and God's Will",
+        "url": "/raj/sg2005/031305",
+        "title": "Mar 13, 2005"
+      },
+      {
+        "desc": "T9.5 Salvation and God's Will",
+        "url": "/raj/sg2005/032705",
+        "title": "Mar 27, 2005"
+      },
+      {
+        "desc": "T9.6 Grandeur versus Grandiosity",
+        "url": "/raj/sg2005/040305",
+        "title": "Apr 3, 2005"
+      },
+      {
+        "desc": "T9.6 Grandeur versus Grandiosity",
+        "url": "/raj/sg2005/041005",
+        "title": "Apr 10, 2005"
+      },
+      {
+        "desc": "T9.6 Grandeur versus Grandiosity",
+        "url": "/raj/sg2005/041705",
+        "title": "Apr 17, 2005"
+      },
+      {
+        "desc": "T9.7 The Inclusiveness of Creation",
+        "url": "/raj/sg2005/042405",
+        "title": "Apr 24, 2005"
+      },
+      {
+        "desc": "T9.8 The Decision to Forget",
+        "url": "/raj/sg2005/050105",
+        "title": "May 1, 2005"
+      },
+      {
+        "desc": "T9.8 The Decision to Forget",
+        "url": "/raj/sg2005/050805",
+        "title": "May 8, 2005"
+      },
+      {
+        "desc": "T9.8 The Decision to Forget",
+        "url": "/raj/sg2005/052205",
+        "title": "May 22, 2005"
+      },
+      {
+        "desc": "T9.9 Magic vs Miracles",
+        "url": "/raj/sg2005/060505",
+        "title": "Jun 5, 2005"
+      },
+      {
+        "desc": "T9.10 The Denial of God",
+        "url": "/raj/sg2005/061205",
+        "title": "Jun 12, 2005"
+      },
+      {
+        "desc": "T9.10 The Denial of God",
+        "url": "/raj/sg2005/061905",
+        "title": "Jun 19, 2005"
+      },
+      {
+        "desc": "T9.10 The Denial of God",
+        "url": "/raj/sg2005/070305",
+        "title": "Jul 3, 2005"
+      },
+      {
+        "desc": "T10 Introduction",
+        "url": "/raj/sg2005/071005",
+        "title": "Jul 10, 2005"
+      },
+      {
+        "desc": "T10.1 Projection versus Extension",
+        "url": "/raj/sg2005/071705",
+        "title": "Jul 17, 2005"
+      },
+      {
+        "desc": "T10.1 Projection versus Extension",
+        "url": "/raj/sg2005/072405",
+        "title": "Jul 24, 2005"
+      },
+      {
+        "desc": "T10.2 The Willingness for Healing",
+        "url": "/raj/sg2005/080705",
+        "title": "Aug 7, 2005"
+      },
+      {
+        "desc": "T10.3 From Darkness to Light",
+        "url": "/raj/sg2005/081405",
+        "title": "Aug 14, 2005"
+      },
+      {
+        "desc": "T10.3 From Darkness to Light",
+        "url": "/raj/sg2005/082105",
+        "title": "Aug 21, 2005"
+      },
+      {
+        "desc": "T10.4 The Inheritance of God's Son",
+        "url": "/raj/sg2005/082805",
+        "title": "Aug 28, 2005"
+      },
+      {
+        "desc": "T10.5 The 'Dynamics' of the Ego",
+        "url": "/raj/sg2005/090405",
+        "title": "Sep 4, 2005"
+      },
+      {
+        "desc": "T10.5 The 'Dynamics' of the Ego",
+        "url": "/raj/sg2005/091105",
+        "title": "Sep 11, 2005"
+      },
+      {
+        "desc": "T10.5 The 'Dynamics' of the Ego",
+        "url": "/raj/sg2005/091805",
+        "title": "Sep 18, 2005"
+      },
+      {
+        "desc": "T10.5 The 'Dynamics' of the Ego",
+        "url": "/raj/sg2005/100205",
+        "title": "Oct 2, 2005"
+      },
+      {
+        "desc": "T10.5 The 'Dynamics' of the Ego",
+        "url": "/raj/sg2005/100905",
+        "title": "Oct 9, 2005"
+      },
+      {
+        "desc": "T10.6 Experience and Perception",
+        "url": "/raj/sg2005/101605",
+        "title": "Oct 16, 2005"
+      },
+      {
+        "desc": "T10.7 The Problem and the Answer",
+        "url": "/raj/sg2005/102305",
+        "title": "Oct 23, 2005"
+      },
+      {
+        "desc": "T10.7 The Problem and the Answer",
+        "url": "/raj/sg2005/110605",
+        "title": "Nov 6, 2005"
+      },
+      {
+        "desc": "T11.1 The Judgement of the Holy Spirit",
+        "url": "/raj/sg2005/111305",
+        "title": "Nov 13, 2005"
+      },
+      {
+        "desc": "T11.1 The Judgement of the Holy Spirit",
+        "url": "/raj/sg2005/112005",
+        "title": "Nov 20, 2005"
+      },
+      {
+        "desc": "T11.1 The Judgement of the Holy Spirit",
+        "url": "/raj/sg2005/120405",
+        "title": "Dec 4, 2005"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2005/121105",
+        "title": "Dec 11, 2005"
+      },
+      {
+        "desc": "T11.2 The Mechanism for Miracles",
+        "url": "/raj/sg2005/121805",
+        "title": "Dec 18, 2005"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2006",
+    "image": "/assets/img/raj/sg2006-toc.jpg",
+    "bookId": "sg2006",
+    "bid": "07",
+    "toc": [
+      {
+        "desc": "T11.2 The Mechanism for Miracles",
+        "url": "/raj/sg2006/010806",
+        "title": "Jan 8, 2006"
+      },
+      {
+        "desc": "T11.3 The Investment in Reality",
+        "url": "/raj/sg2006/011506",
+        "title": "Jan 15, 2006"
+      },
+      {
+        "desc": "T11.3 The Investment in Reality",
+        "url": "/raj/sg2006/012206",
+        "title": "Jan 22, 2006"
+      },
+      {
+        "desc": "T11.4 Seeking and Finding",
+        "url": "/raj/sg2006/012906",
+        "title": "Jan 29, 2006"
+      },
+      {
+        "desc": "T11.5 The Sane Curriculum",
+        "url": "/raj/sg2006/021206",
+        "title": "Feb 12, 2006"
+      },
+      {
+        "desc": "T11.6 The Vision of Christ",
+        "url": "/raj/sg2006/022606",
+        "title": "Feb 26, 2006"
+      },
+      {
+        "desc": "T11.6 The Vision of Christ",
+        "url": "/raj/sg2006/030406",
+        "title": "Mar 4, 2006"
+      },
+      {
+        "desc": "T11.7 The Guide for Miracles",
+        "url": "/raj/sg2006/031106",
+        "title": "Mar 11, 2006"
+      },
+      {
+        "desc": "T11.7 The Guide for Miracles",
+        "url": "/raj/sg2006/031906",
+        "title": "Mar 19, 2006"
+      },
+      {
+        "desc": "Disucssion",
+        "url": "/raj/sg2006/040106",
+        "title": "Apr 1, 2006"
+      },
+      {
+        "desc": "T11.7 The Guide for Miracles",
+        "url": "/raj/sg2006/041506",
+        "title": "Apr 15, 2006"
+      },
+      {
+        "desc": "T11.7 The Guide for Miracles",
+        "url": "/raj/sg2006/042906",
+        "title": "Apr 29, 2006"
+      },
+      {
+        "desc": "T11.8 Reality and Redemption",
+        "url": "/raj/sg2006/050606",
+        "title": "May 6, 2006"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2006/052006",
+        "title": "May 20, 2006"
+      },
+      {
+        "desc": "T11.8 Reality and Redemption",
+        "url": "/raj/sg2006/052706",
+        "title": "May 27, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/060306",
+        "title": "Jun 3, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/061006",
+        "title": "Jun 10, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/061806",
+        "title": "Jun 18, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/062406",
+        "title": "Jun 24, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/070106",
+        "title": "Jul 1, 2006"
+      },
+      {
+        "desc": "T11.9 Guiltlessness and Invulnerability",
+        "url": "/raj/sg2006/071506",
+        "title": "Jul 15, 2006"
+      },
+      {
+        "desc": "T12.1 Crucifixion by Guilt",
+        "url": "/raj/sg2006/073006",
+        "title": "Jul 30, 2006"
+      },
+      {
+        "desc": "T12.1 Crucifixion by Guilt",
+        "url": "/raj/sg2006/080506",
+        "title": "Aug 5, 2006"
+      },
+      {
+        "desc": "T12.2 The Fear of Redemption",
+        "url": "/raj/sg2006/081206",
+        "title": "Aug 12, 2006"
+      },
+      {
+        "desc": "T12.2 The Fear of Redemption",
+        "url": "/raj/sg2006/082006",
+        "title": "Aug 20, 2006"
+      },
+      {
+        "desc": "T12.3 Healing and Time",
+        "url": "/raj/sg2006/090206",
+        "title": "Sep 2, 2006"
+      },
+      {
+        "desc": "T12.4 The Two Emotions",
+        "url": "/raj/sg2006/090906",
+        "title": "Sep 9, 2006"
+      },
+      {
+        "desc": "T12.4 The Two Emotions",
+        "url": "/raj/sg2006/092306",
+        "title": "Sep 23, 2006"
+      },
+      {
+        "desc": "T12.5 Finding the Present",
+        "url": "/raj/sg2006/100706",
+        "title": "Oct 7, 2006"
+      },
+      {
+        "desc": "T12.5 Finding the Present",
+        "url": "/raj/sg2006/101406",
+        "title": "Oct 14, 2006"
+      },
+      {
+        "desc": "T12.5 Finding the Present",
+        "url": "/raj/sg2006/102106",
+        "title": "Oct 21, 2006"
+      },
+      {
+        "desc": "T12.5 Finding the Present",
+        "url": "/raj/sg2006/102806",
+        "title": "Oct 28, 2006"
+      },
+      {
+        "desc": "T12.6 Attainment of the Real World",
+        "url": "/raj/sg2006/111106",
+        "title": "Nov 11, 2006"
+      },
+      {
+        "desc": "T12.6 Attainment of the Real World",
+        "url": "/raj/sg2006/111806",
+        "title": "Nov 18, 2006"
+      },
+      {
+        "desc": "T12.6 Attainment of the Real World",
+        "url": "/raj/sg2006/120206",
+        "title": "Dec 2, 2006"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2007",
+    "image": "/assets/img/raj/sg2007-toc.jpg",
+    "bookId": "sg2007",
+    "bid": "08",
+    "toc": [
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2007/081807",
+        "title": "Aug 18, 2007"
+      },
+      {
+        "desc": "T13 Introduction",
+        "url": "/raj/sg2007/082507",
+        "title": "Aug 25, 2007"
+      },
+      {
+        "desc": "T13.1 The Role of Healing",
+        "url": "/raj/sg2007/090907",
+        "title": "Sep 9, 2007"
+      },
+      {
+        "desc": "T13.1 The Role of Healing",
+        "url": "/raj/sg2007/091607",
+        "title": "Sep 16, 2007"
+      },
+      {
+        "desc": "T13.1 The Role of Healing",
+        "url": "/raj/sg2007/092207",
+        "title": "Sep 22, 2007"
+      },
+      {
+        "desc": "T13.2 The Shadow of Guilt",
+        "url": "/raj/sg2007/100607",
+        "title": "Oct 6, 2007"
+      },
+      {
+        "desc": "T13.2 The Shadow of Guilt",
+        "url": "/raj/sg2007/101407",
+        "title": "Oct 14, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/102707",
+        "title": "Oct 27, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/110307",
+        "title": "Nov 3, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/111007",
+        "title": "Nov 10, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/111807",
+        "title": "Nov 18, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/120807",
+        "title": "Dec 8, 2007"
+      },
+      {
+        "desc": "T13.3 Release and Restoration",
+        "url": "/raj/sg2007/121607",
+        "title": "Dec 16, 2007"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2008",
+    "image": "/assets/img/raj/sg2008-toc.jpg",
+    "bookId": "sg2008",
+    "bid": "09",
+    "toc": [
+      {
+        "desc": "T13.4 The Guarantee of Heaven",
+        "url": "/raj/sg2008/012008",
+        "title": "Jan 20, 2008"
+      },
+      {
+        "desc": "T13.4 The Guarantee of Heaven",
+        "url": "/raj/sg2008/012708",
+        "title": "Jan 27, 2008"
+      },
+      {
+        "desc": "T13.4 The Guarantee of Heaven",
+        "url": "/raj/sg2008/021008",
+        "title": "Feb 10, 2008"
+      },
+      {
+        "desc": "T13.5 The Testimony of Miracles",
+        "url": "/raj/sg2008/021708",
+        "title": "Feb 17, 2008"
+      },
+      {
+        "desc": "T13.6 The Happy Learner",
+        "url": "/raj/sg2008/022408",
+        "title": "Feb 24, 2008"
+      },
+      {
+        "desc": "T13.6 The Happy Learner",
+        "url": "/raj/sg2008/030208",
+        "title": "Mar 2, 2008"
+      },
+      {
+        "desc": "T13.7 The Decision for Guiltlessness",
+        "url": "/raj/sg2008/030908",
+        "title": "Mar 9, 2008"
+      },
+      {
+        "desc": "T13.7 The Decision for Guiltlessness",
+        "url": "/raj/sg2008/032508",
+        "title": "Mar 25, 2008"
+      },
+      {
+        "desc": "T13.7 The Decision for Guiltlessness",
+        "url": "/raj/sg2008/033008",
+        "title": "Mar 30, 2008"
+      },
+      {
+        "desc": "T13.7 The Decision for Guiltlessness",
+        "url": "/raj/sg2008/040608",
+        "title": "Apr 6, 2008"
+      },
+      {
+        "desc": "T13.8 The Way of Salvation",
+        "url": "/raj/sg2008/041308",
+        "title": "Apr 13, 2008"
+      },
+      {
+        "desc": "T14 Introduction",
+        "url": "/raj/sg2008/042008",
+        "title": "Apr 20, 2008"
+      },
+      {
+        "desc": "T14.1 Guilt and Guiltlessness",
+        "url": "/raj/sg2008/050408",
+        "title": "May 4, 2008"
+      },
+      {
+        "desc": "T14.1 Guilt and Guiltlessness",
+        "url": "/raj/sg2008/051808",
+        "title": "May 18, 2008"
+      },
+      {
+        "desc": "T14.1 Guilt and Guiltlessness",
+        "url": "/raj/sg2008/052508",
+        "title": "May 25, 2008"
+      },
+      {
+        "desc": "T14.1 Guilt and Guiltlessness",
+        "url": "/raj/sg2008/060108",
+        "title": "Jun 1, 2008"
+      },
+      {
+        "desc": "T14.2 Out of the Darkness",
+        "url": "/raj/sg2008/060808",
+        "title": "Jun 8, 2008"
+      },
+      {
+        "desc": "T14.3 Perception without Deceit",
+        "url": "/raj/sg2008/061508",
+        "title": "Jun 15, 2008"
+      },
+      {
+        "desc": "T14.3 Perception without Deceit",
+        "url": "/raj/sg2008/062208",
+        "title": "Jun 22, 2008"
+      },
+      {
+        "desc": "T14.3 Perception without Deceit",
+        "url": "/raj/sg2008/070608",
+        "title": "Jul 6, 2008"
+      },
+      {
+        "desc": "T14.3 Perception without Deceit",
+        "url": "/raj/sg2008/071308",
+        "title": "Jul 13, 2008"
+      },
+      {
+        "desc": "T14.4 The Recognition of Holiness",
+        "url": "/raj/sg2008/072708",
+        "title": "Jul 27, 2008"
+      },
+      {
+        "desc": "T14.5 The Shift to Miracles",
+        "url": "/raj/sg2008/081708",
+        "title": "Aug 17, 2008"
+      },
+      {
+        "desc": "T14.5 The Shift to Miracles",
+        "url": "/raj/sg2008/083108",
+        "title": "Aug 31, 2008"
+      },
+      {
+        "desc": "T14.5 The Shift to Miracles",
+        "url": "/raj/sg2008/090708",
+        "title": "Sep 7, 2008"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2008/091408",
+        "title": "Sep 14, 2008"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2008/092108",
+        "title": "Sep 21, 2008"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2008/100508",
+        "title": "Oct 5, 2008"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2008/101908",
+        "title": "Oct 19, 2008"
+      },
+      {
+        "desc": "T15.0 The Purpose of Time: Introduction",
+        "url": "/raj/sg2008/102608",
+        "title": "Oct 26, 2008"
+      },
+      {
+        "desc": "T15.1 The Uses of Time",
+        "url": "/raj/sg2008/110208",
+        "title": "Nov 2, 2008"
+      },
+      {
+        "desc": "T15.1 The Uses of Time",
+        "url": "/raj/sg2008/110908",
+        "title": "Nov 9, 2008"
+      },
+      {
+        "desc": "T15.2 Time and Eternity",
+        "url": "/raj/sg2008/112308",
+        "title": "Nov 23, 2008"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2009",
+    "image": "/assets/img/raj/sg2009-toc.jpg",
+    "bookId": "sg2009",
+    "bid": "10",
+    "toc": [
+      {
+        "desc": "T15.2 Time and Eternity",
+        "url": "/raj/sg2009/010309",
+        "title": "Jan 3, 2009"
+      },
+      {
+        "desc": "T15.2 Time and Eternity",
+        "url": "/raj/sg2009/011009",
+        "title": "Jan 10, 2009"
+      },
+      {
+        "desc": "T15.2 Time and Eternity",
+        "url": "/raj/sg2009/011709",
+        "title": "Jan 17, 2009"
+      },
+      {
+        "desc": "T15.3 Littleness versus Magnitude",
+        "url": "/raj/sg2009/012409",
+        "title": "Jan 24, 2009"
+      },
+      {
+        "desc": "T15.3 Littleness versus Magnitude",
+        "url": "/raj/sg2009/020709",
+        "title": "Feb 7, 2009"
+      },
+      {
+        "desc": "T15.3 Littleness versus Magnitude",
+        "url": "/raj/sg2009/022809",
+        "title": "Feb 28, 2009"
+      },
+      {
+        "desc": "T15.3 Littleness versus Magnitude",
+        "url": "/raj/sg2009/031409",
+        "title": "Mar 14, 2009"
+      },
+      {
+        "desc": "T15.4 Practicing the Holy Instant",
+        "url": "/raj/sg2009/032809",
+        "title": "Mar 28, 2009"
+      },
+      {
+        "desc": "T15.4 Practicing the Holy Instant",
+        "url": "/raj/sg2009/040409",
+        "title": "Apr 4, 2009"
+      },
+      {
+        "desc": "T15.3 Littleness versus Magnitude",
+        "url": "/raj/sg2009/041209",
+        "title": "Apr 12, 2009"
+      },
+      {
+        "desc": "T15.5 The Holy Instant and Special Relationships",
+        "url": "/raj/sg2009/042509",
+        "title": "Apr 25, 2009"
+      },
+      {
+        "desc": "T15.5 The Holy Instant and Special Relationships",
+        "url": "/raj/sg2009/050909",
+        "title": "May 9, 2009"
+      },
+      {
+        "desc": "T15.5 The Holy Instant and Special Relationships",
+        "url": "/raj/sg2009/052409",
+        "title": "May 24, 2009"
+      },
+      {
+        "desc": "T15.5 The Holy Instant and Special Relationships",
+        "url": "/raj/sg2009/053109",
+        "title": "May 31, 2009"
+      },
+      {
+        "desc": "T15.5 The Holy Instant and Special Relationships",
+        "url": "/raj/sg2009/060709",
+        "title": "Jun 7, 2009"
+      },
+      {
+        "desc": "T15.6 The Holy Instant and the Laws of God",
+        "url": "/raj/sg2009/061309",
+        "title": "Jun 13, 2009"
+      },
+      {
+        "desc": "T15.6 The Holy Instant and the Laws of God",
+        "url": "/raj/sg2009/062009",
+        "title": "Jun 20, 2009"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2009/071109",
+        "title": "Jul 11, 2009"
+      },
+      {
+        "desc": "Discussion before moving to T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/071809",
+        "title": "Jul 18, 2009"
+      },
+      {
+        "desc": "T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/072509",
+        "title": "Jul 25, 2009"
+      },
+      {
+        "desc": "T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/080109",
+        "title": "Aug 1, 2009"
+      },
+      {
+        "desc": "T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/080809",
+        "title": "Aug 8, 2009"
+      },
+      {
+        "desc": "T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/082909",
+        "title": "Aug 29, 2009"
+      },
+      {
+        "desc": "T15.7 The Holy Instant and Communication",
+        "url": "/raj/sg2009/090509",
+        "title": "Sep 5, 2009"
+      },
+      {
+        "desc": "T15.8 The Holy Instant and Real Relationships",
+        "url": "/raj/sg2009/091209",
+        "title": "Sep 12, 2009"
+      },
+      {
+        "desc": "T15.8 The Holy Instant and Real Relationships",
+        "url": "/raj/sg2009/091909",
+        "title": "Sep 19, 2009"
+      },
+      {
+        "desc": "T15.8 The Holy Instant and Real Relationships",
+        "url": "/raj/sg2009/092709",
+        "title": "Sep 27, 2009"
+      },
+      {
+        "desc": "T15.8 The Holy Instant and Real Relationships",
+        "url": "/raj/sg2009/101009",
+        "title": "Oct 10, 2009"
+      },
+      {
+        "desc": "T15.9 The Time of Christ",
+        "url": "/raj/sg2009/102409",
+        "title": "Oct 24, 2009"
+      },
+      {
+        "desc": "T15.9 The Time of Christ",
+        "url": "/raj/sg2009/103109",
+        "title": "Oct 31, 2009"
+      },
+      {
+        "desc": "T15.9 The Time of Christ",
+        "url": "/raj/sg2009/111409",
+        "title": "Nov 14, 2009"
+      },
+      {
+        "desc": "T15.10 The End of Sacrifice",
+        "url": "/raj/sg2009/112209",
+        "title": "Nov 22, 2009"
+      },
+      {
+        "desc": "T15.10 The End of Sacrifice",
+        "url": "/raj/sg2009/112809",
+        "title": "Nov 28, 2009"
+      },
+      {
+        "desc": "T16.1 True Empathy",
+        "url": "/raj/sg2009/120509",
+        "title": "Dec 5, 2009"
+      },
+      {
+        "desc": "T16.1 True Empathy",
+        "url": "/raj/sg2009/121909",
+        "title": "Dec 19, 2009"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2010",
+    "image": "/assets/img/raj/sg2010-toc.jpg",
+    "bookId": "sg2010",
+    "bid": "11",
+    "toc": [
+      {
+        "desc": "T16.1 True Empathy",
+        "summary": "Mother May I?",
+        "url": "/raj/sg2010/010210",
+        "title": "Jan 2, 2010"
+      },
+      {
+        "desc": "T16.2 The Magnitude of Holiness",
+        "url": "/raj/sg2010/011610",
+        "title": "Jan 16, 2010"
+      },
+      {
+        "desc": "T16.2 The Magnitude of Holiness",
+        "summary": "You Will Feel Your Way",
+        "url": "/raj/sg2010/013010",
+        "title": "Jan 30, 2010"
+      },
+      {
+        "desc": "T16.2 The Magnitude of Holiness",
+        "summary": "You Were the Cause of a Miracle",
+        "url": "/raj/sg2010/020610",
+        "title": "Feb 6, 2010"
+      },
+      {
+        "desc": "T16.2 The Magnitude of Holiness",
+        "summary": "This is a Year of Joy",
+        "url": "/raj/sg2010/021310",
+        "title": "Feb 13, 2010"
+      },
+      {
+        "desc": "T16.3 The Reward of Teaching",
+        "url": "/raj/sg2010/030610",
+        "title": "Mar 6, 2010"
+      },
+      {
+        "desc": "T16.3 The Reward of Teaching",
+        "url": "/raj/sg2010/032010",
+        "title": "Mar 20, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "url": "/raj/sg2010/032710",
+        "title": "Mar 27, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "summary": "My Easter Message",
+        "url": "/raj/sg2010/040310",
+        "title": "Apr 3, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "summary": "You're Not the Visibility and Tangibility",
+        "url": "/raj/sg2010/041010",
+        "title": "Apr 10, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "summary": "When One is Thinking",
+        "url": "/raj/sg2010/050110",
+        "title": "May 1, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "summary": "The Concept of Intimacy",
+        "url": "/raj/sg2010/051510",
+        "title": "May 15, 2010"
+      },
+      {
+        "desc": "T16.4 Illusion and Reality of Love",
+        "summary": "An Experience of Intimacy",
+        "url": "/raj/sg2010/052910",
+        "title": "May 29, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2010/060510",
+        "title": "Jun 5, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "url": "/raj/sg2010/061210",
+        "title": "Jun 12, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "summary": "To Everyone Heaven is Completion",
+        "url": "/raj/sg2010/061910",
+        "title": "Jun 19, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "A Night for Gratitude",
+        "url": "/raj/sg2010/070310",
+        "title": "Jul 3, 2010"
+      },
+      {
+        "desc": "T31.4 Self-Concept versus Self",
+        "summary": "Letting God's Love In",
+        "url": "/raj/sg2010/071010",
+        "title": "Jul 10, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "God's Laws Prevail",
+        "url": "/raj/sg2010/071710",
+        "title": "Jul 17, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "A Night to be Glad",
+        "url": "/raj/sg2010/072410",
+        "title": "Jul 24, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "The Movement Continues",
+        "url": "/raj/sg2010/080710",
+        "title": "Aug 7, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "The Movement Continues",
+        "url": "/raj/sg2010/082810",
+        "title": "Aug 28, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "The Two Step Solution to Everything",
+        "url": "/raj/sg2010/090410",
+        "title": "Sep 4, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "The Meaning of Religion is Love",
+        "url": "/raj/sg2010/091110",
+        "title": "Sep 11, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "Paul Shares",
+        "url": "/raj/sg2010/092510",
+        "title": "Sep 25, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "summary": "The Only Way to Lose Joy",
+        "url": "/raj/sg2010/100210",
+        "title": "Oct 2, 2010"
+      },
+      {
+        "desc": "Discussion",
+        "summary": "Nullifying the Special Relationship",
+        "url": "/raj/sg2010/100910",
+        "title": "Oct 9, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "summary": "The Purpose of a Special Relationship",
+        "url": "/raj/sg2010/101610",
+        "title": "Oct 16, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "summary": "Father, I'd Rather Do It My Way",
+        "url": "/raj/sg2010/102310",
+        "title": "Oct 23, 2010"
+      },
+      {
+        "desc": "T16.5 Specialness and Guilt",
+        "summary": "The Second Creation",
+        "url": "/raj/sg2010/110610",
+        "title": "Nov 6, 2010"
+      },
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "url": "/raj/sg2010/111310",
+        "title": "Nov 13, 2010"
+      },
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "summary": "A Thanksgiving Recipe",
+        "url": "/raj/sg2010/112010",
+        "title": "Nov 20, 2010"
+      },
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "summary": "Agreements of Special Relationships",
+        "url": "/raj/sg2010/112710",
+        "title": "Nov 27, 2010"
+      },
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "summary": "Concocted Definitions",
+        "url": "/raj/sg2010/120410",
+        "title": "Dec 4, 2010"
+      },
+      {
+        "desc": "Disucssion",
+        "summary": "The First Gift of Christmas",
+        "url": "/raj/sg2010/121810",
+        "title": "Dec 18, 2010"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2011",
+    "image": "/assets/img/raj/sg2011-toc.jpg",
+    "bookId": "sg2011",
+    "bid": "12",
+    "toc": [
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "url": "/raj/sg2011/010111",
+        "title": "Jan 1, 2011"
+      },
+      {
+        "desc": "T16.6 The Bridge to the Real World",
+        "url": "/raj/sg2011/010811",
+        "title": "Jan 8, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/011511",
+        "title": "Jan 15, 2011"
+      },
+      {
+        "desc": "T16.7 The End of Illusions",
+        "url": "/raj/sg2011/012211",
+        "title": "Jan 22, 2011"
+      },
+      {
+        "desc": "T16.7 The End of Illusions",
+        "url": "/raj/sg2011/020511",
+        "title": "Feb 5, 2011"
+      },
+      {
+        "desc": "T16.7 The End of Illusions",
+        "url": "/raj/sg2011/021611",
+        "title": "Feb 16, 2011"
+      },
+      {
+        "desc": "T17.1 Fantasy and Distorted Perception",
+        "url": "/raj/sg2011/021911",
+        "title": "Feb 19, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/031211",
+        "title": "Mar 12, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/032011",
+        "title": "Mar 20, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/032611",
+        "title": "Mar 26, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/040311",
+        "title": "Apr 3, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/040911",
+        "title": "Apr 9, 2011"
+      },
+      {
+        "desc": "T17.1 Fantasy and Distorted Perception",
+        "url": "/raj/sg2011/041611",
+        "title": "Apr 16, 2011"
+      },
+      {
+        "desc": "T17.2 The Forgiven World",
+        "url": "/raj/sg2011/042311",
+        "title": "Apr 23, 2011"
+      },
+      {
+        "desc": "T17.3 Shadows of the Past",
+        "url": "/raj/sg2011/043011",
+        "title": "Apr 30, 2011"
+      },
+      {
+        "desc": "T17.3 Shadows of the Past",
+        "url": "/raj/sg2011/050711",
+        "title": "May 7, 2011"
+      },
+      {
+        "desc": "T17.3 Shadows of the Past",
+        "url": "/raj/sg2011/051411",
+        "title": "May 14, 2011"
+      },
+      {
+        "desc": "T17.4 Perception and the Two Worlds",
+        "url": "/raj/sg2011/052211",
+        "title": "May 22, 2011"
+      },
+      {
+        "desc": "T17.4 Perception and the Two Worlds",
+        "url": "/raj/sg2011/060411",
+        "title": "Jun 4, 2011"
+      },
+      {
+        "desc": "T17.4 Perception and the Two Worlds",
+        "url": "/raj/sg2011/061211",
+        "title": "Jun 12, 2011"
+      },
+      {
+        "desc": "T17.4 Perception and the Two Worlds",
+        "url": "/raj/sg2011/061811",
+        "title": "Jun 18, 2011"
+      },
+      {
+        "desc": "T17.4 Perception and the Two Worlds",
+        "url": "/raj/sg2011/062611",
+        "title": "Jun 26, 2011"
+      },
+      {
+        "desc": "Workbook: Lesson 23",
+        "url": "/raj/sg2011/070911",
+        "title": "Jul 9, 2011"
+      },
+      {
+        "desc": "T17.5 The Healed Relationship",
+        "url": "/raj/sg2011/071611",
+        "title": "Jul 16, 2011"
+      },
+      {
+        "desc": "T17.5 The Healed Relationship",
+        "url": "/raj/sg2011/073011",
+        "title": "Jul 30, 2011"
+      },
+      {
+        "desc": "T17.5 The Healed Relationship",
+        "url": "/raj/sg2011/080611",
+        "title": "Aug 6, 2011"
+      },
+      {
+        "desc": "T17.6 Practical Forgiveness",
+        "url": "/raj/sg2011/082011",
+        "title": "Aug 20, 2011"
+      },
+      {
+        "desc": "T17.6 Practical Forgiveness",
+        "url": "/raj/sg2011/082711",
+        "title": "Aug 27, 2011"
+      },
+      {
+        "desc": "T17.6 Practical Forgiveness",
+        "url": "/raj/sg2011/090311",
+        "title": "Sep 3, 2011"
+      },
+      {
+        "desc": "T17.7 The Need for Faith",
+        "url": "/raj/sg2011/091711",
+        "title": "Sep 17, 2011"
+      },
+      {
+        "desc": "T17.7 The Need for Faith",
+        "url": "/raj/sg2011/092411",
+        "title": "Sep 24, 2011"
+      },
+      {
+        "desc": "T17.7 The Need for Faith",
+        "url": "/raj/sg2011/100111",
+        "title": "Oct 1, 2011"
+      },
+      {
+        "desc": "T17.7 The Need for Faith",
+        "url": "/raj/sg2011/101511",
+        "title": "Oct 15, 2011"
+      },
+      {
+        "desc": "T17.8 The Conditions of Forgiveness",
+        "url": "/raj/sg2011/102311",
+        "title": "Oct 23, 2011"
+      },
+      {
+        "desc": "T18 The Dream and the Reality",
+        "url": "/raj/sg2011/110511",
+        "title": "Nov 5, 2011"
+      },
+      {
+        "desc": "T18 The Dream and the Reality",
+        "url": "/raj/sg2011/111311",
+        "title": "Nov 13, 2011"
+      },
+      {
+        "desc": "T18.1 Substitution as a Defense",
+        "url": "/raj/sg2011/112611",
+        "title": "Nov 26, 2011"
+      },
+      {
+        "desc": "T18.1 Substitution as a Defense",
+        "url": "/raj/sg2011/120411",
+        "title": "Dec 4, 2011"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2011/121111",
+        "title": "Dec 11, 2011"
+      },
+      {
+        "desc": "T18.2 The Basis of the Dream",
+        "url": "/raj/sg2011/122011",
+        "title": "Dec 20, 2011"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2012",
+    "image": "/assets/img/raj/sg2012-toc.jpg",
+    "bookId": "sg2012",
+    "bid": "13",
+    "toc": [
+      {
+        "desc": "T18.3 Light in the Dream",
+        "url": "/raj/sg2012/010712",
+        "title": "Jan 7, 2012"
+      },
+      {
+        "desc": "T18.3 Light in the Dream",
+        "url": "/raj/sg2012/012212",
+        "title": "Jan 22, 2012"
+      },
+      {
+        "desc": "T18.4 The Little Willingness",
+        "url": "/raj/sg2012/020512",
+        "title": "Feb 5, 2012"
+      },
+      {
+        "desc": "T18.5 The Happy Dream",
+        "url": "/raj/sg2012/021212",
+        "title": "Feb 12, 2012"
+      },
+      {
+        "desc": "T18.6 Dreams and the Body",
+        "url": "/raj/sg2012/021812",
+        "title": "Feb 18, 2012"
+      },
+      {
+        "desc": "T18.6 Dreams and the Body",
+        "url": "/raj/sg2012/032412",
+        "title": "Mar 24, 2012"
+      },
+      {
+        "desc": "T18.6 Dreams and the Body",
+        "url": "/raj/sg2012/033112",
+        "title": "Mar 31, 2012"
+      },
+      {
+        "desc": "T18.7 I Need do Nothing",
+        "url": "/raj/sg2012/040812",
+        "title": "Apr 8, 2012"
+      },
+      {
+        "desc": "T18.8 The Purpose of the Body",
+        "url": "/raj/sg2012/041512",
+        "title": "Apr 15, 2012"
+      },
+      {
+        "desc": "T18.8 The Purpose of the Body",
+        "url": "/raj/sg2012/042212",
+        "title": "Apr 22, 2012"
+      },
+      {
+        "desc": "T18.9 The Delusional Thought System",
+        "url": "/raj/sg2012/042912",
+        "title": "Apr 29, 2012"
+      },
+      {
+        "desc": "T18.10 The Passing of the Dream",
+        "url": "/raj/sg2012/051212",
+        "title": "May 12, 2012"
+      },
+      {
+        "desc": "T19.1 Healing and the Mind",
+        "url": "/raj/sg2012/052012",
+        "title": "May 20, 2012"
+      },
+      {
+        "desc": "T19.1 Healing and the Mind",
+        "url": "/raj/sg2012/060312",
+        "title": "Jun 3, 2012"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2012/061712",
+        "title": "Jun 17, 2012"
+      },
+      {
+        "desc": "T19.1 Healing and the Mind",
+        "url": "/raj/sg2012/072212",
+        "title": "Jul 22, 2012"
+      },
+      {
+        "desc": "T19.1 Healing and the Mind",
+        "url": "/raj/sg2012/072912",
+        "title": "Jul 29, 2012"
+      },
+      {
+        "desc": "T19.2 Sin vs Error",
+        "url": "/raj/sg2012/080412",
+        "title": "Aug 4, 2012"
+      },
+      {
+        "desc": "T19.2 Sin vs Error",
+        "url": "/raj/sg2012/081112",
+        "title": "Aug 11, 2012"
+      },
+      {
+        "desc": "T19.3 The Unreality of Sin",
+        "url": "/raj/sg2012/081812",
+        "title": "Aug 18, 2012"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2012/082712",
+        "title": "Aug 27, 2012"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2012/090812",
+        "title": "Sep 8, 2012"
+      },
+      {
+        "desc": "T19.3 The Unreality of Sin",
+        "url": "/raj/sg2012/091612",
+        "title": "Sep 16, 2012"
+      },
+      {
+        "desc": "T19.3 The Unreality of Sin",
+        "url": "/raj/sg2012/092312",
+        "title": "Sep 23, 2012"
+      },
+      {
+        "desc": "T19.4 The Obstacles to Peace",
+        "url": "/raj/sg2012/093012",
+        "title": "Sep 30, 2012"
+      },
+      {
+        "desc": "T19.5 The Attraction of Guilt",
+        "url": "/raj/sg2012/100812",
+        "title": "Oct 8, 2012"
+      },
+      {
+        "desc": "T19.5 The Attraction of Guilt",
+        "url": "/raj/sg2012/101412",
+        "title": "Oct 14, 2012"
+      },
+      {
+        "desc": "T19.5 The Attraction of Guilt",
+        "url": "/raj/sg2012/102112",
+        "title": "Oct 21, 2012"
+      },
+      {
+        "desc": "Disucssion",
+        "url": "/raj/sg2012/110512",
+        "title": "Nov 5, 2012"
+      },
+      {
+        "desc": "T19.6 Obstacles to Peace, The Second Obstacle",
+        "url": "/raj/sg2012/111212",
+        "title": "Nov 12, 2012"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2013",
+    "image": "/assets/img/raj/sg2013-toc.jpg",
+    "bookId": "sg2013",
+    "bid": "14",
+    "toc": [
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/042713",
+        "title": "Apr 27, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/050413",
+        "title": "May 4, 2013"
+      },
+      {
+        "desc": "T19.6 The Obstacles to Peace, The Second Obstacle",
+        "url": "/raj/sg2013/051113",
+        "title": "May 11, 2013"
+      },
+      {
+        "desc": "T19.7 Pleasure and Pain",
+        "url": "/raj/sg2013/052013",
+        "title": "May 20, 2013"
+      },
+      {
+        "desc": "T19.7 Pleasure and Pain",
+        "url": "/raj/sg2013/052813",
+        "title": "May 28, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/060213",
+        "title": "Jun 2, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/060913",
+        "title": "Jun 9, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/062513",
+        "title": "Jun 25, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/063013",
+        "title": "Jun 30, 2013"
+      },
+      {
+        "desc": "T13.8 The Way of Salvation",
+        "url": "/raj/sg2013/070713",
+        "title": "Jul 7, 2013"
+      },
+      {
+        "desc": "T27.5 The Healing Example",
+        "url": "/raj/sg2013/071413",
+        "title": "Jul 14, 2013"
+      },
+      {
+        "desc": "T27.5 The Healing Example",
+        "url": "/raj/sg2013/072113",
+        "title": "Jul 21, 2013"
+      },
+      {
+        "desc": "T27.5 The Healing Example",
+        "url": "/raj/sg2013/080413",
+        "title": "Aug 4, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/081113",
+        "title": "Aug 11, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/082513",
+        "title": "Aug 25, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/090113",
+        "title": "Sep 1, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/090813",
+        "title": "Sep 8, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/091513",
+        "title": "Sep 15, 2013"
+      },
+      {
+        "desc": "T30.1 Rules for Decision",
+        "url": "/raj/sg2013/092313",
+        "title": "Sep 23, 2013"
+      },
+      {
+        "desc": "T30.2 Freedom of Will",
+        "url": "/raj/sg2013/100613",
+        "title": "Oct 6, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/101513",
+        "title": "Oct 15, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/102013",
+        "title": "Oct 20, 2013"
+      },
+      {
+        "desc": "T11.7 The Guide for Miracles",
+        "url": "/raj/sg2013/102713",
+        "title": "Oct 27, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/110313",
+        "title": "Nov 3, 2013"
+      },
+      {
+        "desc": "T15.1 The Uses of Time",
+        "url": "/raj/sg2013/112413",
+        "title": "Nov 24, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/122213",
+        "title": "Dec 22, 2013"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2013/123013",
+        "title": "Dec 30, 2013"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2014",
+    "image": "/assets/img/raj/sg2014-toc.jpg",
+    "bookId": "sg2014",
+    "bid": "15",
+    "toc": [
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/010614",
+        "title": "Jan 6, 2014"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/011414",
+        "title": "Jan 14, 2014"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/012814",
+        "title": "Jan 28, 2014"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/020914",
+        "title": "Feb 9, 2014"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/022414",
+        "title": "Feb 24, 2014"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2014/030914",
+        "title": "Mar 9, 2014"
+      },
+      {
+        "desc": "T15.4 Practicing the Holy Instant",
+        "url": "/raj/sg2014/041314",
+        "title": "Apr 13, 2014"
+      },
+      {
+        "desc": "Disucssion",
+        "url": "/raj/sg2014/061614",
+        "title": "Jun 16, 2014"
+      },
+      {
+        "desc": "Disucssion",
+        "url": "/raj/sg2014/062914",
+        "title": "Jun 29, 2014"
+      },
+      {
+        "desc": "Disucssion",
+        "url": "/raj/sg2014/091514",
+        "title": "Sep 15, 2014"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2015",
+    "image": "/assets/img/raj/sg2015-toc.jpg",
+    "bookId": "sg2015",
+    "bid": "16",
+    "toc": [
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2015/041815",
+        "title": "Apr 18, 2015"
+      },
+      {
+        "desc": "T19.6 Obstacles to Peace; Belief the Body is Valuable&hellip;",
+        "url": "/raj/sg2015/042515",
+        "title": "Apr 25, 2015"
+      },
+      {
+        "desc": "T19.7 Pleasure and Pain",
+        "url": "/raj/sg2015/050315",
+        "title": "May 3, 2015"
+      },
+      {
+        "desc": "T19.7 Pleasure and Pain",
+        "url": "/raj/sg2015/050915",
+        "title": "May 9, 2015"
+      },
+      {
+        "desc": "T19.8 Obstacles to Peace; The Attraction of Death",
+        "url": "/raj/sg2015/051715",
+        "title": "May 17, 2015"
+      },
+      {
+        "desc": "T19.8 Obstacles to Peace; The Attraction of Death",
+        "url": "/raj/sg2015/060715",
+        "title": "Jun 7, 2015"
+      },
+      {
+        "desc": "T19.10 Obstacles to Peace; The Fear of God",
+        "url": "/raj/sg2015/061415",
+        "title": "Jun 14, 2015"
+      },
+      {
+        "desc": "T19.10 Obstacles to Peace; The Fear of God",
+        "url": "/raj/sg2015/062115",
+        "title": "Jun 21, 2015"
+      },
+      {
+        "desc": "T19.11 The Lifting of the Veil",
+        "url": "/raj/sg2015/062815",
+        "title": "Jun 28, 2015"
+      },
+      {
+        "desc": "T20 The Promise of the Resurrection",
+        "url": "/raj/sg2015/070515",
+        "title": "Jul 5, 2015"
+      },
+      {
+        "desc": "T20.2 Thorns and Lilies",
+        "url": "/raj/sg2015/071315",
+        "title": "Jul 13, 2015"
+      },
+      {
+        "desc": "T20.2 Thorns and Lilies",
+        "url": "/raj/sg2015/072115",
+        "title": "Jul 21, 2015"
+      },
+      {
+        "desc": "T20.2 Thorns and Lilies",
+        "url": "/raj/sg2015/080115",
+        "title": "Aug 1, 2015"
+      },
+      {
+        "desc": "T20.3 Sin as an Adjustment",
+        "url": "/raj/sg2015/082315",
+        "title": "Aug 23, 2015"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2015/091315",
+        "title": "Sep 13, 2015"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2015/100215",
+        "title": "Oct 2, 2015"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2015/102115",
+        "title": "Oct 21, 2015"
+      },
+      {
+        "desc": "T20.3 Sin as an Adjustment",
+        "url": "/raj/sg2015/110115",
+        "title": "Nov 1, 2015"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2016",
+    "image": "/assets/img/raj/sg2016-toc.jpg",
+    "bookId": "sg2016",
+    "bid": "17",
+    "toc": [
+      {
+        "desc": "T15.4 Practicing the Holy Instant",
+        "url": "/raj/sg2016/070316",
+        "title": "Jul 3, 2016"
+      },
+      {
+        "desc": "W12 I am upset because I see a meaningless world",
+        "url": "/raj/sg2016/071616",
+        "title": "Jul 16, 2016"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2016/080216",
+        "title": "Aug 2, 2016"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2017",
+    "image": "raj/sg2017-toc.jpg",
+    "bookId": "sg2017",
+    "bid": "18",
+    "toc": [
+      {
+        "desc": "W59, W60, and W61 I Am the Light of the World",
+        "url": "/raj/sg2017/040817",
+        "title": "Apr 8, 2017"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2017/041617",
+        "title": "Apr 16, 2017"
+      },
+      {
+        "desc": "T10.1 Projection versus Extension",
+        "url": "/raj/sg2017/042317",
+        "title": "Apr 23, 2017"
+      },
+      {
+        "desc": "M30 As for the Rest...",
+        "url": "/raj/sg2017/043017",
+        "title": "Apr 30, 2017"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2017/051217",
+        "title": "May 12, 2017"
+      },
+      {
+        "desc": "T17.8 Conditions of Forgiveness",
+        "url": "/raj/sg2017/060917",
+        "title": "Jun 9, 2017"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2017/071117",
+        "title": "Jul 11, 2017"
+      },
+      {
+        "desc": "T14.5 The Shift to Miracles",
+        "url": "/raj/sg2017/072317",
+        "title": "Jul 23, 2017"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2017/092317",
+        "title": "Sep 23, 2017"
+      },
+      {
+        "desc": "T14.6 The Test of Truth",
+        "url": "/raj/sg2017/100117",
+        "title": "Oct 1, 2017"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2017/101717",
+        "title": "Oct 17, 2017"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2017/120417",
+        "title": "Dec 4, 2017"
+      }
+    ]
+  },
+  {
+    "title": "ACIM Study Group: 2018",
+    "image": "/assets/img/raj/sg2018-toc.jpg",
+    "bookId": "sg2018",
+    "bid": "19",
+    "toc": [
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2018/013118",
+        "title": "Jan 31, 2018"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2018/031118",
+        "title": "Mar 11, 2018"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2018/081918",
+        "title": "Aug 19, 2018"
+      },
+      {
+        "desc": "Discussion",
+        "url": "/raj/sg2018/082918",
+        "title": "Aug 29, 2018"
+      }
+    ]
+  }
+]
