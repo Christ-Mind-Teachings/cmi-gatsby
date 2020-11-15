@@ -49,6 +49,8 @@ export async function createPages(parms) {
   await Promise.all([createTranscriptPage(parms)]);
 }
 
+/*
+ * Get out of memory error when building on Netlify when project includes fomantic-ui
 export function onCreateWebpackConfig({ actions }) {
   actions.setWebpackConfig({
     resolve: {
@@ -61,3 +63,4 @@ export function onCreateWebpackConfig({ actions }) {
     },
   });
 }
+*/

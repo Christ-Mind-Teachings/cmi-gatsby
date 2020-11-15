@@ -4,7 +4,7 @@ dotenv.config({ path: '.env' });
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-less',
+    // 'gatsby-plugin-less',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-json',
     {
