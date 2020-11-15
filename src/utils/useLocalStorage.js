@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function useStickyState(defaultValue, key) {
   const [value, setValue] = React.useState(() => {
-    const stickyValue = window.localStorage.getItem(key);
+    const stickyValue =
+      typeof window !== 'undefined' ? window.localStorage.getItem(key) : null;
     return stickyValue !== null ? JSON.parse(stickyValue) : defaultValue;
   });
 

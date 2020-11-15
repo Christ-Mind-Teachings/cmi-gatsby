@@ -117,12 +117,12 @@ export function GenericTranscriptTemplate({ location, data }) {
   return (
     <>
       <GlobalStyles />
-      <Helmet title={`Transcript Name - ${unit.title}`} />
+      <Helmet title={`Transcript Name - ${unit?.title}`} />
       <StyledContainer text>
         <div className="transcript">
           <Header as="h1">{source.title}</Header>
           <Header as="h2">{book.title}</Header>
-          <Header as="h3">{unit.title}</Header>
+          <Header as="h3">{unit?.title}</Header>
         </div>
         <SearchContext.Provider value={{ searchPid, setSearchPid }}>
           <TranscriptNav

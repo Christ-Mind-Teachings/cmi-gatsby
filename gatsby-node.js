@@ -26,10 +26,8 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
   }
 
   data.transcripts.nodes.forEach((node) => {
-    const filePath = node.fileAbsolutePath.slice(
-      process.env.SOURCE_ROOT.length,
-      -3
-    );
+    const SOURCE_ROOT = `${__dirname}/src/sources`;
+    const filePath = node.fileAbsolutePath.slice(SOURCE_ROOT.length, -3);
     const [source, book] = filePath.substring(1).split('/');
 
     if (templates[source]) {
