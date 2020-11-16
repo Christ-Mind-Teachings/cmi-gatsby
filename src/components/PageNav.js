@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { navigate } from 'gatsby';
+import netlifyIdentity from 'netlify-identity-widget';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import SearchModal from './SearchModal';
 
@@ -23,6 +24,11 @@ function handleItemClick(e, obj) {
   if (obj.name === 'previous' || obj.name === 'next') {
     navigate(obj.url);
   }
+}
+
+function userAccess() {
+  console.log('userAccess()');
+  netlifyIdentity.open();
 }
 
 export default function PageNav(props) {
@@ -86,7 +92,7 @@ export default function PageNav(props) {
               <Menu.Item
                 name="signup"
                 active={activeItem === 'signup'}
-                onClick={handleItemClick}
+                onClick={userAccess}
               >
                 <Icon name="sign in" />
               </Menu.Item>

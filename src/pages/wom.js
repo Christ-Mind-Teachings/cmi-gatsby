@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
+import netlifyIdentity from 'netlify-identity-widget';
 import PageLayout from '../components/PageLayout';
 
 export default function WomPage(props) {
@@ -8,6 +9,11 @@ export default function WomPage(props) {
   function cardClick(e, obj) {
     setBook(obj.name);
   }
+
+  useEffect(() => {
+    console.log('Init Identity');
+    netlifyIdentity.init({});
+  }, []);
 
   return (
     <PageLayout source="wom" book={book} unit={null} title="Way of Mastery">
