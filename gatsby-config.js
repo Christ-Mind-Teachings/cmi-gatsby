@@ -6,6 +6,10 @@ module.exports = {
   plugins: [
     // 'gatsby-plugin-less',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-create-client-paths',
+      options: { prefixes: ['/cmi/*'] },
+    },
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,

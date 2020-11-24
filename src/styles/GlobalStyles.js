@@ -12,24 +12,31 @@ const GlobalStyles = createGlobalStyle`
     image-rendering: pixelated;
   }
 
-  .tocStyle {
-    cursor: pointer;
-    color: #668AAA;
-  }
-
   .tocStyle .active.item > span {
     cursor: auto;
     background-color: var(--tocActiveItem);
     border-radius: 5px;
     color: white;
+    padding: 3px 7px;
   }
 
   .transcript-content {
     margin-bottom: 17rem;
   }
 
+  .audio-highlight {
+    border-radius: 5px;
+    border: 1px dashed black;
+    padding: 10px;
+  }
+
+  i.cmi-hidden.icon,
   .cmi-hidden {
     display: none;
+  }
+
+  span.special > i.icon {
+    cursor: pointer;
   }
 
   .ui.segment.search-navigator-visible {

@@ -28,7 +28,7 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
   data.transcripts.nodes.forEach((node) => {
     const SOURCE_ROOT = `${__dirname}/src/sources`;
     const filePath = node.fileAbsolutePath.slice(SOURCE_ROOT.length, -3);
-    const [source, book] = filePath.substring(1).split('/');
+    const [source, book, unit] = filePath.substring(1).split('/');
 
     if (templates[source]) {
       createPage({
@@ -39,6 +39,7 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
           slug: filePath,
           source,
           book,
+          timingBase: `/${book}/${unit}/`,
         },
       });
     }

@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import { navigate } from 'gatsby';
-import netlifyIdentity from 'netlify-identity-widget';
+/*
+ * This is page navigation for pages not requiring authentication.
+ *  Includes: Sign in/out menu item
+ *  Includes: Authenticated page access for signed in users
+ */
+
+import React, { useContext, useState } from 'react';
+import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import SearchModal from './SearchModal';
+import { IdentityContext } from './IdentityContextProvider';
 
 const menuStyle = {
   border: 'none',
@@ -26,11 +32,6 @@ function handleItemClick(e, obj) {
   }
 }
 
-function userAccess() {
-  console.log('userAccess()');
-  netlifyIdentity.open();
-}
-
 export default function PageNav(props) {
   let activeItem;
 
@@ -42,6 +43,19 @@ export default function PageNav(props) {
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
+
+  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
+
+  /*
+   * If user is signed in logout otherwise sign in
+   */
+  function userAccess() {
+    if (user) {
+      netlifyIdentity.logout();
+    } else {
+      netlifyIdentity.open();
+    }
+  }
 
   return (
     <>
@@ -88,13 +102,23 @@ export default function PageNav(props) {
               >
                 <Icon name="question" />
               </Menu.Item>
-
+              {user ? (
+                <Menu.Item name="cmiUser" active={activeItem === 'cmiUser'}>
+                  <Link to="/cmi">
+                    <Icon name="user" />
+                  </Link>
+                </Menu.Item>
+              ) : null}
               <Menu.Item
-                name="signup"
-                active={activeItem === 'signup'}
                 onClick={userAccess}
+                name="user"
+                active={activeItem === 'user'}
               >
-                <Icon name="sign in" />
+                {user ? (
+                  <Icon style={{ color: 'green' }} name="sign out" />
+                ) : (
+                  <Icon style={{ color: 'red' }} name="sign in" />
+                )}
               </Menu.Item>
             </Menu.Menu>
           </Container>

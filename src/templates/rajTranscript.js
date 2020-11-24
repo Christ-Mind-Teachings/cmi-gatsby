@@ -11,6 +11,7 @@ export const pageQuery = graphql`
     $slug: String!
     $book: String!
     $source: String!
+    $timingBase: String!
   ) {
     unit: rajPagesJson(url: { eq: $slug }) {
       audio
@@ -26,9 +27,18 @@ export const pageQuery = graphql`
         url
       }
     }
+    timing: rajTimingJson(base: { eq: $timingBase }) {
+      time {
+        id
+        seconds
+      }
+    }
     source: cmiSourcesJson(sourceId: { eq: $source }) {
       title
       sourceId
+      url
+      audioBaseUrl
+      timingBaseUrl
     }
     content: markdownRemark(id: { eq: $id }) {
       frontmatter {

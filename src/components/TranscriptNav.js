@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { navigate } from 'gatsby';
+import React, { useContext, useEffect, useState } from 'react';
+import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
+import AudioPlayer from './AudioPlayer';
+import { IdentityContext } from './IdentityContextProvider';
 
 const menuStyle = {
   border: 'none',
@@ -21,28 +23,39 @@ const fixedMenuStyle = {
 };
 
 function handleItemClick(e, obj) {
+  console.log(obj.name);
   if (obj.name === 'previous' || obj.name === 'next') {
     navigate(obj.url);
-  }
-
-  if (obj.name === 'toc') {
-    // trigger modal
   }
 }
 
 export default function TranscriptNav(props) {
   let activeItem;
 
-  const { site, source, book, unit, next, prev } = props;
+  const { timing, source, book, unit, next, prev } = props;
 
   const [menuFixed, setMenuFixed] = useState(false);
   const [contentsOpen, setContentsOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
+  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
+
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
   const toggleContentsModal = () => setContentsOpen(!contentsOpen);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
+  const [audioPlayerOpen, setAudioPlayerOpen] = useState(false);
+
+  /*
+   * If user is signed in logout otherwise sign in
+   */
+  function userAccess() {
+    if (user) {
+      netlifyIdentity.logout();
+    } else {
+      netlifyIdentity.open();
+    }
+  }
 
   return (
     <>
@@ -52,6 +65,13 @@ export default function TranscriptNav(props) {
         book={book}
         unit={unit}
       />
+      {unit?.audio ? (
+        <AudioPlayer
+          timing={timing}
+          src={`${source.audioBaseUrl}${unit.audio}`}
+          open={audioPlayerOpen}
+        />
+      ) : null}
       <SearchModal open={searchOpen} setOpen={setSearchOpen} source={source} />
       <Visibility
         onTopPassed={stickTopMenu}
@@ -66,13 +86,15 @@ export default function TranscriptNav(props) {
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >
           <Container text>
-            <Menu.Item
-              name="browse"
-              active={activeItem === 'browse'}
-              onClick={handleItemClick}
-            >
-              <Icon name="bookmark" />
-            </Menu.Item>
+            {unit?.audio ? (
+              <Menu.Item
+                name="audio"
+                active={activeItem === 'audio'}
+                onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
+              >
+                <Icon name="volume up" />
+              </Menu.Item>
+            ) : null}
 
             <Popup
               trigger={
@@ -138,13 +160,23 @@ export default function TranscriptNav(props) {
               >
                 <Icon name="question" />
               </Menu.Item>
-
+              {user ? (
+                <Menu.Item name="cmiUser" active={activeItem === 'cmiUser'}>
+                  <Link to="/cmi">
+                    <Icon name="user" />
+                  </Link>
+                </Menu.Item>
+              ) : null}
               <Menu.Item
-                name="signup"
-                active={activeItem === 'signup'}
-                onClick={handleItemClick}
+                onClick={userAccess}
+                name="user"
+                active={activeItem === 'user'}
               >
-                <Icon name="sign in" />
+                {user ? (
+                  <Icon style={{ color: 'green' }} name="sign out" />
+                ) : (
+                  <Icon style={{ color: 'red' }} name="sign in" />
+                )}
               </Menu.Item>
             </Menu.Menu>
           </Container>

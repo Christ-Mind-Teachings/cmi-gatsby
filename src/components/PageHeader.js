@@ -4,6 +4,12 @@ import { Header } from 'semantic-ui-react';
 import styled from 'styled-components';
 
 const StyledHeader = styled(Header)`
+  h1 {
+    font-weight: 500;
+  }
+  h2 {
+    font-weight: 400;
+  }
   h1.ui.header {
     margin-top: 2em;
   }

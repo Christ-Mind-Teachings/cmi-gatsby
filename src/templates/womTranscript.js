@@ -34,6 +34,9 @@ export const pageQuery = graphql`
     source: cmiSourcesJson(sourceId: { eq: $source }) {
       title
       sourceId
+      url
+      audioBaseUrl
+      timingBaseUrl
     }
     content: markdownRemark(id: { eq: $id }) {
       frontmatter {

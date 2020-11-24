@@ -1,22 +1,34 @@
 import React, { useEffect, useState } from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
-import netlifyIdentity from 'netlify-identity-widget';
 import PageLayout from '../components/PageLayout';
+import ContentsModal from '../components/ContentsModal';
+import womContents from '../data/wom/womContents.json';
+import woh from '../assets/images/wom/woh-big.jpg';
+import wot from '../assets/images/wom/wot-big.jpg';
+import wok from '../assets/images/wom/wok-big.jpg';
+import tjl from '../assets/images/wom/tjl-big.jpg';
+import wos from '../assets/images/wom/wos-big.jpg';
+import early from '../assets/images/wom/early-big.jpg';
+
+const sourceInfo = { sourceId: 'wom', title: 'The Way of Mastery' };
 
 export default function WomPage(props) {
   const [book, setBook] = useState();
+  const [contentsOpen, setContentsOpen] = useState(false);
 
   function cardClick(e, obj) {
-    setBook(obj.name);
+    console.log('card clicked: %s', obj.name);
+
+    const selectedBook = womContents.find((b) => b.bookId === obj.name);
+
+    if (selectedBook) {
+      setBook(selectedBook);
+      setContentsOpen(true);
+    }
   }
 
-  useEffect(() => {
-    console.log('Init Identity');
-    netlifyIdentity.init({});
-  }, []);
-
   return (
-    <PageLayout source="wom" book={book} unit={null} title="Way of Mastery">
+    <PageLayout source={sourceInfo}>
       <Header as="h2">
         Welcome to the <em>Way of Mastery</em>
       </Header>
@@ -27,27 +39,52 @@ export default function WomPage(props) {
         material and effective exercises the Way of Mastery is a practical and
         down to earth guide to transformation.
       </p>
-      <Card.Group itemsPerRow="3">
+      <Card.Group itemsPerRow={3} stackable>
         <Card name="woh" onClick={cardClick}>
+          <Image src={woh} size="medium" wrapped ui={false} />
           <Card.Content>
-            <Image scr="/assets/img/wom/wohN-big.jpg" size="medium" wrapped />
-            <Card.Header>Way of the Heart</Card.Header>
-            <Card.Description>Why won't the image display?</Card.Description>
+            <Card.Description>Way of the Heart</Card.Description>
           </Card.Content>
         </Card>
         <Card name="wot" onClick={cardClick}>
+          <Image src={wot} size="medium" wrapped ui={false} />
           <Card.Content>
-            <Image scr="/assets/img/wom/wotN-big.jpg" ui={false} />
-            <Card.Header>Way of Transformation</Card.Header>
+            <Card.Description>Way of Transformation</Card.Description>
           </Card.Content>
         </Card>
         <Card name="wok" onClick={cardClick}>
+          <Image src={wok} size="medium" wrapped ui={false} />
           <Card.Content>
-            <Image scr="/assets/img/wom/wokN-big.jpg" ui={false} />
-            <Card.Header>Way of Knowing</Card.Header>
+            <Card.Description>Way of Knowing</Card.Description>
+          </Card.Content>
+        </Card>
+        <Card name="tjl" onClick={cardClick}>
+          <Image src={tjl} size="medium" wrapped ui={false} />
+          <Card.Content>
+            <Card.Description>The Jeshua Letters</Card.Description>
+          </Card.Content>
+        </Card>
+        <Card name="wos" onClick={cardClick}>
+          <Image src={wos} size="medium" wrapped ui={false} />
+          <Card.Content>
+            <Card.Description>Way of the Servant</Card.Description>
+          </Card.Content>
+        </Card>
+        <Card name="early" onClick={cardClick}>
+          <Image src={early} size="medium" wrapped ui={false} />
+          <Card.Content>
+            <Card.Description>The Early Years</Card.Description>
           </Card.Content>
         </Card>
       </Card.Group>
+      {book && (
+        <ContentsModal
+          open={contentsOpen}
+          setOpen={setContentsOpen}
+          book={book}
+          unit={null}
+        />
+      )}
     </PageLayout>
   );
 }

@@ -1,17 +1,26 @@
 [
   {
     "title": "The Way of Mastery",
+    "url": "/wom",
     "sourceId": "wom",
-    "sid": "10"
+    "sid": "10",
+    "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/wom/audio",
+    "timingBaseUrl": "wom/timing"
   },
   {
     "title": "The Raj Material",
+    "url": "/raj",
     "sourceId": "raj",
-    "sid": "13"
+    "sid": "13",
+    "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/nwffacim/audio",
+    "timingBaseUrl": "raj/timing"
   },
   {
     "title": "A Course Of Love",
+    "url": "/acol",
     "sourceId": "acol",
-    "sid": "14"
+    "sid": "14",
+    "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/acol/audio",
+    "timingBaseUrl": "acol/timing"
   }
 ]

@@ -4,17 +4,14 @@ import { Helmet } from 'react-helmet';
 import { Container, Header } from 'semantic-ui-react';
 import styled from 'styled-components';
 import TranscriptNav from '../components/TranscriptNav';
+import TranscriptHeader from '../components/TranscriptHeader';
 import SearchNavigator from '../components/SearchNavigator';
 import GlobalStyles from '../styles/GlobalStyles';
 import { SearchContext } from '../components/SearchContext';
 
 import 'react-toastify/dist/ReactToastify.css';
 
-const StyledContainer = styled(Container)`
-  &&& {
-    /* font-size: 1rem; */
-  }
-`;
+const StyledContainer = styled(Container)``;
 
 /**
  *  Look backwards through array for first item containing url and title
@@ -100,7 +97,7 @@ function findIndex(array, url, pos = []) {
 }
 
 export function GenericTranscriptTemplate({ location, data }) {
-  const { unit, book, source, content } = data;
+  const { timing, unit, book, source, content } = data;
   const [searchPid, setSearchPid] = useState(
     location.state && location.state.search ? location.state.search : null
   );
@@ -119,11 +116,7 @@ export function GenericTranscriptTemplate({ location, data }) {
       <GlobalStyles />
       <Helmet title={`Transcript Name - ${unit?.title}`} />
       <StyledContainer text>
-        <div className="transcript">
-          <Header as="h1">{source.title}</Header>
-          <Header as="h2">{book.title}</Header>
-          <Header as="h3">{unit?.title}</Header>
-        </div>
+        <TranscriptHeader source={source} book={book} unit={unit} />
         <SearchContext.Provider value={{ searchPid, setSearchPid }}>
           <TranscriptNav
             source={source}
@@ -131,11 +124,11 @@ export function GenericTranscriptTemplate({ location, data }) {
             unit={unit}
             next={next}
             prev={prev}
+            timing={timing}
           />
-          <div
-            className="transcript-content"
-            dangerouslySetInnerHTML={{ __html: content.html }}
-          />
+          <div className="transcript-content">
+            <div dangerouslySetInnerHTML={{ __html: content.html }} />
+          </div>
           {searchPid && (
             <SearchNavigator
               path={location.pathname}

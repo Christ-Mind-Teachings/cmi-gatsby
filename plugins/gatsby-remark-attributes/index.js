@@ -9,97 +9,93 @@
  *
  * The plugin takes options, mode and className. The only valid value of mode is "cmi". This will
  * add an id of the paragraph number ie p12, and a class of "cmiTranPara" in addition to other classes
- * specified by the directive ie {: .class #id}. 
+ * specified by the directive ie {: .class #id}.
  *
  * The id and .cmiTranPara will not be added when the className option is the same as a class in
  * the directive, ie {: .omit} and mode = "cmi" and className = "omit"
  */
-const visit = require("unist-util-visit");
-const toString = require("mdast-util-to-string");
+const visit = require('unist-util-visit');
+const toString = require('mdast-util-to-string');
 
 /*
  * Mode = "cmi", assign paragraph number as id to all paragraphs
  * that don't include className.
  */
-function updateParagraph(options, node, classes = "", id = "", para) {
-  const { mode = "", className = "" } = options;
+function updateParagraph(options, node, classes = '', id = '', para) {
+  const { mode = '', className = '' } = options;
+  let span = '';
 
-  if (mode === "cmi") {
+  if (mode === 'cmi') {
     if (!classes.includes(className)) {
-      //add pid and .cmiTranPara, ignore id passed into function
+      // add pid and .cmiTranPara, ignore id passed into function
       id = `p${++pNum}`;
-      if (classes === "") {
-        classes = "cmiTranPara";
-      }
-      else {
-        classes = `cmiTranPara ${classes}`; 
+      span = '<span class="special"></span>';
+      if (classes === '') {
+        classes = 'cmiTranPara';
+      } else {
+        classes = `cmiTranPara ${classes}`;
       }
     }
   }
 
-  if (classes === "" && id === "") {
+  if (classes === '' && id === '') {
     return;
   }
 
-  //build attribute list and add to paragraph
-  let attrList = "";
+  // build attribute list and add to paragraph
+  let attrList = '';
 
-  attrList = `${classes !== "" ? `class='${classes}'` : ""}`;
-  attrList = `${attrList}${id !== "" ? ` id='${id}'` : ""}`;
-  para = `<p ${attrList}> ${para} </p>`;
+  attrList = `${classes !== '' ? `class='${classes}'` : ''}`;
+  attrList = `${attrList}${id !== '' ? ` id='${id}'` : ''}`;
+  para = `<p ${attrList}>${span}${para} </p>`;
 
-  node.type = "html";
+  node.type = 'html';
   node.children = undefined;
   node.value = para;
 }
 
 let pNum;
-let id = "";
+let id = '';
 
 module.exports = ({ markdownAST, markdownNode }, options) => {
-
   if (markdownNode.id !== id) {
     id = markdownNode.id;
     pNum = 0;
   }
 
-  visit(markdownAST, "paragraph", (node) => {
+  visit(markdownAST, 'paragraph', (node) => {
     let para = toString(node);
-    let id = "";
-    let classes = "";
+    let id = '';
+    let classes = '';
 
     const pattern = /{:(.*)}/g;
     const matches = para.matchAll(pattern);
     const matchesArray = [...matches];
 
-    //iterate over the capture group and get classes and id
+    // iterate over the capture group and get classes and id
     for (const match of matchesArray) {
+      // remove matched pattern
+      para = para.replace(match[0], '');
 
-      //remove matched pattern
-      para = para.replace(match[0], "");
-
-      //get attributes from group
+      // get attributes from group
       const attributes = match[1].matchAll(/([.#]\w+)/g);
 
-      //gather attributes into classes and id
+      // gather attributes into classes and id
       for (const attr of attributes) {
-        if (attr[1][0] === ".") {
-          if (classes === "") {
+        if (attr[1][0] === '.') {
+          if (classes === '') {
             classes = `${attr[1].substring(1)}`;
-          }
-          else {
+          } else {
             classes = `${classes} ${attr[1].substring(1)}`;
           }
-        }
-        else if (attr[1][0] === "#") {
+        } else if (attr[1][0] === '#') {
           id = attr[1].substring(1);
         }
       }
     }
-    //potentially update paragraph
+    // potentially update paragraph
     updateParagraph(options, node, classes, id, para);
   });
 
   return markdownAST;
-}
-
+};
