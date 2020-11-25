@@ -11,6 +11,7 @@ export const pageQuery = graphql`
     $slug: String!
     $book: String!
     $source: String!
+    $timingBase: String!
   ) {
     unit: womPagesJson(url: { eq: $slug }) {
       audio
@@ -29,6 +30,12 @@ export const pageQuery = graphql`
           title
           url
         }
+      }
+    }
+    timing: womTimingJson(base: { eq: $timingBase }) {
+      time {
+        id
+        seconds
       }
     }
     source: cmiSourcesJson(sourceId: { eq: $source }) {

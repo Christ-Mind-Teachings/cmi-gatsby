@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
-import { Header } from 'semantic-ui-react';
+import { Icon, Header } from 'semantic-ui-react';
 import styled from 'styled-components';
 
 const StyledHeader = styled(Header)`
@@ -31,11 +31,15 @@ export default function TranscriptHeader(props) {
   return (
     <StyledHeader>
       <Header as="h1" title="To Card Catalog" textAlign="center">
-        <Link to="/">Teachings of Christ Mind</Link>
+        <Link to="/">
+          Teachings of Christ Mind
+          <Icon name="linkify" size="tiny" color="blue" />
+        </Link>
       </Header>
       <Header as="h2" title="To Home Page" textAlign="center">
         <Link to={source.url}>
           {source.title}/{book.title}
+          <Icon name="linkify" size="tiny" color="blue" />
         </Link>
       </Header>
       <Header as="h3" textAlign="center">
