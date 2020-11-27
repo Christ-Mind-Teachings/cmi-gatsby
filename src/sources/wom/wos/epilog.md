@@ -85,9 +85,8 @@ responsibility, it also points to the immeasurable power that lives
 *equally* within each of us, and will shine forth as we unlearn our fear
 of it. The question is this:
 
-<p markdown="1" class="center indent">If not NOW, when?<br/>
+<p markdown="1" class="omit center indent">If not NOW, when?<br/>
 If not YOU, who?</p>
-{: .omit}
 
 With Jeshua as loving brother and guide, we have learned that the
 choiceless choice is the inevitable recognition that the *when* is now,

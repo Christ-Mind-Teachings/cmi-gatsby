@@ -2,22 +2,18 @@
 title: Five
 ---
 
-<div markdown="1" class="chHead">
 The awakening Son<br/>
 is like one who seeks Light,<br/>
 then laments the dissolution of shadows<br/>
 as dawn breaks gently<br/>
 through the night.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  January 3, 1988
-</p>
-{: .omit}
+January 3, 1988
+{: .break.date.omit}
 
 <div data-index="1" markdown="1" class="indent">
 <span class="capital">N</span>ow, we begin.
@@ -94,21 +90,18 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  January 22, 1988
-</p>
-{: .omit}
+January 22, 1988
+{: .date.omit}
 
 <p class="indent">Hello, Marc.</p>
 
 “Hello, Jeshua. I love you.”
 
 <div data-index="1" markdown="1" class="indent">
+
 And I you, beloved friend.
 
 Now, we begin.
@@ -215,17 +208,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  February 15, 1988
-</p>
-{: .omit}
+February 15, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 So be it.<br/>
@@ -286,10 +276,8 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 He speaks. I write. Everything seems to disappear. Oblivious to my
 physical surroundings, the dimming light of a disappearing day holds no
@@ -347,15 +335,11 @@ Am I ready to give up my world? It is the only one I know, and even this
 one I know not well. Or do I simply fear what lies beyond the borders -
 the proscriptions of authority - of consensus “truth”?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  February 20, 1988
-</p>
-{: .omit}
+February 20, 1988
+{: .date.omit}
 
 Maybe it is only the feeling of intensity with which the communications
 from Jeshua have been coming, or maybe it is the challenge of his
@@ -376,6 +360,7 @@ I am either blessed or cursed with an orientation to life best
 summarized by William James:
 
 <div markdown="1" class="quote">
+
 “All around us are infinite worlds, separated from us by the flimsiest
 of screens. For the most part, they remain discrete from us, but on
 occasion, they may burst through to reveal themselves to us. Therefore,
@@ -435,10 +420,8 @@ you tomorrow night, right?”
 I smile, knowing that now I really have no choice but to go through with
 it. “Tomorrow night it is. Thanks for the number. Bye.”
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 After exchanging pleasantries with Billie, we ready the tape recorder
 and settle down on the sofa. Doing my best to relax, I patiently wait
@@ -625,6 +608,7 @@ intently to every word. As the tape reaches the part about Jeshua, I can
 feel my heart beating faster, waiting for her reaction:
 
 <div class="quote">
+
 “It is not so much that you have an experience *with* Jeshua, but that you
 *are*. That is *your* lifetime.”
 

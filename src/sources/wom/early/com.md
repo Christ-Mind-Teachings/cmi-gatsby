@@ -390,16 +390,3 @@ Yes.
 Indeed. That is the truth of who you are. Hmm. Thank you for providing
 an excellent example for those who will read these things.
 
----
-
-## Question One
-
-[*Question*](/t/wom/early/com/q1/) Jeshua I’d like for you to address
-two sentences that I keep hearing in my mind as we go through this,
-directly out of your *Course in Miracles*. The first sentence is: “Never
-tell your brother that he is what you would not want to be”. And the
-second one is: “Words are but symbols of symbols and therefore twice
-removed from reality.” Would you elaborate on those two?
-{: .omit}
-
-

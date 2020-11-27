@@ -2,22 +2,18 @@
 title: Seven
 ---
 
-<div markdown="1" class="chHead">
 Not as the world gives,<br/>
 give I unto you.<br/>
 Yet my giving is but<br/>
 __your__ giving to yourself.<br/>
 When will you choose to accept it?
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  August 17, 1988
-</p>
-{: .omit}
+August 17, 1988
+{: .break.date.omit}
 
 <span class="capital">“I</span> just got a call from Wayne.”
 
@@ -48,7 +44,7 @@ money right now. I don’t know what is going on. Wayne may be the
 vice-president, but he doesn’t seem to know much himself. *Something* is
 hitting the fan back there.”
 
-“What money problems?!” I interject. “We have done <br/>$150,000 in business
+“What money problems?!” I interject. “We have done $150,000 in business
 the last two months, and they can’t make salaries?”
 
 Geoff winces. “I know, I know. Right now, I do not know what else to
@@ -64,14 +60,14 @@ all three of us speaking at the same time from our individual office
 phones, until Wayne shouts for silence.
 
 “Look! I am as much caught by this as you guys are. We *thought* we had
-<br/>$200,000 in backing from our financiers, and so we’ve been leveraging
+$200,000 in backing from our financiers, and so we’ve been leveraging
 our assets to expand our markets, like yours out there in Washington.
 But it’s been withdrawn. Maybe it wasn’t there, I don’t know. The bank
 has frozen our assets. There is no money available.”
 
 The reality is beginning to sink in. It occurs to me to ask about the
 commissions, especially the development fees due to us for the software
-products we had designed for the company. An amount of <br/>$10,000 is due
+products we had designed for the company. An amount of $10,000 is due
 to us in only 45 days.
 
 After a long pause, Wayne speaks slowly. “It looks like *all* of it is
@@ -118,10 +114,8 @@ thing that has happened is that a bubble has burst.
 
 And as that realization sinks in, the phone rings.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 “Hello?”
 
@@ -256,10 +250,8 @@ Our conversation ends with Kendra’s unconditional support, together with
 her insistence that I tell her everything that happens when I meet with
 “that mystic lady.”
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 I am still fifteen minutes early, so I drive slowly by the stately old
 mansion - now named Gethsemane - which is both home and teaching center
@@ -365,17 +357,14 @@ For a moment, I see with my mind’s eye the face of Jonah, and recognize
 the identity of the “Great One.” My teacher, my friend, my guru: Jeshua,
 the one called Jesus.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  September 4, 1988
-</p>
-{: .omit}
+September 4, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Again,<br/>
@@ -460,17 +449,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  September 7, 1988
-</p>
-{: .omit}
+September 7, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Beloved brethren,<br/>
@@ -590,17 +576,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  October 4, 1988
-</p>
-{: .omit}
+October 4, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 It is not without much hesitation<br/>

@@ -2,23 +2,20 @@
 title: Three
 ---
 
-<div markdown="1" class="chHead">
 It is always fear<br/>
 of one’s own death<br/>
 that blocks recognition<br/>
 of the Kingdom
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  November 2, 1987
-</p>
-{: .omit}
+November 2, 1987
+{: .break.date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 <span class="capital">N</span>ow, we begin.
 
 Beloved brother,<br/>
@@ -341,21 +338,18 @@ Amen
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  November 13, 1987
-</p>
-{: .omit}
+November 13, 1987
+{: .date.omit}
 
 <p markdown="1" class="indent">Hello, Marc.</p>
 
 “Hello, Jeshua.”
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Is it not the comfort<br/>
@@ -600,15 +594,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  November 21, 1987
-</p>
-{: .omit}
+November 21, 1987
+{: .date.omit}
 
 Events of the past few months have brought rapid changes. Changes in
 relationships, changes in goals, changes in even the most basic of
@@ -677,6 +667,7 @@ cannot hear, but to Life, which already knows the truth of what is
 spoken:
 
 <div data-index="1" markdown="1" class="indent">
+
 We are but One. My peace I give unto you.<br/>
 Not as the world gives, give I unto you.
 
@@ -712,10 +703,8 @@ leads not back into the world, but *through* it. To what?
 
 My foot shifts slowly from the brakes to the gas pedal.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Fresh from the ecstatic experience just passed, I choose to trust the
 statement about my apartment, and act on it.
@@ -758,10 +747,8 @@ right place. Suddenly, I catch myself. No, I am not going to shrug my
 shoulders, conclude I have a vivid imagination, and forget the whole
 thing. It happened. I heard that voice so clearly.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 “Kendra, this is maddening. Why am I experiencing this, anyway?”
 
@@ -815,15 +802,11 @@ bathroom. I see the view, the lights on the water, tankers resting in
 the calm harbor. More importantly, I *feel* it. This is it. How about
 that? It was waiting for me!
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  November 22, 1987
-</p>
-{: .omit}
+November 22, 1987
+{: .date.omit}
 
 It is 3 a.m; 3:22 to be exact. I am, or was, sleeping soundly. As I
 begin to stir restlessly, I am further awakened by a gentle voice which,
@@ -835,6 +818,7 @@ this time, carries a sense of persistence.
 at 3:30 in the morning because some voice suggests they do so.
 
 <div markdown="1" class="indent">
+
 Marc, arise and write.<br/>
 The communication will flow<br/>
 with great ease at this time.
@@ -847,6 +831,7 @@ Okay, okay. I am, begrudgingly, awake anyway.
 be like this I’ll have to remember to leave my glasses out.” Next time.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Think not that you can direct the flow of your life<br/>

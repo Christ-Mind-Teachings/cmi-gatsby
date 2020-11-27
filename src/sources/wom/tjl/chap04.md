@@ -2,22 +2,18 @@
 title: Four
 ---
 
-<div markdown="1" class="chHead">
 There is nothing,<br/>
 absolutely nothing,<br/>
 you can create<br/>
 that is not an expression<br/>
 of your longing to awaken.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  December 9, 1987
-</p>
-{: .omit}
+December 9, 1987
+{: .break.date.omit}
 
 <span class="capital">S</span>o, I am here. I have moved into my
 apartment. It is just right. Even from the kitchen I can gaze out over
@@ -40,6 +36,7 @@ answered. I prefer softness, so I casually retrieve pen and paper from
 the nearby counter and return to my rocker.
 
 <div markdown="1" class="indent">
+
 Now, we begin.
 
 Hello, Marc.
@@ -49,6 +46,7 @@ Hello, Marc.
 “Hello, Jeshua!”
 
 <div markdown="1" class="indent">
+
 Thank you for allowing Me
 this communication with you.
 I want first to share my feelings with you
@@ -60,6 +58,7 @@ I think you know what I mean by that.
 “Well, if I don’t, I’m sure it will be made clear!”
 
 <div data-index="1" markdown="1" class="indent">
+
 Yes, it will.<br/>
 Your doubt as to the validity<br/>
 of your experience with Me,<br/>
@@ -78,6 +77,7 @@ The significance of this is paramount.
 “Why?”
 
 <div data-index="1" markdown="1" class="indent">
+
 Simply because it includes denial<br/>
 of your own Sonship.<br/>
 Do you see?<br/>
@@ -115,6 +115,7 @@ and effectively stops whomever is struck.
 sense a fear about all this. Why?”
 
 <div data-index="1" markdown="1" class="indent">
+
 That is a good question, Marc.<br/>
 Why __do__ you fear it?<br/>
 I have hinted at the direction of your answer,<br/>
@@ -138,6 +139,7 @@ that sustains the belief in separation?
 “Somehow, that feels quite true.”
 
 <div data-index="1" markdown="1" class="indent">
+
 As it must.
 
 Marc,<br/>
@@ -221,15 +223,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 17, 1987
-</p>
-{: .omit}
+December 17, 1987
+{: .date.omit}
 
 It has been one of those days. Busy, too busy! The
 “I-guess-I-forgot-to-eat lunch-and-who-has-time-anyway?” kind of day.
@@ -287,6 +285,7 @@ and tentatively thumb through it until I find Matthew, Chapter 7, Verses
 5-8, and read:
 
 <div markdown="1" class="quote">
+
 “Thou hypocrite, first cast out the beam from thine own eye; and then
 shalt thou see clearly to cast out the mote from thy brother’s eye.
 
@@ -306,6 +305,7 @@ Both pages, every word of every verse, are printed in red. Then, his
 familiar voice:
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Marc, these four verses should be read together;<br/>
@@ -315,10 +315,8 @@ Are you aware of what the beam is?<br/>
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 As I contemplate it, I first see a log, or something quite solid stuck
 in someone’s eye, blocking their view. But the image doesn’t feel quite
@@ -329,6 +327,7 @@ grasped something.
 “It’s seeing the other person. It’s, hmmm...” I stumble for words.
 
 <div data-index="1" markdown="1" class="indent">
+
 It is judgment, Marc.<br/>
 It is judgment that must first be cast out,<br/>
 for it is your only imperfection.<br/>
@@ -377,15 +376,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 18, 1987
-</p>
-{: .omit}
+December 18, 1987
+{: .date.omit}
 
 I have finished a late supper, and relish the thought of simply sitting
 in my rocker and looking out over the harbor at the boats, watching the
@@ -399,6 +394,7 @@ I pause and savor the feeling that comes with His presence. A sublime
 peace.
 
 <div markdown="1" class="indent">
+
 You will find it somewhat difficult to write<br/>
 with your eyes closed.
 
@@ -408,6 +404,7 @@ Reluctantly, I open them, momentarily afraid the connection will be
 lost. It is not.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 What distances have been traveled?<br/>
@@ -570,17 +567,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 20, 1987
-</p>
-{: .omit}
+December 20, 1987
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Marc, I would ask that you again open your Bible,<br/>
@@ -605,6 +599,7 @@ away, I’m going to have to do something with it. Why does that always
 cause in me shivers of dread?
 
 <div class="quote">
+
 “And he said unto them, he that hath ears to hear, let him hear.<br/>
 Unto you it is given to know the mystery of the Kingdom of...”
 
@@ -613,6 +608,7 @@ Unto you it is given to know the mystery of the Kingdom of...”
 I feel a sudden quickening, like a surge of energy leaping up my spine.
 
 <div markdown="1" class="indent">
+
 Marc,<br/>
 remember these words always,<br/>
 and doubt of your journey will not overcome you.<br/>
@@ -627,6 +623,7 @@ law, he had claimed equality with God.
 I continue reading until I come to Verse 23:
 
 <div class="quote">
+
 “That all men should honor the Son, as they honor the Father.<br/>
 He that honoreth not the Son, honoreth not the Father which hath sent
 Him.”
@@ -634,6 +631,7 @@ Him.”
 </div>
 
 <div data-index="1" markdown="1" class="indent">
+
 It is with great demand for attention<br/>
 that I speak now of this teaching.<br/>
 For those who build their temples<br/>
@@ -727,17 +725,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 22, 1987
-</p>
-{: .omit}
+December 22, 1987
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Here I will speak with you<br/>
@@ -861,10 +856,8 @@ Amen
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 I cannot describe what I feel. Perhaps I feel nothing. Jeshua’s energy
 has never been so powerful, so direct, so blunt. I feel as though I
@@ -878,6 +871,7 @@ cannot accept this, yet I see clearly this is only because it is
 I suddenly feel that shift of energy again:
 
 <div data-index="1" markdown="1" class="indent">
+
 Very good, Marc.<br/>
 It can come so easily when you choose<br/>
 the key of __allowing__.<br/>
@@ -913,15 +907,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 26, 1987
-</p>
-{: .omit}
+December 26, 1987
+{: .date.omit}
 
 <p class="indent">Good evening, Marc.</p>
 
@@ -933,6 +923,7 @@ this, so&hellip;”
 “Okay.”
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Beloved brother,<br/>
@@ -945,6 +936,7 @@ that brings such questions?
 “Well, yes, I guess it is my resistance.”
 
 <div data-index="1" markdown="1" class="indent">
+
 Yes, it is __only__ that.<br/>
 And what would you resist?<br/>
 The very Life you have always sought?
@@ -954,6 +946,7 @@ The very Life you have always sought?
 “Something in me does draw back. I think I fear it.”
 
 <div data-index="1" markdown="1" class="indent">
+
 What I will share with you this evening<br/>
 will bring an end to your resistance<br/>
 if you will but reflect on what is given<br/>
@@ -1012,6 +1005,7 @@ Put it away as a child does an old toy.
 “But isn’t that a denial of life?”
 
 <div data-index="1" markdown="1" class="indent">
+
 Illusions hold no life.<br/>
 Your question expresses your resistance.<br/>
 It expresses your deeply held belief that the world<br/>
@@ -1079,6 +1073,7 @@ there is Separation __from__ all that God is.
 “This is too much. Surely I’ve got to be making all of this up.”
 
 <div data-index="1" markdown="1" class="indent">
+
 Of course you are.<br/>
 The “you” who is the only begotten of the Father<br/>
 is making it all up.<br/>
@@ -1146,17 +1141,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 28, 1987
-</p>
-{: .omit}
+December 28, 1987
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Know that the vision of Me,<br/>
@@ -1258,15 +1250,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  December 29, 1987
-</p>
-{: .omit}
+December 29, 1987
+{: .date.omit}
 
 Something is going on, deep within me. It is a stirring, a movement
 beginning at a place so deep within me that it feels like discovering a

@@ -18,7 +18,7 @@ export default function ContentsModal({ book, unit, open, setOpen }) {
       <Modal.Header>
         <em>{book.title}</em> Contents
       </Modal.Header>
-      <Modal.Content scrolling image>
+      <Modal.Content image>
         <Image size="small" src={`${book.image}`} wrapped />
         <TableOfContents bid={book.bid} toc={book.toc} unit={unit} />
       </Modal.Content>

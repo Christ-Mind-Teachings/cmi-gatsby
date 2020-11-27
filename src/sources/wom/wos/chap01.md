@@ -2,12 +2,10 @@
 title: Book One
 ---
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">S</span>*ervantship*<br/>
+<p markdown="1" class="top"><span class="dropcaps">S</span><em>ervantship</em><br/>
 It appears an odd word,<br/>
 yet within it lies the meaning of sacrifice,<br/>
 of Love,<br/>
@@ -101,10 +99,8 @@ As it is,<br/>
 has been,<br/>
 and forever shall be.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 The awakened Heart<br/>
 is likened unto one<br/>
@@ -234,14 +230,11 @@ in the Light of the Holy Father.
 Behold!<br/>
 The servant is born.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p markdown="1" class="center">*For the first shall be last,<br/>
-and the last, first.*</p>
-{: .omit}
+<p markdown="1" class="comit center"><em>For the first shall be last,<br/>
+and the last, first.</em></p>
 
 The only begotten Son dreams.<br/>
 And in his dream is forgotten<br/>
@@ -669,14 +662,11 @@ must certainly be<br/>
 his final, and consummate,<br/>
 death.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p markdown="1" class="center">*And the first shall be last,<br/>
-and the last, first.*</p>
-{: .omit}
+<p markdown="1" class="omit center"><em>And the first shall be last,<br/>
+and the last, first.</em></p>
 
 And now,<br/>
 the dreamer is laid to rest.

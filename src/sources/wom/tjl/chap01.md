@@ -2,21 +2,17 @@
 title: One
 ---
 
-<div markdown="1" class="chHead">
 Each and every one of you<br/>
 is here for but one reason:<br/>
 to realize the Truth<br/>
 and to come Home again.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line2](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  July 20, 1987 
-</p>
-{: .omit}
+July 20, 1987 
+{: .break.date.omit}
 
 <span class="capital">“A</span>re you okay?” asks Kendra.
 
@@ -220,10 +216,8 @@ it seems, for the whole world.”
 
 “Yeah, *that* Jeshua.”
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Now Kendra is quite animated. “Well, what else did he say? What is his
 message? Oh, Marc, this is more marvelous than I thought, than I *can*
@@ -436,10 +430,8 @@ Kendra sits up quickly, resting her hand on my arm. “It isn’t? When...?”
 
 “A few weeks ago, when we were all camping at the beach.”
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 It is early morning, the dawn beginning to melt away the night. I walk
 along a sandy shore at water’s edge, gazing first to the right, out to a
@@ -474,7 +466,9 @@ now, it expands as it rises to fill my head. It seems so odd to be both
 feeling and passively witnessing this strange little phenomenon.
 
 <div markdown="1" class="indent">
+
 Hello, Marc.
+
 </div>
 
 The words emerge out of that vibration, as clear and distinct as if
@@ -488,6 +482,7 @@ as when the person you love most in the whole world calls and, when you
 answer the phone, they simply say “hello” and you know who it is.
 
 <div data-index="1" markdown="1" class="indent">
+
 I am glad that you have come to this point<br/>
 of being willing to allow<br/>
 this communication to take place.<br/>
@@ -523,10 +518,8 @@ merely forgotten?
 “Do you want some more tea?” I ask, after recounting my experience at
 the beach.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Kendra doesn’t answer. She sits motionless, looking not so much at me as
 *through* me.
@@ -605,10 +598,8 @@ philosopher, anyway?”
 means love, and ‘sophia,’ which means wisdom. Philo sophia: the love of
 wisdom. A philosopher is a lover of wisdom.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 It is later in the day now, and I am alone. Sitting down on the couch
 and crossing my legs, I relax, gazing into the last traces of a soft and
@@ -628,6 +619,7 @@ light, which begins to take on the form of a man in radiant garments.
 The face is now familiar.
 
 <div markdown="1" class="indent">
+
 Now, we begin.
 
 Begin to open your eyes, Marc.<br/>
@@ -639,6 +631,7 @@ The words are both heard and seen, appearing against an empty backdrop.
 But more than this, I can *feel* them.
 
 <div data-index="1" markdown="1" class="indent">
+
 I am the one<br/>
 the world knows<br/>
 as Jesus,<br/>
@@ -743,17 +736,14 @@ I begin to have a sneaking suspicion that I will not find an
 understanding for this experience by looking around me. And that is
 disconcerting.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line4](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  August 15, 1987
-</p>
-{: .omit}
+August 15, 1987
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Such Love have I<br/>

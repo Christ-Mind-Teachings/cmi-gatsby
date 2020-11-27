@@ -2,8 +2,8 @@
 title: Foreword
 ---
 
-<p class="center">by Alan Cohen</p>
-{: .omit}
+by Alan Cohen
+{: .omit.center}
 
 Do you believe that God would speak to you? I find it amazing that we
 base all of the world religions on the transmissions of people to whom

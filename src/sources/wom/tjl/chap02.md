@@ -2,24 +2,20 @@
 title: Two
 ---
 
-<div markdown="1" class="chHead">
 Never have the thoughts<br/>
 of the world<br/>
 been yours.<br/>
 They are illusion.<br/>
 Therefore,<br/>
 so is your unhappiness.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
 Fagan’s Beach, Molokai<br/>
 August 30, 1987
-</p>
-{: .omit}
+{: .break.date.omit}
 
 <span class="capital">A</span>wakening suddenly, I realize it is quite
 early. There isn’t a trace of daylight. I am half dressed before
@@ -69,6 +65,7 @@ give thanks. Though my eyes are open, that now familiar feeling begins.
 I see that golden Light, then hear a familiar Voice.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 It is in seeking for,<br/>
@@ -210,10 +207,8 @@ down over my cheeks, onto my chest.
 Coming out of the water, I feel as if all my energy is gone. Collapsing
 in the sand, I fall into a deep sleep.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 “The captain has turned off the seat belt light.”
 
@@ -256,15 +251,11 @@ the seat, pressing the button located just inside the armrest in order
 to drop it back as far as possible, and deliberately turn my attention
 to the movie, wishing I had paid my six bucks for the headphones.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  September 3, 1987
-</p>
-{: .omit}
+September 3, 1987
+{: .date.omit}
 
 The experience on Molokai already seems far removed. I have not re-read
 the dictation received there since the trip home. It is stuffed into a
@@ -297,6 +288,7 @@ it begins again. That sense of warmth that grows from within, the
 vibrational change, and finally, the Voice:
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Abide with Me yet a little while.<br/>
@@ -310,6 +302,7 @@ Are you willing to join with Me now?
 little sanity I had, so why not?
 
 <div data-index="1" markdown="1" class="indent">
+
 Then take up pad and pen,<br/>
 for I will share with you<br/>
 that which is Life,<br/>
@@ -441,17 +434,14 @@ must be? Or is it, perhaps, a zendo?
 
 For a moment, I am a Zen Buddhist monk, but only for a fleeting moment.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  September 9, 1987
-</p>
-{: .omit}
+September 9, 1987
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Marc, hear Me well.<br/>
@@ -479,6 +469,7 @@ though all of me was melting into light. I have never felt such utter
 peace.)
 
 <div data-index="1" markdown="1" class="indent">
+
 And now the end of sorrow is upon us.<br/>
 I will go out no more from the Father’s holy place.<br/>
 Indeed, I have overcome the world.<br/>
@@ -495,15 +486,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  September 25, 1987
-</p>
-{: .omit}
+September 25, 1987
+{: .date.omit}
 
 Dissatisfaction. I am feeling it again. I do not suppose that it is an
 experience known only by me. Is it my job? That must be it. In an
@@ -526,10 +513,8 @@ dissatisfaction is about, but it is certainly there. Get busy. Just get
 to work and don’t think about it. Good idea. Maybe tonight I’ll rent a
 movie, have a glass or two of wine.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Evening now. Wine poured, but not yet tasted. For some reason, I
 hesitate to slip the video into the VCR. I drop down on the couch and
@@ -543,6 +528,7 @@ I’ve already done so, in which case there can be no further harm by
 being ready...
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 First, it is for you to understand<br/>
@@ -851,15 +837,11 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  October 12, 1987
-</p>
-{: .omit}
+October 12, 1987
+{: .date.omit}
 
 “Great night to have emergency clients. Damn!” I mutter to myself while
 I hurry to turn off my computer, adding machine, typewriter, and radio.
@@ -906,10 +888,8 @@ Now, others begin arriving, and I look at my watch. 5:55! It only took
 me fifteen minutes to get here? In that traffic jam? That is not
 possible!
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 On my way home from class, I impulsively turn in a different direction.
 “It is not too late and, besides, what are friends for?” I rationalize

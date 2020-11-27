@@ -22,6 +22,7 @@ export const pageQuery = graphql`
     }
     book: womContentsJson(bookId: { eq: $book }) {
       title
+      bookId
       image
       toc {
         title

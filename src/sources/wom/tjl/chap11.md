@@ -2,16 +2,14 @@
 title: Eleven
 ---
 
-<div markdown="1" class="chHead">
 There are old friends waiting,<br/>
 and I come with you<br/>
 to call them to Myself<br/>
 yet again.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
 <span class="capital1">S</span>tepping out of the waiting area at the
 airport gate, I am hit by the sweet, delicious fragrances of Maui, the
@@ -41,10 +39,8 @@ needed distraction! There’s a great little health food store not far
 from the airport, in Wailuku, called Down to Earth. And I could use a
 little of that!
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Having paid for my salad and carrot juice, I turn to head out the door,
 when my eyes catch a stack of magazines at the end of the counter. It
@@ -97,10 +93,8 @@ booth, and my appointment is set for tomorrow. I just know Sara will be
 the one to shape *The Jeshua Letters* into form. And I haven’t even made
 it to my condominium yet!
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Sara is entirely focussed as she reads through page after page. I can’t
 notice anything that tells me if she likes it or not. She turns pages a
@@ -178,10 +172,8 @@ let Sara read the manuscript. At least that gave me some distance! But
 now, I have to ‘cold-call’ a stranger, and ‘fess up! Boy, do I need to
 take a nice, long swim. How far is it back to Tacoma, anyway?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 “Aloha! This is Alan!”
 
@@ -230,10 +222,8 @@ us!”
 
 Saying ‘yes’ to joy? Really? Fully? Is that okay? Does it actually work?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 My talk with Alan ends. I just couldn’t quite bring myself to tell him
 one little piece. The bit about Jeshua saying he would write a foreword
@@ -304,10 +294,8 @@ back to the present. With a slap, I realize it just had its last moment
 of life. I’d forgotten that moment in Vietnam. It got buried under the
 deluge of the rest of that year, and of years since then.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Maui is resting into the coming night, but the air is still so soft and
 sweet. Such beauty! I leap up to my feet.
@@ -395,6 +383,7 @@ His voice startles me. It comes from behind me, and I would swear I can
 feel the presence of Him standing behind me. But I don’t turn to look.
 
 <div data-index="1" markdown="1" class="indent">
+
 Very well, My brother.<br/>
 For this have I waited patiently longer<br/>
 than you currently know.<br/>
@@ -441,10 +430,8 @@ now, at least, the resistance is gone.
 “So much for living on Maui.” With that, I roll over, into a very deep,
 deep sleep.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 “You *what!!!???*”
 

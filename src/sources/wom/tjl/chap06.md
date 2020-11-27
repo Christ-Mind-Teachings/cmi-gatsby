@@ -2,20 +2,16 @@
 title: Six
 ---
 
-<div markdown="1" class="chHead">
 As you resist service to your brother<br/>
 so, too<br/>
 do you resist your own salvation.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  April 24, 1988
-</p>
-{: .omit}
+April 24, 1988
+{: .break.date.omit}
 
 <span class="capital">N</span>early two months have passed since my
 session with Jeremiah. Two of, perhaps, the busiest months of my life. A
@@ -56,10 +52,8 @@ I am looking forward to tonight. I feel safe in not bringing my work
 home with me; I am well ahead of schedule. Time to kick back and savor
 it all.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 As I rock gently back and forth, feet on the windowsill before me, eyes
 drinking in the soft light of a remarkably clear evening, that familiar
@@ -67,6 +61,7 @@ feeling begins. I am actually looking forward to the connection,
 whatever comes from it.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Silence.
@@ -130,17 +125,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  May 6, 1988
-</p>
-{: .omit}
+May 6, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 So long has it been since<br/>
@@ -199,17 +191,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  May 25, 1988
-</p>
-{: .omit}
+May 25, 1988
+{: .date.omit}
 
 <div markdown="1" class="indent">
+
 Now, we begin.
 
 Hello, Marc.
@@ -223,6 +212,7 @@ Hello, Marc.
 “It shows, huh?”
 
 <div data-index="1" markdown="1" class="indent">
+
 My beloved friend,<br/>
 never is truth hidden,<br/>
 at any time, nor from anyone.<br/>
@@ -234,6 +224,7 @@ many prefer not to see.
 “That makes me want to ask: why am I tired, from your perspective?”
 
 <div data-index="1" markdown="1" class="indent">
+
 Fatigue has nothing to do with the body.<br/>
 It has everything to do with the mind.<br/>
 It is merely through the body<br/>
@@ -258,6 +249,7 @@ and wholly gave up resisting my heart, calamity would ensue, and the
 world will condemn me.”
 
 <div data-index="1" markdown="1" class="indent">
+
 To insist on being part of the world<br/>
 is to accept condemnation already.
 
@@ -267,6 +259,7 @@ is to accept condemnation already.
 responsibilities?”
 
 <div data-index="1" markdown="1" class="indent">
+
 Of course not.<br/>
 Yet by trusting the voice of the Holy Spirit,<br/>
 and by moving in the direction<br/>
@@ -286,6 +279,7 @@ trust is the issue.
 “But how do I know what is *really* the voice of Spirit, and not just more subtle ego stuff?"
 
 <div data-index="1" markdown="1" class="indent">
+
 When you release all thought of what<br/>
 your good is,<br/>
 when you release all thought<br/>
@@ -367,10 +361,8 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 That does it. Often during this experience with Jeshua, I have had the
 idea of scheduling a session with Jonah, who is the only person -
@@ -396,17 +388,14 @@ thought I was past that fear of sharing this information. But it strikes
 me as so radical - it demands change at fundamental levels, and in ways
 I do not yet understand. How, then, can I share it?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  June 6, 1988
-</p>
-{: .omit}
+June 6, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 As you rest,<br/>
@@ -470,15 +459,11 @@ that has a clear message. If I do not hear from Jonah in two weeks, I
 will have fuel to discredit all of this! And now one question occurs:
 What if I do receive the tape?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  June 18, 1988
-</p>
-{: .omit}
+June 18, 1988
+{: .date.omit}
 
 Turning off Tacoma Avenue, I drive down the hill, feasting my gaze on
 the harbor below. As always, a feeling of simple joy begins to settle
@@ -610,17 +595,14 @@ argue against. No resistance to what I feel, or what I experience. The
 words reverberate continually in my mind, resonating like an echo
 without end: “Truth Giver, Truth Giver, Truth Giver...”
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  July 19, 1988
-</p>
-{: .omit}
+July 19, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Beloved brethren,<br/>
@@ -723,17 +705,14 @@ Amen.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
-<p class="date">
-  July 21, 1988
-</p>
-{: .omit}
+July 21, 1988
+{: .date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 Again, I come forth to you<br/>

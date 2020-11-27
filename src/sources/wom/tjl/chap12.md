@@ -2,20 +2,16 @@
 title: Twelve
 ---
 
-<div markdown="1" class="chHead">
 Trust, again, is essential.<br/>
 It is also your final lesson<br/>
 in the field of time.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  March 15, 1989
-</p>
-{: .omit}
+March 15, 1989
+{: .break.date.omit}
 
 <span class="capital">“H</span>ow are you doing?” Kendra asks.
 
@@ -52,10 +48,8 @@ tonight.”
 
 With that, the phone call ends, and I descend the stairs to my office.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Closing the door gently, I take a deep breath. Usually I love coming to
 this small room in the home I found so quickly after returning from
@@ -76,6 +70,7 @@ That is when I hear Him. No, first, I feel Him. Strongly.
 More strongly than ever.
 
 <div data-index="1" markdown="1" class="indent">
+
 Hello, My brother.<br/>
 And so we begin to take the next step<br/>
 in an ancient Work shared before.<br/>
@@ -133,6 +128,7 @@ belly, He speaks again:
 My mind, my breath, my body’s movement are all slammed into stillness.
 
 <div data-index="1" markdown="1" class="indent">
+
 My brother,<br/>
 I have chosen you because you first chose Me,<br/>
 long ago.<br/>
@@ -176,10 +172,8 @@ Fear not.
 
 </div>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 His energy fades. I become aware of muffled sounds above. Voices,
 laughter.
@@ -254,10 +248,8 @@ Strangers made of jello. Kendra hands me a letter.
 I take the letter, and watch her leave. Whatever occurred, it has
 clearly struck her.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Everything is still vibrating. If I didn’t know better, I would think I
 just ate several hits of LSD, only its been years since I tried that,
@@ -266,6 +258,7 @@ shortly after my return from Vietnam.
 I open the letter.
 
 <div markdown="1" class="quote">
+
 Dear Marc,
 
 You don’t know me. A friend of yours handed me a manuscript some weeks
@@ -290,6 +283,7 @@ less so. Suddenly, it hits me full force. The sign! I suddenly remember
 His words to me:
 
 <div data-index="1" markdown="1" class="indent">
+
 Soon, there comes a clear sign unto you of the Work
 in which you participate, the Work of the Son’s
 atonement. When you clearly choose the active
@@ -325,6 +319,7 @@ more.
 All things have been made new.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now,<br/>
 it is finished.<br/>
 Already,<br/>

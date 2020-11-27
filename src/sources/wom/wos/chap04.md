@@ -2,10 +2,8 @@
 title: Book Four
 ---
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .center.omit}
 
 <p markdown="1" class="top"><span class="dropcaps">S</span>elf-mastery
 and servantship<br/> are one.<br/> For where one is, the other is
@@ -207,10 +205,8 @@ of the Love with which the Father<br/>
 has restored his precious child<br/>
 to her rightful place.
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .center.omit}
 
 Whenever you are not wholly joyous,<br/>
 it is because you have chosen wrongly.<br/>

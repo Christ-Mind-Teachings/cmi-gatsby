@@ -2,20 +2,16 @@
 title: Ten
 ---
 
-<div markdown="1" class="chHead">
 When the soul chooses to serve God,<br/>
 it serves mystery beyond reproach.<br/>
 It is that which can be trusted completely.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  February 17, 1989
-</p>
-{: .omit}
+February 17, 1989
+{: .break.date.omit}
 
 <span class="capital">T</span>he fire blazes before me as Kendra sits
 down on the couch, handing me a cup of hot spiced wine.

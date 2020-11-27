@@ -2,12 +2,10 @@
 title: Book Two
 ---
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">S</span>*ervantship*<br/>
+<p markdown="1" class="top"><span class="dropcaps">S</span><em>ervantship</em><br/>
 It appears an odd word,<br/>
 yet within it lies the meaning of sacrifice,<br/>
 of Love,<br/>
@@ -35,6 +33,7 @@ and sees that nowhere<br/>
 is there to be found a second.
 
 <div markdown="1" class="indent">
+
 I AM the first-born of my Father,<br/>
 standing before all things. <br/>
 Moving not,<br/>
@@ -162,10 +161,8 @@ What, then,<br/>
 would you cling<br/>
 so tightly unto?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Servantship<br/>
 is that which arises<br/>
@@ -310,10 +307,8 @@ but by Grace...<br/>
 the simple correction<br/>
 of one mistaken perception.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 Who, then,
 is the servant?<br/>
@@ -355,10 +350,12 @@ he considers not limitation,<br/>
 for he sees with certainty that:
 
 <div markdown="1" class="indent">
+
 The works I do<br/>
 you also shall do,<br/>
 and greater works than these<br/>
 shall you do.
+
 </div>
 
 He knows simply<br/>
@@ -386,12 +383,14 @@ who has journeyed to a distant land,<br/>
 for his master had commanded him:
 
 <div markdown="1" class="indent">
+
 Go, and share with all<br/>
 who have ears to hear<br/>
 and eyes to see.
 
 Give to them of my abundance,<br/>
 and give freely.
+
 </div>
 
 Now,<br/>
@@ -426,7 +425,9 @@ that she could hear not<br/>
 the judgments of the small-minded.
 
 <div markdown="1" class="indent">
+
 Will you choose to have ears to hear?
+
 </div>
 
 The servant<br/>
@@ -564,10 +565,8 @@ As it was in the beginning,<br/>
 is now,<br/>
 and forever shall be.<br/>
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 What, then,<br/>
 can the qualities<br/>

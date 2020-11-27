@@ -2,10 +2,8 @@
 title: After Words
 ---
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 ---
 

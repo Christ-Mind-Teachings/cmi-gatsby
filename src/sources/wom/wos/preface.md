@@ -43,10 +43,8 @@ not be heeded.*
 I am distracted. The mosquitoes have won. Sighing, I rise from the rock,
 dress, and return to camp...
 
-<div markdown="1">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 One of the reasons I love Hawaii so much is this moment. The sun has
 long since set, replaced by a bright, full moon. It illuminates trees
@@ -60,20 +58,11 @@ break in our communication. This simple fact is a gentle reminder that
 time is somehow not quite what I have learned it is. As He speaks, I see
 it, the title:
 
-<!-- <p markdown="1" class="center omit">
-__The Way of the Servant__ <br/>
-*Living the Light of Christ* <br/>
-“For the first shall be last, and the last, first.”
-</p> -->
+<p markdown="1" class="omit center"><b>The Way of the Servant</b></p>
 
-<p markdown="1" class="center">__The Way of the Servant__</p>
-{: .omit}
+<p markdown="1" class="omit center"><em>Living the Light of Christ</em></p>
 
-<p markdown="1" class="center">*Living the Light of Christ*</p>
-{: .omit}
-
-<p markdown="1" class="center">“For the first shall be last, and the last, first.”</p>
-{: .omit}
+<p markdown="1" class="omit center">“For the first shall be last, and the last, first.”</p>
 
 *This teaching was not intended for the use it has been given by those
 who would find in me justification for the judgment of their brothers

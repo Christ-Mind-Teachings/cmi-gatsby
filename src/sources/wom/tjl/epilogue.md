@@ -100,6 +100,7 @@ accepted. His gospel is both extraordinary, and utterly simple, simply
 because only Truth, really ever is. And it is this:
 
 <div markdown="1" class="indent">
+
 The Son is one, without a second.<br/>
 You (all of us) are as I AM.<br/>
 Only God IS.

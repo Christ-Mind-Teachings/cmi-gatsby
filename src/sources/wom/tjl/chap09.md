@@ -2,18 +2,14 @@
 title: Nine
 ---
 
-<div markdown="1" class="chHead">
 There is no effort in the Kingdom.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  February 10, 1989
-</p>
-{: .omit}
+February 10, 1989
+{: .break.date.omit}
 
 <span class="capital">“T</span>here. It’s finished.” I mutter under my
 breath, as I save the draft for *The Jeshua Letters* in a file, some
@@ -47,6 +43,7 @@ rightness, and I trust that completely…I think!
 Some things He has said recently keep stirring within me:
 
 <div data-index="1" markdown="1" class="indent">
+
 Choose then, only to release your useless dream, and<br/>
 be born again into the experience of the Kingdom.<br/>
 This choice gives birth to a process of recognition that<br/>
@@ -76,10 +73,8 @@ of separation - rooted in fear - I once fully identified as my self?
 How can I ever hope to discover what this mystery means, unless I fully
 submit to the way of love Jeshua reveals, and to which he has called us?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 I rise from my chair, and shake off the stiffness in my legs as I roam
 to the kitchen for a cup of tea. While the water races to boiling, I
@@ -121,6 +116,7 @@ with much to learn.
 And what about His cryptic statement:
 
 <div markdown="1" class="indent">
+
 Soon, there comes a clear sign unto you of the Work<br/>
 in which you participate, the Work of the Son’s<br/>
 atonement. When you clearly choose the active<br/>
@@ -137,6 +133,7 @@ I pull up the file again and find myself drawn to words I know I feel a
 deep resistance to:
 
 <div data-index="1" markdown="1" class="indent">
+
 There is no effort experienced in the Kingdom. There<br/>
 is only a manifestation of the Father’s will through<br/>
 you; a demonstration that touches the sleeping Son<br/>
@@ -177,10 +174,8 @@ comforting somehow. I surrender into this darkness, rather than fighting
 it. And touch for a moment, even as the flow continues, a hint of peace,
 of real peace.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .chHead.omit}
 
 The early morning clanging of garbage cans wakens me. I don’t know when
 I fell asleep, or whether the tears stopped before sleep, or because of

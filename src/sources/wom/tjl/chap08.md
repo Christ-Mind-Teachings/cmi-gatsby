@@ -2,21 +2,17 @@
 title: Eight
 ---
 
-<div markdown="1" class="chHead">
 When you release your dream -<br/>
 which is wholly insane -<br/>
 the Reality of who you are<br/>
 will alone remain.
-{: .omit}
+{: .chHead.omit}
 
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .chHead.omit}
 
-<p class="break date">
-  December 16, 1988
-</p>
-{: .omit}
+December 16, 1988
+{: .break.date.omit}
 
 <span class="capital">T</span>here have been times during the past
 several months when I have felt very clear about not only this book, but
@@ -134,10 +130,8 @@ button, and how do I push it? How do I change channels? How do I finally
 and irrevocably release the package labeled “Dream”? Am I sure I want
 to?
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 <p class="indent">Marc, arise and write, please.</p>
 
@@ -177,6 +171,7 @@ bathroom I lift my eyes upward, muttering under my breath, “Boy, you
 guys will stop at nothing, will you?”
 
 <div data-index="1" markdown="1" class="indent">
+
 Now, we begin.
 
 You are losing the battle, Marc.<br/>

@@ -2,16 +2,14 @@
 title: Book Three
 ---
 
-<div markdown="1" class="center">
-![line]({{page.line2}})
-{: .omit}
-</div>
+![line](./line2.jpg)
+{: .center.omit}
 
 <p markdown="1" class="top"><span class="dropcaps">H</span>e who looks upon me<br/>
-and truly *sees* me<br/>
+and truly <em>sees</em> me<br/>
 has learned<br/>
 to look upon himself<br/>
-*as our Father knows him.*</p>
+<em>as our Father knows him.</em></p>
 
 She who sees me,<br/>
 thus has she seen<br/>
@@ -23,7 +21,7 @@ to proclaim but this:
 <p markdown="1" class="indent">Love alone is Real.<br/>
 God is but Love.<br/>
 Therefore,<br/>
-God __is__.</p>
+God <b>is</b>.</p>
 
 Herein lies the meaning of my words,<br/>
 read often,<br/>
@@ -414,10 +412,8 @@ in the entire Sonship.<br/>
 This are they certain of,<br/>
 and our voices *are* raised as one.
 
-<div markdown="1" class="center">
-![line]({{page.line4}})
-{: .omit}
-</div>
+![line](./line4.jpg)
+{: .center.omit}
 
 All things perceived<br/>
 arise only within the mind.<br/>
@@ -639,5 +635,5 @@ and *the ego* remains enthroned.
 
 Again I ask of you:
 
-<p markdown="1" class="indent">What do you __want__, truly?</p>
+<p markdown="1" class="indent">What do you <b>want</b>, truly?</p>
 

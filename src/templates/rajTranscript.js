@@ -21,6 +21,7 @@ export const pageQuery = graphql`
     }
     book: rajContentsJson(bookId: { eq: $book }) {
       title
+      bookId
       image
       toc {
         title

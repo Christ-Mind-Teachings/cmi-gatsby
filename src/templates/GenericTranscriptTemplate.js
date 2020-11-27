@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Helmet } from 'react-helmet';
 import { Container, Header } from 'semantic-ui-react';
@@ -105,10 +105,15 @@ export function GenericTranscriptTemplate({ location, data }) {
   const [prev, setPrev] = useState({});
   const [next, setNext] = useState({});
 
+  const transcriptRef = useRef(null);
+
   useEffect(() => {
     const { next = {}, prev = {} } = findIndex(book.toc, unit.url, []);
     setPrev(prev);
     setNext(next);
+
+    // add bookId as a class to transcript-content
+    transcriptRef.current.classList.add(`${book.bookId}`, `${source.sourceId}`);
   }, []);
 
   return (
@@ -126,7 +131,7 @@ export function GenericTranscriptTemplate({ location, data }) {
             prev={prev}
             timing={timing}
           />
-          <div className="transcript-content">
+          <div className="transcript-content" ref={transcriptRef}>
             <div dangerouslySetInnerHTML={{ __html: content.html }} />
           </div>
           {searchPid && (
