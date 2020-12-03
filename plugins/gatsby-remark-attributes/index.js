@@ -15,86 +15,103 @@
  * the directive, ie {: .omit} and mode = "cmi" and className = "omit"
  */
 const visit = require('unist-util-visit');
-const toString = require('mdast-util-to-string');
 
-/*
- * Mode = "cmi", assign paragraph number as id to all paragraphs
- * that don't include className.
- */
-function updateParagraph(options, node, classes = '', id = '', para) {
-  const { mode = '', className = '' } = options;
-  let span = '';
-
-  if (mode === 'cmi') {
-    if (!classes.includes(className)) {
-      // add pid and .cmiTranPara, ignore id passed into function
-      id = `p${++pNum}`;
-      span = '<span class="special"></span>';
-      if (classes === '') {
-        classes = 'cmiTranPara';
-      } else {
-        classes = `cmiTranPara ${classes}`;
-      }
-    }
-  }
-
-  if (classes === '' && id === '') {
-    return;
-  }
-
-  // build attribute list and add to paragraph
-  let attrList = '';
-
-  attrList = `${classes !== '' ? `class='${classes}'` : ''}`;
-  attrList = `${attrList}${id !== '' ? ` id='${id}'` : ''}`;
-  para = `<p ${attrList}>${span}${para} </p>`;
-
-  node.type = 'html';
-  node.children = undefined;
-  node.value = para;
-}
-
-let pNum;
-let id = '';
+let pid;
+let uuid = '';
 
 module.exports = ({ markdownAST, markdownNode }, options) => {
-  if (markdownNode.id !== id) {
-    id = markdownNode.id;
-    pNum = 0;
+  // reset pNum each time we process a new md file
+  if (markdownNode.id !== uuid) {
+    uuid = markdownNode.id;
+    pid = 1;
   }
-
   visit(markdownAST, 'paragraph', (node) => {
-    let para = toString(node);
-    let id = '';
-    let classes = '';
-
-    const pattern = /{:(.*)}/g;
-    const matches = para.matchAll(pattern);
-    const matchesArray = [...matches];
-
-    // iterate over the capture group and get classes and id
-    for (const match of matchesArray) {
-      // remove matched pattern
-      para = para.replace(match[0], '');
-
-      // get attributes from group
-      const attributes = match[1].matchAll(/([.#]\w+)/g);
-
-      // gather attributes into classes and id
-      for (const attr of attributes) {
-        if (attr[1][0] === '.') {
-          if (classes === '') {
-            classes = `${attr[1].substring(1)}`;
-          } else {
-            classes = `${classes} ${attr[1].substring(1)}`;
+    const lastChild = node.children[node.children.length - 1];
+    if (lastChild && lastChild.type === 'text') {
+      let string = lastChild.value.replace(/ +$/, '');
+      const matched = string.match(/{:(.*)}$/);
+      let classes = '';
+      let id = '';
+      if (matched) {
+        const spec = matched[1];
+        if (spec.length) {
+          if (!node.data) {
+            node.data = {};
           }
-        } else if (attr[1][0] === '#') {
-          id = attr[1].substring(1);
+          if (!node.data.hProperties) {
+            node.data.hProperties = {};
+          }
+
+          const attributes = spec.matchAll(/([.#]\w+)/g);
+          for (const attr of attributes) {
+            if (attr[1][0] === '.') {
+              if (classes === '') {
+                classes = `${attr[1].substring(1)}`;
+              } else {
+                classes = `${classes} ${attr[1].substring(1)}`;
+              }
+            } else if (attr[1][0] === '#') {
+              id = attr[1].substring(1);
+            }
+          }
+
+          if (id.length > 0) {
+            node.data.hProperties.id = id;
+            node.data.id = id;
+          }
+
+          if (classes.length > 0) {
+            node.data.hProperties.className = classes;
+            node.data.className = classes;
+          }
+
+          string = string.substring(0, matched.index);
+          lastChild.value = string;
+        }
+      }
+
+      // number all paragraphs sequentially starting with 1 and assign
+      // the number as the id unless options.className is specified
+      // in {: .class} directive
+      if (options.mode === 'cmi') {
+        if (options.className) {
+          if (!node.data) {
+            node.data = {};
+          }
+          if (!node.data.hProperties) {
+            node.data.hProperties = {};
+          }
+          if (
+            !node.data.className ||
+            !node.data.className.includes(options.className)
+          ) {
+            // add sequential id
+            node.data.hProperties.id = `p${pid}`;
+            node.data.id = `p${pid}`;
+            pid += 1;
+
+            // add class 'cmiTranPara'
+            const classList = node.data.className
+              ? `cmiTranPara ${node.data.className}`
+              : 'cmiTranPara';
+
+            node.data.className = classList;
+            node.data.hProperties.className = classList;
+
+            // add <span> as the first item in children[]
+            const span = {
+              type: 'emphasis',
+              data: {
+                hName: 'span',
+                hProperties: { className: 'special' },
+              },
+            };
+
+            node.children.unshift(span);
+          }
         }
       }
     }
-    // potentially update paragraph
-    updateParagraph(options, node, classes, id, para);
   });
 
   return markdownAST;

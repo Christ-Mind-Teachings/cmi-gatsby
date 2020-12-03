@@ -104,8 +104,22 @@ export function GenericTranscriptTemplate({ location, data }) {
 
   const [prev, setPrev] = useState({});
   const [next, setNext] = useState({});
-
   const transcriptRef = useRef(null);
+
+  useEffect(() => {
+    console.log('pageKey: %s', unit.key);
+    if (!location.search) return;
+
+    const searchParms = new URLSearchParams(location.search);
+
+    // annotation share
+    const as = searchParms.get('as');
+
+    if (!as) return;
+
+    const asParts = as.split(':');
+    console.log('asParts: %o', asParts);
+  }, []);
 
   useEffect(() => {
     const { next = {}, prev = {} } = findIndex(book.toc, unit.url, []);

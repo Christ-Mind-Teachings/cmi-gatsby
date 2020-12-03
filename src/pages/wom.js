@@ -3,6 +3,7 @@ import { Header, Card, Image } from 'semantic-ui-react';
 import PageLayout from '../components/PageLayout';
 import ContentsModal from '../components/ContentsModal';
 import womContents from '../data/wom/womContents.json';
+import QuoteModal from '../components/QuoteModal';
 import woh from '../assets/images/wom/woh-big.jpg';
 import wot from '../assets/images/wom/wot-big.jpg';
 import wok from '../assets/images/wom/wok-big.jpg';
@@ -15,6 +16,7 @@ const sourceInfo = { sourceId: 'wom', title: 'The Way of Mastery' };
 export default function WomPage(props) {
   const [book, setBook] = useState();
   const [contentsOpen, setContentsOpen] = useState(false);
+  const [showQuote, setShowQuote] = useState(false);
 
   function cardClick(e, obj) {
     console.log('card clicked: %s', obj.name);
@@ -39,6 +41,9 @@ export default function WomPage(props) {
         material and effective exercises the Way of Mastery is a practical and
         down to earth guide to transformation.
       </p>
+      <button type="button" onClick={() => setShowQuote(true)}>
+        Get Random Quote
+      </button>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="woh" onClick={cardClick}>
           <Image src={woh} size="medium" wrapped ui={false} />
@@ -77,6 +82,13 @@ export default function WomPage(props) {
           </Card.Content>
         </Card>
       </Card.Group>
+      <QuoteModal
+        showQuote={showQuote}
+        setShowQuote={setShowQuote}
+        sid="10"
+        userId="05399539cca9ac38db6db36f5c770ff1"
+        header="The Way of Mastery"
+      />
       {book && (
         <ContentsModal
           open={contentsOpen}

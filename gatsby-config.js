@@ -30,7 +30,6 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-numbered-footnotes',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -44,6 +43,7 @@ module.exports = {
               className: 'omit',
             },
           },
+          'gatsby-remark-numbered-footnotes',
         ],
       },
     },

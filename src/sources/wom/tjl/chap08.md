@@ -396,6 +396,7 @@ For this moment of eternity, gone the Dream.
 Tomorrow I will start writing.
 
 <div data-index="1" markdown="1" class="indent">
+
 Now,<br/>
 it is finished.<br/>
 Already,<br/>

@@ -24,6 +24,20 @@ const AudioPlayerStyle = styled.div`
   height: 3rem;
   padding: 5px;
 
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 auto;
+  }
+
+  .first-buffer {
+    flex: 1 1 auto;
+  }
+
+  .last-buffer {
+    flex: 1 1 auto;
+  }
+
   a {
     color: inherit;
   }
@@ -42,6 +56,7 @@ const AudioPlayerStyle = styled.div`
 export default function AudioPlayer({ open, timing, src }) {
   const ref = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isEnded, setIsEnded] = useState(false);
   const [mediaTime, setMediaTime] = useState(0);
   const [duration, setDuration] = useState(0);
 
@@ -123,63 +138,42 @@ export default function AudioPlayer({ open, timing, src }) {
         src={src}
         onLoadedMetadata={onLoadedMetadata}
         onTimeUpdate={onTimeUpdate}
-        onPlay={() => setIsPlaying(true)}
+        onPlay={() => {
+          setIsPlaying(true);
+          isEnded ? setIsEnded(false) : null;
+        }}
         onPause={() => setIsPlaying(false)}
+        onEnded={() => setIsEnded(true)}
       />
       <AudioPlayerStyle
         style={open ? null : { display: 'none' }}
         className="audio-player"
       >
         <div className="first-buffer" />
-        <a href="/" onClick={togglePlaying}>
-          <Icon name={isPlaying ? 'pause' : 'play'} />
-        </a>
-        <a href="/" onClick={(e) => adjustPosition(e, 'backward')}>
-          <Icon name="backward" />
-        </a>
-        <div>
-          {formatTime(mediaTime)} / {formatTime(duration)}
-        </div>
-        <a href="/" onClick={(e) => adjustPosition(e, 'forward')}>
-          <Icon name="forward" />
-        </a>
-        <div className="custom-select">
-          <select defaultValue="1" onChange={setSpeed}>
-            <option value="1">1.00x</option>
-            <option value="1.25">1.25x</option>
-            <option value="1.5">1.50x</option>
-            <option value="2">2.00x</option>
-          </select>
+        <div className="controls">
+          <a href="/" onClick={togglePlaying}>
+            <Icon name={isPlaying ? 'pause' : isEnded ? 'repeat' : 'play'} />
+          </a>
+          <a href="/" onClick={(e) => adjustPosition(e, 'backward')}>
+            <Icon name="backward" />
+          </a>
+          <div>
+            {formatTime(mediaTime)} / {formatTime(duration)}
+          </div>
+          <a href="/" onClick={(e) => adjustPosition(e, 'forward')}>
+            <Icon name="forward" />
+          </a>
+          <div className="custom-select">
+            <select defaultValue="1" onChange={setSpeed}>
+              <option value="1">1.00x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.50x</option>
+              <option value="2">2.00x</option>
+            </select>
+          </div>
         </div>
         <div className="last-buffer" />
       </AudioPlayerStyle>
     </AudioWrapperStyle>
   );
 }
-
-/*
-      <div>
-        <button type="button" onClick={togglePlaying}>
-          {isPlaying ? 'Pause' : 'Play'}
-        </button>
-        <span>elapsed time {mediaTime}</span>
-        <span>total duration {duration}</span>
-
-        <label htmlFor="scrubber">scrubber</label>
-        <input
-          type="range"
-          id="scrubber"
-          value={mediaTime}
-          min={0}
-          max={duration}
-          onChange={onScrubberChange}
-          aria-valuetext={`${mediaTime} seconds`}
-        />
-        <button type="button" onClick={onRewind}>
-          rewind 5 seconds
-        </button>
-        <button type="button" onClick={onFastForward}>
-          fast-forward 5 seconds
-        </button>
-      </div>
-      */

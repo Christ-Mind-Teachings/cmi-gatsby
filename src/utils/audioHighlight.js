@@ -1,30 +1,30 @@
+/*
+ * https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+ */
 import { formatTime, incrementLocation } from './cmiUtils';
 
 let idx = -1; // current index into timing array
 let pidx = -1;
 let audioRef;
-let duration = -1;
 let timingData = [];
 let audioPlayerOpen = false;
+let seeking = false;
 
 // round audio timing data to two decimal places
 function round(time) {
   return Math.round(time * 100) / 100;
 }
 
-function audioLog() {
-  console.log({
-    idx,
-    pid: timingData[idx].id,
-    seconds: timingData[idx].seconds,
-    currentTime: audioRef.current.currentTime,
-  });
-}
-
-function manageHighlight() {
-  // if pidx !== -1 remove previous highlight and show playFromHere icon
-  if (pidx !== -1) {
-    const el = document.getElementById(timingData[pidx].id);
+function removeHighlight(pos) {
+  if (pos > -1) {
+    const el = document.getElementById(timingData[pos].id);
+    if (!el) {
+      console.log(
+        'removeHighlight: paragraph %s not found',
+        timingData[pos].id
+      );
+      return;
+    }
     el.classList.remove('audio-highlight');
 
     // do this only when audio player is open
@@ -32,11 +32,22 @@ function manageHighlight() {
       el.querySelector('.special > i').classList.remove('cmi-hidden');
     }
   }
+}
+
+function manageHighlight() {
+  // remove previous highlight
+  removeHighlight(pidx);
 
   // highlight current paragraph and hide playFromHere icon
   if (idx !== -1) {
-    audioLog();
     const el = document.getElementById(timingData[idx].id);
+    if (!el) {
+      console.log(
+        'manageHighlight: paragraph %s not found',
+        timingData[idx].id
+      );
+      return;
+    }
     el.classList.add('audio-highlight');
     el.querySelector('.special > i').classList.add('cmi-hidden');
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -96,16 +107,24 @@ function playFromHereListener(e) {
   const index = timingData.findIndex((i) => i.id === pid);
   if (index > -1) {
     audioRef.current.currentTime = timingData[index].seconds;
+    pidx = idx;
+    idx = -1;
+
+    if (audioRef.current.paused) {
+      audioRef.current.play();
+    }
   }
 }
 
 function initializePlayFromHere() {
   // add 'play' icon to all p.cmiTranPara elements
-  document
-    .querySelectorAll('.cmiTranPara > span.special')
-    .forEach(
-      (e) => (e.innerHTML = '<i class="cmi-hidden play circle icon"></i>')
-    );
+  document.querySelectorAll('.cmiTranPara > span.special').forEach((e) => {
+    const parent = e.closest('.footnotes');
+    // don't add icon to footnotes
+    if (!parent) {
+      e.innerHTML = '<i class="cmi-hidden play circle icon"></i>';
+    }
+  });
   // add eventlistener for click on play icon to change playback position
   document
     .querySelector('.transcript-content')
@@ -156,31 +175,21 @@ function initialize(timing, ref) {
 
   initializePlayFromHere();
 
+  ref.current.addEventListener('seeking', (e) => {
+    seeking = true;
+  });
+
   ref.current.addEventListener('seeked', (e) => {
+    seeking = false;
     pidx = idx;
     idx = -1;
   });
 
   ref.current.addEventListener('ended', (e) => {
-    pidx = idx;
-    manageHighlight();
+    // remove highlight on last paragraph
+    removeHighlight(idx);
     idx = -1;
     pidx = -1;
-  });
-
-  ref.current.addEventListener('durationchange', (e) => {
-    const newDuration = ref.current.duration;
-    console.log(
-      'duration changed, current: %s/%s',
-      duration,
-      formatTime(duration)
-    );
-    console.log(
-      'duration changed, new: %s/%s',
-      newDuration,
-      formatTime(newDuration)
-    );
-    duration = newDuration;
   });
 }
 

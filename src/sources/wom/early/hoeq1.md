@@ -34,9 +34,8 @@ So we will pause, while you allow the question to be birthed.
 
 You almost had it.
 
-<div markdown="1" class="well person">
 How can I discern Love&rsquo;s questions from fear&rsquo;s questions?
-</div> 
+{: .well.person}
 
 It is actually very simple. Love&rsquo;s questions literally create
 within the physical body a sense of joy. It may be subtle. A sense of

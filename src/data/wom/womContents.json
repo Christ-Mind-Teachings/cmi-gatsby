@@ -3,7 +3,7 @@
     "title": "The Jeshua Letters",
     "image": "/assets/img/wom/tjl-toc.jpg",
     "bookId": "tjl",
-    "bid": "01",
+    "bid": "1",
     "toc": [
       {
         "title": "Acknowledgements",
@@ -71,7 +71,7 @@
     "title": "The Way of the Servant",
     "image": "/assets/img/wom/wos-toc.jpg",
     "bookId": "wos",
-    "bid": "02",
+    "bid": "2",
     "toc": [
       {
         "title": "Foreword",
@@ -115,7 +115,7 @@
     "title": "The Early Years",
     "image": "/assets/img/wom/early-toc.jpg",
     "bookId": "early",
-    "bid": "03",
+    "bid": "3",
     "toc": [
       {
         "title": "The Blessing of Forgiveness",
@@ -339,7 +339,7 @@
     "title": "The Way of the Heart",
     "image": "/assets/img/wom/woh-toc.jpg",
     "bookId": "woh",
-    "bid": "04",
+    "bid": "4",
     "toc": [
       {
         "url": "/wom/woh/l01",
@@ -514,7 +514,7 @@
     "title": "The Way of Transformation",
     "image": "/assets/img/wom/wot-toc.jpg",
     "bookId": "wot",
-    "bid": "05",
+    "bid": "5",
     "toc": [
       {
         "title": "Lesson One",
@@ -628,7 +628,7 @@
     "title": "The Way of Knowing",
     "image": "/assets/img/wom/wok-toc.jpg",
     "bookId": "wok",
-    "bid": "06",
+    "bid": "6",
     "toc": [
       {
         "title": "Lesson One",

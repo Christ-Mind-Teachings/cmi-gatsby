@@ -16,7 +16,7 @@ export const pageQuery = graphql`
     unit: womPagesJson(url: { eq: $slug }) {
       audio
       title
-      uid
+      key
       url
       timing
     }
