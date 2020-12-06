@@ -16,6 +16,7 @@ import formatSearchResults from '../utils/search/format';
 import useLocalStorage from '../utils/useLocalStorage';
 import { SearchContext } from './SearchContext';
 import { incrementLocation } from '../utils/cmiUtils';
+import { runSearchQuery } from '../utils/cmiApi';
 
 /**
  * Generate list of matches by book
@@ -118,25 +119,12 @@ export default function SearchModal({ source, open, setOpen }) {
 
   useEffect(() => {
     if (query === '') return;
-    setLoading(true);
-    fetch(
-      'https://x5rigstpd2.execute-api.us-east-1.amazonaws.com/latest/search',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query,
-          source: source.sourceId,
-        }),
-      }
-    )
-      .then((resp) => resp.json())
-      .then((queryResult) => {
-        console.log('query result: %o', queryResult);
+
+    async function runQuery() {
+      try {
+        setLoading(true);
+        const queryResult = await runSearchQuery(query, source.sourceId);
         const results = formatSearchResults(queryResult);
-        setLoading(false);
 
         if (results.count > 0) {
           setSearchState({
@@ -152,7 +140,15 @@ export default function SearchModal({ source, open, setOpen }) {
             message: `Search for "${results.query}" found no matches`,
           });
         }
-      });
+      } catch (error) {
+        // TODO: notify user of error
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    runQuery();
   }, [query, source.sourceId]);
 
   return (
@@ -167,7 +163,7 @@ export default function SearchModal({ source, open, setOpen }) {
         <br />
         <Link to="/">See Search Documentation</Link>
       </Modal.Header>
-      <Modal.Content scrolling image>
+      <Modal.Content image>
         <Image size="small" src="/assets/img/cmi/search_modal.png" wrapped />
         <Modal.Description>
           <Container>

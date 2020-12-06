@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Helmet } from 'react-helmet';
-import { Container, Header } from 'semantic-ui-react';
+import { Icon, Header, Container, Dimmer } from 'semantic-ui-react';
 import styled from 'styled-components';
 import TranscriptNav from '../components/TranscriptNav';
 import TranscriptHeader from '../components/TranscriptHeader';
@@ -10,6 +10,7 @@ import GlobalStyles from '../styles/GlobalStyles';
 import { SearchContext } from '../components/SearchContext';
 
 import 'react-toastify/dist/ReactToastify.css';
+import { displaySharedBookmark } from '../utils/cmiUtils';
 
 const StyledContainer = styled(Container)``;
 
@@ -101,24 +102,32 @@ export function GenericTranscriptTemplate({ location, data }) {
   const [searchPid, setSearchPid] = useState(
     location.state && location.state.search ? location.state.search : null
   );
+  const [loading, setLoading] = useState(false);
 
   const [prev, setPrev] = useState({});
   const [next, setNext] = useState({});
   const transcriptRef = useRef(null);
 
   useEffect(() => {
-    console.log('pageKey: %s', unit.key);
     if (!location.search) return;
 
     const searchParms = new URLSearchParams(location.search);
 
     // annotation share
     const as = searchParms.get('as');
-
     if (!as) return;
 
+    // remove query string from url
+    // window.history.replaceState({}, document.title, location.pathname);
+
     const asParts = as.split(':');
-    console.log('asParts: %o', asParts);
+    const keyInfo = {
+      pid: asParts[0],
+      creationDate: asParts[1],
+      userId: asParts[2],
+      key: unit.key,
+    };
+    displaySharedBookmark(keyInfo, setLoading);
   }, []);
 
   useEffect(() => {
@@ -158,6 +167,12 @@ export function GenericTranscriptTemplate({ location, data }) {
         </SearchContext.Provider>
       </StyledContainer>
       <ToastContainer />
+      <Dimmer active={loading} page onClickOutside={() => setLoading(false)}>
+        <Header as="h2" icon inverted>
+          <Icon loading name="cogs" />
+          Hold on a sec...
+        </Header>
+      </Dimmer>
     </>
   );
 }

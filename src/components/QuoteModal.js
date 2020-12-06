@@ -14,6 +14,7 @@ import lightGreyTerrazzo from '../assets/images/cmi/quotes/light-grey-terrazzo.p
 import powStar from '../assets/images/cmi/quotes/pow-star.png';
 import repeatedSquare from '../assets/images/cmi/quotes/repeated-square.png';
 import triangleMosaic from '../assets/images/cmi/quotes/triangle-mosaic.png';
+import { getQuote, getQuoteKeys } from '../utils/cmiApi';
 
 const StyledModal = styled(Modal)`
   &.ui.modal {
@@ -157,6 +158,7 @@ export default function Quotes(props) {
   const [fetchKey, setFetchKey] = useState();
   const [open, setOpen] = useState(false);
   const [background, setBackground] = useState(null);
+
   const quoteIds = useRef([]);
   const usedIds = useRef([]);
   const quotes = useRef([]);
@@ -168,7 +170,17 @@ export default function Quotes(props) {
     quoteIds.current.splice(idx, 1);
   }
 
-  function getQuote() {
+  /*
+   * Set the current quote and background at the same time to prevent
+   * a separate render for each.
+   */
+  function displayQuote(quote) {
+    const classIdx = _getRandomInt(quoteBackgrounds.length);
+    setCurrentQuote(quote);
+    setBackground(quoteBackgrounds[classIdx]);
+  }
+
+  function getNextQuote() {
     if (quoteIds.current.length === 0) {
       if (usedIds.current.length === 0) {
         // we have no quotes
@@ -181,58 +193,60 @@ export default function Quotes(props) {
       }
       quoteIds.current = usedIds.current;
     }
-    const classIdx = _getRandomInt(quoteBackgrounds.length);
+    // const classIdx = _getRandomInt(quoteBackgrounds.length);
     const idx = _getRandomInt(quoteIds.current.length);
     const key = quoteIds.current[idx];
 
     if (quotes.current[key]) {
       markAsUsed(idx);
-      setCurrentQuote(quotes.current[key]);
+      // setCurrentQuote(quotes.current[key]);
+      displayQuote(quotes.current[key]);
     } else {
       setFetchKey(key);
       markAsUsed(idx);
     }
 
-    // set quote background
-    setBackground(quoteBackgrounds[classIdx]);
+    // setBackground(quoteBackgrounds[classIdx]);
   }
 
   // show a quote
   useEffect(() => {
     if (!showQuote) return;
-    getQuote();
+    getNextQuote();
     setOpen(true);
     setShowQuote(false);
   }, [showQuote]);
 
   // query quoteIds for source
   useEffect(() => {
-    const url = `https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest/quoteKeys/${userId}/${sid}`;
-
-    fetch(url)
-      .then((resp) => resp.json())
-      .then((data) => {
-        // console.log('quoteIds: %o', data);
-        quoteIds.current = data.keys;
-      });
+    async function getQuoteIdentifiers() {
+      try {
+        const keys = await getQuoteKeys(sid, userId);
+        quoteIds.current = keys;
+      } catch (error) {
+        // TODO: notify user of error
+        console.error(error);
+      }
+    }
+    getQuoteIdentifiers();
   }, [userId, sid]);
 
   // fetch a specific quote and display it
   useEffect(() => {
+    async function fetchQuote(uid, pk, cd) {
+      try {
+        const quote = await getQuote(uid, pk, cd);
+        displayQuote(quote);
+      } catch (error) {
+        // TODO: notify user of error
+        console.error(error);
+      }
+    }
+
     if (!fetchKey) return;
 
     const [paraKey, creationDate] = fetchKey.split(':');
-    const url = `https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest/quote/${userId}/${paraKey}/${creationDate}`;
-
-    fetch(url)
-      .then((resp) => resp.json())
-      .then((quote) => {
-        // fix url to remove '/t' as used by CMI Jekyll
-        quote.quote.url = quote.quote.url.substring(2);
-        console.log('quote: %o', quote.quote);
-        quotes.current[fetchKey] = quote.quote;
-        setCurrentQuote(quote.quote);
-      });
+    fetchQuote(userId, paraKey, creationDate);
   }, [fetchKey]);
 
   return (
@@ -249,12 +263,13 @@ export default function Quotes(props) {
       </Modal.Header>
       <Modal.Content id="quote-modal-content" className={background}>
         <blockquote style={cssQuotes}>
-          {/* <p>{currentQuote.quote}</p> */}
           <p dangerouslySetInnerHTML={{ __html: currentQuote.quote }} />
           <footer>
-            <Link to={currentQuote.url} title="Read quote from the source.">
-              ~ {currentQuote.citation}
-            </Link>
+            {currentQuote.url && (
+              <Link to={currentQuote.url} title="Read quote from the source.">
+                ~ {currentQuote.citation}
+              </Link>
+            )}
           </footer>
         </blockquote>
       </Modal.Content>

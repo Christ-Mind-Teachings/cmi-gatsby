@@ -101,7 +101,7 @@ function adjustPlayback(direction) {
  * set the audio currentTime accordingly.
  */
 function playFromHereListener(e) {
-  const pid = e.target.parentElement.parentElement.id;
+  const pid = e.target?.parentElement?.parentElement?.id;
   if (!pid) return;
 
   const index = timingData.findIndex((i) => i.id === pid);

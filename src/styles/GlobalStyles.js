@@ -12,6 +12,11 @@ const GlobalStyles = createGlobalStyle`
     image-rendering: pixelated;
   }
 
+  .ui.segment.as-highlight {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
   .tocStyle .active.item > span {
     cursor: auto;
     background-color: var(--tocActiveItem);
