@@ -11,7 +11,7 @@ import tjl from '../assets/images/wom/tjl-big.jpg';
 import wos from '../assets/images/wom/wos-big.jpg';
 import early from '../assets/images/wom/early-big.jpg';
 
-const sourceInfo = { sourceId: 'wom', title: 'The Way of Mastery' };
+const sourceInfo = { sid: 10, sourceId: 'wom', title: 'The Way of Mastery' };
 
 export default function WomPage(props) {
   const [book, setBook] = useState();
@@ -88,6 +88,7 @@ export default function WomPage(props) {
         sid="10"
         userId="05399539cca9ac38db6db36f5c770ff1"
         header="The Way of Mastery"
+        source={sourceInfo}
       />
       {book && (
         <ContentsModal

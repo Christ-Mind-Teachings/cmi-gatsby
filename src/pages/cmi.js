@@ -1,31 +1,19 @@
-import React, { useContext } from 'react';
-import { Router, Link } from '@reach/router';
+import React, { useContext, useEffect } from 'react';
+import { Router } from '@reach/router';
 import { IdentityContext } from '../components/IdentityContextProvider';
+import { NotAuthorized } from '../components/NotAuthorized';
+import { MailList } from '../cmi/MailList';
+import { Overview } from '../cmi/Overview';
 
 function AccountHolderPage(props) {
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
-
-  // page for authenticated users
-  return (
-    <div>
-      CMI User Dashboard user name "{user && user.user_metadata.full_name}"
-    </div>
-  );
+  return <Overview />;
 }
 
 /*
  * This is rendered for users who are not signed in
  */
 function GuestPage(props) {
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
-
-  // add sign in option
-  return (
-    <div>
-      This is the guest page. You should create an account to have access to
-      cool stuff.
-    </div>
-  );
+  return <NotAuthorized />;
 }
 
 export default function CMI(props) {
@@ -35,12 +23,15 @@ export default function CMI(props) {
     return (
       <Router>
         <GuestPage path="/cmi" />
+        <GuestPage path="/cmi/:any" />
       </Router>
     );
   }
   return (
     <Router>
       <AccountHolderPage path="/cmi" />
+      <MailList path="/cmi/maillist" />
+      <Overview path="/cmi/overview" />
     </Router>
   );
 }

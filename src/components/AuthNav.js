@@ -1,9 +1,13 @@
-import React, { useContext, useEffect, useState } from 'react';
+/*
+ * This is page navigation for pages not requiring authentication.
+ *  Includes: Sign in/out menu item
+ *  Includes: Authenticated page access for signed in users
+ */
+
+import React, { useContext, useState } from 'react';
 import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
-import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
-import AudioPlayer from './AudioPlayer';
 import { IdentityContext } from './IdentityContextProvider';
 
 const menuStyle = {
@@ -28,22 +32,19 @@ function handleItemClick(e, obj) {
   }
 }
 
-export default function TranscriptNav(props) {
+export default function PageNav(props) {
   let activeItem;
 
-  const { timing, source, book, unit, next, prev } = props;
+  const { source } = props;
 
   const [menuFixed, setMenuFixed] = useState(false);
-  const [contentsOpen, setContentsOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
 
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
-  const toggleContentsModal = () => setContentsOpen(!contentsOpen);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
-  const [audioPlayerOpen, setAudioPlayerOpen] = useState(false);
+
+  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
 
   /*
    * If user is signed in logout otherwise sign in
@@ -58,19 +59,6 @@ export default function TranscriptNav(props) {
 
   return (
     <>
-      <ContentsModal
-        open={contentsOpen}
-        setOpen={setContentsOpen}
-        book={book}
-        unit={unit}
-      />
-      {unit?.audio ? (
-        <AudioPlayer
-          timing={timing}
-          src={`${source.audioBaseUrl}${unit.audio}`}
-          open={audioPlayerOpen}
-        />
-      ) : null}
       <SearchModal open={searchOpen} setOpen={setSearchOpen} source={source} />
       <Visibility
         onTopPassed={stickTopMenu}
@@ -85,15 +73,13 @@ export default function TranscriptNav(props) {
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >
           <Container text>
-            {unit?.audio ? (
-              <Menu.Item
-                name="audio"
-                active={activeItem === 'audio'}
-                onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
-              >
-                <Icon name="volume up" />
-              </Menu.Item>
-            ) : null}
+            <Menu.Item
+              name="bookmark"
+              active={activeItem === 'bookmark'}
+              onClick={handleItemClick}
+            >
+              <Icon name="bookmark" />
+            </Menu.Item>
 
             <Popup
               trigger={
@@ -106,49 +92,6 @@ export default function TranscriptNav(props) {
                 </Menu.Item>
               }
               content="Search"
-            />
-
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="previous"
-                  url={prev.url}
-                  active={activeItem === 'previous'}
-                  onClick={handleItemClick}
-                  disabled={prev.url === undefined}
-                >
-                  <Icon name="arrow circle left" />
-                </Menu.Item>
-              }
-              content={prev.url !== undefined ? prev.title : undefined}
-            />
-
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="toc"
-                  active={activeItem === 'toc'}
-                  onClick={toggleContentsModal}
-                >
-                  <Icon name="align justify" />
-                </Menu.Item>
-              }
-              content="Display Table of Contents"
-            />
-
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="next"
-                  url={next.url}
-                  active={activeItem === 'next'}
-                  onClick={handleItemClick}
-                  disabled={next.url === undefined}
-                >
-                  <Icon name="arrow circle right" />
-                </Menu.Item>
-              }
-              content={next.url !== undefined ? next.title : undefined}
             />
 
             <Menu.Menu position="right">

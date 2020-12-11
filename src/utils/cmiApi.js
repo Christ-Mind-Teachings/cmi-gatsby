@@ -70,6 +70,13 @@ export async function fetchAnnotation(keyInfo) {
   return response.annotation;
 }
 
+/**
+ * Search throughout all content of a source for matches to a query.
+ *
+ * @param {string} query - search term or phrase
+ * @param {string sourceId - source identifier (wom = 10)
+ * @param {string} auth - authorization token, used by acol only. Full access when value is 'acol'
+ */
 export async function runSearchQuery(query, sourceId, auth) {
   const raw = await fetch(searchEndpoint, {
     method: 'POST',
@@ -86,4 +93,40 @@ export async function runSearchQuery(query, sourceId, auth) {
   const queryResult = await raw.json();
 
   return queryResult;
+}
+
+/**
+ * Fetch users email list. Returns [] if user has no list.
+ *
+ * @param {string} userId
+ */
+export async function getMailList(userId) {
+  const url = `${userEndpoint}/mailList/${userId}`;
+
+  const resp = await fetch(url);
+  const result = await resp.json();
+
+  return result.mailList;
+}
+
+/**
+ *
+ * @param {object} mailInfo
+ */
+export async function sendMail(mailInfo) {
+  const url = `${userEndpoint}/share`;
+
+  const raw = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(mailInfo),
+  });
+
+  const queryResult = await raw.json();
+  return {
+    ok: raw.ok,
+    message: raw.ok ? 'success' : queryResult.errorMessage,
+  };
 }

@@ -1,21 +1,24 @@
+/*
+ * Layout for authorized user pages
+ */
 import React, { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Container } from 'semantic-ui-react';
-import PageHeader from './PageHeader';
-import PageNav from './PageNav';
+import AuthHeader from './AuthHeader';
+import AuthNav from './AuthNav';
 import { SearchContext } from './SearchContext';
 
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function PageLayout(props) {
-  const { source, children } = props;
+  const { children } = props;
 
   return (
     <>
       <Container text>
         <SearchContext.Provider value={{ searchPid: null }}>
-          <PageHeader title={source.title} />
-          <PageNav source={source} />
+          <AuthHeader />
+          <AuthNav />
           {children}
         </SearchContext.Provider>
       </Container>

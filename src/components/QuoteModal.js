@@ -1,7 +1,9 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useContext, useRef, useEffect, useState } from 'react';
 import { Link } from 'gatsby';
-import { Modal, Button, Icon } from 'semantic-ui-react';
+import { Message, Modal, Button, Icon } from 'semantic-ui-react';
 import styled from 'styled-components';
+import { IdentityContext } from './IdentityContextProvider';
+import EmailShare from './EmailShare';
 
 import doubleBubble from '../assets/images/cmi/quotes/double-bubble.png';
 import carbonFibre from '../assets/images/cmi/quotes/carbon-fibre.png';
@@ -154,14 +156,29 @@ function _getRandomInt(max) {
 }
 
 export default function Quotes(props) {
-  const { showQuote, setShowQuote, header, sid, userId } = props;
+  const { source, showQuote, setShowQuote, header, sid, userId } = props;
   const [fetchKey, setFetchKey] = useState();
   const [open, setOpen] = useState(false);
+  const [mailModalOpen, setMailModalOpen] = useState(false);
   const [background, setBackground] = useState(null);
+  const [sendMail, setSendMail] = useState(false);
+  const { user } = useContext(IdentityContext);
+
+  // set and display message from <EmailShare> component
+  const [message, setMessage] = useState({
+    msg: 'This is a test',
+    hidden: true,
+    color: 'red',
+  });
+
+  // const [message, setMessage] = useState('This is a test');
+  // const [messageHidden, setMessageHidden] = useState(false);
+  // const [messageColor, setMessageColor] = useState('green');
 
   const quoteIds = useRef([]);
   const usedIds = useRef([]);
   const quotes = useRef([]);
+  const mailList = useRef();
   const [currentQuote, setCurrentQuote] = useState('');
 
   // move quoteId to usedIds
@@ -252,7 +269,6 @@ export default function Quotes(props) {
   return (
     <StyledModal
       id="quote-modal"
-      onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
       dimmer="blurring"
@@ -260,6 +276,14 @@ export default function Quotes(props) {
     >
       <Modal.Header as="h2" id="quote-modal-header">
         From <em>{header}</em>
+        <Message
+          onDismiss={() => setMessage({ ...message, hidden: true })}
+          hidden={message.hidden}
+          size="tiny"
+          color={message.color}
+        >
+          {message.msg}
+        </Message>
       </Modal.Header>
       <Modal.Content id="quote-modal-content" className={background}>
         <blockquote style={cssQuotes}>
@@ -274,6 +298,11 @@ export default function Quotes(props) {
         </blockquote>
       </Modal.Content>
       <Modal.Actions>
+        {user && (
+          <Button icon color="blue" onClick={() => setMailModalOpen(true)}>
+            <Icon name="paper plane" />
+          </Button>
+        )}
         <Button icon color="green" onClick={() => setShowQuote(true)}>
           <Icon name="quote left" />
         </Button>
@@ -281,6 +310,34 @@ export default function Quotes(props) {
           <Icon name="window close" />
         </Button>
       </Modal.Actions>
+      <Modal
+        size="small"
+        onClose={() => setMailModalOpen(false)}
+        open={mailModalOpen}
+        dimmer="blurring"
+        centered
+      >
+        <Modal.Header>Share Quote by Email</Modal.Header>
+        <Modal.Content>
+          <EmailShare
+            mailList={mailList}
+            send={sendMail}
+            setSend={setSendMail}
+            quote={currentQuote}
+            source={source}
+            setOpen={setMailModalOpen}
+            message={{ message, setMessage }}
+          />
+        </Modal.Content>
+        <Modal.Actions>
+          <Button color="green" onClick={() => setSendMail(true)}>
+            Send Mail
+          </Button>
+          <Button color="red" onClick={() => setMailModalOpen(false)}>
+            Cancel
+          </Button>
+        </Modal.Actions>
+      </Modal>
     </StyledModal>
   );
 }
