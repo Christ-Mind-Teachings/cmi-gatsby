@@ -8,6 +8,14 @@
     "timingBaseUrl": "wom/timing"
   },
   {
+    "title": "Drodze Mistrzostwa",
+    "url": "/pwom",
+    "sourceId": "pwom",
+    "sid": "16",
+    "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/pwom/audio",
+    "timingBaseUrl": "pwom/timing"
+  },
+  {
     "title": "The Raj Material",
     "url": "/raj",
     "sourceId": "raj",

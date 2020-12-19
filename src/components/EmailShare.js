@@ -8,9 +8,9 @@
  */
 import React, { useContext, useEffect, useState } from 'react';
 import { useLocation } from '@reach/router';
-import md5 from 'md5';
 import DOMPurify from 'dompurify';
 import { Input, TextArea, Dropdown, Form, Message } from 'semantic-ui-react';
+import md5 from 'md5';
 import { getMailList, sendMail } from '../utils/cmiApi';
 import { IdentityContext } from './IdentityContextProvider';
 

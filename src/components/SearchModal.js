@@ -14,7 +14,7 @@ import {
 import { useLocation } from '@reach/router';
 import formatSearchResults from '../utils/search/format';
 import useLocalStorage from '../utils/useLocalStorage';
-import { SearchContext } from './SearchContext';
+import { GlobalContext } from './GlobalContext';
 import { incrementLocation } from '../utils/cmiUtils';
 import { runSearchQuery } from '../utils/cmiApi';
 
@@ -29,6 +29,8 @@ function SearchResults(props) {
   if (!results.matches) {
     return <Container />;
   }
+
+  console.log('search results: %o', results);
 
   /*
    * Because <Link> won't link to the current page, we need a way to navigate to search matches
@@ -105,7 +107,7 @@ export default function SearchModal({ source, open, setOpen }) {
     `${source.sourceId}:searchResults`
   );
 
-  const { searchPid, setSearchPid } = useContext(SearchContext);
+  const { setSearchPid } = useContext(GlobalContext);
 
   function runSearch(e) {
     e.preventDefault();

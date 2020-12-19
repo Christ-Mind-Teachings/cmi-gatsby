@@ -1,0 +1,4 @@
+%s+{{page.big-separator}}+../line2.jpg+
+%s/markdown="1" //
+%s+{{page.little-separator}}+../line4.jpg+
+g/^<div /normal @q

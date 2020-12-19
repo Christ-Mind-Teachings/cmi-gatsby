@@ -7,7 +7,7 @@ import TranscriptNav from '../components/TranscriptNav';
 import TranscriptHeader from '../components/TranscriptHeader';
 import SearchNavigator from '../components/SearchNavigator';
 import GlobalStyles from '../styles/GlobalStyles';
-import { SearchContext } from '../components/SearchContext';
+import { GlobalContext } from '../components/GlobalContext';
 
 import 'react-toastify/dist/ReactToastify.css';
 import { displaySharedBookmark } from '../utils/cmiUtils';
@@ -145,7 +145,13 @@ export function GenericTranscriptTemplate({ location, data }) {
       <Helmet title={`Transcript Name - ${unit?.title}`} />
       <StyledContainer text>
         <TranscriptHeader source={source} book={book} unit={unit} />
-        <SearchContext.Provider value={{ searchPid, setSearchPid }}>
+        <GlobalContext.Provider
+          value={{
+            transcript: { source, book, unit },
+            searchPid,
+            setSearchPid,
+          }}
+        >
           <TranscriptNav
             source={source}
             book={book}
@@ -154,9 +160,11 @@ export function GenericTranscriptTemplate({ location, data }) {
             prev={prev}
             timing={timing}
           />
-          <div className="transcript-content" ref={transcriptRef}>
-            <div dangerouslySetInnerHTML={{ __html: content.html }} />
-          </div>
+          <div
+            className="transcript-content"
+            ref={transcriptRef}
+            dangerouslySetInnerHTML={{ __html: content.html }}
+          />
           {searchPid && (
             <SearchNavigator
               path={location.pathname}
@@ -164,7 +172,7 @@ export function GenericTranscriptTemplate({ location, data }) {
               paragraph={searchPid}
             />
           )}
-        </SearchContext.Provider>
+        </GlobalContext.Provider>
       </StyledContainer>
       <ToastContainer />
       <Dimmer active={loading} page onClickOutside={() => setLoading(false)}>

@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import { fetchAnnotation } from './cmiApi';
 
 const textPosition = require('dom-anchor-text-position');
@@ -41,10 +42,9 @@ function highlight(annotation, toNode = document.body) {
               range = textPosition.toRange(toNode, selector);
               annotation.wrap = wrapRange(mark, range);
             } catch (err) {
+              console.log("Couldn't find selected text in paragraph");
               console.error(err);
-              // selector.end -= 1;
-              // range = textPosition.toRange(toNode, selector);
-              // annotation.wrap = wrapRange(mark, range);
+              toast.error('Failed to text in paragraph');
             }
           }
           break;
@@ -102,7 +102,7 @@ function unwrap(selectedText) {
   const parent = wrapper.parentNode;
 
   // remove highlighted text if present
-  if (selectedText) {
+  if (selectedText && selectedText.wrap) {
     selectedText.wrap.unwrap();
   }
 

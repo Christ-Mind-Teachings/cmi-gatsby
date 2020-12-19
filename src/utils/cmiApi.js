@@ -109,6 +109,29 @@ export async function getMailList(userId) {
   return result.mailList;
 }
 
+export async function putMailList(userId, mailList) {
+  const url = `${userEndpoint}/mailList`;
+
+  const body = {
+    mailList,
+    userId,
+  };
+
+  const raw = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  });
+
+  const queryResult = await raw.json();
+  return {
+    ok: raw.ok,
+    message: raw.ok ? 'success' : queryResult.errorMessage,
+  };
+}
+
 /**
  *
  * @param {object} mailInfo

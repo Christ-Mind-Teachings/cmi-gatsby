@@ -156,7 +156,7 @@ function _getRandomInt(max) {
 }
 
 export default function Quotes(props) {
-  const { source, showQuote, setShowQuote, header, sid, userId } = props;
+  const { source, showQuote, setShowQuote, userId } = props;
   const [fetchKey, setFetchKey] = useState();
   const [open, setOpen] = useState(false);
   const [mailModalOpen, setMailModalOpen] = useState(false);
@@ -238,7 +238,7 @@ export default function Quotes(props) {
   useEffect(() => {
     async function getQuoteIdentifiers() {
       try {
-        const keys = await getQuoteKeys(sid, userId);
+        const keys = await getQuoteKeys(source.sid, userId);
         quoteIds.current = keys;
       } catch (error) {
         // TODO: notify user of error
@@ -246,7 +246,7 @@ export default function Quotes(props) {
       }
     }
     getQuoteIdentifiers();
-  }, [userId, sid]);
+  }, [userId, source.sid]);
 
   // fetch a specific quote and display it
   useEffect(() => {
@@ -275,7 +275,7 @@ export default function Quotes(props) {
       size="small"
     >
       <Modal.Header as="h2" id="quote-modal-header">
-        From <em>{header}</em>
+        From <em>{source.title}</em>
         <Message
           onDismiss={() => setMessage({ ...message, hidden: true })}
           hidden={message.hidden}

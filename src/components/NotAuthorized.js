@@ -27,11 +27,11 @@ export function NotAuthorized(props) {
 
         <Container className="teachings">
           <Card.Group itemsPerRow={4}>
-            <Card raised circular as={Link} to="/raj">
+            <Card raised as={Link} to="/raj">
               <Image src={raj} wrapped ui={false} />
               <Card.Header>The Raj Material</Card.Header>
             </Card>
-            <Card raised circular as={Link} to="/wom">
+            <Card raised as={Link} to="/wom">
               <Image src={wom} wrapped ui={false} />
               <Card.Header>The Way of Mastery</Card.Header>
             </Card>

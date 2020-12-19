@@ -185,6 +185,10 @@ const GlobalStyles = createGlobalStyle`
     padding: 10px;
     margin-bottom: 20px;
   }
+
+  .transcript-content p:before {
+    content: "("attr(id)") ";
+  }
 `;
 
 export default GlobalStyles;

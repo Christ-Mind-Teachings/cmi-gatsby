@@ -206,7 +206,7 @@ function teardown() {
 }
 
 function setDuration(s) {
-  console.log('duration: %s/%s', s, formatTime(s));
+  // console.log('duration: %s/%s', s, formatTime(s));
 }
 
 export default {

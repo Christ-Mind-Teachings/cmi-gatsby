@@ -3,6 +3,7 @@ import path from 'path';
 async function createTranscriptPage({ actions, graphql, reporter }) {
   const templates = {
     wom: path.resolve(`src/templates/womTranscript.js`),
+    pwom: path.resolve(`src/templates/pwomTranscript.js`),
     raj: path.resolve(`src/templates/rajTranscript.js`),
   };
   const { createPage } = actions;

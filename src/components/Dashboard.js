@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link } from '@reach/router';
+import { ToastContainer } from 'react-toastify';
 import {
   Button,
   Divider,
@@ -11,6 +12,7 @@ import {
 } from 'semantic-ui-react';
 import { IdentityContext } from './IdentityContextProvider';
 
+import 'react-toastify/dist/ReactToastify.css';
 import './Dashboard.css';
 
 export function Dashboard(props) {
@@ -140,6 +142,7 @@ export function Dashboard(props) {
           </Grid>
         </Grid.Column>
       </Grid>
+      <ToastContainer />
     </div>
   );
 }
