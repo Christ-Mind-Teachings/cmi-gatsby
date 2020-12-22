@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
-import PageLayout from '../components/PageLayout';
-import ContentsModal from '../components/ContentsModal';
-import womContents from '../data/wom/womContents.json';
-import QuoteModal from '../components/QuoteModal';
-import woh from '../assets/images/wom/woh-big.jpg';
-import wot from '../assets/images/wom/wot-big.jpg';
-import wok from '../assets/images/wom/wok-big.jpg';
-import tjl from '../assets/images/wom/tjl-big.jpg';
-import wos from '../assets/images/wom/wos-big.jpg';
-import early from '../assets/images/wom/early-big.jpg';
+import PageLayout from '../../components/PageLayout';
+import ContentsModal from '../../components/ContentsModal';
+import womContents from '../../data/wom/womContents.json';
+import QuoteModal from '../../components/QuoteModal';
+import woh from '../../assets/images/wom/woh-big.jpg';
+import wot from '../../assets/images/wom/wot-big.jpg';
+import wok from '../../assets/images/wom/wok-big.jpg';
+import tjl from '../../assets/images/wom/tjl-big.jpg';
+import wos from '../../assets/images/wom/wos-big.jpg';
+import early from '../../assets/images/wom/early-big.jpg';
 
 const sourceInfo = { sid: 10, sourceId: 'wom', title: 'The Way of Mastery' };
 

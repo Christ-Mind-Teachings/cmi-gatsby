@@ -1,34 +1,38 @@
 [
   {
     "title": "The Way of Mastery",
-    "url": "/wom",
+    "url": "/en/wom",
     "sourceId": "wom",
     "sid": "10",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/wom/audio",
-    "timingBaseUrl": "wom/timing"
+    "timingBaseUrl": "wom/timing",
+    "language": "en"
   },
   {
     "title": "Drodze Mistrzostwa",
-    "url": "/pwom",
+    "url": "/pl/pwom",
     "sourceId": "pwom",
     "sid": "16",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/pwom/audio",
-    "timingBaseUrl": "pwom/timing"
+    "timingBaseUrl": "pwom/timing",
+    "language": "pl"
   },
   {
     "title": "The Raj Material",
-    "url": "/raj",
+    "url": "/en/raj",
     "sourceId": "raj",
     "sid": "13",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/nwffacim/audio",
-    "timingBaseUrl": "raj/timing"
+    "timingBaseUrl": "raj/timing",
+    "language": "en"
   },
   {
     "title": "A Course Of Love",
-    "url": "/acol",
+    "url": "/en/acol",
     "sourceId": "acol",
     "sid": "14",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/acol/audio",
-    "timingBaseUrl": "acol/timing"
+    "timingBaseUrl": "acol/timing",
+    "language": "en"
   }
 ]

@@ -104,7 +104,7 @@ export default function ChristMindLibrary() {
               <Card.Description>The Raj Materials</Card.Description>
             </Card.Content>
           </Card>
-          <Card name="pwom" onClick={() => navigate('/pwom')}>
+          <Card name="pwom" onClick={() => navigate('/pl/pwom')}>
             <Image src={pwom} size="medium" wrapped ui={false} />
             <Card.Content>
               <Card.Description>The Way of Mastery in Polish</Card.Description>

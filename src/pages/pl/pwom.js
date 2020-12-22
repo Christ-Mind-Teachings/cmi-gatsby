@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
-import PageLayout from '../components/PageLayout';
-import ContentsModal from '../components/ContentsModal';
-import pwomContents from '../data/pwom/pwomContents.json';
-import QuoteModal from '../components/QuoteModal';
-import woh from '../assets/images/pwom/woh-big.jpg';
-import wot from '../assets/images/pwom/wot-big.jpg';
-import wok from '../assets/images/pwom/wok-big.jpg';
-import lj from '../assets/images/pwom/lj-big.jpg';
-import wos from '../assets/images/pwom/wos-big.jpg';
-import early from '../assets/images/pwom/early-big.jpg';
+import PageLayout from '../../components/PageLayout';
+import ContentsModal from '../../components/ContentsModal';
+import pwomContents from '../../data/pwom/pwomContents.json';
+import QuoteModal from '../../components/QuoteModal';
+import woh from '../../assets/images/pwom/woh-big.jpg';
+import wot from '../../assets/images/pwom/wot-big.jpg';
+import wok from '../../assets/images/pwom/wok-big.jpg';
+import lj from '../../assets/images/pwom/lj-big.jpg';
+import wos from '../../assets/images/pwom/wos-big.jpg';
+import early from '../../assets/images/pwom/early-big.jpg';
 
 const sourceInfo = { sid: 16, sourceId: 'pwom', title: 'Droga Mistrzostwa ' };
 

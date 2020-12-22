@@ -7,71 +7,71 @@
     "toc": [
       {
         "title": "Podziękowania",
-        "url": "/pwom/lj/acknow"
+        "url": "/pl/pwom/lj/acknow"
       },
       {
         "title": "Do czytelnika",
-        "url": "/pwom/lj/reader"
+        "url": "/pl/pwom/lj/reader"
       },
       {
         "title": "Przedmowa",
-        "url": "/pwom/lj/forwd"
+        "url": "/pl/pwom/lj/forwd"
       },
       {
         "title": "Wstęp",
-        "url": "/pwom/lj/intr"
+        "url": "/pl/pwom/lj/intr"
       },
       {
         "title": "Rozdział pierwszy",
-        "url": "/pwom/lj/chap01"
+        "url": "/pl/pwom/lj/chap01"
       },
       {
         "title": "Rozdział drugi",
-        "url": "/pwom/lj/chap02"
+        "url": "/pl/pwom/lj/chap02"
       },
       {
         "title": "Rozdział trzeci",
-        "url": "/pwom/lj/chap03"
+        "url": "/pl/pwom/lj/chap03"
       },
       {
         "title": "Rozdział czwarty",
-        "url": "/pwom/lj/chap04"
+        "url": "/pl/pwom/lj/chap04"
       },
       {
         "title": "Rozdział piąty",
-        "url": "/pwom/lj/chap05"
+        "url": "/pl/pwom/lj/chap05"
       },
       {
         "title": "Rozdział szósty",
-        "url": "/pwom/lj/chap06"
+        "url": "/pl/pwom/lj/chap06"
       },
       {
         "title": "Rozdział siódmy",
-        "url": "/pwom/lj/chap07"
+        "url": "/pl/pwom/lj/chap07"
       },
       {
         "title": "Rozdział ósmy",
-        "url": "/pwom/lj/chap08"
+        "url": "/pl/pwom/lj/chap08"
       },
       {
         "title": "Rozdział dziewiąty",
-        "url": "/pwom/lj/chap09"
+        "url": "/pl/pwom/lj/chap09"
       },
       {
         "title": "Rozdział dziesiąty",
-        "url": "/pwom/lj/chap10"
+        "url": "/pl/pwom/lj/chap10"
       },
       {
         "title": "Rozdział jedenasty",
-        "url": "/pwom/lj/chap11"
+        "url": "/pl/pwom/lj/chap11"
       },
       {
         "title": "Rozdział dwunasty",
-        "url": "/pwom/lj/chap12"
+        "url": "/pl/pwom/lj/chap12"
       },
       {
         "title": "Epilog",
-        "url": "/pwom/lj/eplg"
+        "url": "/pl/pwom/lj/eplg"
       }
     ]
   },
@@ -83,35 +83,35 @@
     "toc": [
       {
         "title": "Wstęp",
-        "url": "/pwom/wos/intr"
+        "url": "/pl/pwom/wos/intr"
       },
       {
         "title": "Księga pierwsza",
-        "url": "/pwom/wos/chap01"
+        "url": "/pl/pwom/wos/chap01"
       },
       {
         "title": "Księga druga",
-        "url": "/pwom/wos/chap02"
+        "url": "/pl/pwom/wos/chap02"
       },
       {
         "title": "Księga trzecia",
-        "url": "/pwom/wos/chap03"
+        "url": "/pl/pwom/wos/chap03"
       },
       {
         "title": "Księga czwarta",
-        "url": "/pwom/wos/chap04"
+        "url": "/pl/pwom/wos/chap04"
       },
       {
         "title": "Posłowie",
-        "url": "/pwom/wos/aftwrd"
+        "url": "/pl/pwom/wos/aftwrd"
       },
       {
         "title": "Epilog",
-        "url": "/pwom/wos/eplg"
+        "url": "/pl/pwom/wos/eplg"
       },
       {
         "title": "Modlitwa Przypomnienia",
-        "url": "/pwom/wos/prayer"
+        "url": "/pl/pwom/wos/prayer"
       }
     ]
   },
@@ -123,107 +123,107 @@
     "toc": [
       {
         "title": "Przedmowa",
-        "url": "/pwom/woh/preface"
+        "url": "/pl/pwom/woh/preface"
       },
       {
         "title": "Lekcja 1",
-        "url": "/pwom/woh/l01",
+        "url": "/pl/pwom/woh/l01",
         "contents": [
           {
             "title": "Lekcja 1: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l01qa"
+            "url": "/pl/pwom/woh/l01qa"
           }
         ]
       },
       {
         "title": "Lekcja 2",
-        "url": "/pwom/woh/l02",
+        "url": "/pl/pwom/woh/l02",
         "contents": [
           {
             "title": "Lekcja 2: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l02qa"
+            "url": "/pl/pwom/woh/l02qa"
           }
         ]
       },
       {
         "title": "Lekcja 3",
-        "url": "/pwom/woh/l03"
+        "url": "/pl/pwom/woh/l03"
       },
       {
         "title": "Lekcja 4",
-        "url": "/pwom/woh/l04"
+        "url": "/pl/pwom/woh/l04"
       },
       {
         "title": "Lekcja 5",
-        "url": "/pwom/woh/l05"
+        "url": "/pl/pwom/woh/l05"
       },
       {
         "title": "Lekcja 6",
-        "url": "/pwom/woh/l06",
+        "url": "/pl/pwom/woh/l06",
         "contents": [
           {
             "title": "Lekcja 6: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l06qa"
+            "url": "/pl/pwom/woh/l06qa"
           }
         ]
       },
       {
         "title": "Lekcja 7",
-        "url": "/pwom/woh/l07",
+        "url": "/pl/pwom/woh/l07",
         "contents": [
           {
             "title": "Lekcja 7: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l07qa"
+            "url": "/pl/pwom/woh/l07qa"
           }
         ]
       },
       {
         "title": "Lekcja 8",
-        "url": "/pwom/woh/l08",
+        "url": "/pl/pwom/woh/l08",
         "contents": [
           {
             "title": "Lekcja 8: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l08qa"
+            "url": "/pl/pwom/woh/l08qa"
           }
         ]
       },
       {
         "title": "Lekcja 9",
-        "url": "/pwom/woh/l09",
+        "url": "/pl/pwom/woh/l09",
         "contents": [
           {
             "title": "Lekcja 9: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l09qa"
+            "url": "/pl/pwom/woh/l09qa"
           }
         ]
       },
       {
         "title": "Lekcja 10",
-        "url": "/pwom/woh/l10",
+        "url": "/pl/pwom/woh/l10",
         "contents": [
           {
             "title": "Lekcja 10: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l10qa"
+            "url": "/pl/pwom/woh/l10qa"
           }
         ]
       },
       {
         "title": "Lekcja 11",
-        "url": "/pwom/woh/l11",
+        "url": "/pl/pwom/woh/l11",
         "contents": [
           {
             "title": "Lekcja 11: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l11qa"
+            "url": "/pl/pwom/woh/l11qa"
           }
         ]
       },
       {
         "title": "Lekcja 12",
-        "url": "/pwom/woh/l12",
+        "url": "/pl/pwom/woh/l12",
         "contents": [
           {
             "title": "Lekcja 12: Pytania i odpowiedzi",
-            "url": "/pwom/woh/l12qa"
+            "url": "/pl/pwom/woh/l12qa"
           }
         ]
       }
@@ -237,85 +237,85 @@
     "toc": [
       {
         "title": "Przedmowa",
-        "url": "/pwom/wot/preface"
+        "url": "/pl/pwom/wot/preface"
       },
       {
         "title": "Lekcja 1",
-        "url": "/pwom/wot/l01",
+        "url": "/pl/pwom/wot/l01",
         "contents": [
           {
             "title": "Lekcja 1: Pytania i odpowiedzi",
-            "url": "/pwom/wot/l01qa"
+            "url": "/pl/pwom/wot/l01qa"
           }
         ]
       },
       {
         "title": "Lekcja 2",
-        "url": "/pwom/wot/l02"
+        "url": "/pl/pwom/wot/l02"
       },
       {
         "title": "Lekcja 3",
-        "url": "/pwom/wot/l03"
+        "url": "/pl/pwom/wot/l03"
       },
       {
         "title": "Lekcja 4",
-        "url": "/pwom/wot/l04"
+        "url": "/pl/pwom/wot/l04"
       },
       {
         "title": "Lekcja 5",
-        "url": "/pwom/wot/l05"
+        "url": "/pl/pwom/wot/l05"
       },
       {
         "title": "Lekcja 6",
-        "url": "/pwom/wot/l06",
+        "url": "/pl/pwom/wot/l06",
         "contents": [
           {
             "title": "Lekcja 6: Pytania i odpowiedzi",
-            "url": "/pwom/wot/l06qa"
+            "url": "/pl/pwom/wot/l06qa"
           }
         ]
       },
       {
         "title": "Lekcja 7",
-        "url": "/pwom/wot/l07",
+        "url": "/pl/pwom/wot/l07",
         "contents": [
           {
             "title": "Lekcja 7: Pytania i odpowiedzi",
-            "url": "/pwom/wot/l07qa"
+            "url": "/pl/pwom/wot/l07qa"
           }
         ]
       },
       {
         "title": "Lekcja 8",
-        "url": "/pwom/wot/l08"
+        "url": "/pl/pwom/wot/l08"
       },
       {
         "title": "Lekcja 9",
-        "url": "/pwom/wot/l09",
+        "url": "/pl/pwom/wot/l09",
         "contents": [
           {
             "title": "Lekcja 9: Pytania i odpowiedzi",
-            "url": "/pwom/wot/l09qa"
+            "url": "/pl/pwom/wot/l09qa"
           }
         ]
       },
       {
         "title": "Lekcja 10",
-        "url": "/pwom/wot/l10"
+        "url": "/pl/pwom/wot/l10"
       },
       {
         "title": "Lekcja 11",
-        "url": "/pwom/wot/l11",
+        "url": "/pl/pwom/wot/l11",
         "contents": [
           {
             "title": "Lekcja 11: Pytania i odpowiedzi",
-            "url": "/pwom/wot/l11qa"
+            "url": "/pl/pwom/wot/l11qa"
           }
         ]
       },
       {
         "title": "Lekcja 12",
-        "url": "/pwom/wot/l12"
+        "url": "/pl/pwom/wot/l12"
       }
     ]
   },
@@ -327,82 +327,82 @@
     "toc": [
       {
         "title": "Przedmowa",
-        "url": "/pwom/wok/preface"
+        "url": "/pl/pwom/wok/preface"
       },
       {
         "title": "Lekcja 1",
-        "url": "/pwom/wok/l01"
+        "url": "/pl/pwom/wok/l01"
       },
       {
         "title": "Lekcja 2",
         "note": "Incomplete data, there is data for 80 of 81 paragraphs",
-        "url": "/pwom/wok/l02",
+        "url": "/pl/pwom/wok/l02",
         "contents": [
           {
             "title": "Lekcja 2. Pytania i odpowiedzi",
-            "url": "/pwom/wok/l02qa"
+            "url": "/pl/pwom/wok/l02qa"
           }
         ]
       },
       {
         "title": "Lekcja 3",
-        "url": "/pwom/wok/l03",
+        "url": "/pl/pwom/wok/l03",
         "contents": [
           {
             "title": "Lekcja 3. Pytania i odpowiedzi",
-            "url": "/pwom/wok/l03qa"
+            "url": "/pl/pwom/wok/l03qa"
           }
         ]
       },
       {
         "title": "Lekcja 4",
-        "url": "/pwom/wok/l04",
+        "url": "/pl/pwom/wok/l04",
         "contents": [
           {
             "title": "Lekcja 4. Pytania i odpowiedzi",
-            "url": "/pwom/wok/l04qa"
+            "url": "/pl/pwom/wok/l04qa"
           }
         ]
       },
       {
         "title": "Lekcja 5",
-        "url": "/pwom/wok/l05"
+        "url": "/pl/pwom/wok/l05"
       },
       {
         "title": "Lekcja 6",
-        "url": "/pwom/wok/l06",
+        "url": "/pl/pwom/wok/l06",
         "contents": [
           {
             "title": "Lekcja 6. Pytania i odpowiedzi",
-            "url": "/pwom/wok/l06qa"
+            "url": "/pl/pwom/wok/l06qa"
           }
         ]
       },
       {
         "title": "Lekcja 7",
-        "url": "/pwom/wok/l07"
+        "url": "/pl/pwom/wok/l07"
       },
       {
         "title": "Lekcja 8",
-        "url": "/pwom/wok/l08"
+        "url": "/pl/pwom/wok/l08"
       },
       {
         "title": "Lekcja 9",
-        "url": "/pwom/wok/l09"
+        "url": "/pl/pwom/wok/l09"
       },
       {
         "title": "Lekcja 10",
-        "url": "/pwom/wok/l10",
+        "url": "/pl/pwom/wok/l10",
         "contents": [
           {
             "title": "Lekcja 10. Pytania i odpowiedzi",
-            "url": "/pwom/wok/l10qa"
+            "url": "/pl/pwom/wok/l10qa"
           }
         ]
       },
       {
         "title": "Lekcja 11",
-        "url": "/pwom/wok/l11"
+        "url": "/pl/pwom/wok/l11"
       }
     ]
   },
@@ -414,77 +414,77 @@
     "toc": [
       {
         "title": "Wstęp",
-        "url": "/pwom/early/intr"
+        "url": "/pl/pwom/early/intr"
       },
       {
         "title": "Miłość uzdrawia wszystko",
-        "url": "/pwom/early/chap01",
+        "url": "/pl/pwom/early/chap01",
         "contents": [
           {
             "title": "Pytania i odpowiedzi",
-            "url": "/pwom/early/chap01qa"
+            "url": "/pl/pwom/early/chap01qa"
           }
         ]
       },
       {
         "title": "Mistrzostwo komunikacji",
-        "url": "/pwom/early/chap02",
+        "url": "/pl/pwom/early/chap02",
         "contents": [
           {
             "title": "Pytania i odpowiedzi",
-            "url": "/pwom/early/chap02qa"
+            "url": "/pl/pwom/early/chap02qa"
           }
         ]
       },
       {
         "title": "Błogosławieństwo przebaczenia",
-        "url": "/pwom/early/chap03",
+        "url": "/pl/pwom/early/chap03",
         "contents": [
           {
             "title": "Pytania i odpowiedzi",
-            "url": "/pwom/early/chap03qa"
+            "url": "/pl/pwom/early/chap03qa"
           }
         ]
       },
       {
         "title": "Błogość niewiedzy",
-        "url": "/pwom/early/chap04"
+        "url": "/pl/pwom/early/chap04"
       },
       {
         "title": "Święta chwila",
-        "url": "/pwom/early/chap05"
+        "url": "/pl/pwom/early/chap05"
       },
       {
         "title": "Boska Kobiecość",
-        "url": "/pwom/early/chap06"
+        "url": "/pl/pwom/early/chap06"
       },
       {
         "title": "Znaczenie Wnieobwstąpienia",
-        "url": "/pwom/early/chap07"
+        "url": "/pl/pwom/early/chap07"
       },
       {
         "title": "Niebo na ziemi",
-        "url": "/pwom/early/chap08",
+        "url": "/pl/pwom/early/chap08",
         "contents": [
           {
             "title": "Pytania i odpowiedzi",
-            "url": "/pwom/early/chap08qa"
+            "url": "/pl/pwom/early/chap08qa"
           }
         ]
       },
       {
         "title": "Śmierć i zmiany na Ziemi",
-        "url": "/pwom/early/chap09",
+        "url": "/pl/pwom/early/chap09",
         "contents": [
           {
             "title": "Pytania i odpowiedzi",
-            "url": "/pwom/early/chap09qa"
+            "url": "/pl/pwom/early/chap09qa"
           }
         ]
       },
       {
         "title": "Chodź ze mną",
-        "url": "/pwom/early/chap10"
+        "url": "/pl/pwom/early/chap10"
       }
     ]
   }
