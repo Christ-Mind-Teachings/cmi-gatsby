@@ -60,6 +60,7 @@ module.exports = {
         path: `${__dirname}/locales`,
         languages: [`en`, `pl`],
         defaultLanguage: `en`,
+        debug: true,
         redirect: true,
         siteUrl: 'https://www.christmind.info',
         pages: [

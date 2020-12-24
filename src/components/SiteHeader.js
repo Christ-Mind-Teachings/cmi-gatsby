@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans } from 'gatsby-plugin-react-i18next';
 import { Header } from 'semantic-ui-react';
 import styled from 'styled-components';
 
@@ -20,10 +21,10 @@ export default function SiteHeader() {
   return (
     <StyledHeader>
       <Header as="h1" textAlign="center">
-        Teachings of Christ Mind
+        <Trans>Teachings of Christ Mind</Trans>
       </Header>
       <Header as="h2" textAlign="center">
-        The Library
+        <Trans>The Library</Trans>
       </Header>
     </StyledHeader>
   );

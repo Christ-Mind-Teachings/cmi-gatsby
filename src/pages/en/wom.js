@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';

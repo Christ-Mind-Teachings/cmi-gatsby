@@ -80,7 +80,7 @@ export default function TranscriptNav(props) {
         <Menu
           icon
           borderless
-          size="tiny"
+          size="small"
           fixed={menuFixed ? 'top' : undefined}
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >

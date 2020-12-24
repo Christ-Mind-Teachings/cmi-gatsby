@@ -7,8 +7,8 @@
 import React, { useContext, useState } from 'react';
 import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
-import SearchModal from './SearchModal';
 import { IdentityContext } from './IdentityContextProvider';
+import { ChangeLanguage } from './ChangeLanguage';
 
 const menuStyle = {
   border: 'none',
@@ -65,11 +65,12 @@ export default function LibraryNav() {
         <Menu
           icon
           borderless
-          size="tiny"
+          size="small"
           fixed={menuFixed ? 'top' : undefined}
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >
           <Container text>
+            <ChangeLanguage />
             <Menu.Menu position="right">
               <Menu.Item
                 name="help"
