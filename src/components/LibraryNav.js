@@ -4,11 +4,10 @@
  *  Includes: Authenticated page access for signed in users
  */
 
-import React, { useContext, useState } from 'react';
-import { navigate, Link } from 'gatsby';
+import React, { useState } from 'react';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
-import { IdentityContext } from './IdentityContextProvider';
 import { ChangeLanguage } from './ChangeLanguage';
+import { Authenticate } from './Authenticate';
 
 const menuStyle = {
   border: 'none',
@@ -26,34 +25,12 @@ const fixedMenuStyle = {
   boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.2)',
 };
 
-function handleItemClick(e, obj) {
-  if (obj.name === 'previous' || obj.name === 'next') {
-    navigate(obj.url);
-  }
-}
-
 export default function LibraryNav() {
   let activeItem;
 
   const [menuFixed, setMenuFixed] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
-
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
-  const toggleSearchModal = () => setSearchOpen(!searchOpen);
-
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
-
-  /*
-   * If user is signed in logout otherwise sign in
-   */
-  function userAccess() {
-    if (user) {
-      netlifyIdentity.logout();
-    } else {
-      netlifyIdentity.open();
-    }
-  }
 
   return (
     <>
@@ -72,42 +49,10 @@ export default function LibraryNav() {
           <Container text>
             <ChangeLanguage />
             <Menu.Menu position="right">
-              <Menu.Item
-                name="help"
-                active={activeItem === 'help'}
-                onClick={handleItemClick}
-              >
+              <Menu.Item name="help" active={activeItem === 'help'}>
                 <Popup trigger={<Icon name="question" />} content="Get Help" />
               </Menu.Item>
-              {user ? (
-                <Menu.Item name="cmiUser" active={activeItem === 'cmiUser'}>
-                  <Link to="/cmi">
-                    <Popup
-                      trigger={<Icon name="user" />}
-                      content="User Dashboard"
-                    />
-                  </Link>
-                </Menu.Item>
-              ) : null}
-              <Menu.Item
-                onClick={userAccess}
-                name="user"
-                active={activeItem === 'user'}
-              >
-                {user ? (
-                  <Popup
-                    trigger={
-                      <Icon style={{ color: 'green' }} name="sign out" />
-                    }
-                    content="Click to Sign Out"
-                  />
-                ) : (
-                  <Popup
-                    trigger={<Icon style={{ color: 'red' }} name="sign in" />}
-                    content="Click to Sign In"
-                  />
-                )}
-              </Menu.Item>
+              <Authenticate />
             </Menu.Menu>
           </Container>
         </Menu>

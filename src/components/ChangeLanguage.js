@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
-import { Link, useI18next, Trans } from 'gatsby-plugin-react-i18next';
-import { Menu, Dropdown } from 'semantic-ui-react';
+import { useI18next, Trans } from 'gatsby-plugin-react-i18next';
+import { Popup, Menu, Dropdown } from 'semantic-ui-react';
 
 function options(current, languages) {
   const others = languages.filter((l) => l !== current);
@@ -14,7 +14,7 @@ function options(current, languages) {
 }
 
 export const ChangeLanguage = () => {
-  const { originalPath, changeLanguage, language, languages, t } = useI18next();
+  const { changeLanguage, language, languages, t } = useI18next();
   const dropdown = useRef();
 
   function languageSelect(e, { lang }) {
@@ -29,21 +29,31 @@ export const ChangeLanguage = () => {
 
   return (
     <Menu.Item name="LanguageSelect">
-      <Dropdown text={language.toUpperCase()} icon="world" simple item>
-        <Dropdown.Menu>
-          <Dropdown.Header icon="world" content={t('Change Language')} />
-          {languages.map((l) => (
-            <Dropdown.Item
-              key={l}
-              disabled={l === language}
-              onClick={languageSelect}
-              lang={l}
-            >
-              <Trans>{l}</Trans>
-            </Dropdown.Item>
-          ))}
-        </Dropdown.Menu>
-      </Dropdown>
+      <Popup
+        trigger={
+          <Dropdown
+            text={language.toUpperCase()}
+            style={{ fontSize: '1em' }}
+            icon="world"
+            item
+          >
+            <Dropdown.Menu>
+              <Dropdown.Header icon="world" content={t('Change Language')} />
+              {languages.map((l) => (
+                <Dropdown.Item
+                  key={l}
+                  disabled={l === language}
+                  onClick={languageSelect}
+                  lang={l}
+                >
+                  <Trans>{l}</Trans>
+                </Dropdown.Item>
+              ))}
+            </Dropdown.Menu>
+          </Dropdown>
+        }
+        content={t('Change Language')}
+      />
     </Menu.Item>
   );
 };

@@ -5,10 +5,10 @@
  */
 
 import React, { useContext, useState } from 'react';
-import { navigate, Link } from 'gatsby';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
+import { Authenticate } from './Authenticate';
 import SearchModal from './SearchModal';
-import { IdentityContext } from './IdentityContextProvider';
 
 const menuStyle = {
   border: 'none',
@@ -26,36 +26,16 @@ const fixedMenuStyle = {
   boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.2)',
 };
 
-function handleItemClick(e, obj) {
-  if (obj.name === 'previous' || obj.name === 'next') {
-    navigate(obj.url);
-  }
-}
-
 export default function PageNav(props) {
   let activeItem;
 
   const { source } = props;
-
   const [menuFixed, setMenuFixed] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
-
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
-
-  /*
-   * If user is signed in logout otherwise sign in
-   */
-  function userAccess() {
-    if (user) {
-      netlifyIdentity.logout();
-    } else {
-      netlifyIdentity.open();
-    }
-  }
+  const { t } = useTranslation(['common']);
 
   return (
     <>
@@ -73,14 +53,6 @@ export default function PageNav(props) {
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >
           <Container text>
-            <Menu.Item
-              name="bookmark"
-              active={activeItem === 'bookmark'}
-              onClick={handleItemClick}
-            >
-              <Icon name="bookmark" />
-            </Menu.Item>
-
             <Popup
               trigger={
                 <Menu.Item
@@ -91,35 +63,14 @@ export default function PageNav(props) {
                   <Icon name="search" />
                 </Menu.Item>
               }
-              content="Search"
+              content={t('Search')}
             />
 
             <Menu.Menu position="right">
-              <Menu.Item
-                name="help"
-                active={activeItem === 'help'}
-                onClick={handleItemClick}
-              >
+              <Menu.Item name="help" active={activeItem === 'help'}>
                 <Icon name="question" />
               </Menu.Item>
-              {user ? (
-                <Menu.Item name="cmiUser" active={activeItem === 'cmiUser'}>
-                  <Link to="/cmi">
-                    <Icon name="user" />
-                  </Link>
-                </Menu.Item>
-              ) : null}
-              <Menu.Item
-                onClick={userAccess}
-                name="user"
-                active={activeItem === 'user'}
-              >
-                {user ? (
-                  <Icon style={{ color: 'green' }} name="sign out" />
-                ) : (
-                  <Icon style={{ color: 'red' }} name="sign in" />
-                )}
-              </Menu.Item>
+              <Authenticate />
             </Menu.Menu>
           </Container>
         </Menu>

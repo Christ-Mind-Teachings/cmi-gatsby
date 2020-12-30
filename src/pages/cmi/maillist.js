@@ -12,9 +12,9 @@ import {
 import { toast } from 'react-toastify';
 import md5 from 'md5';
 import styled from 'styled-components';
-import { Dashboard } from '../components/Dashboard';
-import { putMailList, getMailList } from '../utils/cmiApi';
-import { IdentityContext } from '../components/IdentityContextProvider';
+import { Dashboard } from '../../components/Dashboard';
+import { putMailList, getMailList } from '../../utils/cmiApi';
+import { IdentityContext } from '../../components/IdentityContextProvider';
 
 const StyledForm = styled(Form)`
   .field.hidden {
@@ -43,7 +43,7 @@ const StyledTable = styled(Table)`
   }
 `;
 
-export function MailList(props) {
+export default function MailList(props) {
   const formRef = useRef();
   const { user } = useContext(IdentityContext);
   const [mailList, setMailList] = useState([]);
@@ -57,6 +57,7 @@ export function MailList(props) {
     last: '',
     address: '',
   });
+  console.log('MailList Component');
 
   function cancelEdit() {
     setFormData({

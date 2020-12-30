@@ -27,7 +27,6 @@ export default function ChristMindLibrary() {
   const { t } = useTranslation();
   const { language, originalPath } = useI18next();
   // const { navigate } = i18;
-  console.log('originalPath: %o', originalPath);
 
   return (
     <>
@@ -117,7 +116,7 @@ export default function ChristMindLibrary() {
               </Card.Description>
             </Card.Content>
           </Card>
-          <Card name="raj" onClick={() => navigate('/raj')}>
+          <Card name="raj" onClick={() => navigate('/en/raj')}>
             <Image src={raj} size="medium" wrapped ui={false} />
             <Card.Content>
               <Card.Description>

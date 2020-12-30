@@ -1,0 +1,14 @@
+{
+  "Search": "Szukaj",
+  "SearchTitle": "Szukaj <1>{{title}}</1>",
+  "Paragraph": "Ustęp",
+  "searchSuccessHeader": "Znaleziono {{count}} pasujące wyniki",
+  "searchSuccessMessage": "Szukaj {{query}} znalezionych {{count}} pasujących",
+  "searchFailHeader": "Nie znaleziono żadnego meczu",
+  "searchFailMessage": "Wyszukaj {{query}} nie znaleziono żadnych dopasowań",
+  "See Search Documentation": "Zobacz dokumentację wyszukiwania",
+  "Please wait...": "Proszę czekać...",
+  "Enter search query": "Wpisz zapytanie",
+  "Searching": "Badawczy",
+  "Title Not Found": "Nie znaleziono tytułu"
+}

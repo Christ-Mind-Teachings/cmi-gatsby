@@ -11,6 +11,7 @@ import { useLocation } from '@reach/router';
 import DOMPurify from 'dompurify';
 import { Input, TextArea, Dropdown, Form, Message } from 'semantic-ui-react';
 import md5 from 'md5';
+import { useI18next } from 'gatsby-plugin-react-i18next';
 import { getMailList, sendMail } from '../utils/cmiApi';
 import { IdentityContext } from './IdentityContextProvider';
 
@@ -117,6 +118,7 @@ export default function EmailShare(props) {
   const [selectError, setSelectError] = useState(false);
   const { user } = useContext(IdentityContext);
   const location = useLocation();
+  const { t } = useI18next(['quotes']);
 
   // persist input data for email addresses and email message
   const handleChange = (e, { name, value }) => {
@@ -184,20 +186,20 @@ export default function EmailShare(props) {
     // validate form: emailList and/or selectList must have a value
     // if selectList is null user doesn't have an email list
     if (!mailList.current && !emailList) {
-      setFieldError('Enter at least one email address');
+      setFieldError(t('Enter at least one email address'));
       setSend(false);
       return;
     }
     if (mailList.current && mailList.current.length === 0 && !emailList) {
-      setFieldError('Enter at least one email address');
+      setFieldError(t('Enter at least one email address'));
       setSend(false);
       return;
     }
     if (!selectList && !emailList) {
       setFieldError(
-        'Enter an email address or select one from the list above.'
+        t('Enter an email address or select one from the list above.')
       );
-      setSelectError('Select an address or enter one in the field below.');
+      setSelectError(t('Select an address or enter one in the field below.'));
       setSend(false);
       return;
     }
@@ -220,7 +222,7 @@ export default function EmailShare(props) {
         if (!result.ok) {
           message.setMessage({
             ...message.message,
-            msg: 'Email send failed!',
+            msg: t('Email send failed!'),
             color: 'red',
             hidden: false,
           });
@@ -228,7 +230,7 @@ export default function EmailShare(props) {
         } else {
           message.setMessage({
             ...message.message,
-            msg: 'Email sent!',
+            msg: t('Email sent!'),
             color: 'teal',
             hidden: false,
           });
@@ -256,9 +258,9 @@ export default function EmailShare(props) {
     <Form loading={sendingEmail}>
       {showSelect && (
         <Form.Field
-          label="Select from your email list"
+          label={t('Select from your email list')}
           control={Dropdown}
-          placeholder="Select one or more"
+          placeholder={t('Select one or more')}
           multiple
           search
           selection
@@ -269,11 +271,9 @@ export default function EmailShare(props) {
       )}
       {!showSelect && (
         <Message positive>
-          <Message.Header>Create your own email list.</Message.Header>
-          <p>
-            Create your own email list so you don't have to memember email
-            addresses! TODO: Add more contents here and a link
-          </p>
+          <Message.Header>{t('Create your own email list.')}</Message.Header>
+          {/* TODO: add link */}
+          <p>{t('createEmailList')}</p>
         </Message>
       )}
       <Form.Field
@@ -281,17 +281,17 @@ export default function EmailShare(props) {
         name="emailList"
         value={emailList || ''}
         required={!showSelect}
-        label="Enter Email Address(es)"
+        label={t('Enter Email Address(es)')}
         type="email"
-        placeholder="Comma separated list"
+        placeholder={t('Comma separated list')}
         control={Input}
         onChange={handleChange}
       />
       <Form.Field
         name="emailMessage"
         value={emailMessage || ''}
-        label="Add a message"
-        placeholder="Your message (optional)"
+        label={t('Add a message')}
+        placeholder={t('Your message (optional)')}
         control={TextArea}
         onChange={handleChange}
       />

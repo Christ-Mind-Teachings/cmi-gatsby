@@ -2,6 +2,7 @@ import React, { useContext, useRef, useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import { Message, Modal, Button, Icon } from 'semantic-ui-react';
 import styled from 'styled-components';
+import { useI18next } from 'gatsby-plugin-react-i18next';
 import { IdentityContext } from './IdentityContextProvider';
 import EmailShare from './EmailShare';
 
@@ -163,6 +164,7 @@ export default function Quotes(props) {
   const [background, setBackground] = useState(null);
   const [sendMail, setSendMail] = useState(false);
   const { user } = useContext(IdentityContext);
+  const { t } = useI18next(['quotes']);
 
   // set and display message from <EmailShare> component
   const [message, setMessage] = useState({
@@ -170,10 +172,6 @@ export default function Quotes(props) {
     hidden: true,
     color: 'red',
   });
-
-  // const [message, setMessage] = useState('This is a test');
-  // const [messageHidden, setMessageHidden] = useState(false);
-  // const [messageColor, setMessageColor] = useState('green');
 
   const quoteIds = useRef([]);
   const usedIds = useRef([]);
@@ -202,8 +200,8 @@ export default function Quotes(props) {
       if (usedIds.current.length === 0) {
         // we have no quotes
         setCurrentQuote({
-          quote: 'There are no quotes to show.',
-          citation: 'Library of Christ Mind Teachings',
+          quote: t('There are no quotes to show.'),
+          citation: t('Library of Christ Mind Teachings'),
           url: '#',
         });
         return;
@@ -275,7 +273,7 @@ export default function Quotes(props) {
       size="small"
     >
       <Modal.Header as="h2" id="quote-modal-header">
-        From <em>{source.title}</em>
+        <em>{source.title}</em>
         <Message
           onDismiss={() => setMessage({ ...message, hidden: true })}
           hidden={message.hidden}
@@ -290,7 +288,10 @@ export default function Quotes(props) {
           <p dangerouslySetInnerHTML={{ __html: currentQuote.quote }} />
           <footer>
             {currentQuote.url && (
-              <Link to={currentQuote.url} title="Read quote from the source.">
+              <Link
+                to={currentQuote.url}
+                title={t('Read quote from the source.')}
+              >
                 ~ {currentQuote.citation}
               </Link>
             )}
@@ -317,7 +318,7 @@ export default function Quotes(props) {
         dimmer="blurring"
         centered
       >
-        <Modal.Header>Share Quote by Email</Modal.Header>
+        <Modal.Header>{t('Share Quote by Email')}</Modal.Header>
         <Modal.Content>
           <EmailShare
             mailList={mailList}
@@ -331,10 +332,10 @@ export default function Quotes(props) {
         </Modal.Content>
         <Modal.Actions>
           <Button color="green" onClick={() => setSendMail(true)}>
-            Send Mail
+            {t('Send Mail')}
           </Button>
           <Button color="red" onClick={() => setMailModalOpen(false)}>
-            Cancel
+            {t('Cancel')}
           </Button>
         </Modal.Actions>
       </Modal>

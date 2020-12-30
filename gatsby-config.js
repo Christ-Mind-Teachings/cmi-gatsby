@@ -6,10 +6,10 @@ module.exports = {
   plugins: [
     // 'gatsby-plugin-less',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-create-client-paths',
-      options: { prefixes: ['/cmi/*'] },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-create-client-paths',
+    //   options: { prefixes: ['/cmi/*', '/pl/cmi/*'] },
+    // },
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
@@ -22,7 +22,6 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/sources`,
-        // path: `${__dirname}/src/plugintest`,
         name: 'sources',
       },
     },
@@ -80,11 +79,13 @@ module.exports = {
             languages: ['en'],
           },
           {
-            matchPath: '/cmi',
+            matchPath: '/cmi/:feature?',
+            getLanguageFromPath: false,
             languages: ['en', 'pl'],
           },
           {
             matchPath: '/index',
+            getLanguageFromPath: false,
             languages: ['en', 'pl'],
           },
         ],

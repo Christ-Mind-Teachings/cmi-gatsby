@@ -4,7 +4,7 @@ import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
 import AudioPlayer from './AudioPlayer';
-import { IdentityContext } from './IdentityContextProvider';
+import { Authenticate } from './Authenticate';
 
 const menuStyle = {
   border: 'none',
@@ -32,29 +32,14 @@ export default function TranscriptNav(props) {
   let activeItem;
 
   const { timing, source, book, unit, next, prev } = props;
-
   const [menuFixed, setMenuFixed] = useState(false);
   const [contentsOpen, setContentsOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
-
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
   const toggleContentsModal = () => setContentsOpen(!contentsOpen);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
   const [audioPlayerOpen, setAudioPlayerOpen] = useState(false);
-
-  /*
-   * If user is signed in logout otherwise sign in
-   */
-  function userAccess() {
-    if (user) {
-      netlifyIdentity.logout();
-    } else {
-      netlifyIdentity.open();
-    }
-  }
 
   return (
     <>
@@ -159,24 +144,7 @@ export default function TranscriptNav(props) {
               >
                 <Icon name="question" />
               </Menu.Item>
-              {user ? (
-                <Menu.Item name="cmiUser" active={activeItem === 'cmiUser'}>
-                  <Link to="/cmi">
-                    <Icon name="user" />
-                  </Link>
-                </Menu.Item>
-              ) : null}
-              <Menu.Item
-                onClick={userAccess}
-                name="user"
-                active={activeItem === 'user'}
-              >
-                {user ? (
-                  <Icon style={{ color: 'green' }} name="sign out" />
-                ) : (
-                  <Icon style={{ color: 'red' }} name="sign in" />
-                )}
-              </Menu.Item>
+              <Authenticate />
             </Menu.Menu>
           </Container>
         </Menu>

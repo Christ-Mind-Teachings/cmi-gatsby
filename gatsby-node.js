@@ -51,6 +51,16 @@ export async function createPages(parms) {
   await Promise.all([createTranscriptPage(parms)]);
 }
 
+// exports.onCreatePage = ({ page, actions }) => {
+//   const { createPage } = actions;
+//   // notice the addition of .*
+//   if (page.path.match(/^\/.*\/cmi/)) {
+//     // notice page.context.language
+//     page.matchPath = `/${page.context.language}/cmi/*`;
+//     createPage(page);
+//   }
+// };
+
 /*
  * Get out of memory error when building on Netlify when project includes fomantic-ui
 export function onCreateWebpackConfig({ actions }) {

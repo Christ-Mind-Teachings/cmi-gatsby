@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link } from '@reach/router';
+import { Link, useI18next } from 'gatsby-plugin-react-i18next';
 import { ToastContainer } from 'react-toastify';
 import {
   Button,
@@ -10,6 +10,7 @@ import {
   Input,
   Menu,
 } from 'semantic-ui-react';
+import { NotAuthorized } from './NotAuthorized';
 import { IdentityContext } from './IdentityContextProvider';
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -33,55 +34,61 @@ export function Dashboard(props) {
       {/* Top menu bar - non mobile devices */}
       <Grid padded className="tablet computer only">
         <Menu borderless inverted fluid fixed="top">
-          <Menu.Item header as="a" href="/">
-            Library of Christ Mind Teachings
+          <Menu.Item header>
+            <Link to="/">Library of Christ Mind Teachings</Link>
           </Menu.Item>
-          <Menu.Menu position="right">
-            <Menu.Item>
-              <Input placeholder="Search..." size="small" />
-            </Menu.Item>
-            <Menu.Item as="a">Dashboard</Menu.Item>
-            <Menu.Item as="a">Settings</Menu.Item>
-            <Menu.Item as="a">{user.user_metadata.full_name}</Menu.Item>
-            <Menu.Item as="a">Help</Menu.Item>
-          </Menu.Menu>
+          {user && (
+            <Menu.Menu position="right">
+              <Menu.Item>
+                <Input placeholder="Search..." size="small" />
+              </Menu.Item>
+              <Menu.Item as="a">Dashboard</Menu.Item>
+              <Menu.Item as="a">Settings</Menu.Item>
+              <Menu.Item as="a">{user?.user_metadata.full_name}</Menu.Item>
+              <Menu.Item as="a">Help</Menu.Item>
+            </Menu.Menu>
+          )}
         </Menu>
       </Grid>
       {/* Top menu bar - mobile devices */}
       <Grid padded className="mobile only">
         <Menu borderless inverted fluid fixed="top">
-          <Menu.Item header as="a">
-            Library of Christ Mind Teachings
+          <Menu.Item header>
+            <Link to="/">Library of Christ Mind Teachings</Link>
           </Menu.Item>
-          <Menu.Menu position="right">
-            <Menu.Item>
-              <Button
-                basic
-                inverted
-                icon
-                toggle
-                onClick={handleToggleDropdownMenu}
-              >
-                <Icon name="content" />
-              </Button>
-            </Menu.Item>
-          </Menu.Menu>
-          <Menu
-            borderless
-            fluid
-            inverted
-            vertical
-            style={{ display: dropdownDisplay }}
-          >
-            <Menu.Item as="a">Dashboard</Menu.Item>
-            <Menu.Item as="a">Settings</Menu.Item>
-            <Menu.Item as="a">{user.user_metadata.full_name}</Menu.Item>
-            <Menu.Item as="a">Help</Menu.Item>
-            <Divider fitted />
-            <Menu.Item>
-              <Input placeholder="Search..." size="small" />
-            </Menu.Item>
-          </Menu>
+          {user && (
+            <Menu.Menu position="right">
+              <Menu.Item>
+                <Button
+                  basic
+                  inverted
+                  icon
+                  toggle
+                  onClick={handleToggleDropdownMenu}
+                >
+                  <Icon name="content" />
+                </Button>
+              </Menu.Item>
+            </Menu.Menu>
+          )}
+          {user && (
+            <Menu
+              borderless
+              fluid
+              inverted
+              vertical
+              style={{ display: dropdownDisplay }}
+            >
+              <Menu.Item as="a">Dashboard</Menu.Item>
+              <Menu.Item as="a">Settings</Menu.Item>
+              <Menu.Item as="a">{user?.user_metadata.full_name}</Menu.Item>
+              <Menu.Item as="a">Help</Menu.Item>
+              <Divider fitted />
+              <Menu.Item>
+                <Input placeholder="Search..." size="small" />
+              </Menu.Item>
+            </Menu>
+          )}
         </Menu>
       </Grid>
       {/* Sidebar */}
@@ -93,22 +100,42 @@ export function Dashboard(props) {
           id="sidebar"
         >
           <Menu vertical borderless fluid text>
-            <Menu.Item
-              name="overview"
-              active={activeItem === 'overview'}
-              as={Link}
-              to="/cmi/overview"
-            >
-              Overview
-            </Menu.Item>
-            <Menu.Item
-              name="maillist"
-              active={activeItem === 'maillist'}
-              as={Link}
-              to="/cmi/maillist"
-            >
-              MailList
-            </Menu.Item>
+            {user ? (
+              <Menu.Item
+                name="overview"
+                active={activeItem === 'overview'}
+                as={Link}
+                to="/cmi"
+              >
+                Overview
+              </Menu.Item>
+            ) : (
+              <Menu.Item
+                as="a"
+                name="overview"
+                active={activeItem === 'overview'}
+              >
+                Overview
+              </Menu.Item>
+            )}
+            {user ? (
+              <Menu.Item
+                name="maillist"
+                active={activeItem === 'maillist'}
+                as={Link}
+                to="/cmi/maillist"
+              >
+                MailList
+              </Menu.Item>
+            ) : (
+              <Menu.Item
+                as="a"
+                name="maillist"
+                active={activeItem === 'maillist'}
+              >
+                MailList
+              </Menu.Item>
+            )}
             <Menu.Item as="a">Analytics</Menu.Item>
             <Menu.Item as="a">Export</Menu.Item>
             <Divider hidden />
@@ -138,7 +165,7 @@ export function Dashboard(props) {
             </Grid.Row>
             <Divider section hidden />
             {/* Page specific area, layout with Grid.Row for each vertical section */}
-            {children}
+            {user ? children : <NotAuthorized />}
           </Grid>
         </Grid.Column>
       </Grid>

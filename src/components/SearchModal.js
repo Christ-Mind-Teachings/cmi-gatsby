@@ -1,4 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
+// import { useI18Next, useTranslation } from 'gatsby-plugin-react-i18next';
 import { Link } from 'gatsby';
 import {
   Container,
@@ -25,12 +27,11 @@ import { runSearchQuery } from '../utils/cmiApi';
  */
 function SearchResults(props) {
   const { setOpen, set, path, results } = props;
+  const { t } = useTranslation(['search']);
 
   if (!results.matches) {
     return <Container />;
   }
-
-  console.log('search results: %o', results);
 
   /*
    * Because <Link> won't link to the current page, we need a way to navigate to search matches
@@ -54,11 +55,11 @@ function SearchResults(props) {
           <List.Header>
             {url === path ? (
               <a location={h.location} onClick={viewSearchMatchOnPage}>
-                Paragraph {incrementLocation(h.location)}
+                {t('Paragraph')} {incrementLocation(h.location)}
               </a>
             ) : (
               <Link state={{ search: h.location }} to={url}>
-                Paragraph {incrementLocation(h.location)}
+                {t('Paragraph')} {incrementLocation(h.location)}
               </Link>
             )}
           </List.Header>
@@ -94,10 +95,12 @@ function SearchResults(props) {
 }
 
 export default function SearchModal({ source, open, setOpen }) {
+  const { t: c } = useTranslation(['search']);
+
   const [query, setQuery] = useState('');
   const [searchState, setSearchState] = useState({
     ok: true,
-    header: `Search ${source.title}`,
+    header: `${c('Search')} ${source.title}`,
     message: '',
   }); // positive
   const [loading, setLoading] = useState(false);
@@ -108,6 +111,11 @@ export default function SearchModal({ source, open, setOpen }) {
   );
 
   const { setSearchPid } = useContext(GlobalContext);
+
+  // can't use one useTranslation(['ns1','ns2',...]), only the first will translate
+  // - a workaround is to create multiple functions like this
+  // const { t: c } = useTranslation(['common']);
+  // const { t } = useTranslation(['translation', 'common']);
 
   function runSearch(e) {
     e.preventDefault();
@@ -126,20 +134,24 @@ export default function SearchModal({ source, open, setOpen }) {
       try {
         setLoading(true);
         const queryResult = await runSearchQuery(query, source.sourceId);
-        const results = formatSearchResults(queryResult);
+        const results = formatSearchResults(queryResult, c);
 
         if (results.count > 0) {
           setSearchState({
             ok: true,
-            header: `Success: ${results.count} matches found`,
-            message: `Search for "${results.query}" found ${results.count} matches`,
+            // header: `Success: ${results.count} matches found`,
+            header: c('searchSuccessHeader', { count: results.count }),
+            message: c('searchSuccessMessage', {
+              query: results.query,
+              count: results.count,
+            }),
           });
           setSearchResults(results);
         } else {
           setSearchState({
             ok: false,
-            header: 'No matches found',
-            message: `Search for "${results.query}" found no matches`,
+            header: c('searchFailHeader'),
+            message: c('searchFailMessage', { query: results.query }),
           });
         }
       } catch (error) {
@@ -161,9 +173,9 @@ export default function SearchModal({ source, open, setOpen }) {
       dimmer="blurring"
     >
       <Modal.Header>
-        Search <em>{source.title}</em>
+        {c('Search')} {source.title}
         <br />
-        <Link to="/">See Search Documentation</Link>
+        <Link to="/">{c('See Search Documentation')}</Link>
       </Modal.Header>
       <Modal.Content image>
         <Image size="small" src="/assets/img/cmi/search_modal.png" wrapped />
@@ -181,25 +193,28 @@ export default function SearchModal({ source, open, setOpen }) {
               />
               <Message.Content>
                 <Message.Header>
-                  {loading ? 'Please wait...' : searchState.header}
+                  {loading ? c('Please wait...') : searchState.header}
                 </Message.Header>
-                {loading ? 'Searching' : searchState.message}
+                {loading ? c('Searching') : searchState.message}
               </Message.Content>
             </Message>
             <form onSubmit={runSearch}>
               <Input
                 loading={loading}
                 focus
-                action={loading ? '' : 'Search'}
+                action={loading ? '' : c('Search')}
                 name="query"
-                placeholder="Enter search query"
+                placeholder={c('Enter search query')}
               />
             </form>
             <Divider horizontal>
               <Header as="h4">
                 <Icon name="search" />
                 {searchResults.query
-                  ? `Search for "${searchResults.query}" found ${searchResults.count} matches`
+                  ? `${c('searchSuccessMessage', {
+                      query: searchResults.query,
+                      count: searchResults.count,
+                    })}`
                   : ''}
               </Header>
             </Divider>

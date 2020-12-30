@@ -1,0 +1,14 @@
+{
+  "Search": "Search",
+  "SearchTitle": "Search <1>{{title}}</1>",
+  "Paragraph": "Paragraph",
+  "searchSuccessHeader": "Success {{count}} match(es) found",
+  "searchSuccessMessage": "Search for {{query}} found {{count}} matches",
+  "searchFailHeader": "Search found no matches",
+  "searchFailMessage": "Search for {{query}} found no matches",
+  "See Search Documentation": "See Search Documentation",
+  "Please wait...": "Please wait...",
+  "Enter search query": "Enter search query",
+  "Searching": "Searching",
+  "Title Not Found": "Title Not Found"
+}
