@@ -190,11 +190,30 @@ export default function SearchNavigator(props) {
   const pageHits = useRef();
 
   /*
+   * Adjust the urls to add the language since this is not returned by the search api
+   */
+  function adjustUrls(language, nd) {
+    if (nd.nextPageUrl?.url) {
+      nd.nextPageUrl.url = `${language}${nd.nextPageUrl.url}`;
+    }
+    if (nd.previousPageUrl?.url) {
+      nd.previousPageUrl.url = `${language}${nd.previousPageUrl.url}`;
+    }
+    if (nd.thisPageHits?.url) {
+      nd.thisPageHits.url = `${language}${nd.thisPageHits.url}`;
+    }
+  }
+
+  /*
    * Setup Search Navigator
    * - only called once
    */
   useEffect(() => {
-    const nd = getNavigatorData(path, searchResults, paragraph);
+    // path contains language (/en), remove that before calling getNavigatorData because search
+    // results don't include it.
+    const language = path.substring(0, 3);
+    const nd = getNavigatorData(path.substring(3), searchResults, paragraph);
+    adjustUrls(language, nd);
 
     // console.log({ path, paragraph });
     // console.log('searchResults: %o', searchResults);

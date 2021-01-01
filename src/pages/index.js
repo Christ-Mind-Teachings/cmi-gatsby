@@ -25,8 +25,7 @@ const headerStyle = {
 
 export default function ChristMindLibrary() {
   const { t } = useTranslation();
-  const { language, originalPath } = useI18next();
-  // const { navigate } = i18;
+  const { language } = useI18next();
 
   return (
     <>

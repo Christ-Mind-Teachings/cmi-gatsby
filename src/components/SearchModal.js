@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { useTranslation } from 'gatsby-plugin-react-i18next';
+import { useI18next, useTranslation } from 'gatsby-plugin-react-i18next';
 // import { useI18Next, useTranslation } from 'gatsby-plugin-react-i18next';
 import { Link } from 'gatsby';
 import {
@@ -28,6 +28,7 @@ import { runSearchQuery } from '../utils/cmiApi';
 function SearchResults(props) {
   const { setOpen, set, path, results } = props;
   const { t } = useTranslation(['search']);
+  const { language } = useI18next();
 
   if (!results.matches) {
     return <Container />;
@@ -47,18 +48,25 @@ function SearchResults(props) {
     set(pid);
   }
 
+  /*
+   * Add language to url to support i18n
+   */
+  function adjustUrl(url) {
+    return `/${language}${url}`;
+  }
+
   function formatMatches(bookId, url, hits, unitIndex) {
     return hits.map((h, index) => (
       <List.Item key={`${bookId}:unit:${unitIndex}:hit:${index}`}>
         <List.Icon name="search" />
         <List.Content>
           <List.Header>
-            {url === path ? (
+            {adjustUrl(url) === path ? (
               <a location={h.location} onClick={viewSearchMatchOnPage}>
                 {t('Paragraph')} {incrementLocation(h.location)}
               </a>
             ) : (
-              <Link state={{ search: h.location }} to={url}>
+              <Link state={{ search: h.location }} to={adjustUrl(url)}>
                 {t('Paragraph')} {incrementLocation(h.location)}
               </Link>
             )}
@@ -96,6 +104,7 @@ function SearchResults(props) {
 
 export default function SearchModal({ source, open, setOpen }) {
   const { t: c } = useTranslation(['search']);
+  const { language } = useI18next();
 
   const [query, setQuery] = useState('');
   const [searchState, setSearchState] = useState({
@@ -134,7 +143,7 @@ export default function SearchModal({ source, open, setOpen }) {
       try {
         setLoading(true);
         const queryResult = await runSearchQuery(query, source.sourceId);
-        const results = formatSearchResults(queryResult, c);
+        const results = formatSearchResults(queryResult, c, language);
 
         if (results.count > 0) {
           setSearchState({

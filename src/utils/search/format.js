@@ -2,7 +2,7 @@ import wom from './wom';
 import pwom from './pwom';
 import raj from './raj';
 
-function formatter(sourceId, books, pages, hits, t) {
+function formatter(sourceId, books, pages, hits, t, language) {
   // Add title and resolve url for search matches
   // - prepare to combine matches in the same unit by adding 'newUnit'
   const formatted = books
@@ -17,7 +17,7 @@ function formatter(sourceId, books, pages, hits, t) {
           // remove '/' from unit.url if present, this was used for questions and no longer needed
           const unit = u.unit.replace('/', '');
           const url = `/${sourceId}/${b.bookId}/${unit}`;
-          const unitInfo = pages.find((i) => i.url === url);
+          const unitInfo = pages.find((i) => i.url === `/${language}${url}`);
           const title = unitInfo ? unitInfo.title : t('Title Not Found');
           const newUnit = unit !== unitId;
 
@@ -67,14 +67,14 @@ function formatter(sourceId, books, pages, hits, t) {
   return { count: hits.count, query: hits.query, matches: formatted };
 }
 
-export default function formatSearchResults(hits, t) {
+export default function formatSearchResults(hits, t, language) {
   switch (hits.source) {
     case 'wom':
-      return formatter('wom', wom.books, wom.pages, hits, t);
+      return formatter('wom', wom.books, wom.pages, hits, t, language);
     case 'raj':
-      return formatter('raj', raj.books, raj.pages, hits, t);
+      return formatter('raj', raj.books, raj.pages, hits, t, language);
     case 'pwom':
-      return formatter('pwom', pwom.books, pwom.pages, hits, t);
+      return formatter('pwom', pwom.books, pwom.pages, hits, t, language);
     default:
       break;
   }

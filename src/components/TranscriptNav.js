@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
+import { useI18next } from 'gatsby-plugin-react-i18next';
 import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
 import AudioPlayer from './AudioPlayer';
@@ -40,6 +41,7 @@ export default function TranscriptNav(props) {
   const toggleContentsModal = () => setContentsOpen(!contentsOpen);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
   const [audioPlayerOpen, setAudioPlayerOpen] = useState(false);
+  const { t } = useI18next();
 
   return (
     <>
@@ -71,13 +73,18 @@ export default function TranscriptNav(props) {
         >
           <Container text>
             {unit?.audio ? (
-              <Menu.Item
-                name="audio"
-                active={activeItem === 'audio'}
-                onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
-              >
-                <Icon name="volume up" />
-              </Menu.Item>
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="audio"
+                    active={activeItem === 'audio'}
+                    onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
+                  >
+                    <Icon name="volume up" />
+                  </Menu.Item>
+                }
+                content={t('Listen')}
+              />
             ) : null}
 
             <Popup
@@ -90,7 +97,7 @@ export default function TranscriptNav(props) {
                   <Icon name="search" />
                 </Menu.Item>
               }
-              content="Search"
+              content={t('Search')}
             />
 
             <Popup
@@ -118,7 +125,7 @@ export default function TranscriptNav(props) {
                   <Icon name="align justify" />
                 </Menu.Item>
               }
-              content="Display Table of Contents"
+              content={t('Table of Contents')}
             />
 
             <Popup
@@ -137,13 +144,18 @@ export default function TranscriptNav(props) {
             />
 
             <Menu.Menu position="right">
-              <Menu.Item
-                name="help"
-                active={activeItem === 'help'}
-                onClick={handleItemClick}
-              >
-                <Icon name="question" />
-              </Menu.Item>
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="help"
+                    active={activeItem === 'help'}
+                    onClick={handleItemClick}
+                  >
+                    <Icon name="question" />
+                  </Menu.Item>
+                }
+                content={t('Help')}
+              />
               <Authenticate />
             </Menu.Menu>
           </Container>

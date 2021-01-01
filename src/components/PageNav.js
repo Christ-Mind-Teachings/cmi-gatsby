@@ -35,7 +35,7 @@ export default function PageNav(props) {
   const stickTopMenu = () => setMenuFixed(true);
   const unStickTopMenu = () => setMenuFixed(false);
   const toggleSearchModal = () => setSearchOpen(!searchOpen);
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -67,9 +67,14 @@ export default function PageNav(props) {
             />
 
             <Menu.Menu position="right">
-              <Menu.Item name="help" active={activeItem === 'help'}>
-                <Icon name="question" />
-              </Menu.Item>
+              <Popup
+                trigger={
+                  <Menu.Item name="help" active={activeItem === 'help'}>
+                    <Icon name="question" />
+                  </Menu.Item>
+                }
+                content={t('Help')}
+              />
               <Authenticate />
             </Menu.Menu>
           </Container>

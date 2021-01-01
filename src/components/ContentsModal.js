@@ -16,7 +16,7 @@ export default function ContentsModal({ book, unit, open, setOpen }) {
       dimmer="blurring"
     >
       <Modal.Header>
-        <em>{book.title}</em> Contents
+        <em>{book.title}</em>
       </Modal.Header>
       <Modal.Content image>
         <Image size="small" src={`${book.image}`} wrapped />
