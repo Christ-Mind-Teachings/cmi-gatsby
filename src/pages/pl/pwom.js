@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { graphql } from 'gatsby';
 import { Header, Card, Image } from 'semantic-ui-react';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
@@ -11,9 +12,8 @@ import lj from '../../assets/images/pwom/lj-big.jpg';
 import wos from '../../assets/images/pwom/wos-big.jpg';
 import early from '../../assets/images/pwom/early-big.jpg';
 
-const sourceInfo = { sid: 16, sourceId: 'pwom', title: 'Droga Mistrzostwa ' };
-
-export default function WomPage(props) {
+export default function PwomPage({ data }) {
+  const sourceInfo = data.source;
   const [book, setBook] = useState();
   const [contentsOpen, setContentsOpen] = useState(false);
   const [showQuote, setShowQuote] = useState(false);
@@ -99,3 +99,13 @@ export default function WomPage(props) {
     </PageLayout>
   );
 }
+
+export const pageQuery = graphql`
+  query pwomSourceInfo {
+    source: cmiSourcesJson(sourceId: { eq: "pwom" }) {
+      sid
+      title
+      sourceId
+    }
+  }
+`;

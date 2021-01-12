@@ -14,6 +14,7 @@ const StyledHeader = styled(Header)`
   h1.ui.header {
     margin-top: 2em;
   }
+  h2 a,
   h1 a {
     color: #871212;
   }
@@ -26,7 +27,7 @@ const StyledHeader = styled(Header)`
 `;
 
 export default function PageHeader(props) {
-  const { title } = props;
+  const { group, title } = props;
   const { t } = useI18next();
 
   return (
@@ -37,6 +38,14 @@ export default function PageHeader(props) {
           <Icon name="linkify" size="tiny" color="blue" />
         </Link>
       </Header>
+      {group && (
+        <Header as="h2" title={t('To Group Home Page')} textAlign="center">
+          <Link to={group.url}>
+            {group.title}
+            <Icon name="linkify" size="tiny" color="blue" />
+          </Link>
+        </Header>
+      )}
       <Header as="h2" textAlign="center">
         {title}
       </Header>

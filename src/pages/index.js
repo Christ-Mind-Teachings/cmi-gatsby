@@ -11,7 +11,8 @@ import {
 import { navigate } from 'gatsby';
 import SiteHeader from '../components/SiteHeader';
 import LibraryNav from '../components/LibraryNav';
-import oe from '../assets/images/cmi/covers/acimoe-big.jpg';
+import acimGroup from '../assets/images/cmi/covers/acim-group.png';
+// import oe from '../assets/images/cmi/covers/acimoe-big.jpg';
 import jsb from '../assets/images/cmi/covers/jsb-big.jpg';
 import acol from '../assets/images/cmi/covers/acol2-big.jpg';
 import raj from '../assets/images/cmi/covers/raj-big.jpg';
@@ -79,11 +80,11 @@ export default function ChristMindLibrary() {
           </Grid.Column>
         </Grid>
         <Card.Group itemsPerRow={3} stackable>
-          <Card name="oe">
-            <Image src={oe} size="medium" wrapped ui={false} />
+          <Card name="acim" onClick={() => navigate('/en/acim')}>
+            <Image src={acimGroup} size="medium" wrapped ui={false} />
             <Card.Content>
               <Card.Description>
-                <Trans>A Course in Miracles Original Edition</Trans>
+                <Trans>Multiple versions of A Course in Miracles</Trans>
               </Card.Description>
             </Card.Content>
           </Card>
@@ -110,25 +111,19 @@ export default function ChristMindLibrary() {
           <Card name="acol">
             <Image src={acol} size="medium" wrapped ui={false} />
             <Card.Content>
-              <Card.Description>
-                <Trans>A Course Of Love</Trans>
-              </Card.Description>
+              <Card.Description>A Course Of Love</Card.Description>
             </Card.Content>
           </Card>
           <Card name="raj" onClick={() => navigate('/en/raj')}>
             <Image src={raj} size="medium" wrapped ui={false} />
             <Card.Content>
-              <Card.Description>
-                <Trans>The Raj Materials</Trans>
-              </Card.Description>
+              <Card.Description>The Raj Materials</Card.Description>
             </Card.Content>
           </Card>
           <Card name="jsb">
             <Image src={jsb} size="medium" wrapped ui={false} />
             <Card.Content>
-              <Card.Description>
-                <Trans>The Impersonal Life</Trans>
-              </Card.Description>
+              <Card.Description>The Impersonal Life</Card.Description>
             </Card.Content>
           </Card>
         </Card.Group>

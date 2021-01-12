@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useI18next, Trans } from 'gatsby-plugin-react-i18next';
+import { Link, useI18next, Trans } from 'gatsby-plugin-react-i18next';
 import { Popup, Menu, Dropdown } from 'semantic-ui-react';
 
 function options(current, languages) {
@@ -14,14 +14,14 @@ function options(current, languages) {
 }
 
 export const ChangeLanguage = () => {
-  const { changeLanguage, language, languages, t } = useI18next();
+  const { changeLanguage, originalPath, language, languages, t } = useI18next();
   const dropdown = useRef();
 
-  function languageSelect(e, { lang }) {
-    // this causes a 'Cannot update a component...' React error on occasion. Don't know how
-    // to fix it. Doesn't seem to be a problem.
-    changeLanguage(lang);
-  }
+  // function languageSelect(e, { lang }) {
+  //   // this causes a 'Cannot update a component...' React error on occasion. Don't know how
+  //   // to fix it. Doesn't seem to be a problem.
+  //   changeLanguage(lang);
+  // }
 
   useEffect(() => {
     dropdown.current = options(language, languages);
@@ -43,10 +43,12 @@ export const ChangeLanguage = () => {
                 <Dropdown.Item
                   key={l}
                   disabled={l === language}
-                  onClick={languageSelect}
+                  // onClick={languageSelect}
                   lang={l}
                 >
-                  <Trans>{l}</Trans>
+                  <Link to={originalPath} language={l}>
+                    <Trans>{l}</Trans>
+                  </Link>
                 </Dropdown.Item>
               ))}
             </Dropdown.Menu>

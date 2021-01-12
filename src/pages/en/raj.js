@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Header, Card, Image } from 'semantic-ui-react';
+import { graphql } from 'gatsby';
+import { Segment, Grid, Header, Card, Image } from 'semantic-ui-react';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import rajContents from '../../data/raj/rajContents.json';
 import yaa from '../../assets/images/raj/yaa-big.jpg';
 import grad from '../../assets/images/raj/grad-big.jpg';
+import acim from '../../assets/images/raj/acim-big.jpg';
 import sg2002 from '../../assets/images/raj/sg2002-big.jpg';
 import sg2003 from '../../assets/images/raj/sg2003-big.jpg';
 import sg2004 from '../../assets/images/raj/sg2004-big.jpg';
@@ -23,9 +25,23 @@ import sg2016 from '../../assets/images/raj/sg2016-big.jpg';
 import sg2017 from '../../assets/images/raj/sg2017-big.jpg';
 import sg2018 from '../../assets/images/raj/sg2018-big.jpg';
 
-const sourceInfo = { sourceId: 'raj', title: 'The Raj Material' };
+const acimBookStyle = {
+  borderLeft: '5px solid #39cdfd',
+  padding: '10px',
+};
 
-export default function RajPage(props) {
+const acimStudentStyle = {
+  borderLeft: '5px solid #ea56f7',
+  padding: '10px',
+};
+
+const indentStyle = {
+  marginLeft: '20px',
+  marginBottom: '20px',
+};
+
+export default function RajPage({ data }) {
+  const sourceInfo = data.source;
   const [book, setBook] = useState();
   const [contentsOpen, setContentsOpen] = useState(false);
 
@@ -51,6 +67,12 @@ export default function RajPage(props) {
         years Raj patiently explains the meaning of the Course through the ACIM
         Study Group.
       </p>
+      <Header as="h2">Pauls Relationship with Raj</Header>
+      <p>
+        In <em>You Are the Answer</em> Paul recounts his initial introduction to
+        Raj and in <em>Graduation</em> he brings us up to date after nine years
+        with Raj.
+      </p>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="yaa" onClick={cardClick}>
           <Image src={yaa} size="medium" wrapped ui={false} />
@@ -65,6 +87,54 @@ export default function RajPage(props) {
           </Card.Content>
         </Card>
       </Card.Group>
+      <Header as="h2">A Course In Miracles Study Group with Raj</Header>
+      <p>
+        Starting in 2002 the ACIM Study Group contains over 440 recorded
+        sessions of Raj speaking about the Course. These sessions are grouped by
+        year in the books below.
+      </p>
+      <p>
+        In the study group transcripts below you'll find some paragraphs marked
+        by a color bar in the margin. All other paragraphs are comments from
+        Raj.
+      </p>
+      <div style={indentStyle}>
+        <p style={acimBookStyle}>
+          This is where Raj reads directly from the Text.
+        </p>
+        <p style={acimStudentStyle}>
+          These are student questions and comments.
+        </p>
+      </div>
+      <Grid>
+        <Grid.Column width={6}>
+          <Card name="acim" onClick={cardClick}>
+            <Image src={acim} size="medium" wrapped ui={false} />
+            <Card.Content>
+              <Card.Description>
+                ACIM Sparkly Edition Cross Reference
+              </Card.Description>
+            </Card.Content>
+          </Card>
+        </Grid.Column>
+        <Grid.Column width={10}>
+          <Segment>
+            Except for the first year, Raj has read from the Sparkly Edition of
+            ACIM during his study group. This cross reference identifies study
+            group sessions that correspond to chapters and sections in the Text.
+          </Segment>
+        </Grid.Column>
+      </Grid>
+      {/* <Card.Group itemsPerRow={3} stackable>
+        <Card name="acim" onClick={cardClick}>
+          <Image src={acim} size="medium" wrapped ui={false} />
+          <Card.Content>
+            <Card.Description>
+              ACIM Sparkly Edition Cross Reference
+            </Card.Description>
+          </Card.Content>
+        </Card>
+      </Card.Group> */}
       <Card.Group itemsPerRow={3} stackable>
         <Card name="sg2002" onClick={cardClick}>
           <Image src={sg2002} size="medium" wrapped ui={false} />
@@ -180,3 +250,13 @@ export default function RajPage(props) {
     </PageLayout>
   );
 }
+
+export const pageQuery = graphql`
+  query rajSourceInfo {
+    source: cmiSourcesJson(sourceId: { eq: "raj" }) {
+      sid
+      title
+      sourceId
+    }
+  }
+`;

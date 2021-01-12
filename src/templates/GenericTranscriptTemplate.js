@@ -33,72 +33,35 @@ function findPrevious(array, c) {
 }
 
 /**
- *  Search through a table of contents array for a url. Return an object with results.
- *  The array can have multiple levels and has this general structure:
+ *  Find title and url of the next and previous pages
  *
- *  toc = [{
- *    title,
- *    url,
- *    [contents]: [
- *      title,
- *      url,
- *      [contents]
- *    ]
- *  }
- * ]
- *
- *  Each item in the array can optionally contain a "contents" array.
- *
- * @param {array} array - The array to search
+ * @param {array} list - The array to search
  * @param {string} url - The string to look for
- * @param {*} pos - an empty array, used internally
- * @return {object} {found: boolean, next: {url, title}, prev: {url, title}}
+ * @return {object} {next: {url, title}, prev: {url, title}}
  */
-function findIndex(array, url, pos = []) {
+function getNextPrev(list, url) {
   let prev;
   let next;
-  for (let c = 0; c < array.length; c += 1) {
-    if (array[c].url === url) {
-      pos.push(c);
 
-      // find prev
-      prev = findPrevious(array, c - 1);
-
-      // find next
-      if (array[c].contents) {
-        next = {
-          url: array[c].contents[0].url,
-          title: array[c].contents[0].title,
-        };
-      } else if (array[c + 1]) {
-        next = { url: array[c + 1].url, title: array[c + 1].title };
-      }
-
-      return { found: true, url, pos, prev, next };
-    }
-
-    if (array[c].contents) {
-      pos.push(c);
-      const result = findIndex(array[c].contents, url, pos);
-      if (result.found) {
-        if (result.prev === undefined) {
-          result.prev = { url: array[c].url, title: array[c].title };
-        }
-
-        if (result.next === undefined && array[c + 1]) {
-          result.next = { url: array[c + 1].url, title: array[c + 1].title };
-        }
-        return result;
-      }
-      result.pos.pop();
-    }
+  const urlIndex = list.findIndex((p) => p.url === url);
+  if (urlIndex === -1) {
+    console.error("Didn't find index in Pages for page, something is wrong");
+    return {};
   }
 
-  return { found: false, url, pos, prev, next };
+  if (urlIndex > 0) {
+    prev = list[urlIndex - 1];
+  }
+
+  if (urlIndex < list.length - 1) {
+    next = list[urlIndex + 1];
+  }
+
+  return { url, next, prev };
 }
 
 export function GenericTranscriptTemplate({ location, data }) {
-  const { timing, unit, book, source, content } = data;
+  const { list, timing, unit, book, source, content } = data;
   const [searchPid, setSearchPid] = useState(
     location.state && location.state.search ? location.state.search : null
   );
@@ -131,7 +94,7 @@ export function GenericTranscriptTemplate({ location, data }) {
   }, []);
 
   useEffect(() => {
-    const { next = {}, prev = {} } = findIndex(book.toc, unit.url, []);
+    const { next = {}, prev = {} } = getNextPrev(list.nodes, unit.url);
     setPrev(prev);
     setNext(next);
 

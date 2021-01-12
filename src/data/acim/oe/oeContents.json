@@ -1,0 +1,3449 @@
+[
+  {
+    "bookId": "text",
+    "bid": "1",
+    "title": "Text",
+    "image": "/assets/img/oe/text-toc.jpg",
+    "toc": [
+      {
+        "title": "Front Matter",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/forward",
+            "title": "Forward"
+          },
+          {
+            "url": "/en/acim/oe/text/intro",
+            "title": "Introduction"
+          }
+        ]
+      },
+      {
+        "title": "Introduction to Miracles",
+        "contents": [
+          {
+            "title": "Tx.1.I. Principles of Miracles",
+            "url": "/en/acim/oe/text/chap0101"
+          },
+          {
+            "title": "Tx.1.II. Distortions of Miracle Impulses",
+            "url": "/en/acim/oe/text/chap0102"
+          }
+        ]
+      },
+      {
+        "title": "The Illusion of Separation",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0201",
+            "title": "Tx.2.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0202",
+            "title": "Tx.2.II. The Reinterpretation of Defenses"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0203",
+            "title": "Tx.2.III. Healing as Release from Fear"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0204",
+            "title": "Tx.2.IV. Fear as Lack of Love"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0205",
+            "title": "Tx.2.V. The Correction for Lack of Love"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0206",
+            "title": "Tx.2.VI. The Meaning of the Last Judgement"
+          }
+        ]
+      },
+      {
+        "title": "Retraining the Mind",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0301",
+            "title": "Tx.3.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0302",
+            "title": "Tx.3.II. Special Principles for Miracle Workers"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0303",
+            "title": "Tx.3.III. Atonement without Sacrifice"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0304",
+            "title": "Tx.3.IV. Miracles as Accurate Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0305",
+            "title": "Tx.3.V. Perception Versus Knowledge"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0306",
+            "title": "Tx.3.VI. Conflict and the Ego"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0307",
+            "title": "Tx.3.VII. The Loss of Certainty"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0308",
+            "title": "Tx.3.VIII. Judgement and the Authority Problem"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0309",
+            "title": "Tx.3.IX. Creating versus the Self-Image"
+          }
+        ]
+      },
+      {
+        "title": "The Root of all Evil",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0401",
+            "title": "Tx.4.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0402",
+            "title": "Tx.4.II. Right Teaching and Right Learning"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0403",
+            "title": "Tx.4.III. The Ego and False Autonomy"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0404",
+            "title": "Tx.4.IV. Love without Conflict"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0405",
+            "title": "Tx.4.V. The Escape from Fear"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0406",
+            "title": "Tx.4.VI. The Ego-Body Illusion"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0407",
+            "title": "Tx.4.VII. The Constant State"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0408",
+            "title": "Tx.4.VIII. Creation and Communication"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0409",
+            "title": "Tx.4.IX. True Rehabilitation"
+          }
+        ]
+      },
+      {
+        "title": "Healing and Wholeness",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0501",
+            "title": "Tx.5.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0502",
+            "title": "Tx.5.II. Healing as Joining"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0503",
+            "title": "Tx.5.III. The Mind of the Atonement"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0504",
+            "title": "Tx.5.IV. The Voice for God"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0505",
+            "title": "Tx.5.V. The Guide to Salvation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0506",
+            "title": "Tx.5.VI. Therapy and Teaching"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0507",
+            "title": "Tx.5.VII. The Two Decisions"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0508",
+            "title": "Tx.5.VIII. Time and Eternity"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0509",
+            "title": "Tx.5.IX. The Eternal Fixation"
+          }
+        ]
+      },
+      {
+        "title": "Attack and Fear",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0601",
+            "title": "Tx.6.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0602",
+            "title": "Tx.6.II. The Message of the Crucifixion"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0603",
+            "title": "Tx.6.III. The Uses of Projection"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0604",
+            "title": "Tx.6.IV. The Relinquishment of Attack"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0605",
+            "title": "Tx.6.V. The Only Answer"
+          }
+        ]
+      },
+      {
+        "title": "The Consistency of the Kingdom",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0701",
+            "title": "Tx.7.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0702",
+            "title": "Tx.7.II. Bargaining versus Healing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0703",
+            "title": "Tx.7.III. The Laws of Mind"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0704",
+            "title": "Tx.7.IV. The Unified Curriculum"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0705",
+            "title": "Tx.7.V. The Recognition of Truth"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0706",
+            "title": "Tx.7.VI. Healing and the Changelessness of Mind"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0707",
+            "title": "Tx.7.VII. From Vigilance to Peace"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0708",
+            "title": "Tx.7.VIII. The Total Commitment"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0709",
+            "title": "Tx.7.IX. The Defense of Conflict"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0710",
+            "title": "Tx.7.X. The Extension of the Kingdom"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0711",
+            "title": "Tx.7.XI. The Confusion of Strength and Weakness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0712",
+            "title": "Tx.7.XII. The State of Grace"
+          }
+        ]
+      },
+      {
+        "title": "The Journey Back",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0801",
+            "title": "Tx.8.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0802",
+            "title": "Tx.8.II. The Direction of the Curriculum"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0803",
+            "title": "Tx.8.III. The Rationale for Choice"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0804",
+            "title": "Tx.8.IV. The Holy Encounter"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0805",
+            "title": "Tx.8.V. The Light of the World"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0806",
+            "title": "Tx.8.VI. The Power of Joint Decision"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0807",
+            "title": "Tx.8.VII. Communication and the Ego-Body Equation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0808",
+            "title": "Tx.8.VIII. The Body as Means or End"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0809",
+            "title": "Tx.8.IX. Healing as Corrected Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0810",
+            "title": "Tx.8.X. The Acceptance of Reality"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0811",
+            "title": "Tx.8.XI. The Answer to Prayer"
+          }
+        ]
+      },
+      {
+        "title": "The Correction of Error",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap0901",
+            "title": "Tx.9.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0902",
+            "title": "Tx.9.II. Sanity and Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0903",
+            "title": "Tx.9.III. Atonement as a Lesson in Sharing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0904",
+            "title": "Tx.9.IV. The Unhealed Healer"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0905",
+            "title": "Tx.9.V. The Awareness of the Holy Spirit"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0906",
+            "title": "Tx.9.VI. Salvation and God’s Will"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0907",
+            "title": "Tx.9.VII. Grandeur versus Grandiosity"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0908",
+            "title": "Tx.9.VIII. The Inclusiveness of Creation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0909",
+            "title": "Tx.9.IX. The Decision to Forget"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0910",
+            "title": "Tx.9.X. Magic versus Miracles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap0911",
+            "title": "Tx.9.XI. The Denial of God"
+          }
+        ]
+      },
+      {
+        "title": "God and the Ego",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1001",
+            "title": "Tx.10.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1002",
+            "title": "Tx.10.II. Projection versus Extension"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1003",
+            "title": "Tx.10.III. The Willingness for Healing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1004",
+            "title": "Tx.10.IV. From Darkness to Light"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1005",
+            "title": "Tx.10.V. The Inheritance of God’s Son"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1006",
+            "title": "Tx.10.VI. The “Dynamics” of the Ego"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1007",
+            "title": "Tx.10.VII. Experience and Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1008",
+            "title": "Tx.10.VIII. The Problem and the Answer"
+          }
+        ]
+      },
+      {
+        "title": "God’s Plan for Salvation",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1101",
+            "title": "Tx.11.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1102",
+            "title": "Tx.11.II. The Judgement of the Holy Spirit"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1103",
+            "title": "Tx.11.III. The Mechanism of Miracles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1104",
+            "title": "Tx.11.IV. The Investment in Reality"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1105",
+            "title": "Tx.11.V. Seeking and Finding"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1106",
+            "title": "Tx.11.VI. The Sane Curriculum"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1107",
+            "title": "Tx.11.VII. The Vision of Christ"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1108",
+            "title": "Tx.11.VIII. The Guide for Miracles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1109",
+            "title": "Tx.11.IX. Reality and Redemption"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1110",
+            "title": "Tx.11.X. Guiltlessness and Invulnerability"
+          }
+        ]
+      },
+      {
+        "title": "The Problem of Guilt",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1201",
+            "title": "Tx.12.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1202",
+            "title": "Tx.12.II. Crucifixion by Guilt"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1203",
+            "title": "Tx.12.III. The Fear of Redemption"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1204",
+            "title": "Tx.12.IV. Healing and Time"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1205",
+            "title": "Tx.12.V. The Two Emotions"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1206",
+            "title": "Tx.12.VI. Finding the Present"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1207",
+            "title": "Tx.12.VII. Attainment of the Real World"
+          }
+        ]
+      },
+      {
+        "title": "From Perception to Knowledge",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1301",
+            "title": "Tx.13.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1302",
+            "title": "Tx.13.II. The Role of Healing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1303",
+            "title": "Tx.13.III. The Shadow of Guilt"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1304",
+            "title": "Tx.13.IV. Release and Restoration"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1305",
+            "title": "Tx.13.V. The Guarantee of Heaven"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1306",
+            "title": "Tx.13.VI. The Testimony of Miracles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1307",
+            "title": "Tx.13.VII. The Happy Learner"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1308",
+            "title": "Tx.13.VIII. The Decision for Guiltlessness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1309",
+            "title": "Tx.13.IX. The Way of Salvation"
+          }
+        ]
+      },
+      {
+        "title": "Bringing Illusions to Truth",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1401",
+            "title": "Tx.14.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1402",
+            "title": "Tx.14.II. Guilt and Guiltlessness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1403",
+            "title": "Tx.14.III. Out of the Darkness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1404",
+            "title": "Tx.14.IV. Perception without Deceit"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1405",
+            "title": "Tx.14.V. The Recognition of Holiness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1406",
+            "title": "Tx.14.VI. The Shift to Miracles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1407",
+            "title": "Tx.14.VII. The Test of Truth"
+          }
+        ]
+      },
+      {
+        "title": "The Purpose of Time",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1501",
+            "title": "Tx.15.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1502",
+            "title": "Tx.15.II. The Uses of Time"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1503",
+            "title": "Tx.15.III. Time and Eternity"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1504",
+            "title": "Tx.15.IV. Littleness versus Magnitude"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1505",
+            "title": "Tx.15.V. Practicing the Holy Instant"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1506",
+            "title": "Tx.15.VI. The Holy Instant and Special Relationships"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1507",
+            "title": "Tx.15.VII. The Holy Instant and the Laws of God"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1508",
+            "title": "Tx.15.VIII. The Holy Instant and Communication"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1509",
+            "title": "Tx.15.IX. The Holy Instant and Real Relationships"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1510",
+            "title": "Tx.15.X. The Time of Christ"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1511",
+            "title": "Tx.15.XI. The End of Sacrifice"
+          }
+        ]
+      },
+      {
+        "title": "The Forgiveness of Illusions",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1601",
+            "title": "Tx.16.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1602",
+            "title": "Tx.16.II. True Empathy"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1603",
+            "title": "Tx.16.III. The Magnitude of Holiness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1604",
+            "title": "Tx.16.IV. The Reward of Teaching"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1605",
+            "title": "Tx.16.V. Illusion and Reality of Love"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1606",
+            "title": "Tx.16.VI. Specialness and Guilt"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1607",
+            "title": "Tx.16.VII. The Bridge to the Real World"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1608",
+            "title": "Tx.16.VIII. The End of Illusions"
+          }
+        ]
+      },
+      {
+        "title": "Forgiveness and Healing",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1701",
+            "title": "Tx.17.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1702",
+            "title": "Tx.17.II. Fantasy and Distorted Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1703",
+            "title": "Tx.17.III. The Forgiven World"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1704",
+            "title": "Tx.17.IV. Shadows of the Past"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1705",
+            "title": "Tx.17.V. Perception and the Two Worlds"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1706",
+            "title": "Tx.17.VI. The Healed Relationship"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1707",
+            "title": "Tx.17.VII. Practical Forgiveness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1708",
+            "title": "Tx.17.VIII. The Need for Faith"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1709",
+            "title": "Tx.17.IX. Conditions of Forgiveness"
+          }
+        ]
+      },
+      {
+        "title": "The Dream and the Reality",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1801",
+            "title": "Tx.18.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1802",
+            "title": "Tx.18.II. Substitution as a Defense"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1803",
+            "title": "Tx.18.III. The Basis of the Dream"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1804",
+            "title": "Tx.18.IV. Light in the Dream"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1805",
+            "title": "Tx.18.V. The Little Willingness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1806",
+            "title": "Tx.18.VI. The Happy Dream"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1807",
+            "title": "Tx.18.VII. Dreams and the Body"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1808",
+            "title": "Tx.18.VIII. I Need Do Nothing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1809",
+            "title": "Tx.18.IX. The Purpose of the Body"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1810",
+            "title": "Tx.18.X. The Delusional Thought System"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1811",
+            "title": "Tx.18.XI. The Passing of the Dream"
+          }
+        ]
+      },
+      {
+        "title": "Beyond the Body",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap1901",
+            "title": "Tx.19.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1902",
+            "title": "Tx.19.II. Healing and the Mind"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1903",
+            "title": "Tx.19.III. Sin versus Error"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1904",
+            "title": "Tx.19.IV. The Unreality of Sin"
+          },
+          {
+            "url": "/en/acim/oe/text/chap1905",
+            "title": "Tx.19.V. Obstacles to Peace"
+          }
+        ]
+      },
+      {
+        "title": "The Promise of the Resurrection",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2001",
+            "title": "Tx.20.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2002",
+            "title": "Tx.20.II. Holy Week"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2003",
+            "title": "Tx.20.III. Thorns and Lilies"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2004",
+            "title": "Tx.20.IV. Sin as an Adjustment"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2005",
+            "title": "Tx.20.V. Entering the Ark"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2006",
+            "title": "Tx.20.VI. Heralds of Eternity"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2007",
+            "title": "Tx.20.VII. The Temple of the Holy Spirit"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2008",
+            "title": "Tx.20.VIII. The Consistency of Means and End"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2009",
+            "title": "Tx.20.IX. The Vision of Sinlessness"
+          }
+        ]
+      },
+      {
+        "title": "The Inner Picture",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2101",
+            "title": "Tx.21.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2102",
+            "title": "Tx.21.II. The Imagined World"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2103",
+            "title": "Tx.21.III. The Responsibility for Sight"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2104",
+            "title": "Tx.21.IV. Faith, Belief and Vision"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2105",
+            "title": "Tx.21.V. The Fear to Look Within"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2106",
+            "title": "Tx.21.VI. Reason and Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2107",
+            "title": "Tx.21.VII. Reason and Correction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2108",
+            "note": "No bullseye on 80",
+            "title": "Tx.21.VIII. Perception and Wishes"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2109",
+            "title": "Tx.21.IX. The Inner Shift"
+          }
+        ]
+      },
+      {
+        "title": "Salvation and the Holy Relationship",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2201",
+            "title": "Tx.22.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2202",
+            "note": "paragraph 9 is incompletely read",
+            "title": "Tx.22.II. The Message of the Holy Relationship"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2203",
+            "note": "paragraph 24 is partially unread",
+            "title": "Tx.22.III. Your Brother’s Sinlessness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2204",
+            "title": "Tx.22.IV. Reason and the Holy Relationship"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2205",
+            "title": "Tx.22.V. The Branching of the Road"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2206",
+            "title": "Tx.22.VI. Weakness and Defensiveness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2207",
+            "note": "paragraph 52 is unread",
+            "title": "Tx.22.VII. Freedom and the Holy Spirit"
+          }
+        ]
+      },
+      {
+        "title": "The War Against Yourself",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2301",
+            "title": "Tx.23.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2302",
+            "title": "Tx.23.II. The Irreconcilable Beliefs"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2303",
+            "title": "Tx.23.III. The “Laws” of Chaos"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2304",
+            "title": "Tx.23.IV. Salvation without Compromise"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2305",
+            "title": "Tx.23.V. The Fear of Life"
+          }
+        ]
+      },
+      {
+        "title": "Specialness and Separation",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2401",
+            "title": "Tx.24.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2402",
+            "title": "Tx.24.II. Specialness as a Substitute for Love"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2403",
+            "title": "Tx.24.III. The Treachery of Specialness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2404",
+            "title": "Tx.24.IV. The Forgiveness of Specialness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2405",
+            "title": "Tx.24.V. Specialness and Salvation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2406",
+            "title": "Tx.24.VI. The Resolution of the Dream"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2407",
+            "title": "Tx.24.VII. Salvation from Fear"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2408",
+            "title": "Tx.24.VIII. The Meeting Place"
+          }
+        ]
+      },
+      {
+        "title": "The Remedy",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2501",
+            "title": "Tx.25.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2502",
+            "title": "Tx.25.II. The Appointed Task"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2503",
+            "title": "Tx.25.III. The Savior from the Dark"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2504",
+            "title": "Tx.25.IV. The Fundamental Law of Perception"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2505",
+            "title": "Tx.25.V. The Joining of Minds"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2506",
+            "title": "Tx.25.VI. The State of Sinlessness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2507",
+            "title": "Tx.25.VII. The Special Function"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2508",
+            "title": "Tx.25.VIII. Commuting the Sentence"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2509",
+            "title": "Tx.25.IX. The Principle of Salvation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2510",
+            "title": "Tx.25.X. The Justice of Heaven"
+          }
+        ]
+      },
+      {
+        "title": "The Transition",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2601",
+            "title": "Tx.26.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2602",
+            "title": "Tx.26.II. The 'Sacrifice' of Oneness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2603",
+            "title": "Tx.26.III. The Forms of Error"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2604",
+            "title": "Tx.26.IV. The Borderland"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2605",
+            "title": "Tx.26.V. Where Sin Has Left"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2606",
+            "title": "Tx.26.VI. The Little Hindrance"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2607",
+            "title": "Tx.26.VII. The Appointed Friend"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2608",
+            "title": "Tx.26.VIII. Review of Principles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2609",
+            "title": "Tx.26.IX. The Immediacy of Salvation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2610",
+            "title": "Tx.26.X. For They Have Come"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2611",
+            "title": "Tx.26.XI. The Remaining Task"
+          }
+        ]
+      },
+      {
+        "title": "The Body and the Dream",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2701",
+            "title": "Tx.27.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2702",
+            "title": "Tx.27.II. The Picture of Crucifixion"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2703",
+            "title": "Tx.27.III. The Fear of Healing"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2704",
+            "title": "Tx.27.IV. The Symbol of the Impossible"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2705",
+            "title": "Tx.27.V. The Quiet Answer"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2706",
+            "title": "Tx.27.VI. The Healing Example"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2707",
+            "title": "Tx.27.VII. The Purpose of Pain"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2708",
+            "title": "Tx.27.VIII. The Illusion of Suffering"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2709",
+            "title": "Tx.27.IX. The 'Hero' of the Dream"
+          }
+        ]
+      },
+      {
+        "title": "The Undoing of Fear",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2801",
+            "title": "Tx.28.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2802",
+            "title": "Tx.28.II. The Present Memory"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2803",
+            "title": "Tx.28.III. Reversing Effect and Cause"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2804",
+            "title": "Tx.28.IV. The Agreement to Join"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2805",
+            "title": "Tx.28.V. The Greater Joining"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2806",
+            "title": "Tx.28.VI. The Alternate to Dreams of Fear"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2807",
+            "title": "Tx.28.VII. The Secret Vows"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2808",
+            "title": "Tx.28.VIII. The Beautiful Relationship"
+          }
+        ]
+      },
+      {
+        "title": "The Awakening",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap2901",
+            "title": "Tx.29.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2902",
+            "title": "Tx.29.II. The Closing of the Gap"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2903",
+            "title": "Tx.29.III. The Coming of the Guest"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2904",
+            "title": "Tx.29.IV. God’s Witnesses"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2905",
+            "title": "Tx.29.V. Dream Roles"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2906",
+            "title": "Tx.29.VI. The Changeless Dwelling-Place"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2907",
+            "title": "Tx.29.VII. Forgiveness and Peace"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2908",
+            "title": "Tx.29.VIII. The Lingering Illusion"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2909",
+            "title": "Tx.29.IX. Christ and the Anti-Christ"
+          },
+          {
+            "url": "/en/acim/oe/text/chap2910",
+            "title": "Tx.29.X. The Forgiving Dream"
+          }
+        ]
+      },
+      {
+        "title": "The New Beginning",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap3001",
+            "title": "Tx.30.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3002",
+            "title": "Tx.30.II. Rules for Decision"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3003",
+            "title": "Tx.30.III. Freedom of Will"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3004",
+            "title": "Tx.30.IV. Beyond All Idols"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3005",
+            "title": "Tx.30.V. The Truth Behind Illusions"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3006",
+            "title": "Tx.30.VI. The Only Purpose"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3007",
+            "title": "Tx.30.VII. The Justification for Forgiveness"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3008",
+            "title": "Tx.30.VIII. The New Interpretation"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3009",
+            "title": "Tx.30.IX. Changeless Reality"
+          }
+        ]
+      },
+      {
+        "title": "The Simplicity of Salvation",
+        "contents": [
+          {
+            "url": "/en/acim/oe/text/chap3101",
+            "title": "Tx.31.I. Introduction"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3102",
+            "title": "Tx.31.II. The Illusion of an Enemy"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3103",
+            "title": "Tx.31.III. The Self-Accused"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3104",
+            "title": "Tx.31.IV. The Real Alternative"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3105",
+            "title": "Tx.31.V. Self-Concept versus Self"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3106",
+            "title": "Tx.31.VI. Recognizing the Spirit"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3107",
+            "title": "Tx.31.VII. The Savior’s Vision"
+          },
+          {
+            "url": "/en/acim/oe/text/chap3108",
+            "title": "Tx.31.VIII. Choose Once Again"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookId": "workbook",
+    "bid": "2",
+    "title": "Workbook",
+    "image": "/assets/img/oe/workbook-toc.jpg",
+    "toc": [
+      {
+        "title": "Workbook Introduction",
+        "contents": [
+          {
+            "title": "Introduction",
+            "url": "/en/acim/oe/workbook/introp1"
+          }
+        ]
+      },
+      {
+        "title": "Part One",
+        "contents": [
+          {
+            "title": "Lessons 1 - 50",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/l001",
+                "lesson": 1,
+                "title": "Nothing I see means anything."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l002",
+                "lesson": 2,
+                "title": "I have given everything I see all the meaning that it has for me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l003",
+                "lesson": 3,
+                "title": "I do not understand anything I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l004",
+                "lesson": 4,
+                "title": "These thoughts do not mean anything."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l005",
+                "lesson": 5,
+                "title": "I am never upset for the reason I think."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l006",
+                "lesson": 6,
+                "title": "I am upset because I see something that is not there."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l007",
+                "lesson": 7,
+                "title": "I see only the past."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l008",
+                "lesson": 8,
+                "title": "My mind is preoccupied with past thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l009",
+                "lesson": 9,
+                "title": "I see nothing as it is now."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l010",
+                "lesson": 10,
+                "title": "My thoughts do not mean anything."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l011",
+                "lesson": 11,
+                "title": "My meaningless thoughts are showing me a meaningless world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l012",
+                "lesson": 12,
+                "title": "I am upset because I see a meaningless world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l013",
+                "lesson": 13,
+                "title": "A meaningless world engenders fear."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l014",
+                "lesson": 14,
+                "title": "God did not create a meaningless world"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l015",
+                "lesson": 15,
+                "title": "My thoughts are images which I have made."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l016",
+                "lesson": 16,
+                "title": "I have no neutral thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l017",
+                "lesson": 17,
+                "title": "I see no neutral things."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l018",
+                "lesson": 18,
+                "title": "I am not alone in experiencing the effects of my seeing."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l019",
+                "lesson": 19,
+                "title": "I am not alone in experiencing the effects of my thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l020",
+                "lesson": 20,
+                "title": "I am determined to see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l021",
+                "lesson": 21,
+                "title": "I am determined to see things differently."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l022",
+                "lesson": 22,
+                "title": "What I see is a form of vengeance."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l023",
+                "lesson": 23,
+                "title": "I can escape from the world I see by giving up attack thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l024",
+                "lesson": 24,
+                "title": "I do not perceive my own best interests."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l025",
+                "lesson": 25,
+                "title": "I do not know what anything is for."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l026",
+                "lesson": 26,
+                "title": "My attack thoughts are attacking my invulnerability."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l027",
+                "lesson": 27,
+                "title": "Above all else I want to see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l028",
+                "lesson": 28,
+                "title": "Above all else I want to see things differently."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l029",
+                "lesson": 29,
+                "title": "God is in everything I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l030",
+                "lesson": 30,
+                "title": "God is in everything I see because God is in my mind."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l031",
+                "lesson": 31,
+                "title": "I am not the victim of the world I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l032",
+                "lesson": 32,
+                "title": "I have invented the world I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l033",
+                "lesson": 33,
+                "title": "There is another way of looking at the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l034",
+                "lesson": 34,
+                "title": "I could see peace instead of this."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l035",
+                "lesson": 35,
+                "title": "My mind is part of God’s. I am very holy."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l036",
+                "lesson": 36,
+                "title": "My holiness envelops everything I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l037",
+                "lesson": 37,
+                "title": "My holiness blesses the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l038",
+                "lesson": 38,
+                "title": "There is nothing my holiness cannot do."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l039",
+                "lesson": 39,
+                "title": "My holiness is my salvation."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l040",
+                "lesson": 40,
+                "title": "I am blessed as a Son of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l041",
+                "lesson": 41,
+                "title": "God goes with me wherever I go."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l042",
+                "lesson": 42,
+                "title": "God is my strength. Vision is His gift."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l043",
+                "lesson": 43,
+                "title": "God is my Source. I cannot see apart from Him."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l044",
+                "lesson": 44,
+                "title": "God is the Light in which I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l045",
+                "lesson": 45,
+                "title": "God is the Mind with which I think."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l046",
+                "lesson": 46,
+                "title": "God is the Love in which I forgive."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l047",
+                "lesson": 47,
+                "title": "God is the Strength in which I trust."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l048",
+                "lesson": 48,
+                "title": "There is nothing to fear."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l049",
+                "lesson": 49,
+                "title": "God’s Voice speaks to me all through the day."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l050",
+                "lesson": 50,
+                "title": "I am sustained by the Love of God."
+              }
+            ]
+          },
+          {
+            "title": "Review I",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review1",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l051",
+                "lesson": 51,
+                "title": "Review 1 - 5"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l052",
+                "lesson": 52,
+                "title": "Review 6 - 10"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l053",
+                "lesson": 53,
+                "title": "Review 11 - 15"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l054",
+                "lesson": 54,
+                "title": "Review 16 - 20"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l055",
+                "lesson": 55,
+                "title": "Review 21 - 25"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l056",
+                "lesson": 56,
+                "title": "Review 26 - 30"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l057",
+                "lesson": 57,
+                "title": "Review 31 - 35"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l058",
+                "lesson": 58,
+                "title": "Review 36 - 40"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l059",
+                "lesson": 59,
+                "title": "Review 41 - 45"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l060",
+                "lesson": 60,
+                "title": "Review 46 - 50"
+              }
+            ]
+          },
+          {
+            "title": "Lessons 61 - 80",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/l061",
+                "lesson": 61,
+                "title": "I am the light of the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l062",
+                "lesson": 62,
+                "title": "Forgiveness is my function as the light of the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l063",
+                "lesson": 63,
+                "title": "The light of the world brings peace to every mind through my forgiveness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l064",
+                "lesson": 64,
+                "title": "Let me not forget my function."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l065",
+                "lesson": 65,
+                "title": "My only function is the one God gave me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l066",
+                "lesson": 66,
+                "title": "My happiness and my function are one."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l067",
+                "lesson": 67,
+                "title": "Love created me like Itself."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l068",
+                "lesson": 68,
+                "title": "Love holds no grievances."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l069",
+                "lesson": 69,
+                "title": "My grievances hide the light of the world in me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l070",
+                "lesson": 70,
+                "title": "My salvation comes from me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l071",
+                "lesson": 71,
+                "title": "Only God’s plan for salvation will work."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l072",
+                "lesson": 72,
+                "title": "Holding grievances is an attack on God’s plan for salvation."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l073",
+                "lesson": 73,
+                "title": "I will there be light."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l074",
+                "lesson": 74,
+                "title": "There is no will but God’s."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l075",
+                "lesson": 75,
+                "title": "The light has come."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l076",
+                "lesson": 76,
+                "title": "I am under no laws but God’s."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l077",
+                "lesson": 77,
+                "title": "I am entitled to miracles."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l078",
+                "lesson": 78,
+                "title": "Let miracles replace all grievances."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l079",
+                "lesson": 79,
+                "title": "Let me recognize the problem so it can be solved."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l080",
+                "lesson": 80,
+                "title": "Let me recognize my problems have been solved."
+              }
+            ]
+          },
+          {
+            "title": "Review II",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review2",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l081",
+                "lesson": 81,
+                "title": "Review 61 - 62"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l082",
+                "lesson": 82,
+                "title": "Review 63 - 64"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l083",
+                "lesson": 83,
+                "title": "Review 65 - 66"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l084",
+                "lesson": 84,
+                "title": "Review 67 - 68"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l085",
+                "lesson": 85,
+                "title": "Review 69 - 70"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l086",
+                "lesson": 86,
+                "title": "Review 71 - 72"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l087",
+                "lesson": 87,
+                "title": "Review 73 - 74"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l088",
+                "lesson": 88,
+                "title": "Review 75 - 76"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l089",
+                "lesson": 89,
+                "title": "Review 77 - 78"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l090",
+                "lesson": 90,
+                "title": "Review 79 - 80"
+              }
+            ]
+          },
+          {
+            "title": "Lessons 91 - 110",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/l091",
+                "lesson": 91,
+                "title": "Miracles are seen in light."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l092",
+                "lesson": 92,
+                "title": "Miracles are seen in light, and light and strength are one."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l093",
+                "lesson": 93,
+                "title": "Light and joy and peace abide in me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l094",
+                "lesson": 94,
+                "title": "I am as God created me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l095",
+                "note": "some paragraphs not read",
+                "lesson": 95,
+                "title": "I am One Self, united with my Creator."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l096",
+                "lesson": 96,
+                "title": "Salvation comes from my One Self."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l097",
+                "lesson": 97,
+                "title": "I am Spirit."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l098",
+                "lesson": 98,
+                "title": "I will accept my part in God’s plan for salvation."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l099",
+                "lesson": 99,
+                "title": "Salvation is my only function here."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l100",
+                "lesson": 100,
+                "title": "My part is essential to God’s plan for salvation."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l101",
+                "lesson": 101,
+                "title": "God’s Will for me is perfect happiness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l102",
+                "lesson": 102,
+                "title": "I share God’s Will for happiness for me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l103",
+                "lesson": 103,
+                "title": "God, being Love, is also happiness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l104",
+                "lesson": 104,
+                "title": "I seek but what belongs to me in truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l105",
+                "lesson": 105,
+                "title": "God’s peace and joy are mine."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l106",
+                "lesson": 106,
+                "title": "Let me be still and listen to the truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l107",
+                "lesson": 107,
+                "title": "Truth will correct all errors in my mind."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l108",
+                "lesson": 108,
+                "title": "To give and to receive are one in truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l109",
+                "lesson": 109,
+                "title": "I rest in God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l110",
+                "lesson": 110,
+                "title": "I am as God created me."
+              }
+            ]
+          },
+          {
+            "title": "Review III",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review3",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l111",
+                "lesson": 111,
+                "title": "Review 91 - 92"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l112",
+                "lesson": 112,
+                "title": "Review 93 - 94"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l113",
+                "lesson": 113,
+                "title": "Review 95 - 96"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l114",
+                "lesson": 114,
+                "title": "Review 97 - 98"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l115",
+                "lesson": 115,
+                "title": "Review 99 - 100"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l116",
+                "lesson": 116,
+                "title": "Review 101 - 102"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l117",
+                "lesson": 117,
+                "title": "Review 103 - 104"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l118",
+                "lesson": 118,
+                "title": "Review 105 - 106"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l119",
+                "lesson": 119,
+                "title": "Review 107 - 108"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l120",
+                "lesson": 120,
+                "title": "Review 109 - 110"
+              }
+            ]
+          },
+          {
+            "title": "Lessons 121 - 140",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/l121",
+                "lesson": 121,
+                "title": "Forgiveness is the key to happiness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l122",
+                "lesson": 122,
+                "title": "Forgiveness offers everything I want."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l123",
+                "lesson": 123,
+                "title": "I thank my Father for His gifts to me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l124",
+                "lesson": 124,
+                "title": "Let me remember I am one with God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l125",
+                "lesson": 125,
+                "title": "In quiet I receive God’s Word today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l126",
+                "lesson": 126,
+                "title": "All that I give is given to myself."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l127",
+                "lesson": 127,
+                "title": "There is no love but God’s."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l128",
+                "lesson": 128,
+                "title": "The World I see has nothing that I want."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l129",
+                "lesson": 129,
+                "title": "Beyond this world there is a world I want."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l130",
+                "lesson": 130,
+                "title": "It is impossible to see two worlds."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l131",
+                "lesson": 131,
+                "title": "No-one can fail who asks to reach the truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l132",
+                "lesson": 132,
+                "title": "I loose the world from all I thought it was."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l133",
+                "lesson": 133,
+                "title": "I will not value what is valueless."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l134",
+                "lesson": 134,
+                "title": "Let me perceive forgiveness as it is."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l135",
+                "lesson": 135,
+                "title": "If I defend myself I am attacked."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l136",
+                "lesson": 136,
+                "title": "Sickness is a defense against the truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l137",
+                "lesson": 137,
+                "title": "When I am healed I am not healed alone."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l138",
+                "lesson": 138,
+                "title": "Heaven is the decision I must make."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l139",
+                "lesson": 139,
+                "title": "I will accept Atonement for myself."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l140",
+                "lesson": 140,
+                "title": "Only salvation can be said to cure."
+              }
+            ]
+          },
+          {
+            "title": "Review IV",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review4",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l141",
+                "lesson": 141,
+                "title": "Review 121 - 122"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l142",
+                "lesson": 142,
+                "title": "Review 123 - 124"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l143",
+                "lesson": 143,
+                "title": "Review 125 - 126"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l144",
+                "lesson": 144,
+                "title": "Review 127 - 128"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l145",
+                "lesson": 145,
+                "title": "Review 129 - 130"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l146",
+                "lesson": 146,
+                "title": "Review 131 - 132"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l147",
+                "lesson": 147,
+                "title": "Review 133 - 134"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l148",
+                "lesson": 148,
+                "title": "Review 135 - 136"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l149",
+                "lesson": 149,
+                "title": "Review 137 - 138"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l150",
+                "lesson": 150,
+                "title": "Review 139 - 140"
+              }
+            ]
+          },
+          {
+            "title": "Lessons 151 - 170",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/l151",
+                "lesson": 151,
+                "title": "All things are echoes of the Voice of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l152",
+                "lesson": 152,
+                "title": "The power of decision is my own."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l153",
+                "lesson": 153,
+                "title": "In my defenselessness my safety lies."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l154",
+                "lesson": 154,
+                "title": "I am among the ministers of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l155",
+                "lesson": 155,
+                "title": "I will step back and let Him lead the way."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l156",
+                "lesson": 156,
+                "title": "I walk with God in perfect holiness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l157",
+                "lesson": 157,
+                "title": "Into His Presence would I enter now."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l158",
+                "lesson": 158,
+                "title": "Today I learn to give as I receive."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l159",
+                "lesson": 159,
+                "title": "I give the miracles I have received."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l160",
+                "lesson": 160,
+                "title": "I am at home. Fear is the stranger here."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l161",
+                "lesson": 161,
+                "title": "Give me your blessing, holy Son of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l162",
+                "lesson": 162,
+                "title": "I am as God created me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l163",
+                "lesson": 163,
+                "title": "There is no death. The Son of God is free."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l164",
+                "lesson": 164,
+                "title": "Now are we One with Him Who is our Source."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l165",
+                "lesson": 165,
+                "title": "Let not my mind deny the Thought of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l166",
+                "lesson": 166,
+                "title": "I am entrusted with the gifts of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l167",
+                "lesson": 167,
+                "title": "There is one life, and that I share with God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l168",
+                "lesson": 168,
+                "title": "Your grace is given me. I claim it now."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l169",
+                "lesson": 169,
+                "title": "By grace I live. By grace I am released."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l170",
+                "lesson": 170,
+                "title": "There is no cruelty in God and none in me."
+              }
+            ]
+          },
+          {
+            "title": "Review V",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review5",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l171",
+                "lesson": 171,
+                "title": "Review 151 - 152"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l172",
+                "lesson": 172,
+                "title": "Review 153 - 154"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l173",
+                "lesson": 173,
+                "title": "Review 155 - 156"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l174",
+                "lesson": 174,
+                "title": "Review 157 - 158"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l175",
+                "lesson": 175,
+                "title": "Review 159 - 160"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l176",
+                "lesson": 176,
+                "title": "Review 161 - 162"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l177",
+                "lesson": 177,
+                "title": "Review 163 - 164"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l178",
+                "lesson": 178,
+                "title": "Review 165 - 166"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l179",
+                "lesson": 179,
+                "title": "Review 167 - 168"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l180",
+                "lesson": 180,
+                "title": "Review 169 - 170"
+              }
+            ]
+          },
+          {
+            "title": "Lessons 181 - 200",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/intro181",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l181",
+                "lesson": 181,
+                "title": "I trust my brothers, who are one with me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l182",
+                "lesson": 182,
+                "title": "I will be still an instant and go home."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l183",
+                "lesson": 183,
+                "title": "I call upon God’s Name and on my own."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l184",
+                "lesson": 184,
+                "title": "The Name of God is my inheritance."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l185",
+                "lesson": 185,
+                "title": "I want the peace of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l186",
+                "lesson": 186,
+                "title": "Salvation of the world depends on me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l187",
+                "lesson": 187,
+                "title": "I bless the world because I bless myself."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l188",
+                "lesson": 188,
+                "title": "The peace of God is shining in me now."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l189",
+                "lesson": 189,
+                "title": "I feel the Love of God within me now."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l190",
+                "lesson": 190,
+                "title": "I choose the joy of God instead of pain."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l191",
+                "lesson": 191,
+                "title": "I am the holy Son of God Himself."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l192",
+                "lesson": 192,
+                "title": "I have a function God would have me fill."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l193",
+                "lesson": 193,
+                "title": "All things are lessons God would have me learn."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l194",
+                "lesson": 194,
+                "title": "I place the future in the Hands of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l195",
+                "lesson": 195,
+                "title": "Love is the way I walk in gratitude."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l196",
+                "lesson": 196,
+                "title": "It can be but myself I crucify."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l197",
+                "lesson": 197,
+                "title": "It can be but my gratitude I earn."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l198",
+                "lesson": 198,
+                "title": "Only my condemnation injures me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l199",
+                "lesson": 199,
+                "title": "I am not a body. I am free."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l200",
+                "lesson": 200,
+                "title": "There is no peace except the peace of God."
+              }
+            ]
+          },
+          {
+            "title": "Review VI",
+            "contents": [
+              {
+                "url": "/en/acim/oe/workbook/review6",
+                "title": "Introduction"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l201",
+                "lesson": 201,
+                "title": "Review 181"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l202",
+                "lesson": 202,
+                "title": "Review 182"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l203",
+                "lesson": 203,
+                "title": "Review 183"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l204",
+                "lesson": 204,
+                "title": "Review 184"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l205",
+                "lesson": 205,
+                "title": "Review 185"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l206",
+                "lesson": 206,
+                "title": "Review 186"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l207",
+                "lesson": 207,
+                "title": "Review 187"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l208",
+                "lesson": 208,
+                "title": "Review 188"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l209",
+                "lesson": 209,
+                "title": "Review 189"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l210",
+                "lesson": 210,
+                "title": "Review 190"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l211",
+                "lesson": 211,
+                "title": "Review 191"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l212",
+                "lesson": 212,
+                "title": "Review 192"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l213",
+                "lesson": 213,
+                "title": "Review 193"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l214",
+                "lesson": 214,
+                "title": "Review 194"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l215",
+                "lesson": 215,
+                "title": "Review 195"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l216",
+                "lesson": 216,
+                "title": "Review 196"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l217",
+                "lesson": 217,
+                "title": "Review 197"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l218",
+                "lesson": 218,
+                "title": "Review 198"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l219",
+                "lesson": 219,
+                "title": "Review 199"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l220",
+                "lesson": 220,
+                "title": "Review 200"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pid": "two",
+        "title": "Part Two",
+        "contents": [
+          {
+            "title": "Introduction",
+            "url": "/en/acim/oe/workbook/introp2"
+          },
+          {
+            "title": "What is Forgiveness?",
+            "contents": [
+              {
+                "title": "What is Forgiveness?",
+                "url": "/en/acim/oe/workbook/forgiveness"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l221",
+                "lesson": 221,
+                "title": "Peace to my mind. Let all my thoughts be still."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l222",
+                "lesson": 222,
+                "title": "God is with me. I live and breathe in Him."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l223",
+                "lesson": 223,
+                "title": "God is my life. I have no life but His."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l224",
+                "lesson": 224,
+                "title": "God is my Father, and He loves His Son."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l225",
+                "lesson": 225,
+                "title": "God is my Father, and His Son loves Him."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l226",
+                "lesson": 226,
+                "title": "My home awaits me. I will hasten there."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l227",
+                "lesson": 227,
+                "title": "This is my holy instant of release."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l228",
+                "lesson": 228,
+                "title": "God has condemned me not. No more do I."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l229",
+                "lesson": 229,
+                "title": "Love, Which created me, is what I am."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l230",
+                "lesson": 230,
+                "title": "Now will I seek and find the peace of God."
+              }
+            ]
+          },
+          {
+            "title": "What is Salvation?",
+            "contents": [
+              {
+                "title": "What is Salvation?",
+                "url": "/en/acim/oe/workbook/salvation"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l231",
+                "lesson": 231,
+                "title": "Father, I will but to remember You."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l232",
+                "lesson": 232,
+                "title": "Be in my mind, my Father, through the day."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l233",
+                "lesson": 233,
+                "title": "I give my life to God to run today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l234",
+                "lesson": 234,
+                "title": "Father, today I am Your Son again."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l235",
+                "lesson": 235,
+                "title": "God in His mercy wills that I be saved."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l236",
+                "lesson": 236,
+                "title": "I rule my mind, which I alone must rule."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l237",
+                "lesson": 237,
+                "title": "Now would I be as God created me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l238",
+                "lesson": 238,
+                "title": "On my decision all salvation rests."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l239",
+                "lesson": 239,
+                "title": "The glory of my Father is my own."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l240",
+                "lesson": 240,
+                "title": "Fear is not justified in any form."
+              }
+            ]
+          },
+          {
+            "title": "What is the World?",
+            "contents": [
+              {
+                "title": "What is the World?",
+                "url": "/en/acim/oe/workbook/world"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l241",
+                "lesson": 241,
+                "title": "This holy instant is salvation come."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l242",
+                "lesson": 242,
+                "title": "This day is God’s. It is my gift to Him."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l243",
+                "lesson": 243,
+                "title": "Today I will judge nothing that occurs."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l244",
+                "lesson": 244,
+                "title": "I am in danger nowhere in the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l245",
+                "lesson": 245,
+                "title": "Your peace is with me, Father. I am safe."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l246",
+                "lesson": 246,
+                "title": "To love my Father is to love His Son."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l247",
+                "lesson": 247,
+                "title": "Without forgiveness I will still be blind."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l248",
+                "lesson": 248,
+                "title": "Whatever suffers is not part of me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l249",
+                "lesson": 249,
+                "title": "Forgiveness ends all suffering and loss."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l250",
+                "lesson": 250,
+                "title": "Let me not see myself as limited."
+              }
+            ]
+          },
+          {
+            "title": "What is Sin?",
+            "contents": [
+              {
+                "title": "What is Sin?",
+                "url": "/en/acim/oe/workbook/sin"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l251",
+                "lesson": 251,
+                "title": "I am in need of nothing but the truth."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l252",
+                "lesson": 252,
+                "title": "The Son of God is my identity."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l253",
+                "lesson": 253,
+                "title": "My Self is ruler of the universe."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l254",
+                "lesson": 254,
+                "title": "Let every voice but God’s be still in me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l255",
+                "lesson": 255,
+                "title": "This day I choose to spend in perfect peace."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l256",
+                "lesson": 256,
+                "title": "God is the only goal I have today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l257",
+                "lesson": 257,
+                "title": "Let me remember what my purpose is."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l258",
+                "lesson": 258,
+                "title": "Let me remember that my goal is God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l259",
+                "lesson": 259,
+                "title": "Let me remember that there is no sin."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l260",
+                "lesson": 260,
+                "title": "Let me remember God created me."
+              }
+            ]
+          },
+          {
+            "title": "What is the Body?",
+            "contents": [
+              {
+                "title": "What is the Body?",
+                "url": "/en/acim/oe/workbook/body"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l261",
+                "lesson": 261,
+                "title": "God is my refuge and security."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l262",
+                "lesson": 262,
+                "title": "Let me perceive no differences today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l263",
+                "lesson": 263,
+                "title": "My holy vision sees all things as pure."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l264",
+                "lesson": 264,
+                "title": "I am surrounded by the Love of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l265",
+                "lesson": 265,
+                "title": "Creation’s gentleness is all I see."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l266",
+                "lesson": 266,
+                "title": "My holy Self abides in you, God’s Son."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l267",
+                "lesson": 267,
+                "title": "My heart is beating in the peace of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l268",
+                "lesson": 268,
+                "title": "Let all things be exactly as they are."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l269",
+                "lesson": 269,
+                "title": "My sight goes forth to look upon Christ’s face."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l270",
+                "lesson": 270,
+                "title": "I will not use the body’s eyes today."
+              }
+            ]
+          },
+          {
+            "title": "What is the Christ?",
+            "contents": [
+              {
+                "title": "What is the Christ?",
+                "url": "/en/acim/oe/workbook/christ"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l271",
+                "lesson": 271,
+                "title": "Christ’s is the vision I will use today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l272",
+                "lesson": 272,
+                "title": "How can illusions satisfy God’s Son?"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l273",
+                "lesson": 273,
+                "title": "The stillness of the peace of God is mine."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l274",
+                "lesson": 274,
+                "title": "Today belongs to Love. Let me not fear."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l275",
+                "lesson": 275,
+                "title": "God’s healing Voice protects all things today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l276",
+                "lesson": 276,
+                "title": "The Word of God is given me to speak."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l277",
+                "lesson": 277,
+                "title": "Let me not bind Your Son with laws I made."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l278",
+                "lesson": 278,
+                "title": "If I am bound, my Father is not free."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l279",
+                "lesson": 279,
+                "title": "Creation’s freedom promises my own."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l280",
+                "lesson": 280,
+                "title": "What limits can I lay upon God’s Son?"
+              }
+            ]
+          },
+          {
+            "title": "What is the Holy Spirit?",
+            "contents": [
+              {
+                "title": "What is the Holy Spirit?",
+                "url": "/en/acim/oe/workbook/holyspirit"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l281",
+                "lesson": 281,
+                "title": "I can be hurt by nothing but my thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l282",
+                "lesson": 282,
+                "title": "I will not be afraid of love today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l283",
+                "lesson": 283,
+                "title": "My true Identity abides in You."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l284",
+                "lesson": 284,
+                "title": "I can elect to change all thoughts that hurt."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l285",
+                "lesson": 285,
+                "title": "My holiness shines bright and clear today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l286",
+                "lesson": 286,
+                "title": "The hush of Heaven holds my heart today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l287",
+                "lesson": 287,
+                "title": "You are my goal, my Father. Only You."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l288",
+                "lesson": 288,
+                "title": "Let me forget my brother’s past today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l289",
+                "lesson": 289,
+                "title": "The past is over. It can touch me not."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l290",
+                "lesson": 290,
+                "title": "My present happiness is all I see."
+              }
+            ]
+          },
+          {
+            "title": "What is the Real World?",
+            "contents": [
+              {
+                "title": "What is the Real World?",
+                "url": "/en/acim/oe/workbook/realworld"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l291",
+                "lesson": 291,
+                "title": "This is a day of stillness and of peace."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l292",
+                "lesson": 292,
+                "title": "A happy outcome to all things is sure."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l293",
+                "lesson": 293,
+                "title": "All fear is past, and only love is here."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l294",
+                "lesson": 294,
+                "title": "My body is a wholly neutral thing."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l295",
+                "lesson": 295,
+                "title": "The Holy Spirit looks through me today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l296",
+                "lesson": 296,
+                "title": "The Holy Spirit speaks through me today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l297",
+                "lesson": 297,
+                "title": "Forgiveness is the only gift I give."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l298",
+                "lesson": 298,
+                "title": "I love You, Father, and I love Your Son."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l299",
+                "lesson": 299,
+                "title": "Eternal holiness abides in me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l300",
+                "lesson": 300,
+                "title": "Only an instant does this world endure."
+              }
+            ]
+          },
+          {
+            "title": "What is the Second Coming?",
+            "contents": [
+              {
+                "title": "What is the Second Coming?",
+                "url": "/en/acim/oe/workbook/secondcoming"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l301",
+                "lesson": 301,
+                "title": "And God Himself shall wipe away all tears."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l302",
+                "lesson": 302,
+                "title": "Where darkness was I look upon the light."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l303",
+                "lesson": 303,
+                "title": "The holy Christ is born in me today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l304",
+                "lesson": 304,
+                "title": "Let not my world obscure the sight of Christ."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l305",
+                "lesson": 305,
+                "title": "There is a peace that Christ bestows on us."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l306",
+                "lesson": 306,
+                "title": "The gift of Christ is all I seek today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l307",
+                "lesson": 307,
+                "title": "Conflicting wishes cannot be my will."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l308",
+                "lesson": 308,
+                "title": "This instant is the only time there is."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l309",
+                "lesson": 309,
+                "title": "I will not fear to look within today."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l310",
+                "lesson": 310,
+                "title": "In fearlessness and love I spend today."
+              }
+            ]
+          },
+          {
+            "title": "What is the Last Judgement?",
+            "contents": [
+              {
+                "title": "What is the Last Judgement?",
+                "url": "/en/acim/oe/workbook/lastjudgement"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l311",
+                "lesson": 311,
+                "title": "I judge all things as I would have them be."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l312",
+                "lesson": 312,
+                "title": "I see all things as I would have them be."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l313",
+                "lesson": 313,
+                "title": "Now let a new perception come to me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l314",
+                "lesson": 314,
+                "title": "I seek a future different from the past."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l315",
+                "lesson": 315,
+                "title": "All gifts my brothers give belong to me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l316",
+                "lesson": 316,
+                "title": "All gifts I give my brothers are my own."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l317",
+                "lesson": 317,
+                "title": "I follow in the way appointed me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l318",
+                "lesson": 318,
+                "title": "In me salvation’s means and end are one."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l319",
+                "lesson": 319,
+                "title": "I came for the salvation of the world."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l320",
+                "lesson": 320,
+                "title": "My Father gives all power unto me."
+              }
+            ]
+          },
+          {
+            "title": "What is Creation?",
+            "contents": [
+              {
+                "title": "What is Creation?",
+                "url": "/en/acim/oe/workbook/creation"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l321",
+                "lesson": 321,
+                "title": "Father, my freedom is in You alone."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l322",
+                "lesson": 322,
+                "title": "I can give up but what was never real."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l323",
+                "lesson": 323,
+                "title": "I gladly make the ‘sacrifice’ of fear."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l324",
+                "lesson": 324,
+                "title": "I merely follow, for I would not lead."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l325",
+                "lesson": 325,
+                "title": "All things I think I see reflect ideas."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l326",
+                "lesson": 326,
+                "title": "I am forever an Effect of God."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l327",
+                "lesson": 327,
+                "title": "I need but call and You will answer me."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l328",
+                "lesson": 328,
+                "title": "I choose the second place to gain the first."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l329",
+                "lesson": 329,
+                "title": "I have already chosen what You will."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l330",
+                "lesson": 330,
+                "title": "I will not hurt myself again today."
+              }
+            ]
+          },
+          {
+            "title": "What is the Ego?",
+            "contents": [
+              {
+                "title": "What is the Ego?",
+                "url": "/en/acim/oe/workbook/ego"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l331",
+                "lesson": 331,
+                "title": "There is no conflict, for my will is Yours."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l332",
+                "lesson": 332,
+                "title": "Fear binds the world. Forgiveness sets it free."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l333",
+                "lesson": 333,
+                "title": "Forgiveness ends the dream of conflict here."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l334",
+                "lesson": 334,
+                "title": "Today I claim the gifts forgiveness gives."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l335",
+                "lesson": 335,
+                "title": "I choose to see my brother’s sinlessness."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l336",
+                "lesson": 336,
+                "title": "Forgiveness lets me know that minds are joined."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l337",
+                "lesson": 337,
+                "title": "My sinlessness protects me from all harm."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l338",
+                "lesson": 338,
+                "title": "I am affected only by my thoughts."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l339",
+                "lesson": 339,
+                "title": "I will receive whatever I request."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l340",
+                "lesson": 340,
+                "title": "I can be free of suffering today."
+              }
+            ]
+          },
+          {
+            "title": "What is a Miracle?",
+            "contents": [
+              {
+                "title": "What is a Miracle?",
+                "url": "/en/acim/oe/workbook/miracle"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l341",
+                "lesson": 341,
+                "title": "I can attack but my own sinlessness..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l342",
+                "lesson": 342,
+                "title": "I let forgiveness rest upon all things..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l343",
+                "lesson": 343,
+                "title": "I am not asked to make a sacrifice..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l344",
+                "lesson": 344,
+                "title": "Today I learn the law of love..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l345",
+                "lesson": 345,
+                "title": "I offer only miracles today..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l346",
+                "lesson": 346,
+                "title": "Today the peace of God envelops me..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l347",
+                "lesson": 347,
+                "title": "Anger must come from judgement..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l348",
+                "lesson": 348,
+                "title": "I have no cause for anger or for fear..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l349",
+                "lesson": 349,
+                "title": "Today I let Christ’s vision look upon All things..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l350",
+                "lesson": 350,
+                "title": "Miracles mirror God’s eternal Love..."
+              }
+            ]
+          },
+          {
+            "title": "What am I?",
+            "contents": [
+              {
+                "title": "What am I?",
+                "url": "/en/acim/oe/workbook/whatami"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l351",
+                "lesson": 351,
+                "title": "My sinless brother is my guide to peace..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l352",
+                "lesson": 352,
+                "title": "Judgement and love are opposites..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l353",
+                "lesson": 353,
+                "title": "My eyes, my tongue, my hands, my feet today have but one purpose..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l354",
+                "lesson": 354,
+                "title": "We stand together, Christ and I, in peace and certainty of purpose..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l355",
+                "lesson": 355,
+                "title": "There is no end to all the peace and joy and all the miracles that I will givexxx"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l356",
+                "lesson": 356,
+                "title": "Sickness is but another name for sin..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l357",
+                "lesson": 357,
+                "title": "Truth answers every call we make to God..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l358",
+                "lesson": 358,
+                "title": "No call to God can be unheard nor left unanswered..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l359",
+                "lesson": 359,
+                "title": "God’s answer is some form of peace..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l360",
+                "lesson": 360,
+                "title": "Peace be to me, the holy Son of God..."
+              }
+            ]
+          },
+          {
+            "title": "Final Lessons",
+            "contents": [
+              {
+                "title": "Final Lessons",
+                "url": "/en/acim/oe/workbook/final"
+              },
+              {
+                "url": "/en/acim/oe/workbook/l361",
+                "lesson": 361,
+                "title": "This holy instant would I give to You. Be You in charge..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l362",
+                "lesson": 362,
+                "title": "This holy instant would I give to You. Be You in charge..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l363",
+                "lesson": 363,
+                "title": "This holy instant would I give to You. Be You in charge..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l364",
+                "lesson": 364,
+                "title": "This holy instant would I give to You. Be You in charge..."
+              },
+              {
+                "url": "/en/acim/oe/workbook/l365",
+                "lesson": 365,
+                "title": "This holy instant would I give to You. Be You in charge..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pid": "epi",
+        "title": "Epilog",
+        "contents": [
+          {
+            "title": "Workbook Epilog",
+            "url": "/en/acim/oe/workbook/epilog"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookId": "manual",
+    "bid": "3",
+    "image": "/assets/img/oe/manual-toc.jpg",
+    "title": "Manual for Teachers",
+    "toc": [
+      {
+        "title": "Introduction",
+        "url": "/en/acim/oe/manual/intro"
+      },
+      {
+        "title": "Who Are God's Teachers?",
+        "url": "/en/acim/oe/manual/chap01"
+      },
+      {
+        "title": "Who are their Pupils?",
+        "url": "/en/acim/oe/manual/chap02"
+      },
+      {
+        "title": "What are the Levels of Teaching?",
+        "url": "/en/acim/oe/manual/chap03"
+      },
+      {
+        "title": "What are the Characteristics of God's Teachers?",
+        "url": "/en/acim/oe/manual/chap04"
+      },
+      {
+        "title": "How is Healing Accomplished?",
+        "url": "/en/acim/oe/manual/chap05"
+      },
+      {
+        "title": "Is Healing Certain?",
+        "url": "/en/acim/oe/manual/chap06"
+      },
+      {
+        "title": "Should Healing be Repeated?",
+        "url": "/en/acim/oe/manual/chap07"
+      },
+      {
+        "title": "How Can the Perception of Order of Difficulties be Avoided?",
+        "url": "/en/acim/oe/manual/chap08"
+      },
+      {
+        "title": "Are Changes Required in the Life Situation of God's Teachers?",
+        "url": "/en/acim/oe/manual/chap09"
+      },
+      {
+        "title": "How is Judgement Relinquished?",
+        "url": "/en/acim/oe/manual/chap10"
+      },
+      {
+        "title": "How is Peace Possible in this World?",
+        "url": "/en/acim/oe/manual/chap11"
+      },
+      {
+        "title": "How Many Teachers of God are Needed to Save the World?",
+        "url": "/en/acim/oe/manual/chap12"
+      },
+      {
+        "title": "What is the Real Meaning of Sacrifice?",
+        "url": "/en/acim/oe/manual/chap13"
+      },
+      {
+        "title": "How Will the World End?",
+        "url": "/en/acim/oe/manual/chap14"
+      },
+      {
+        "title": "Is Each One to be Judged in the End?",
+        "url": "/en/acim/oe/manual/chap15"
+      },
+      {
+        "title": "How Should the Teacher of God Spend His Day?",
+        "url": "/en/acim/oe/manual/chap16"
+      },
+      {
+        "title": "How do God's Teachers Deal with their Pupils' Thoughts of Magic?",
+        "url": "/en/acim/oe/manual/chap17"
+      },
+      {
+        "title": "How is Correction Made?",
+        "url": "/en/acim/oe/manual/chap18"
+      },
+      {
+        "title": "What is Justice?",
+        "url": "/en/acim/oe/manual/chap19"
+      },
+      {
+        "title": "What is the Peace of God?",
+        "url": "/en/acim/oe/manual/chap20"
+      },
+      {
+        "title": "What is the Role of Words in Healing?",
+        "url": "/en/acim/oe/manual/chap21"
+      },
+      {
+        "title": "How are Healing and Atonement Related?",
+        "url": "/en/acim/oe/manual/chap22"
+      },
+      {
+        "title": "Does Jesus Have a Special Place in Healing?",
+        "url": "/en/acim/oe/manual/chap23"
+      },
+      {
+        "title": "Is Reincarnation True?",
+        "url": "/en/acim/oe/manual/chap24"
+      },
+      {
+        "title": "Are 'Phychic' Powers Desirable?",
+        "url": "/en/acim/oe/manual/chap25"
+      },
+      {
+        "title": "Can God be Reached Directly?",
+        "url": "/en/acim/oe/manual/chap26"
+      },
+      {
+        "title": "What is Death?",
+        "url": "/en/acim/oe/manual/chap27"
+      },
+      {
+        "title": "What is the Resurrection?",
+        "url": "/en/acim/oe/manual/chap28"
+      },
+      {
+        "title": "As for the Rest&hellip;",
+        "url": "/en/acim/oe/manual/chap29"
+      }
+    ]
+  }
+]

@@ -10,6 +10,7 @@ export const pageQuery = graphql`
     $id: String!
     $slug: String!
     $book: String!
+    $regex: String!
     $source: String!
     $timingBase: String!
   ) {
@@ -18,7 +19,12 @@ export const pageQuery = graphql`
       title
       key
       url
-      timing
+    }
+    list: allWomPagesJson(filter: { url: { regex: $regex } }) {
+      nodes {
+        title
+        url
+      }
     }
     book: womContentsJson(bookId: { eq: $book }) {
       title
@@ -44,7 +50,6 @@ export const pageQuery = graphql`
       sourceId
       url
       audioBaseUrl
-      timingBaseUrl
     }
     content: markdownRemark(id: { eq: $id }) {
       frontmatter {

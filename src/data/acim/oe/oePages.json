@@ -1,0 +1,5153 @@
+[
+  {
+    "url": "/en/acim/oe/text/forward",
+    "key": "1510001",
+    "title": "Forward"
+  },
+  {
+    "url": "/en/acim/oe/text/intro",
+    "key": "1510002",
+    "audio": "/text/intro.mp3",
+    "title": "Introduction"
+  },
+  {
+    "title": "Tx.1.I. Principles of Miracles",
+    "audio": "/text/01/chap0101.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "url": "/en/acim/oe/text/chap0101",
+    "key": "1510003"
+  },
+  {
+    "title": "Tx.1.II. Distortions of Miracle Impulses",
+    "audio": "/text/01/chap0102.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "url": "/en/acim/oe/text/chap0102",
+    "key": "1510004"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0201",
+    "key": "1510005",
+    "title": "Tx.2.I. Introduction",
+    "audio": "/text/02/chap0201.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0202",
+    "key": "1510006",
+    "title": "Tx.2.II. The Reinterpretation of Defenses",
+    "audio": "/text/02/chap0202.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0203",
+    "key": "1510007",
+    "title": "Tx.2.III. Healing as Release from Fear",
+    "audio": "/text/02/chap0203.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0204",
+    "key": "1510008",
+    "title": "Tx.2.IV. Fear as Lack of Love",
+    "audio": "/text/02/chap0204.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0205",
+    "key": "1510009",
+    "title": "Tx.2.V. The Correction for Lack of Love",
+    "audio": "/text/02/chap0205.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0206",
+    "key": "1510010",
+    "title": "Tx.2.VI. The Meaning of the Last Judgement",
+    "audio": "/text/02/chap0206.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0301",
+    "key": "1510011",
+    "title": "Tx.3.I. Introduction",
+    "audio": "/text/03/chap0301.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0302",
+    "key": "1510012",
+    "title": "Tx.3.II. Special Principles for Miracle Workers",
+    "audio": "/text/03/chap0302.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0303",
+    "key": "1510013",
+    "title": "Tx.3.III. Atonement without Sacrifice",
+    "audio": "/text/03/chap0303.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0304",
+    "key": "1510014",
+    "title": "Tx.3.IV. Miracles as Accurate Perception",
+    "audio": "/text/03/chap0304.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0305",
+    "key": "1510015",
+    "title": "Tx.3.V. Perception Versus Knowledge",
+    "audio": "/text/03/chap0305.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0306",
+    "key": "1510016",
+    "title": "Tx.3.VI. Conflict and the Ego",
+    "audio": "/text/03/chap0306.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0307",
+    "key": "1510017",
+    "title": "Tx.3.VII. The Loss of Certainty",
+    "audio": "/text/03/chap0307.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0308",
+    "key": "1510018",
+    "title": "Tx.3.VIII. Judgement and the Authority Problem",
+    "audio": "/text/03/chap0308.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0309",
+    "key": "1510019",
+    "title": "Tx.3.IX. Creating versus the Self-Image",
+    "audio": "/text/03/chap0309.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0401",
+    "key": "1510020",
+    "title": "Tx.4.I. Introduction",
+    "audio": "/text/04/chap0401.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0402",
+    "key": "1510021",
+    "title": "Tx.4.II. Right Teaching and Right Learning",
+    "audio": "/text/04/chap0402.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0403",
+    "key": "1510022",
+    "title": "Tx.4.III. The Ego and False Autonomy",
+    "audio": "/text/04/chap0403.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0404",
+    "key": "1510023",
+    "title": "Tx.4.IV. Love without Conflict",
+    "audio": "/text/04/chap0404.mp3",
+    "note": "echo in audio",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0405",
+    "key": "1510024",
+    "title": "Tx.4.V. The Escape from Fear",
+    "audio": "/text/04/chap0405.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0406",
+    "key": "1510025",
+    "title": "Tx.4.VI. The Ego-Body Illusion",
+    "audio": "/text/04/chap0406.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0407",
+    "key": "1510026",
+    "title": "Tx.4.VII. The Constant State",
+    "audio": "/text/04/chap0407.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0408",
+    "key": "1510027",
+    "title": "Tx.4.VIII. Creation and Communication",
+    "audio": "/text/04/chap0408.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0409",
+    "key": "1510028",
+    "title": "Tx.4.IX. True Rehabilitation",
+    "audio": "/text/04/chap0409.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0501",
+    "key": "1510029",
+    "audio": "/text/05/chap0501.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0502",
+    "key": "1510030",
+    "audio": "/text/05/chap0502.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.II. Healing as Joining"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0503",
+    "key": "1510031",
+    "audio": "/text/05/chap0503.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.III. The Mind of the Atonement"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0504",
+    "key": "1510032",
+    "title": "Tx.5.IV. The Voice for God",
+    "audio": "/text/05/chap0504.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0505",
+    "key": "1510033",
+    "title": "Tx.5.V. The Guide to Salvation",
+    "audio": "/text/05/chap0505.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0506",
+    "key": "1510034",
+    "audio": "/text/05/chap0506.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.VI. Therapy and Teaching"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0507",
+    "key": "1510035",
+    "audio": "/text/05/chap0507.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.VII. The Two Decisions"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0508",
+    "key": "1510036",
+    "audio": "/text/05/chap0508.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.5.VIII. Time and Eternity"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0509",
+    "key": "1510037",
+    "title": "Tx.5.IX. The Eternal Fixation",
+    "audio": "/text/05/chap0509.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0601",
+    "key": "1510038",
+    "audio": "/text/06/chap0601.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.6.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0602",
+    "key": "1510039",
+    "audio": "/text/06/chap0602.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.6.II. The Message of the Crucifixion"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0603",
+    "key": "1510040",
+    "audio": "/text/06/chap0603.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.6.III. The Uses of Projection"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0604",
+    "key": "1510041",
+    "audio": "/text/06/chap0604.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.6.IV. The Relinquishment of Attack"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0605",
+    "key": "1510042",
+    "title": "Tx.6.V. The Only Answer",
+    "audio": "/text/06/chap0605.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "note": "audio ends early at p56"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0701",
+    "key": "1510043",
+    "title": "Tx.7.I. Introduction",
+    "audio": "/text/07/chap0701.mp3",
+    "timer": "onemillionchrists@gmail.com"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0702",
+    "key": "1510044",
+    "audio": "/text/07/chap0702.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.II. Bargaining versus Healing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0703",
+    "key": "1510045",
+    "audio": "/text/07/chap0703.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.III. The Laws of Mind"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0704",
+    "key": "1510046",
+    "audio": "/text/07/chap0704.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.IV. The Unified Curriculum"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0705",
+    "key": "1510047",
+    "audio": "/text/07/chap0705.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.V. The Recognition of Truth"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0706",
+    "key": "1510048",
+    "audio": "/text/07/chap0706.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.VI. Healing and the Changelessness of Mind"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0707",
+    "key": "1510049",
+    "audio": "/text/07/chap0707.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.VII. From Vigilance to Peace"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0708",
+    "key": "1510050",
+    "audio": "/text/07/chap0708.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.VIII. The Total Commitment"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0709",
+    "key": "1510051",
+    "audio": "/text/07/chap0709.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.IX. The Defense of Conflict"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0710",
+    "key": "1510052",
+    "audio": "/text/07/chap0710.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.X. The Extension of the Kingdom"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0711",
+    "key": "1510053",
+    "audio": "/text/07/chap0711.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.XI. The Confusion of Strength and Weakness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0712",
+    "key": "1510054",
+    "audio": "/text/07/chap0712.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.7.XII. The State of Grace"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0801",
+    "key": "1510055",
+    "audio": "/text/08/chap0801.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0802",
+    "key": "1510056",
+    "audio": "/text/08/chap0802.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.II. The Direction of the Curriculum"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0803",
+    "key": "1510057",
+    "audio": "/text/08/chap0803.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.III. The Rationale for Choice"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0804",
+    "key": "1510058",
+    "audio": "/text/08/chap0804.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.IV. The Holy Encounter"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0805",
+    "key": "1510059",
+    "audio": "/text/08/chap0805.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.V. The Light of the World"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0806",
+    "key": "1510060",
+    "audio": "/text/08/chap0806.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.VI. The Power of Joint Decision"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0807",
+    "key": "1510061",
+    "audio": "/text/08/chap0807.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.VII. Communication and the Ego-Body Equation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0808",
+    "key": "1510062",
+    "audio": "/text/08/chap0808.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.VIII. The Body as Means or End"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0809",
+    "key": "1510063",
+    "audio": "/text/08/chap0809.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.IX. Healing as Corrected Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0810",
+    "key": "1510064",
+    "audio": "/text/08/chap0810.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.X. The Acceptance of Reality"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0811",
+    "key": "1510065",
+    "audio": "/text/08/chap0811.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.8.XI. The Answer to Prayer"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0901",
+    "key": "1510066",
+    "audio": "/text/09/chap0901.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0902",
+    "key": "1510067",
+    "audio": "/text/09/chap0902.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.II. Sanity and Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0903",
+    "key": "1510068",
+    "audio": "/text/09/chap0903.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.III. Atonement as a prefix in Sharing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0904",
+    "key": "1510069",
+    "audio": "/text/09/chap0904.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.IV. The Unhealed Healer"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0905",
+    "key": "1510070",
+    "audio": "/text/09/chap0905.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.V. The Awareness of the Holy Spirit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0906",
+    "key": "1510071",
+    "audio": "/text/09/chap0906.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.VI. Salvation and God’s Will"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0907",
+    "key": "1510072",
+    "audio": "/text/09/chap0907.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.VII. Grandeur versus Grandiosity"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0908",
+    "key": "1510073",
+    "audio": "/text/09/chap0908.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.VIII. The Inclusiveness of Creation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0909",
+    "key": "1510074",
+    "audio": "/text/09/chap0909.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.IX. The Decision to Forget"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0910",
+    "key": "1510075",
+    "audio": "/text/09/chap0910.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.X. Magic versus Miracles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap0911",
+    "key": "1510076",
+    "audio": "/text/09/chap0911.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.9.XI. The Denial of God"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1001",
+    "key": "1510077",
+    "audio": "/text/10/chap1001.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1002",
+    "key": "1510078",
+    "audio": "/text/10/chap1002.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.II. Projection versus Extension"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1003",
+    "key": "1510079",
+    "audio": "/text/10/chap1003.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.III. The Willingness for Healing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1004",
+    "key": "1510080",
+    "audio": "/text/10/chap1004.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.IV. From Darkness to Light"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1005",
+    "key": "1510081",
+    "audio": "/text/10/chap1005.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.V. The Inheritance of God’s Son"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1006",
+    "key": "1510082",
+    "audio": "/text/10/chap1006.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.VI. The “Dynamics” of the Ego"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1007",
+    "key": "1510083",
+    "audio": "/text/10/chap1007.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.VII. Experience and Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1008",
+    "key": "1510084",
+    "audio": "/text/10/chap1008.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.10.VIII. The Problem and the Answer"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1101",
+    "key": "1510085",
+    "audio": "/text/11/chap1101.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1102",
+    "key": "1510086",
+    "audio": "/text/11/chap1102.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.II. The Judgement of the Holy Spirit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1103",
+    "key": "1510087",
+    "audio": "/text/11/chap1103.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.III. The Mechanism of Miracles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1104",
+    "key": "1510088",
+    "audio": "/text/11/chap1104.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.IV. The Investment in Reality"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1105",
+    "key": "1510089",
+    "audio": "/text/11/chap1105.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.V. Seeking and Finding"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1106",
+    "key": "1510090",
+    "audio": "/text/11/chap1106.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.VI. The Sane Curriculum"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1107",
+    "key": "1510091",
+    "audio": "/text/11/chap1107.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.VII. The Vision of Christ"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1108",
+    "key": "1510092",
+    "audio": "/text/11/chap1108.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.VIII. The Guide for Miracles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1109",
+    "key": "1510093",
+    "audio": "/text/11/chap1109.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.IX. Reality and Redemption"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1110",
+    "key": "1510094",
+    "audio": "/text/11/chap1110.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.11.X. Guiltlessness and Invulnerability"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1201",
+    "key": "1510095",
+    "audio": "/text/12/chap1201.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1202",
+    "key": "1510096",
+    "audio": "/text/12/chap1202.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.II. Crucifixion by Guilt"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1203",
+    "key": "1510097",
+    "audio": "/text/12/chap1203.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.III. The Fear of Redemption"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1204",
+    "key": "1510098",
+    "audio": "/text/12/chap1204.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.IV. Healing and Time"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1205",
+    "key": "1510099",
+    "audio": "/text/12/chap1205.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.V. The Two Emotions"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1206",
+    "key": "1510100",
+    "audio": "/text/12/chap1206.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.VI. Finding the Present"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1207",
+    "key": "1510101",
+    "audio": "/text/12/chap1207.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.12.VII. Attainment of the Real World"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1301",
+    "key": "1510102",
+    "audio": "/text/13/chap1301.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1302",
+    "key": "1510103",
+    "audio": "/text/13/chap1302.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.II. The Role of Healing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1303",
+    "key": "1510104",
+    "audio": "/text/13/chap1303.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.III. The Shadow of Guilt"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1304",
+    "key": "1510105",
+    "audio": "/text/13/chap1304.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.IV. Release and Restoration"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1305",
+    "key": "1510106",
+    "audio": "/text/13/chap1305.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.V. The Guarantee of Heaven"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1306",
+    "key": "1510107",
+    "audio": "/text/13/chap1306.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.VI. The Testimony of Miracles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1307",
+    "key": "1510108",
+    "audio": "/text/13/chap1307.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.VII. The Happy Learner"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1308",
+    "key": "1510109",
+    "audio": "/text/13/chap1308.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.VIII. The Decision for Guiltlessness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1309",
+    "key": "1510110",
+    "audio": "/text/13/chap1309.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.13.IX. The Way of Salvation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1401",
+    "key": "1510111",
+    "audio": "/text/14/chap1401.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1402",
+    "key": "1510112",
+    "audio": "/text/14/chap1402.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.II. Guilt and Guiltlessness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1403",
+    "key": "1510113",
+    "audio": "/text/14/chap1403.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.III. Out of the Darkness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1404",
+    "key": "1510114",
+    "audio": "/text/14/chap1404.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.IV. Perception without Deceit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1405",
+    "key": "1510115",
+    "audio": "/text/14/chap1405.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.V. The Recognition of Holiness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1406",
+    "key": "1510116",
+    "audio": "/text/14/chap1406.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.VI. The Shift to Miracles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1407",
+    "key": "1510117",
+    "audio": "/text/14/chap1407.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.14.VII. The Test of Truth"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1501",
+    "key": "1510118",
+    "audio": "/text/15/chap1501.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1502",
+    "key": "1510119",
+    "audio": "/text/15/chap1502.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.II. The Uses of Time"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1503",
+    "key": "1510120",
+    "audio": "/text/15/chap1503.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.III. Time and Eternity"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1504",
+    "key": "1510121",
+    "audio": "/text/15/chap1504.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.IV. Littleness versus Magnitude"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1505",
+    "key": "1510122",
+    "audio": "/text/15/chap1505.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.V. Practicing the Holy Instant"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1506",
+    "key": "1510123",
+    "audio": "/text/15/chap1506.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.VI. The Holy Instant and Special Relationships"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1507",
+    "key": "1510124",
+    "audio": "/text/15/chap1507.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.VII. The Holy Instant and the Laws of God"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1508",
+    "key": "1510125",
+    "audio": "/text/15/chap1508.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.VIII. The Holy Instant and Communication"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1509",
+    "key": "1510126",
+    "audio": "/text/15/chap1509.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.IX. The Holy Instant and Real Relationships"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1510",
+    "key": "1510127",
+    "audio": "/text/15/chap1510.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.X. The Time of Christ"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1511",
+    "key": "1510128",
+    "audio": "/text/15/chap1511.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.15.XI. The End of Sacrifice"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1601",
+    "key": "1510129",
+    "audio": "/text/16/chap1601.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1602",
+    "key": "1510130",
+    "audio": "/text/16/chap1602.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.II. True Empathy"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1603",
+    "key": "1510131",
+    "audio": "/text/16/chap1603.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.III. The Magnitude of Holiness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1604",
+    "key": "1510132",
+    "audio": "/text/16/chap1604.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.IV. The Reward of Teaching"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1605",
+    "key": "1510133",
+    "audio": "/text/16/chap1605.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.V. Illusion and Reality of Love"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1606",
+    "key": "1510134",
+    "audio": "/text/16/chap1606.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.VI. Specialness and Guilt"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1607",
+    "key": "1510135",
+    "audio": "/text/16/chap1607.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.VII. The Bridge to the Real World"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1608",
+    "key": "1510136",
+    "audio": "/text/16/chap1608.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.16.VIII. The End of Illusions"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1701",
+    "key": "1510137",
+    "audio": "/text/17/chap1701.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1702",
+    "key": "1510138",
+    "audio": "/text/17/chap1702.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.II. Fantasy and Distorted Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1703",
+    "key": "1510139",
+    "audio": "/text/17/chap1703.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.III. The Forgiven World"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1704",
+    "key": "1510140",
+    "audio": "/text/17/chap1704.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.IV. Shadows of the Past"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1705",
+    "key": "1510141",
+    "audio": "/text/17/chap1705.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.V. Perception and the Two Worlds"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1706",
+    "key": "1510142",
+    "audio": "/text/17/chap1706.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.VI. The Healed Relationship"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1707",
+    "key": "1510143",
+    "audio": "/text/17/chap1707.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.VII. Practical Forgiveness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1708",
+    "key": "1510144",
+    "audio": "/text/17/chap1708.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.VIII. The Need for Faith"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1709",
+    "key": "1510145",
+    "audio": "/text/17/chap1709.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Tx.17.IX. Conditions of Forgiveness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1801",
+    "key": "1510146",
+    "audio": "/text/18/chap1801.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1802",
+    "key": "1510147",
+    "audio": "/text/18/chap1802.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.II. Substitution as a Defense"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1803",
+    "key": "1510148",
+    "audio": "/text/18/chap1803.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.III. The Basis of the Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1804",
+    "key": "1510149",
+    "audio": "/text/18/chap1804.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.IV. Light in the Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1805",
+    "key": "1510150",
+    "audio": "/text/18/chap1805.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.V. The Little Willingness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1806",
+    "key": "1510151",
+    "audio": "/text/18/chap1806.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.VI. The Happy Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1807",
+    "key": "1510152",
+    "audio": "/text/18/chap1807.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.VII. Dreams and the Body"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1808",
+    "key": "1510153",
+    "audio": "/text/18/chap1808.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.VIII. I Need Do Nothing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1809",
+    "key": "1510154",
+    "audio": "/text/18/chap1809.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.IX. The Purpose of the Body"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1810",
+    "key": "1510155",
+    "audio": "/text/18/chap1810.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.X. The Delusional Thought System"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1811",
+    "key": "1510156",
+    "audio": "/text/18/chap1811.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.18.XI. The Passing of the Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1901",
+    "key": "1510157",
+    "audio": "/text/19/chap1901.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.19.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1902",
+    "key": "1510158",
+    "audio": "/text/19/chap1902.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.19.II. Healing and the Mind"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1903",
+    "key": "1510159",
+    "audio": "/text/19/chap1903.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.19.III. Sin versus Error"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1904",
+    "key": "1510160",
+    "audio": "/text/19/chap1904.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.19.IV. The Unreality of Sin"
+  },
+  {
+    "url": "/en/acim/oe/text/chap1905",
+    "key": "1510161",
+    "audio": "/text/19/chap1905.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.19.V. Obstacles to Peace"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2001",
+    "key": "1510162",
+    "audio": "/text/20/chap2001.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2002",
+    "key": "1510163",
+    "audio": "/text/20/chap2002.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.II. Holy Week"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2003",
+    "key": "1510164",
+    "audio": "/text/20/chap2003.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.III. Thorns and Lilies"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2004",
+    "key": "1510165",
+    "audio": "/text/20/chap2004.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.IV. Sin as an Adjustment"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2005",
+    "key": "1510166",
+    "audio": "/text/20/chap2005.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.V. Entering the Ark"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2006",
+    "key": "1510167",
+    "audio": "/text/20/chap2006.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.VI. Heralds of Eternity"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2007",
+    "key": "1510168",
+    "audio": "/text/20/chap2007.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.VII. The Temple of the Holy Spirit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2008",
+    "key": "1510169",
+    "audio": "/text/20/chap2008.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.VIII. The Consistency of Means and End"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2009",
+    "key": "1510170",
+    "audio": "/text/20/chap2009.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.20.IX. The Vision of Sinlessness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2101",
+    "key": "1510171",
+    "audio": "/text/21/chap2101.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2102",
+    "key": "1510172",
+    "audio": "/text/21/chap2102.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.II. The Imagined World"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2103",
+    "key": "1510173",
+    "audio": "/text/21/chap2103.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.III. The Responsibility for Sight"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2104",
+    "key": "1510174",
+    "audio": "/text/21/chap2104.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.IV. Faith, Belief and Vision"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2105",
+    "key": "1510175",
+    "audio": "/text/21/chap2105.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.V. The Fear to Look Within"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2106",
+    "key": "1510176",
+    "audio": "/text/21/chap2106.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.VI. Reason and Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2107",
+    "key": "1510177",
+    "audio": "/text/21/chap2107.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.VII. Reason and Correction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2108",
+    "key": "1510178",
+    "audio": "/text/21/chap2108.mp3",
+    "note": "No bullseye on 80",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.VIII. Perception and Wishes"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2109",
+    "key": "1510179",
+    "audio": "/text/21/chap2109.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.21.IX. The Inner Shift"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2201",
+    "key": "1510180",
+    "audio": "/text/22/chap2201.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2202",
+    "key": "1510181",
+    "audio": "/text/22/chap2202.mp3",
+    "note": "paragraph 9 is incompletely read",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.II. The Message of the Holy Relationship"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2203",
+    "key": "1510182",
+    "audio": "/text/22/chap2203.mp3",
+    "note": "paragraph 24 is partially unread",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.III. Your Brother’s Sinlessness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2204",
+    "key": "1510183",
+    "audio": "/text/22/chap2204.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.IV. Reason and the Holy Relationship"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2205",
+    "key": "1510184",
+    "audio": "/text/22/chap2205.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.V. The Branching of the Road"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2206",
+    "key": "1510185",
+    "audio": "/text/22/chap2206.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.VI. Weakness and Defensiveness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2207",
+    "key": "1510186",
+    "audio": "/text/22/chap2207.mp3",
+    "note": "paragraph 52 is unread",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.22.VII. Freedom and the Holy Spirit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2301",
+    "key": "1510187",
+    "audio": "/text/23/chap2301.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.23.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2302",
+    "key": "1510188",
+    "audio": "/text/23/chap2302.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.23.II. The Irreconcilable Beliefs"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2303",
+    "key": "1510189",
+    "audio": "/text/23/chap2303.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.23.III. The “Laws” of Chaos"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2304",
+    "key": "1510190",
+    "audio": "/text/23/chap2304.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.23.IV. Salvation without Compromise"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2305",
+    "key": "1510191",
+    "audio": "/text/23/chap2305.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.23.V. The Fear of Life"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2401",
+    "key": "1510192",
+    "audio": "/text/24/chap2401.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2402",
+    "key": "1510193",
+    "audio": "/text/24/chap2402.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.II. Specialness as a Substitute for Love"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2403",
+    "key": "1510194",
+    "audio": "/text/24/chap2403.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.III. The Treachery of Specialness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2404",
+    "key": "1510195",
+    "audio": "/text/24/chap2404.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.IV. The Forgiveness of Specialness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2405",
+    "key": "1510196",
+    "audio": "/text/24/chap2405.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.V. Specialness and Salvation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2406",
+    "key": "1510197",
+    "audio": "/text/24/chap2406.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.VI. The Resolution of the Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2407",
+    "key": "1510198",
+    "audio": "/text/24/chap2407.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.VII. Salvation from Fear"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2408",
+    "key": "1510199",
+    "audio": "/text/24/chap2408.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.24.VIII. The Meeting Place"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2501",
+    "key": "1510200",
+    "audio": "/text/25/chap2501.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2502",
+    "key": "1510201",
+    "audio": "/text/25/chap2502.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.II. The Appointed Task"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2503",
+    "key": "1510202",
+    "audio": "/text/25/chap2503.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.III. The Savior from the Dark"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2504",
+    "key": "1510203",
+    "audio": "/text/25/chap2504.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.IV. The Fundamental Law of Perception"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2505",
+    "key": "1510204",
+    "audio": "/text/25/chap2505.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.V. The Joining of Minds"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2506",
+    "key": "1510205",
+    "audio": "/text/25/chap2506.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.VI. The State of Sinlessness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2507",
+    "key": "1510206",
+    "audio": "/text/25/chap2507.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.VII. The Special Function"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2508",
+    "key": "1510207",
+    "audio": "/text/25/chap2508.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.VIII. Commuting the Sentence"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2509",
+    "key": "1510208",
+    "audio": "/text/25/chap2509.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.IX. The Principle of Salvation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2510",
+    "key": "1510209",
+    "audio": "/text/25/chap2510.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.25.X. The Justice of Heaven"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2601",
+    "key": "1510210",
+    "audio": "/text/26/chap2601.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2602",
+    "key": "1510211",
+    "audio": "/text/26/chap2602.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.II. The 'Sacrifice' of Oneness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2603",
+    "key": "1510212",
+    "audio": "/text/26/chap2603.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.III. The Forms of Error"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2604",
+    "key": "1510213",
+    "audio": "/text/26/chap2604.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.IV. The Borderland"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2605",
+    "key": "1510214",
+    "audio": "/text/26/chap2605.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.V. Where Sin Has Left"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2606",
+    "key": "1510215",
+    "audio": "/text/26/chap2606.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.VI. The Little Hindrance"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2607",
+    "key": "1510216",
+    "audio": "/text/26/chap2607.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.VII. The Appointed Friend"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2608",
+    "key": "1510217",
+    "audio": "/text/26/chap2608.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.VIII. Review of Principles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2609",
+    "key": "1510218",
+    "audio": "/text/26/chap2609.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.IX. The Immediacy of Salvation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2610",
+    "key": "1510219",
+    "audio": "/text/26/chap2610.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.X. For They Have Come"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2611",
+    "key": "1510220",
+    "audio": "/text/26/chap2611.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Tx.26.XI. The Remaining Task"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2701",
+    "key": "1510221",
+    "audio": "/text/27/chap2701.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2702",
+    "key": "1510222",
+    "audio": "/text/27/chap2702.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.II. The Picture of Crucifixion"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2703",
+    "key": "1510223",
+    "audio": "/text/27/chap2703.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.III. The Fear of Healing"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2704",
+    "key": "1510224",
+    "audio": "/text/27/chap2704.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.IV. The Symbol of the Impossible"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2705",
+    "key": "1510225",
+    "audio": "/text/27/chap2705.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.V. The Quiet Answer"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2706",
+    "key": "1510226",
+    "audio": "/text/27/chap2706.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.VI. The Healing Example"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2707",
+    "key": "1510227",
+    "audio": "/text/27/chap2707.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.VII. The Purpose of Pain"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2708",
+    "key": "1510228",
+    "audio": "/text/27/chap2708.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.VIII. The Illusion of Suffering"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2709",
+    "key": "1510229",
+    "audio": "/text/27/chap2709.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.27.IX. The 'Hero' of the Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2801",
+    "key": "1510230",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2801.mp3",
+    "title": "Tx.28.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2802",
+    "key": "1510231",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2802.mp3",
+    "title": "Tx.28.II. The Present Memory"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2803",
+    "key": "1510232",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2803.mp3",
+    "title": "Tx.28.III. Reversing Effect and Cause"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2804",
+    "key": "1510233",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2804.mp3",
+    "title": "Tx.28.IV. The Agreement to Join"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2805",
+    "key": "1510234",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2805.mp3",
+    "title": "Tx.28.V. The Greater Joining"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2806",
+    "key": "1510235",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2806.mp3",
+    "title": "Tx.28.VI. The Alternate to Dreams of Fear"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2807",
+    "key": "1510236",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2807.mp3",
+    "title": "Tx.28.VII. The Secret Vows"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2808",
+    "key": "1510237",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/28/chap2808.mp3",
+    "title": "Tx.28.VIII. The Beautiful Relationship"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2901",
+    "key": "1510238",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2901.mp3",
+    "title": "Tx.29.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2902",
+    "key": "1510239",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2902.mp3",
+    "title": "Tx.29.II. The Closing of the Gap"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2903",
+    "key": "1510240",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2903.mp3",
+    "title": "Tx.29.III. The Coming of the Guest"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2904",
+    "key": "1510241",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2904.mp3",
+    "title": "Tx.29.IV. God’s Witnesses"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2905",
+    "key": "1510242",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2905.mp3",
+    "title": "Tx.29.V. Dream Roles"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2906",
+    "key": "1510243",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2906.mp3",
+    "title": "Tx.29.VI. The Changeless Dwelling-Place"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2907",
+    "key": "1510244",
+    "timer": "ancientrussian@gmail.com",
+    "audio": "/text/29/chap2907.mp3",
+    "title": "Tx.29.VII. Forgiveness and Peace"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2908",
+    "key": "1510245",
+    "audio": "/text/29/chap2908.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.29.VIII. The Lingering Illusion"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2909",
+    "key": "1510246",
+    "audio": "/text/29/chap2909.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.29.IX. Christ and the Anti-Christ"
+  },
+  {
+    "url": "/en/acim/oe/text/chap2910",
+    "key": "1510247",
+    "audio": "/text/29/chap2910.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.29.X. The Forgiving Dream"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3001",
+    "key": "1510248",
+    "audio": "/text/30/chap3001.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3002",
+    "key": "1510249",
+    "audio": "/text/30/chap3002.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.II. Rules for Decision"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3003",
+    "key": "1510250",
+    "audio": "/text/30/chap3003.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.III. Freedom of Will"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3004",
+    "key": "1510251",
+    "audio": "/text/30/chap3004.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.IV. Beyond All Idols"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3005",
+    "key": "1510252",
+    "audio": "/text/30/chap3005.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.V. The Truth Behind Illusions"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3006",
+    "key": "1510253",
+    "audio": "/text/30/chap3006.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.VI. The Only Purpose"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3007",
+    "key": "1510254",
+    "audio": "/text/30/chap3007.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.VII. The Justification for Forgiveness"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3008",
+    "key": "1510255",
+    "audio": "/text/30/chap3008.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.VIII. The New Interpretation"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3009",
+    "key": "1510256",
+    "audio": "/text/30/chap3009.mp3",
+    "timer": "ancientrussian@gmail.com",
+    "title": "Tx.30.IX. Changeless Reality"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3101",
+    "key": "1510257",
+    "audio": "/text/31/chap3101.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.I. Introduction"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3102",
+    "key": "1510258",
+    "audio": "/text/31/chap3102.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.II. The Illusion of an Enemy"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3103",
+    "key": "1510259",
+    "audio": "/text/31/chap3103.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.III. The Self-Accused"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3104",
+    "key": "1510260",
+    "audio": "/text/31/chap3104.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.IV. The Real Alternative"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3105",
+    "key": "1510261",
+    "audio": "/text/31/chap3105.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.V. Self-Concept versus Self"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3106",
+    "key": "1510262",
+    "audio": "/text/31/chap3106.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.VI. Recognizing the Spirit"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3107",
+    "key": "1510263",
+    "audio": "/text/31/chap3107.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.VII. The Savior’s Vision"
+  },
+  {
+    "url": "/en/acim/oe/text/chap3108",
+    "key": "1510264",
+    "audio": "/text/31/chap3108.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Tx.31.VIII. Choose Once Again"
+  },
+  {
+    "title": "Introduction",
+    "url": "/en/acim/oe/workbook/introp1",
+    "key": "1520001",
+    "audio": "/workbook/introp1.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l001",
+    "key": "1520002",
+    "prefix": 1,
+    "title": "Nothing I see means anything.",
+    "audio": "/workbook/l001.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l002",
+    "key": "1520003",
+    "audio": "/workbook/l002.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 2,
+    "title": "I have given everything I see all the meaning that it has for me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l003",
+    "key": "1520004",
+    "audio": "/workbook/l003.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 3,
+    "title": "I do not understand anything I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l004",
+    "key": "1520005",
+    "audio": "/workbook/l004.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 4,
+    "title": "These thoughts do not mean anything."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l005",
+    "key": "1520006",
+    "audio": "/workbook/l005.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 5,
+    "title": "I am never upset for the reason I think."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l006",
+    "key": "1520007",
+    "audio": "/workbook/l006.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 6,
+    "title": "I am upset because I see something that is not there."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l007",
+    "key": "1520008",
+    "audio": "/workbook/l007.mp3",
+    "prefix": 7,
+    "timer": "mike.glenn@outlook.com",
+    "title": "I see only the past."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l008",
+    "key": "1520009",
+    "audio": "/workbook/l008.mp3",
+    "prefix": 8,
+    "timer": "mike.glenn@outlook.com",
+    "title": "My mind is preoccupied with past thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l009",
+    "key": "1520010",
+    "audio": "/workbook/l009.mp3",
+    "prefix": 9,
+    "timer": "mike.glenn@outlook.com",
+    "title": "I see nothing as it is now."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l010",
+    "key": "1520011",
+    "audio": "/workbook/l010.mp3",
+    "prefix": 10,
+    "timer": "mike.glenn@outlook.com",
+    "title": "My thoughts do not mean anything."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l011",
+    "key": "1520012",
+    "audio": "/workbook/l011.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 11,
+    "title": "My meaningless thoughts are showing me a meaningless world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l012",
+    "key": "1520013",
+    "audio": "/workbook/l012.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 12,
+    "title": "I am upset because I see a meaningless world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l013",
+    "key": "1520014",
+    "audio": "/workbook/l013.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 13,
+    "title": "A meaningless world engenders fear."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l014",
+    "key": "1520015",
+    "audio": "/workbook/l014.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 14,
+    "title": "God did not create a meaningless world"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l015",
+    "key": "1520016",
+    "audio": "/workbook/l015.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 15,
+    "title": "My thoughts are images which I have made."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l016",
+    "key": "1520017",
+    "audio": "/workbook/l016.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 16,
+    "title": "I have no neutral thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l017",
+    "key": "1520018",
+    "audio": "/workbook/l017.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 17,
+    "title": "I see no neutral things."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l018",
+    "key": "1520019",
+    "audio": "/workbook/l018.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 18,
+    "title": "I am not alone in experiencing the effects of my seeing."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l019",
+    "key": "1520020",
+    "audio": "/workbook/l019.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 19,
+    "title": "I am not alone in experiencing the effects of my thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l020",
+    "key": "1520021",
+    "audio": "/workbook/l020.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 20,
+    "title": "I am determined to see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l021",
+    "key": "1520022",
+    "audio": "/workbook/l021.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 21,
+    "title": "I am determined to see things differently."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l022",
+    "key": "1520023",
+    "audio": "/workbook/l022.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 22,
+    "title": "What I see is a form of vengeance."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l023",
+    "key": "1520024",
+    "audio": "/workbook/l023.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 23,
+    "title": "I can escape from the world I see by giving up attack thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l024",
+    "key": "1520025",
+    "audio": "/workbook/l024.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 24,
+    "title": "I do not perceive my own best interests."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l025",
+    "key": "1520026",
+    "audio": "/workbook/l025.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 25,
+    "title": "I do not know what anything is for."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l026",
+    "key": "1520027",
+    "audio": "/workbook/l026.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 26,
+    "title": "My attack thoughts are attacking my invulnerability."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l027",
+    "key": "1520028",
+    "audio": "/workbook/l027.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 27,
+    "title": "Above all else I want to see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l028",
+    "key": "1520029",
+    "audio": "/workbook/l028.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 28,
+    "title": "Above all else I want to see things differently."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l029",
+    "key": "1520030",
+    "audio": "/workbook/l029.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 29,
+    "title": "God is in everything I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l030",
+    "key": "1520031",
+    "audio": "/workbook/l030.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 30,
+    "title": "God is in everything I see because God is in my mind."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l031",
+    "key": "1520032",
+    "audio": "/workbook/l031.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 31,
+    "title": "I am not the victim of the world I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l032",
+    "key": "1520033",
+    "audio": "/workbook/l032.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 32,
+    "title": "I have invented the world I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l033",
+    "key": "1520034",
+    "audio": "/workbook/l033.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 33,
+    "title": "There is another way of looking at the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l034",
+    "key": "1520035",
+    "audio": "/workbook/l034.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 34,
+    "title": "I could see peace instead of this."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l035",
+    "key": "1520036",
+    "audio": "/workbook/l035.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 35,
+    "title": "My mind is part of God’s. I am very holy."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l036",
+    "key": "1520037",
+    "audio": "/workbook/l036.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 36,
+    "title": "My holiness envelops everything I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l037",
+    "key": "1520038",
+    "audio": "/workbook/l037.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 37,
+    "title": "My holiness blesses the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l038",
+    "key": "1520039",
+    "audio": "/workbook/l038.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 38,
+    "title": "There is nothing my holiness cannot do."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l039",
+    "key": "1520040",
+    "audio": "/workbook/l039.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 39,
+    "title": "My holiness is my salvation."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l040",
+    "key": "1520041",
+    "audio": "/workbook/l040.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 40,
+    "title": "I am blessed as a Son of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l041",
+    "key": "1520042",
+    "audio": "/workbook/l041.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 41,
+    "title": "God goes with me wherever I go."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l042",
+    "key": "1520043",
+    "audio": "/workbook/l042.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 42,
+    "title": "God is my strength. Vision is His gift."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l043",
+    "key": "1520044",
+    "audio": "/workbook/l043.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 43,
+    "title": "God is my Source. I cannot see apart from Him."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l044",
+    "key": "1520045",
+    "audio": "/workbook/l044.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 44,
+    "title": "God is the Light in which I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l045",
+    "key": "1520046",
+    "audio": "/workbook/l045.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 45,
+    "title": "God is the Mind with which I think."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l046",
+    "key": "1520047",
+    "audio": "/workbook/l046.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 46,
+    "title": "God is the Love in which I forgive."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l047",
+    "key": "1520048",
+    "audio": "/workbook/l047.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 47,
+    "title": "God is the Strength in which I trust."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l048",
+    "key": "1520049",
+    "audio": "/workbook/l048.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 48,
+    "title": "There is nothing to fear."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l049",
+    "key": "1520050",
+    "audio": "/workbook/l049.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 49,
+    "title": "God’s Voice speaks to me all through the day."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l050",
+    "key": "1520051",
+    "audio": "/workbook/l050.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 50,
+    "title": "I am sustained by the Love of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review1",
+    "key": "1520052",
+    "audio": "/workbook/review1.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l051",
+    "key": "1520053",
+    "audio": "/workbook/l051.mp3",
+    "prefix": 51,
+    "title": "Review 1 - 5"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l052",
+    "key": "1520054",
+    "audio": "/workbook/l052.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 52,
+    "title": "Review 6 - 10"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l053",
+    "key": "1520055",
+    "audio": "/workbook/l053.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 53,
+    "title": "Review 11 - 15"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l054",
+    "key": "1520056",
+    "audio": "/workbook/l054.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 54,
+    "title": "Review 16 - 20"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l055",
+    "key": "1520057",
+    "audio": "/workbook/l055.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 55,
+    "title": "Review 21 - 25"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l056",
+    "key": "1520058",
+    "audio": "/workbook/l056.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 56,
+    "title": "Review 26 - 30"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l057",
+    "key": "1520059",
+    "audio": "/workbook/l057.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 57,
+    "title": "Review 31 - 35"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l058",
+    "key": "1520060",
+    "audio": "/workbook/l058.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 58,
+    "title": "Review 36 - 40"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l059",
+    "key": "1520061",
+    "audio": "/workbook/l059.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 59,
+    "title": "Review 41 - 45"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l060",
+    "key": "1520062",
+    "audio": "/workbook/l060.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 60,
+    "title": "Review 46 - 50"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l061",
+    "key": "1520063",
+    "audio": "/workbook/l061.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 61,
+    "title": "I am the light of the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l062",
+    "key": "1520064",
+    "audio": "/workbook/l062.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 62,
+    "title": "Forgiveness is my function as the light of the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l063",
+    "key": "1520065",
+    "audio": "/workbook/l063.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 63,
+    "title": "The light of the world brings peace to every mind through my forgiveness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l064",
+    "key": "1520066",
+    "audio": "/workbook/l064.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 64,
+    "title": "Let me not forget my function."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l065",
+    "key": "1520067",
+    "audio": "/workbook/l065.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 65,
+    "title": "My only function is the one God gave me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l066",
+    "key": "1520068",
+    "audio": "/workbook/l066.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 66,
+    "title": "My happiness and my function are one."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l067",
+    "key": "1520069",
+    "audio": "/workbook/l067.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 67,
+    "title": "Love created me like Itself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l068",
+    "key": "1520070",
+    "audio": "/workbook/l068.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 68,
+    "title": "Love holds no grievances."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l069",
+    "key": "1520071",
+    "audio": "/workbook/l069.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 69,
+    "title": "My grievances hide the light of the world in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l070",
+    "key": "1520072",
+    "audio": "/workbook/l070.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 70,
+    "title": "My salvation comes from me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l071",
+    "key": "1520073",
+    "audio": "/workbook/l071.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 71,
+    "title": "Only God’s plan for salvation will work."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l072",
+    "key": "1520074",
+    "audio": "/workbook/l072.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 72,
+    "title": "Holding grievances is an attack on God’s plan for salvation."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l073",
+    "key": "1520075",
+    "audio": "/workbook/l073.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 73,
+    "title": "I will there be light."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l074",
+    "key": "1520076",
+    "audio": "/workbook/l074.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 74,
+    "title": "There is no will but God’s."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l075",
+    "key": "1520077",
+    "audio": "/workbook/l075.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 75,
+    "title": "The light has come."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l076",
+    "key": "1520078",
+    "audio": "/workbook/l076.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 76,
+    "title": "I am under no laws but God’s."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l077",
+    "key": "1520079",
+    "audio": "/workbook/l077.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 77,
+    "title": "I am entitled to miracles."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l078",
+    "key": "1520080",
+    "audio": "/workbook/l078.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 78,
+    "title": "Let miracles replace all grievances."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l079",
+    "key": "1520081",
+    "audio": "/workbook/l079.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 79,
+    "title": "Let me recognize the problem so it can be solved."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l080",
+    "key": "1520082",
+    "audio": "/workbook/l080.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 80,
+    "title": "Let me recognize my problems have been solved."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review2",
+    "key": "1520083",
+    "audio": "/workbook/review2.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l081",
+    "key": "1520084",
+    "audio": "/workbook/l081.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 81,
+    "title": "Review 61 - 62"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l082",
+    "key": "1520085",
+    "audio": "/workbook/l082.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 82,
+    "title": "Review 63 - 64"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l083",
+    "key": "1520086",
+    "audio": "/workbook/l083.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 83,
+    "title": "Review 65 - 66"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l084",
+    "key": "1520087",
+    "audio": "/workbook/l084.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 84,
+    "title": "Review 67 - 68"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l085",
+    "key": "1520088",
+    "audio": "/workbook/l085.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 85,
+    "title": "Review 69 - 70"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l086",
+    "key": "1520089",
+    "audio": "/workbook/l086.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 86,
+    "title": "Review 71 - 72"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l087",
+    "key": "1520090",
+    "audio": "/workbook/l087.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 87,
+    "title": "Review 73 - 74"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l088",
+    "key": "1520091",
+    "audio": "/workbook/l088.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 88,
+    "title": "Review 75 - 76"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l089",
+    "key": "1520092",
+    "audio": "/workbook/l089.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 89,
+    "title": "Review 77 - 78"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l090",
+    "key": "1520093",
+    "audio": "/workbook/l090.mp3",
+    "timer": "mike.glenn@outlook.com",
+    "prefix": 90,
+    "title": "Review 79 - 80"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l091",
+    "key": "1520094",
+    "audio": "/workbook/l091.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 91,
+    "title": "Miracles are seen in light."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l092",
+    "key": "1520095",
+    "audio": "/workbook/l092.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 92,
+    "title": "Miracles are seen in light, and light and strength are one."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l093",
+    "key": "1520096",
+    "audio": "/workbook/l093.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 93,
+    "title": "Light and joy and peace abide in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l094",
+    "key": "1520097",
+    "audio": "/workbook/l094.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 94,
+    "title": "I am as God created me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l095",
+    "key": "1520098",
+    "audio": "/workbook/l095.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "note": "some paragraphs not read",
+    "prefix": 95,
+    "title": "I am One Self, united with my Creator."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l096",
+    "key": "1520099",
+    "audio": "/workbook/l096.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 96,
+    "title": "Salvation comes from my One Self."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l097",
+    "key": "1520100",
+    "audio": "/workbook/l097.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 97,
+    "title": "I am Spirit."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l098",
+    "key": "1520101",
+    "audio": "/workbook/l098.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 98,
+    "title": "I will accept my part in God’s plan for salvation."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l099",
+    "key": "1520102",
+    "audio": "/workbook/l099.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 99,
+    "title": "Salvation is my only function here."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l100",
+    "key": "1520103",
+    "audio": "/workbook/l100.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 100,
+    "title": "My part is essential to God’s plan for salvation."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l101",
+    "key": "1520104",
+    "audio": "/workbook/l101.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 101,
+    "title": "God’s Will for me is perfect happiness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l102",
+    "key": "1520105",
+    "audio": "/workbook/l102.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 102,
+    "title": "I share God’s Will for happiness for me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l103",
+    "key": "1520106",
+    "audio": "/workbook/l103.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 103,
+    "title": "God, being Love, is also happiness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l104",
+    "key": "1520107",
+    "audio": "/workbook/l104.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 104,
+    "title": "I seek but what belongs to me in truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l105",
+    "key": "1520108",
+    "audio": "/workbook/l105.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 105,
+    "title": "God’s peace and joy are mine."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l106",
+    "key": "1520109",
+    "audio": "/workbook/l106.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 106,
+    "title": "Let me be still and listen to the truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l107",
+    "key": "1520110",
+    "audio": "/workbook/l107.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 107,
+    "title": "Truth will correct all errors in my mind."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l108",
+    "key": "1520111",
+    "audio": "/workbook/l108.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 108,
+    "title": "To give and to receive are one in truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l109",
+    "key": "1520112",
+    "audio": "/workbook/l109.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 109,
+    "title": "I rest in God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l110",
+    "key": "1520113",
+    "audio": "/workbook/l110.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 110,
+    "title": "I am as God created me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review3",
+    "key": "1520114",
+    "audio": "/workbook/review3.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l111",
+    "key": "1520115",
+    "audio": "/workbook/l111.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 111,
+    "title": "Review 91 - 92"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l112",
+    "key": "1520116",
+    "audio": "/workbook/l112.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 112,
+    "title": "Review 93 - 94"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l113",
+    "key": "1520117",
+    "audio": "/workbook/l113.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 113,
+    "title": "Review 95 - 96"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l114",
+    "key": "1520118",
+    "audio": "/workbook/l114.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 114,
+    "title": "Review 97 - 98"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l115",
+    "key": "1520119",
+    "audio": "/workbook/l115.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 115,
+    "title": "Review 99 - 100"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l116",
+    "key": "1520120",
+    "audio": "/workbook/l116.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 116,
+    "title": "Review 101 - 102"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l117",
+    "key": "1520121",
+    "audio": "/workbook/l117.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 117,
+    "title": "Review 103 - 104"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l118",
+    "key": "1520122",
+    "audio": "/workbook/l118.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 118,
+    "title": "Review 105 - 106"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l119",
+    "key": "1520123",
+    "audio": "/workbook/l119.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 119,
+    "title": "Review 107 - 108"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l120",
+    "key": "1520124",
+    "audio": "/workbook/l120.mp3",
+    "timer": "msullivan2k@gmail.com",
+    "prefix": 120,
+    "title": "Review 109 - 110"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l121",
+    "key": "1520125",
+    "audio": "/workbook/l121.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 121,
+    "title": "Forgiveness is the key to happiness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l122",
+    "key": "1520126",
+    "audio": "/workbook/l122.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 122,
+    "title": "Forgiveness offers everything I want."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l123",
+    "key": "1520127",
+    "audio": "/workbook/l123.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 123,
+    "title": "I thank my Father for His gifts to me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l124",
+    "key": "1520128",
+    "audio": "/workbook/l124.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 124,
+    "title": "Let me remember I am one with God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l125",
+    "key": "1520129",
+    "audio": "/workbook/l125.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 125,
+    "title": "In quiet I receive God’s Word today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l126",
+    "key": "1520130",
+    "audio": "/workbook/l126.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 126,
+    "title": "All that I give is given to myself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l127",
+    "key": "1520131",
+    "audio": "/workbook/l127.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 127,
+    "title": "There is no love but God’s."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l128",
+    "key": "1520132",
+    "audio": "/workbook/l128.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 128,
+    "title": "The World I see has nothing that I want."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l129",
+    "key": "1520133",
+    "audio": "/workbook/l129.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 129,
+    "title": "Beyond this world there is a world I want."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l130",
+    "key": "1520134",
+    "audio": "/workbook/l130.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 130,
+    "title": "It is impossible to see two worlds."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l131",
+    "key": "1520135",
+    "audio": "/workbook/l131.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 131,
+    "title": "No-one can fail who asks to reach the truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l132",
+    "key": "1520136",
+    "audio": "/workbook/l132.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 132,
+    "title": "I loose the world from all I thought it was."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l133",
+    "key": "1520137",
+    "audio": "/workbook/l133.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 133,
+    "title": "I will not value what is valueless."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l134",
+    "key": "1520138",
+    "audio": "/workbook/l134.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 134,
+    "title": "Let me perceive forgiveness as it is."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l135",
+    "key": "1520139",
+    "audio": "/workbook/l135.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 135,
+    "title": "If I defend myself I am attacked."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l136",
+    "key": "1520140",
+    "audio": "/workbook/l136.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 136,
+    "title": "Sickness is a defense against the truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l137",
+    "key": "1520141",
+    "audio": "/workbook/l137.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 137,
+    "title": "When I am healed I am not healed alone."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l138",
+    "key": "1520142",
+    "audio": "/workbook/l138.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 138,
+    "title": "Heaven is the decision I must make."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l139",
+    "key": "1520143",
+    "audio": "/workbook/l139.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 139,
+    "title": "I will accept Atonement for myself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l140",
+    "key": "1520144",
+    "audio": "/workbook/l140.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 140,
+    "title": "Only salvation can be said to cure."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review4",
+    "key": "1520145",
+    "audio": "/workbook/review4.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l141",
+    "key": "1520146",
+    "audio": "/workbook/l141.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 141,
+    "title": "Review 121 - 122"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l142",
+    "key": "1520147",
+    "audio": "/workbook/l142.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 142,
+    "title": "Review 123 - 124"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l143",
+    "key": "1520148",
+    "audio": "/workbook/l143.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 143,
+    "title": "Review 125 - 126"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l144",
+    "key": "1520149",
+    "audio": "/workbook/l144.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 144,
+    "title": "Review 127 - 128"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l145",
+    "key": "1520150",
+    "audio": "/workbook/l145.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 145,
+    "title": "Review 129 - 130"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l146",
+    "key": "1520151",
+    "audio": "/workbook/l146.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 146,
+    "title": "Review 131 - 132"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l147",
+    "key": "1520152",
+    "audio": "/workbook/l147.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 147,
+    "title": "Review 133 - 134"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l148",
+    "key": "1520153",
+    "audio": "/workbook/l148.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 148,
+    "title": "Review 135 - 136"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l149",
+    "key": "1520154",
+    "audio": "/workbook/l149.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 149,
+    "title": "Review 137 - 138"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l150",
+    "key": "1520155",
+    "audio": "/workbook/l150.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 150,
+    "title": "Review 139 - 140"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l151",
+    "key": "1520156",
+    "audio": "/workbook/l151.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 151,
+    "title": "All things are echoes of the Voice of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l152",
+    "key": "1520157",
+    "audio": "/workbook/l152.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 152,
+    "title": "The power of decision is my own."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l153",
+    "key": "1520158",
+    "audio": "/workbook/l153.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 153,
+    "title": "In my defenselessness my safety lies."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l154",
+    "key": "1520159",
+    "audio": "/workbook/l154.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 154,
+    "title": "I am among the ministers of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l155",
+    "key": "1520160",
+    "audio": "/workbook/l155.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 155,
+    "title": "I will step back and let Him lead the way."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l156",
+    "key": "1520161",
+    "audio": "/workbook/l156.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 156,
+    "title": "I walk with God in perfect holiness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l157",
+    "key": "1520162",
+    "audio": "/workbook/l157.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 157,
+    "title": "Into His Presence would I enter now."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l158",
+    "key": "1520163",
+    "audio": "/workbook/l158.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 158,
+    "title": "Today I learn to give as I receive."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l159",
+    "key": "1520164",
+    "audio": "/workbook/l159.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 159,
+    "title": "I give the miracles I have received."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l160",
+    "key": "1520165",
+    "audio": "/workbook/l160.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 160,
+    "title": "I am at home. Fear is the stranger here."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l161",
+    "key": "1520166",
+    "audio": "/workbook/l161.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 161,
+    "title": "Give me your blessing, holy Son of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l162",
+    "key": "1520167",
+    "audio": "/workbook/l162.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 162,
+    "title": "I am as God created me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l163",
+    "key": "1520168",
+    "audio": "/workbook/l163.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 163,
+    "title": "There is no death. The Son of God is free."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l164",
+    "key": "1520169",
+    "audio": "/workbook/l164.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 164,
+    "title": "Now are we One with Him Who is our Source."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l165",
+    "key": "1520170",
+    "audio": "/workbook/l165.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 165,
+    "title": "Let not my mind deny the Thought of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l166",
+    "key": "1520171",
+    "audio": "/workbook/l166.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 166,
+    "title": "I am entrusted with the gifts of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l167",
+    "key": "1520172",
+    "audio": "/workbook/l167.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 167,
+    "title": "There is one life, and that I share with God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l168",
+    "key": "1520173",
+    "audio": "/workbook/l168.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 168,
+    "title": "Your grace is given me. I claim it now."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l169",
+    "key": "1520174",
+    "audio": "/workbook/l169.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 169,
+    "title": "By grace I live. By grace I am released."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l170",
+    "key": "1520175",
+    "audio": "/workbook/l170.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 170,
+    "title": "There is no cruelty in God and none in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review5",
+    "key": "1520176",
+    "audio": "/workbook/review5.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l171",
+    "key": "1520177",
+    "audio": "/workbook/l171.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 171,
+    "title": "Review 151 - 152"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l172",
+    "key": "1520178",
+    "audio": "/workbook/l172.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 172,
+    "title": "Review 153 - 154"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l173",
+    "key": "1520179",
+    "audio": "/workbook/l173.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 173,
+    "title": "Review 155 - 156"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l174",
+    "key": "1520180",
+    "audio": "/workbook/l174.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 174,
+    "title": "Review 157 - 158"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l175",
+    "key": "1520181",
+    "audio": "/workbook/l175.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 175,
+    "title": "Review 159 - 160"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l176",
+    "key": "1520182",
+    "audio": "/workbook/l176.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 176,
+    "title": "Review 161 - 162"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l177",
+    "key": "1520183",
+    "audio": "/workbook/l177.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 177,
+    "title": "Review 163 - 164"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l178",
+    "key": "1520184",
+    "audio": "/workbook/l178.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 178,
+    "title": "Review 165 - 166"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l179",
+    "key": "1520185",
+    "audio": "/workbook/l179.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 179,
+    "title": "Review 167 - 168"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l180",
+    "key": "1520186",
+    "audio": "/workbook/l180.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 180,
+    "title": "Review 169 - 170"
+  },
+  {
+    "url": "/en/acim/oe/workbook/intro181",
+    "key": "1520187",
+    "audio": "/workbook/intro181.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l181",
+    "key": "1520188",
+    "audio": "/workbook/l181.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 181,
+    "title": "I trust my brothers, who are one with me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l182",
+    "key": "1520189",
+    "audio": "/workbook/l182.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 182,
+    "title": "I will be still an instant and go home."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l183",
+    "key": "1520190",
+    "audio": "/workbook/l183.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 183,
+    "title": "I call upon God’s Name and on my own."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l184",
+    "key": "1520191",
+    "audio": "/workbook/l184.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 184,
+    "title": "The Name of God is my inheritance."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l185",
+    "key": "1520192",
+    "audio": "/workbook/l185.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 185,
+    "title": "I want the peace of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l186",
+    "key": "1520193",
+    "audio": "/workbook/l186.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 186,
+    "title": "Salvation of the world depends on me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l187",
+    "key": "1520194",
+    "audio": "/workbook/l187.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 187,
+    "title": "I bless the world because I bless myself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l188",
+    "key": "1520195",
+    "audio": "/workbook/l188.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 188,
+    "title": "The peace of God is shining in me now."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l189",
+    "key": "1520196",
+    "audio": "/workbook/l189.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 189,
+    "title": "I feel the Love of God within me now."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l190",
+    "key": "1520197",
+    "audio": "/workbook/l190.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 190,
+    "title": "I choose the joy of God instead of pain."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l191",
+    "key": "1520198",
+    "audio": "/workbook/l191.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 191,
+    "title": "I am the holy Son of God Himself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l192",
+    "key": "1520199",
+    "audio": "/workbook/l192.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 192,
+    "title": "I have a function God would have me fill."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l193",
+    "key": "1520200",
+    "audio": "/workbook/l193.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 193,
+    "title": "All things are prefixs God would have me learn."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l194",
+    "key": "1520201",
+    "audio": "/workbook/l194.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 194,
+    "title": "I place the future in the Hands of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l195",
+    "key": "1520202",
+    "audio": "/workbook/l195.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 195,
+    "title": "Love is the way I walk in gratitude."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l196",
+    "key": "1520203",
+    "audio": "/workbook/l196.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 196,
+    "title": "It can be but myself I crucify."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l197",
+    "key": "1520204",
+    "audio": "/workbook/l197.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 197,
+    "title": "It can be but my gratitude I earn."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l198",
+    "key": "1520205",
+    "audio": "/workbook/l198.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 198,
+    "title": "Only my condemnation injures me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l199",
+    "key": "1520206",
+    "audio": "/workbook/l199.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 199,
+    "title": "I am not a body. I am free."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l200",
+    "key": "1520207",
+    "audio": "/workbook/l200.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 200,
+    "title": "There is no peace except the peace of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/review6",
+    "key": "1520208",
+    "audio": "/workbook/review6.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "title": "Introduction"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l201",
+    "key": "1520209",
+    "audio": "/workbook/l201.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 201,
+    "title": "Review 181"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l202",
+    "key": "1520210",
+    "audio": "/workbook/l202.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 202,
+    "title": "Review 182"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l203",
+    "key": "1520211",
+    "audio": "/workbook/l203.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 203,
+    "title": "Review 183"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l204",
+    "key": "1520212",
+    "audio": "/workbook/l204.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 204,
+    "title": "Review 184"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l205",
+    "key": "1520213",
+    "audio": "/workbook/l205.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 205,
+    "title": "Review 185"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l206",
+    "key": "1520214",
+    "audio": "/workbook/l206.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 206,
+    "title": "Review 186"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l207",
+    "key": "1520215",
+    "audio": "/workbook/l207.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 207,
+    "title": "Review 187"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l208",
+    "key": "1520216",
+    "audio": "/workbook/l208.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "note": "Last paragraph not spoken in audio",
+    "prefix": 208,
+    "title": "Review 188"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l209",
+    "key": "1520217",
+    "audio": "/workbook/l209.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 209,
+    "title": "Review 189"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l210",
+    "key": "1520218",
+    "audio": "/workbook/l210.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 210,
+    "title": "Review 190"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l211",
+    "key": "1520219",
+    "audio": "/workbook/l211.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 211,
+    "title": "Review 191"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l212",
+    "key": "1520220",
+    "audio": "/workbook/l212.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 212,
+    "title": "Review 192"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l213",
+    "key": "1520221",
+    "audio": "/workbook/l213.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 213,
+    "title": "Review 193"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l214",
+    "key": "1520222",
+    "audio": "/workbook/l214.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 214,
+    "title": "Review 194"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l215",
+    "key": "1520223",
+    "audio": "/workbook/l215.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 215,
+    "title": "Review 195"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l216",
+    "key": "1520224",
+    "audio": "/workbook/l216.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 216,
+    "title": "Review 196"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l217",
+    "key": "1520225",
+    "audio": "/workbook/l217.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 217,
+    "title": "Review 197"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l218",
+    "key": "1520226",
+    "audio": "/workbook/l218.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 218,
+    "title": "Review 198"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l219",
+    "key": "1520227",
+    "audio": "/workbook/l219.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 219,
+    "title": "Review 199"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l220",
+    "key": "1520228",
+    "audio": "/workbook/l220.mp3",
+    "timer": "onemillionchrists@gmail.com",
+    "prefix": 220,
+    "title": "Review 200"
+  },
+  {
+    "title": "Introduction",
+    "url": "/en/acim/oe/workbook/introp2",
+    "key": "1520229",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/introp2.mp3"
+  },
+  {
+    "title": "What is Forgiveness?",
+    "url": "/en/acim/oe/workbook/forgiveness",
+    "key": "1520230",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/forgiveness.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l221",
+    "key": "1520231",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l221.mp3",
+    "prefix": 221,
+    "title": "Peace to my mind. Let all my thoughts be still."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l222",
+    "key": "1520232",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l222.mp3",
+    "prefix": 222,
+    "title": "God is with me. I live and breathe in Him."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l223",
+    "key": "1520233",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l223.mp3",
+    "prefix": 223,
+    "title": "God is my life. I have no life but His."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l224",
+    "key": "1520234",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l224.mp3",
+    "prefix": 224,
+    "title": "God is my Father, and He loves His Son."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l225",
+    "key": "1520235",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l225.mp3",
+    "prefix": 225,
+    "title": "God is my Father, and His Son loves Him."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l226",
+    "key": "1520236",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l226.mp3",
+    "prefix": 226,
+    "title": "My home awaits me. I will hasten there."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l227",
+    "key": "1520237",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l227.mp3",
+    "prefix": 227,
+    "title": "This is my holy instant of release."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l228",
+    "key": "1520238",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l228.mp3",
+    "prefix": 228,
+    "title": "God has condemned me not. No more do I."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l229",
+    "key": "1520239",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l229.mp3",
+    "prefix": 229,
+    "title": "Love, Which created me, is what I am."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l230",
+    "key": "1520240",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l230.mp3",
+    "prefix": 230,
+    "title": "Now will I seek and find the peace of God."
+  },
+  {
+    "title": "What is Salvation?",
+    "url": "/en/acim/oe/workbook/salvation",
+    "key": "1520241",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/salvation.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l231",
+    "key": "1520242",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l231.mp3",
+    "prefix": 231,
+    "title": "Father, I will but to remember You."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l232",
+    "key": "1520243",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l232.mp3",
+    "prefix": 232,
+    "title": "Be in my mind, my Father, through the day."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l233",
+    "key": "1520244",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l233.mp3",
+    "prefix": 233,
+    "title": "I give my life to God to run today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l234",
+    "key": "1520245",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l234.mp3",
+    "prefix": 234,
+    "title": "Father, today I am Your Son again."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l235",
+    "key": "1520246",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l235.mp3",
+    "prefix": 235,
+    "title": "God in His mercy wills that I be saved."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l236",
+    "key": "1520247",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l236.mp3",
+    "prefix": 236,
+    "title": "I rule my mind, which I alone must rule."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l237",
+    "key": "1520248",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l237.mp3",
+    "prefix": 237,
+    "title": "Now would I be as God created me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l238",
+    "key": "1520249",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l238.mp3",
+    "prefix": 238,
+    "title": "On my decision all salvation rests."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l239",
+    "key": "1520250",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l239.mp3",
+    "prefix": 239,
+    "title": "The glory of my Father is my own."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l240",
+    "key": "1520251",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l240.mp3",
+    "prefix": 240,
+    "title": "Fear is not justified in any form."
+  },
+  {
+    "title": "What is the World?",
+    "url": "/en/acim/oe/workbook/world",
+    "key": "1520252",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/world.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l241",
+    "key": "1520253",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l241.mp3",
+    "prefix": 241,
+    "title": "This holy instant is salvation come."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l242",
+    "key": "1520254",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l242.mp3",
+    "prefix": 242,
+    "title": "This day is God’s. It is my gift to Him."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l243",
+    "key": "1520255",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l243.mp3",
+    "prefix": 243,
+    "title": "Today I will judge nothing that occurs."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l244",
+    "key": "1520256",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l244.mp3",
+    "prefix": 244,
+    "title": "I am in danger nowhere in the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l245",
+    "key": "1520257",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l245.mp3",
+    "prefix": 245,
+    "title": "Your peace is with me, Father. I am safe."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l246",
+    "key": "1520258",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l246.mp3",
+    "prefix": 246,
+    "title": "To love my Father is to love His Son."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l247",
+    "key": "1520259",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l247.mp3",
+    "prefix": 247,
+    "title": "Without forgiveness I will still be blind."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l248",
+    "key": "1520260",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l248.mp3",
+    "prefix": 248,
+    "title": "Whatever suffers is not part of me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l249",
+    "key": "1520261",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l249.mp3",
+    "prefix": 249,
+    "title": "Forgiveness ends all suffering and loss."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l250",
+    "key": "1520262",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l250.mp3",
+    "prefix": 250,
+    "title": "Let me not see myself as limited."
+  },
+  {
+    "title": "What is Sin?",
+    "url": "/en/acim/oe/workbook/sin",
+    "key": "1520263",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/sin.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l251",
+    "key": "1520264",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l251.mp3",
+    "prefix": 251,
+    "title": "I am in need of nothing but the truth."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l252",
+    "key": "1520265",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l252.mp3",
+    "prefix": 252,
+    "title": "The Son of God is my identity."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l253",
+    "key": "1520266",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l253.mp3",
+    "prefix": 253,
+    "title": "My Self is ruler of the universe."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l254",
+    "key": "1520267",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l254.mp3",
+    "prefix": 254,
+    "title": "Let every voice but God’s be still in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l255",
+    "key": "1520268",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l255.mp3",
+    "prefix": 255,
+    "title": "This day I choose to spend in perfect peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l256",
+    "key": "1520269",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l256.mp3",
+    "prefix": 256,
+    "title": "God is the only goal I have today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l257",
+    "key": "1520270",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l257.mp3",
+    "prefix": 257,
+    "title": "Let me remember what my purpose is."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l258",
+    "key": "1520271",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l258.mp3",
+    "prefix": 258,
+    "title": "Let me remember that my goal is God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l259",
+    "key": "1520272",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l259.mp3",
+    "prefix": 259,
+    "title": "Let me remember that there is no sin."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l260",
+    "key": "1520273",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l260.mp3",
+    "prefix": 260,
+    "title": "Let me remember God created me."
+  },
+  {
+    "title": "What is the Body?",
+    "url": "/en/acim/oe/workbook/body",
+    "key": "1520274",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/body.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l261",
+    "key": "1520275",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l261.mp3",
+    "prefix": 261,
+    "title": "God is my refuge and security."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l262",
+    "key": "1520276",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l262.mp3",
+    "prefix": 262,
+    "title": "Let me perceive no differences today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l263",
+    "key": "1520277",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l263.mp3",
+    "prefix": 263,
+    "title": "My holy vision sees all things as pure."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l264",
+    "key": "1520278",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l264.mp3",
+    "prefix": 264,
+    "title": "I am surrounded by the Love of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l265",
+    "key": "1520279",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l265.mp3",
+    "prefix": 265,
+    "title": "Creation’s gentleness is all I see."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l266",
+    "key": "1520280",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l266.mp3",
+    "prefix": 266,
+    "title": "My holy Self abides in you, God’s Son."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l267",
+    "key": "1520281",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l267.mp3",
+    "prefix": 267,
+    "title": "My heart is beating in the peace of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l268",
+    "key": "1520282",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l268.mp3",
+    "prefix": 268,
+    "title": "Let all things be exactly as they are."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l269",
+    "key": "1520283",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l269.mp3",
+    "prefix": 269,
+    "title": "My sight goes forth to look upon Christ’s face."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l270",
+    "key": "1520284",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l270.mp3",
+    "prefix": 270,
+    "title": "I will not use the body’s eyes today."
+  },
+  {
+    "title": "What is the Christ?",
+    "url": "/en/acim/oe/workbook/christ",
+    "key": "1520285",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/christ.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l271",
+    "key": "1520286",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l271.mp3",
+    "prefix": 271,
+    "title": "Christ’s is the vision I will use today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l272",
+    "key": "1520287",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l272.mp3",
+    "prefix": 272,
+    "title": "How can illusions satisfy God’s Son?"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l273",
+    "key": "1520288",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l273.mp3",
+    "prefix": 273,
+    "title": "The stillness of the peace of God is mine."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l274",
+    "key": "1520289",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l274.mp3",
+    "prefix": 274,
+    "title": "Today belongs to Love. Let me not fear."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l275",
+    "key": "1520290",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l275.mp3",
+    "prefix": 275,
+    "title": "God’s healing Voice protects all things today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l276",
+    "key": "1520291",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l276.mp3",
+    "prefix": 276,
+    "title": "The Word of God is given me to speak."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l277",
+    "key": "1520292",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l277.mp3",
+    "prefix": 277,
+    "title": "Let me not bind Your Son with laws I made."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l278",
+    "key": "1520293",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l278.mp3",
+    "prefix": 278,
+    "title": "If I am bound, my Father is not free."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l279",
+    "key": "1520294",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l279.mp3",
+    "prefix": 279,
+    "title": "Creation’s freedom promises my own."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l280",
+    "key": "1520295",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l280.mp3",
+    "prefix": 280,
+    "title": "What limits can I lay upon God’s Son?"
+  },
+  {
+    "title": "What is the Holy Spirit?",
+    "url": "/en/acim/oe/workbook/holyspirit",
+    "key": "1520296",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/holyspirit.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l281",
+    "key": "1520297",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l281.mp3",
+    "prefix": 281,
+    "title": "I can be hurt by nothing but my thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l282",
+    "key": "1520298",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l282.mp3",
+    "prefix": 282,
+    "title": "I will not be afraid of love today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l283",
+    "key": "1520299",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l283.mp3",
+    "prefix": 283,
+    "title": "My true Identity abides in You."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l284",
+    "key": "1520300",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l284.mp3",
+    "prefix": 284,
+    "title": "I can elect to change all thoughts that hurt."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l285",
+    "key": "1520301",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l285.mp3",
+    "prefix": 285,
+    "title": "My holiness shines bright and clear today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l286",
+    "key": "1520302",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l286.mp3",
+    "prefix": 286,
+    "title": "The hush of Heaven holds my heart today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l287",
+    "key": "1520303",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l287.mp3",
+    "prefix": 287,
+    "title": "You are my goal, my Father. Only You."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l288",
+    "key": "1520304",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l288.mp3",
+    "prefix": 288,
+    "title": "Let me forget my brother’s past today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l289",
+    "key": "1520305",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l289.mp3",
+    "prefix": 289,
+    "title": "The past is over. It can touch me not."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l290",
+    "key": "1520306",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l290.mp3",
+    "prefix": 290,
+    "title": "My present happiness is all I see."
+  },
+  {
+    "title": "What is the Real World?",
+    "url": "/en/acim/oe/workbook/realworld",
+    "key": "1520307",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/realworld.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l291",
+    "key": "1520308",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l291.mp3",
+    "prefix": 291,
+    "title": "This is a day of stillness and of peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l292",
+    "key": "1520309",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l292.mp3",
+    "prefix": 292,
+    "title": "A happy outcome to all things is sure."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l293",
+    "key": "1520310",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l293.mp3",
+    "prefix": 293,
+    "title": "All fear is past, and only love is here."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l294",
+    "key": "1520311",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l294.mp3",
+    "prefix": 294,
+    "title": "My body is a wholly neutral thing."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l295",
+    "key": "1520312",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l295.mp3",
+    "prefix": 295,
+    "title": "The Holy Spirit looks through me today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l296",
+    "key": "1520313",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l296.mp3",
+    "prefix": 296,
+    "title": "The Holy Spirit speaks through me today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l297",
+    "key": "1520314",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l297.mp3",
+    "prefix": 297,
+    "title": "Forgiveness is the only gift I give."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l298",
+    "key": "1520315",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l298.mp3",
+    "prefix": 298,
+    "title": "I love You, Father, and I love Your Son."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l299",
+    "key": "1520316",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l299.mp3",
+    "prefix": 299,
+    "title": "Eternal holiness abides in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l300",
+    "key": "1520317",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l300.mp3",
+    "prefix": 300,
+    "title": "Only an instant does this world endure."
+  },
+  {
+    "title": "What is the Second Coming?",
+    "url": "/en/acim/oe/workbook/secondcoming",
+    "key": "1520318",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/secondcoming.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l301",
+    "key": "1520319",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l301.mp3",
+    "prefix": 301,
+    "title": "And God Himself shall wipe away all tears."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l302",
+    "key": "1520320",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l302.mp3",
+    "prefix": 302,
+    "title": "Where darkness was I look upon the light."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l303",
+    "key": "1520321",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l303.mp3",
+    "prefix": 303,
+    "title": "The holy Christ is born in me today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l304",
+    "key": "1520322",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l304.mp3",
+    "prefix": 304,
+    "title": "Let not my world obscure the sight of Christ."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l305",
+    "key": "1520323",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l305.mp3",
+    "prefix": 305,
+    "title": "There is a peace that Christ bestows on us."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l306",
+    "key": "1520324",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l306.mp3",
+    "prefix": 306,
+    "title": "The gift of Christ is all I seek today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l307",
+    "key": "1520325",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l307.mp3",
+    "prefix": 307,
+    "title": "Conflicting wishes cannot be my will."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l308",
+    "key": "1520326",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l308.mp3",
+    "prefix": 308,
+    "title": "This instant is the only time there is."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l309",
+    "key": "1520327",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l309.mp3",
+    "prefix": 309,
+    "title": "I will not fear to look within today."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l310",
+    "key": "1520328",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l310.mp3",
+    "prefix": 310,
+    "title": "In fearlessness and love I spend today."
+  },
+  {
+    "title": "What is the Last Judgement?",
+    "url": "/en/acim/oe/workbook/lastjudgement",
+    "key": "1520329",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/lastjudgement.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l311",
+    "key": "1520330",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l311.mp3",
+    "prefix": 311,
+    "title": "I judge all things as I would have them be."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l312",
+    "key": "1520331",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l312.mp3",
+    "prefix": 312,
+    "title": "I see all things as I would have them be."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l313",
+    "key": "1520332",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l313.mp3",
+    "prefix": 313,
+    "title": "Now let a new perception come to me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l314",
+    "key": "1520333",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l314.mp3",
+    "prefix": 314,
+    "title": "I seek a future different from the past."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l315",
+    "key": "1520334",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l315.mp3",
+    "prefix": 315,
+    "title": "All gifts my brothers give belong to me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l316",
+    "key": "1520335",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l316.mp3",
+    "prefix": 316,
+    "title": "All gifts I give my brothers are my own."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l317",
+    "key": "1520336",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l317.mp3",
+    "prefix": 317,
+    "title": "I follow in the way appointed me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l318",
+    "key": "1520337",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l318.mp3",
+    "prefix": 318,
+    "title": "In me salvation’s means and end are one."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l319",
+    "key": "1520338",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l319.mp3",
+    "prefix": 319,
+    "title": "I came for the salvation of the world."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l320",
+    "key": "1520339",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l320.mp3",
+    "prefix": 320,
+    "title": "My Father gives all power unto me."
+  },
+  {
+    "title": "What is Creation?",
+    "url": "/en/acim/oe/workbook/creation",
+    "key": "1520340",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/creation.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l321",
+    "key": "1520341",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l321.mp3",
+    "prefix": 321,
+    "title": "Father, my freedom is in You alone."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l322",
+    "key": "1520342",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l322.mp3",
+    "prefix": 322,
+    "title": "I can give up but what was never real."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l323",
+    "key": "1520343",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l323.mp3",
+    "prefix": 323,
+    "title": "I gladly make the ‘sacrifice’ of fear."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l324",
+    "key": "1520344",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l324.mp3",
+    "prefix": 324,
+    "title": "I merely follow, for I would not lead."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l325",
+    "key": "1520345",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l325.mp3",
+    "prefix": 325,
+    "title": "All things I think I see reflect ideas."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l326",
+    "key": "1520346",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l326.mp3",
+    "prefix": 326,
+    "title": "I am forever an Effect of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l327",
+    "key": "1520347",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l327.mp3",
+    "prefix": 327,
+    "title": "I need but call and You will answer me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l328",
+    "key": "1520348",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l328.mp3",
+    "prefix": 328,
+    "title": "I choose the second place to gain the first."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l329",
+    "key": "1520349",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l329.mp3",
+    "prefix": 329,
+    "title": "I have already chosen what You will."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l330",
+    "key": "1520350",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l330.mp3",
+    "prefix": 330,
+    "title": "I will not hurt myself again today."
+  },
+  {
+    "title": "What is the Ego?",
+    "url": "/en/acim/oe/workbook/ego",
+    "key": "1520351",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/ego.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l331",
+    "key": "1520352",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l331.mp3",
+    "prefix": 331,
+    "title": "There is no conflict, for my will is Yours."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l332",
+    "key": "1520353",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l332.mp3",
+    "prefix": 332,
+    "title": "Fear binds the world. Forgiveness sets it free."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l333",
+    "key": "1520354",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l333.mp3",
+    "prefix": 333,
+    "title": "Forgiveness ends the dream of conflict here."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l334",
+    "key": "1520355",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l334.mp3",
+    "prefix": 334,
+    "title": "Today I claim the gifts forgiveness gives."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l335",
+    "key": "1520356",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l335.mp3",
+    "prefix": 335,
+    "title": "I choose to see my brother’s sinlessness."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l336",
+    "key": "1520357",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l336.mp3",
+    "prefix": 336,
+    "title": "Forgiveness lets me know that minds are joined."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l337",
+    "key": "1520358",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l337.mp3",
+    "prefix": 337,
+    "title": "My sinlessness protects me from all harm."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l338",
+    "key": "1520359",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l338.mp3",
+    "prefix": 338,
+    "title": "I am affected only by my thoughts."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l339",
+    "key": "1520360",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l339.mp3",
+    "prefix": 339,
+    "title": "I will receive whatever I request."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l340",
+    "key": "1520361",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l340.mp3",
+    "prefix": 340,
+    "title": "I can be free of suffering today."
+  },
+  {
+    "title": "What is a Miracle?",
+    "url": "/en/acim/oe/workbook/miracle",
+    "key": "1520362",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/miracle.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l341",
+    "key": "1520363",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l341.mp3",
+    "prefix": 341,
+    "title": "I can attack but my own sinlessness, And it is only that which keeps me safe."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l342",
+    "key": "1520364",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l342.mp3",
+    "prefix": 342,
+    "title": "I let forgiveness rest upon all things, For thus forgiveness will be given me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l343",
+    "key": "1520365",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l343.mp3",
+    "prefix": 343,
+    "title": "I am not asked to make a sacrifice to find the mercy and the peace of God."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l344",
+    "key": "1520366",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l344.mp3",
+    "prefix": 344,
+    "title": "Today I learn the law of love; that what I give my brother is my gift to me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l345",
+    "key": "1520367",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l345.mp3",
+    "prefix": 345,
+    "title": "I offer only miracles today, for I would have them be returned to me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l346",
+    "key": "1520368",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l346.mp3",
+    "prefix": 346,
+    "title": "Today the peace of God envelops me, and I forget all things except His Love."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l347",
+    "key": "1520369",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l347.mp3",
+    "prefix": 347,
+    "title": "Anger must come from judgement. Judgement is the weapon I would use against myself to keep all miracles away from me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l348",
+    "key": "1520370",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l348.mp3",
+    "prefix": 348,
+    "title": "I have no cause for anger or for fear, for You surround me. And in every need that I perceive Your grace suffices me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l349",
+    "key": "1520371",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l349.mp3",
+    "prefix": 349,
+    "title": "Today I let Christ’s vision look upon all things for me and judge them not, but give each one a miracle of love instead."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l350",
+    "key": "1520372",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l350.mp3",
+    "prefix": 350,
+    "title": "Miracles mirror God’s eternal Love. To offer them is to remember Him, and through His memory to save the world."
+  },
+  {
+    "title": "What am I?",
+    "url": "/en/acim/oe/workbook/whatami",
+    "key": "1520373",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/whatami.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l351",
+    "key": "1520374",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l351.mp3",
+    "prefix": 351,
+    "title": "My sinless brother is my guide to peace. My sinful brother is my guide to pain. And which I choose to see I will behold."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l352",
+    "key": "1520375",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l352.mp3",
+    "prefix": 352,
+    "title": "Judgement and love are opposites. From one come all the sorrows of the world. But from the Other comes the peace of God Himself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l353",
+    "key": "1520376",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l353.mp3",
+    "prefix": 353,
+    "title": "My eyes, my tongue, my hands, my feet today have but one purpose; to be given Christ to use to bless the world with miracles."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l354",
+    "key": "1520377",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l354.mp3",
+    "prefix": 354,
+    "title": "We stand together, Christ and I, in peace and certainty of purpose. And in Him is His Creator, as He is in me."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l355",
+    "key": "1520378",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l355.mp3",
+    "prefix": 355,
+    "title": "There is no end to all the peace and joy and all the miracles that I will give when I accept God’s Word. Why not today?"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l356",
+    "key": "1520379",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l356.mp3",
+    "prefix": 356,
+    "title": "Sickness is but another name for sin. Healing is but another Name for God. The miracle is thus a call to Him."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l357",
+    "key": "1520380",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l357.mp3",
+    "prefix": 357,
+    "title": "Truth answers every call we make to God, responding first with miracles, and then returning unto us to be Itself."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l358",
+    "key": "1520381",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l358.mp3",
+    "prefix": 358,
+    "title": "No call to God can be unheard nor left unanswered. And of this I can be sure; His answer is the one I really want."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l359",
+    "key": "1520382",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l359.mp3",
+    "prefix": 359,
+    "title": "God’s answer is some form of peace. All pain Is healed; all misery replaced with joy. All prison doors are opened. And all sin is understood as merely a mistake."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l360",
+    "key": "1520383",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l360.mp3",
+    "prefix": 360,
+    "title": "Peace be to me, the holy Son of God. Peace to my brother, who is one with me. Let all the world be blessed with peace through us."
+  },
+  {
+    "title": "Final prefixs",
+    "url": "/en/acim/oe/workbook/final",
+    "key": "1520384",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/final.mp3"
+  },
+  {
+    "url": "/en/acim/oe/workbook/l361",
+    "key": "1520385",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/l361.mp3",
+    "prefix": 361,
+    "title": "This holy instant would I give to You. Be You in charge. For I would follow You, certain that Your direction gives me peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l362",
+    "key": "1520386",
+    "audio": "/workbook/l361.mp3",
+    "prefix": 362,
+    "title": "This holy instant would I give to You. Be You in charge. For I would follow You, certain that Your direction gives me peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l363",
+    "key": "1520387",
+    "audio": "/workbook/l361.mp3",
+    "prefix": 363,
+    "title": "This holy instant would I give to You. Be You in charge. For I would follow You, certain that Your direction gives me peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l364",
+    "key": "1520388",
+    "audio": "/workbook/l361.mp3",
+    "prefix": 364,
+    "title": "This holy instant would I give to You. Be You in charge. For I would follow You, certain that Your direction gives me peace."
+  },
+  {
+    "url": "/en/acim/oe/workbook/l365",
+    "key": "1520389",
+    "audio": "/workbook/l361.mp3",
+    "prefix": 365,
+    "title": "This holy instant would I give to You. Be You in charge. For I would follow You, certain that Your direction gives me peace."
+  },
+  {
+    "title": "Epilog",
+    "url": "/en/acim/oe/workbook/epilog",
+    "key": "1520390",
+    "timer": "onemillionchrists@gmail.com",
+    "audio": "/workbook/epilogue.mp3"
+  },
+  {
+    "title": "Introduction",
+    "url": "/en/acim/oe/manual/intro",
+    "key": "1530001",
+    "audio": "/manual/intro.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "title": "Who Are God's Teachers?",
+    "url": "/en/acim/oe/manual/chap01",
+    "key": "1530002",
+    "audio": "/manual/chap01.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "title": "Who are their Pupils?",
+    "url": "/en/acim/oe/manual/chap02",
+    "key": "1530003",
+    "audio": "/manual/chap02.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "title": "What are the Levels of Teaching?",
+    "url": "/en/acim/oe/manual/chap03",
+    "key": "1530004",
+    "audio": "/manual/chap03.mp3",
+    "timer": "msullivan2k@gmail.com"
+  },
+  {
+    "title": "What are the Characteristics of God's Teachers?",
+    "url": "/en/acim/oe/manual/chap04",
+    "key": "1530005",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap04.mp3"
+  },
+  {
+    "title": "How is Healing Accomplished?",
+    "url": "/en/acim/oe/manual/chap05",
+    "key": "1530006",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap05.mp3"
+  },
+  {
+    "title": "Is Healing Certain?",
+    "url": "/en/acim/oe/manual/chap06",
+    "key": "1530007",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap06.mp3"
+  },
+  {
+    "title": "Should Healing be Repeated?",
+    "url": "/en/acim/oe/manual/chap07",
+    "key": "1530008",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap07.mp3"
+  },
+  {
+    "title": "How Can the Perception of Order of Difficulties be Avoided?",
+    "url": "/en/acim/oe/manual/chap08",
+    "key": "1530009",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap08.mp3"
+  },
+  {
+    "title": "Are Changes Required in the Life Situation of God's Teachers?",
+    "url": "/en/acim/oe/manual/chap09",
+    "key": "1530010",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap09.mp3"
+  },
+  {
+    "title": "How is Judgement Relinquished?",
+    "url": "/en/acim/oe/manual/chap10",
+    "key": "1530011",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap10.mp3"
+  },
+  {
+    "title": "How is Peace Possible in this World?",
+    "url": "/en/acim/oe/manual/chap11",
+    "key": "1530012",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap11.mp3"
+  },
+  {
+    "title": "How Many Teachers of God are Needed to Save the World?",
+    "url": "/en/acim/oe/manual/chap12",
+    "key": "1530013",
+    "timer": "msullivan2k@gmail.com",
+    "audio": "/manual/chap12.mp3"
+  },
+  {
+    "title": "What is the Real Meaning of Sacrifice?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap13",
+    "key": "1530014",
+    "audio": "/manual/chap13.mp3"
+  },
+  {
+    "title": "How Will the World End?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap14",
+    "key": "1530015",
+    "audio": "/manual/chap14.mp3"
+  },
+  {
+    "title": "Is Each One to be Judged in the End?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap15",
+    "key": "1530016",
+    "audio": "/manual/chap15.mp3"
+  },
+  {
+    "title": "How Should the Teacher of God Spend His Day?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap16",
+    "key": "1530017",
+    "audio": "/manual/chap16.mp3"
+  },
+  {
+    "title": "How do God's Teachers Deal with their Pupils' Thoughts of Magic?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap17",
+    "key": "1530018",
+    "audio": "/manual/chap17.mp3"
+  },
+  {
+    "title": "How is Correction Made?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap18",
+    "key": "1530019",
+    "audio": "/manual/chap18.mp3"
+  },
+  {
+    "title": "What is Justice?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap19",
+    "key": "1530020",
+    "audio": "/manual/chap19.mp3"
+  },
+  {
+    "title": "What is the Peace of God?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap20",
+    "key": "1530021",
+    "audio": "/manual/chap20.mp3"
+  },
+  {
+    "title": "What is the Role of Words in Healing?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap21",
+    "key": "1530022",
+    "audio": "/manual/chap21.mp3"
+  },
+  {
+    "title": "How are Healing and Atonement Related?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap22",
+    "key": "1530023",
+    "audio": "/manual/chap22.mp3"
+  },
+  {
+    "title": "Does Jesus Have a Special Place in Healing?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap23",
+    "key": "1530024",
+    "audio": "/manual/chap23.mp3"
+  },
+  {
+    "title": "Is Reincarnation True?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap24",
+    "key": "1530025",
+    "audio": "/manual/chap24.mp3"
+  },
+  {
+    "title": "Are 'Phychic' Powers Desirable?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap25",
+    "key": "1530026",
+    "audio": "/manual/chap25.mp3"
+  },
+  {
+    "title": "Can God be Reached Directly?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap26",
+    "key": "1530027",
+    "audio": "/manual/chap26.mp3"
+  },
+  {
+    "title": "What is Death?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap27",
+    "key": "1530028",
+    "audio": "/manual/chap27.mp3"
+  },
+  {
+    "title": "What is the Resurrection?",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap28",
+    "key": "1530029",
+    "audio": "/manual/chap28.mp3"
+  },
+  {
+    "title": "As for the Rest&hellip;",
+    "timer": "onemillionchrists@gmail.com",
+    "url": "/en/acim/oe/manual/chap29",
+    "key": "1530030",
+    "audio": "/manual/chap29.mp3"
+  }
+]

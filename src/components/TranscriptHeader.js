@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { Icon, Header } from 'semantic-ui-react';
 import styled from 'styled-components';
-import { useTranslation } from 'gatsby-plugin-react-i18next';
+import { Link, useTranslation } from 'gatsby-plugin-react-i18next';
 
 const StyledHeader = styled(Header)`
   h1 {
@@ -45,7 +45,8 @@ export default function TranscriptHeader(props) {
         </Link>
       </Header>
       <Header as="h3" textAlign="center">
-        {unit?.title}
+        {/* {unit?.title} */}
+        {unit?.prefix ? `${unit.prefix}. ${unit.title}` : unit?.title}
       </Header>
     </StyledHeader>
   );

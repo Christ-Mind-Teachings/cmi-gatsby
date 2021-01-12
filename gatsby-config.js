@@ -60,13 +60,18 @@ module.exports = {
         languages: [`en`, `pl`],
         defaultLanguage: `en`,
         debug: true,
-        redirect: true,
+        redirect: false,
         siteUrl: 'https://www.christmind.info',
         pages: [
           {
             matchPath: '/:lang?/pwom/:book?/:unit?',
             getLanguageFromPath: true,
             languages: ['pl'],
+          },
+          {
+            matchPath: '/:lang?/acim/oe/:book?/:unit?',
+            getLanguageFromPath: true,
+            languages: ['en'],
           },
           {
             matchPath: '/:lang?/wom/:book?/:unit?',

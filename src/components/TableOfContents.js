@@ -1,16 +1,7 @@
 import React from 'react';
-import { navigate } from 'gatsby';
+import { Link } from 'gatsby';
+// import { Link } from 'gatsby-plugin-react-i18next';
 import { List } from 'semantic-ui-react';
-
-function handleTocClick(e, obj) {
-  e.preventDefault();
-  e.stopPropagation();
-
-  // don't navigate to current page
-  if (!obj.active) {
-    navigate(obj.target);
-  }
-}
 
 function createSubList(contents, bid, pIdx, url) {
   const subList = contents.map((item, index) => (
@@ -18,9 +9,19 @@ function createSubList(contents, bid, pIdx, url) {
       target={item.url}
       key={`${bid}-${pIdx}-${index}`}
       active={url ? item.url === url : false}
-      onClick={handleTocClick}
     >
-      <span>{item.title}</span>
+      <span>
+        {item.url ? (
+          <Link to={item.url}>
+            {item.lesson ? `${item.lesson}. ${item.title}` : item.title}
+          </Link>
+        ) : (
+          <List.Header>{item.title}</List.Header>
+        )}
+      </span>
+      {item.contents
+        ? createSubList(item.contents, `${bid}-ref`, index, url)
+        : undefined}
     </List.Item>
   ));
   return <List.List>{subList}</List.List>;
@@ -28,23 +29,23 @@ function createSubList(contents, bid, pIdx, url) {
 
 export default function TableOfContents(props) {
   const { bid, toc, unit } = props;
+
   const contents = toc.map((item, index) => (
     <List.Item
       target={item.url}
-      onClick={handleTocClick}
       key={`${bid}-${index}`}
       active={unit ? item.url === unit.url : false}
     >
-      <span>{item.title}</span>
+      {item.url ? (
+        <Link to={item.url}>{item.title}</Link>
+      ) : (
+        <List.Header>{item.title}</List.Header>
+      )}
       {item.contents
         ? createSubList(item.contents, bid, index, unit ? unit.url : null)
         : undefined}
     </List.Item>
   ));
 
-  return (
-    <List style={{ cursor: 'pointer', color: '#668AAA' }} className="tocStyle">
-      {contents}
-    </List>
-  );
+  return <List className="tocStyle">{contents}</List>;
 }

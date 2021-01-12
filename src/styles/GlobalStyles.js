@@ -17,7 +17,8 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
-  .tocStyle .active.item > span {
+  .tocStyle .active.item > a,
+  .tocStyle .active.item > span > a {
     cursor: auto;
     background-color: var(--tocActiveItem);
     border-radius: 5px;
@@ -26,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .transcript-content {
-    margin-bottom: 17rem;
+    padding-bottom: 20rem;
   }
 
   .audio-highlight {
@@ -102,6 +103,7 @@ const GlobalStyles = createGlobalStyle`
     margin-right: auto;
   }
 
+  .transcript-content.sp .center,
   .transcript-content.wos .center {
     text-align: center;
   }

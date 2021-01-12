@@ -101,8 +101,13 @@ function adjustPlayback(direction) {
  * set the audio currentTime accordingly.
  */
 function playFromHereListener(e) {
+  e.stopPropagation();
+
   const pid = e.target?.parentElement?.parentElement?.id;
   if (!pid) return;
+
+  // without this audio will play when user links to footnote
+  if (e.target.className === 'footnote-ref') return;
 
   const index = timingData.findIndex((i) => i.id === pid);
   if (index > -1) {

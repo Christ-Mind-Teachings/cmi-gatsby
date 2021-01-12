@@ -37,7 +37,18 @@ function getNavigatorData(path, searchResults, paragraph) {
   if (trimmedPath.endsWith('/')) {
     trimmedPath = trimmedPath.substring(0, trimmedPath.length - 1);
   }
-  const [, book, unit] = trimmedPath.split('/');
+
+  let book;
+  let unit;
+
+  // most url's are in the form: source/book/unit in which the length is 2
+  // for ACIM url's are group/source/book/unit with length of 3
+  const pathLength = trimmedPath.match(/\//g).length;
+  if (pathLength === 2) {
+    [, book, unit] = trimmedPath.split('/');
+  } else {
+    [, , book, unit] = trimmedPath.split('/');
+  }
   const bookMatchesIndex = searchResults.matches.findIndex(
     (i) => i.bookId === book
   );
@@ -257,6 +268,7 @@ export default function SearchNavigator(props) {
     //   scrollCurrent
     // );
 
+    if (!pageHits.current) return;
     const currentLocation = pageHits.current.hits[hitIndex].location;
     const adjustedLocation = incrementLocation(currentLocation);
     const el = document.getElementById(adjustedLocation);

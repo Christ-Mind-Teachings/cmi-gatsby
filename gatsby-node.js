@@ -5,6 +5,8 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
     wom: path.resolve(`src/templates/womTranscript.js`),
     pwom: path.resolve(`src/templates/pwomTranscript.js`),
     raj: path.resolve(`src/templates/rajTranscript.js`),
+    oe: path.resolve(`src/templates/oeTranscript.js`),
+    sp: path.resolve(`src/templates/spTranscript.js`),
   };
   const { createPage } = actions;
 
@@ -29,7 +31,17 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
   data.transcripts.nodes.forEach((node) => {
     const SOURCE_ROOT = `${__dirname}/src/sources`;
     const filePath = node.fileAbsolutePath.slice(SOURCE_ROOT.length, -3);
-    const [, source, book, unit] = filePath.substring(1).split('/');
+    const parts = filePath.substring(1).split('/');
+
+    // normalize parts, filePath will be either
+    // /lang/group/source/book/unit or
+    // /lang/source/book/unit
+    if (parts.length === 4) {
+      parts.splice(1, 0, 'group');
+    }
+
+    // get source, book, and unit from path
+    const [, , source, book, unit] = parts;
 
     if (templates[source]) {
       createPage({
@@ -40,6 +52,7 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
           slug: filePath,
           source,
           book,
+          regex: `/${book}/`,
           timingBase: `/${book}/${unit}/`,
         },
       });

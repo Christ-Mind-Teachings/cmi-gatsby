@@ -10,6 +10,7 @@ export const pageQuery = graphql`
     $id: String!
     $slug: String!
     $book: String!
+    $regex: String!
     $source: String!
     $timingBase: String!
   ) {
@@ -17,7 +18,12 @@ export const pageQuery = graphql`
       audio
       title
       url
-      timing
+    }
+    list: allRajPagesJson(filter: { url: { regex: $regex } }) {
+      nodes {
+        title
+        url
+      }
     }
     book: rajContentsJson(bookId: { eq: $book }) {
       title
@@ -39,7 +45,6 @@ export const pageQuery = graphql`
       sourceId
       url
       audioBaseUrl
-      timingBaseUrl
     }
     content: markdownRemark(id: { eq: $id }) {
       frontmatter {
