@@ -5,6 +5,24 @@ const textPosition = require('dom-anchor-text-position');
 const wrapRange = require('wrap-range-text');
 
 /**
+ *  Check if obj contains property. If it does return a value indicating its value
+ *  is truthy or falsy. If it doesn't return true.
+ *
+ *  Used to check if a menu item is enabled. Items are enabled by default and must be
+ *  explictiy disabled from cmiSources.json.
+ *
+ * @param {object} obj  - Object to check for property
+ * @param {string} prop - property in object
+ * @returns {boolean}
+ */
+export function menuItemEnabled(obj, prop) {
+  if (obj.hasOwnProperty(prop)) {
+    return obj[prop] === true;
+  }
+  return true;
+}
+
+/**
  * Highlight selectedText style annotations
  *
  * @param {object} annotation - annotation with selectedText

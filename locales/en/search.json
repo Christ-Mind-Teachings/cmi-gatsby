@@ -9,6 +9,6 @@
   "See Search Documentation": "See Search Documentation",
   "Please wait...": "Please wait...",
   "Enter search query": "Enter search query",
-  "Searching": "Searching",
+  "Searching": "Searching for '{{query}}'",
   "Title Not Found": "Title Not Found"
 }

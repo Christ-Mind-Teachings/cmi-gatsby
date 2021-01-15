@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { useI18next, useTranslation } from 'gatsby-plugin-react-i18next';
-// import { useI18Next, useTranslation } from 'gatsby-plugin-react-i18next';
 import { Link } from 'gatsby';
 import {
   Container,
@@ -19,6 +18,7 @@ import useLocalStorage from '../utils/useLocalStorage';
 import { GlobalContext } from './GlobalContext';
 import { incrementLocation } from '../utils/cmiUtils';
 import { runSearchQuery } from '../utils/cmiApi';
+import { IdentityContext } from './IdentityContextProvider';
 
 /**
  * Generate list of matches by book
@@ -106,6 +106,7 @@ export default function SearchModal({ source, open, setOpen }) {
   const { t: c } = useTranslation(['search']);
   const { language } = useI18next();
 
+  const [restricted, setRestricted] = useState(0);
   const [query, setQuery] = useState('');
   const [searchState, setSearchState] = useState({
     ok: true,
@@ -119,6 +120,7 @@ export default function SearchModal({ source, open, setOpen }) {
     `${source.sourceId}:searchResults`
   );
 
+  const { user } = useContext(IdentityContext);
   const { setSearchPid } = useContext(GlobalContext);
 
   // can't use one useTranslation(['ns1','ns2',...]), only the first will translate
@@ -142,16 +144,18 @@ export default function SearchModal({ source, open, setOpen }) {
     async function runQuery() {
       try {
         setLoading(true);
-        const queryResult = await runSearchQuery(query, source.sourceId);
+        const queryResult = await runSearchQuery(query, source.sourceId, user);
         const results = formatSearchResults(queryResult, c, language);
 
+        if (results.restricted) {
+          setRestricted(results.restricted);
+        }
         if (results.count > 0) {
           setSearchState({
             ok: true,
-            // header: `Success: ${results.count} matches found`,
             header: c('searchSuccessHeader', { count: results.count }),
             message: c('searchSuccessMessage', {
-              query: results.query,
+              query: `"${results.query}"`,
               count: results.count,
             }),
           });
@@ -160,7 +164,7 @@ export default function SearchModal({ source, open, setOpen }) {
           setSearchState({
             ok: false,
             header: c('searchFailHeader'),
-            message: c('searchFailMessage', { query: results.query }),
+            message: c('searchFailMessage', { query: `"${results.query}"` }),
           });
         }
       } catch (error) {
@@ -186,6 +190,16 @@ export default function SearchModal({ source, open, setOpen }) {
         <br />
         <Link to="/">{c('See Search Documentation')}</Link>
       </Modal.Header>
+      {restricted > 0 && (
+        <Message size="small" icon warning onDismiss={() => setRestricted(0)}>
+          <Icon name="info circle" />
+          <Message.Content>
+            <Message.Header>Some results omitted</Message.Header>
+            {restricted} matches were not displayed because you are not signed
+            in or have not requested full access to ACOL.
+          </Message.Content>
+        </Message>
+      )}
       <Modal.Content image>
         <Image size="small" src="/assets/img/cmi/search_modal.png" wrapped />
         <Modal.Description>
@@ -204,11 +218,12 @@ export default function SearchModal({ source, open, setOpen }) {
                 <Message.Header>
                   {loading ? c('Please wait...') : searchState.header}
                 </Message.Header>
-                {loading ? c('Searching') : searchState.message}
+                {loading ? c('Searching', { query }) : searchState.message}
               </Message.Content>
             </Message>
             <form onSubmit={runSearch}>
               <Input
+                spellCheck
                 loading={loading}
                 focus
                 action={loading ? '' : c('Search')}
@@ -221,7 +236,7 @@ export default function SearchModal({ source, open, setOpen }) {
                 <Icon name="search" />
                 {searchResults.query
                   ? `${c('searchSuccessMessage', {
-                      query: searchResults.query,
+                      query: `"${searchResults.query}"`,
                       count: searchResults.count,
                     })}`
                   : ''}

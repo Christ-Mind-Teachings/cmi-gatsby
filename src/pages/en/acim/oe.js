@@ -92,6 +92,10 @@ export const pageQuery = graphql`
       sid
       title
       sourceId
+      group {
+        title
+        url
+      }
     }
   }
 `;

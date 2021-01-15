@@ -77,12 +77,26 @@ export async function fetchAnnotation(keyInfo) {
  * @param {string sourceId - source identifier (wom = 10)
  * @param {string} auth - authorization token, used by acol only. Full access when value is 'acol'
  */
-export async function runSearchQuery(query, sourceId, auth) {
+export async function runSearchQuery(query, sourceId, user) {
   // jekyll site uses 'acimoe' and gatsby uses 'oe' so we need to use 'acimoe' to
   // get search results. Same goes for 'acim' and 'sp'.
   const sid =
     // eslint-disable-next-line no-nested-ternary
     sourceId === 'oe' ? 'acimoe' : sourceId === 'sp' ? 'acim' : sourceId;
+  let authToken = 'notused';
+
+  /*
+   * Full ACOL search is restricted to authorized users, others get results for
+   * non restricted pages.
+   */
+  if (sourceId === 'acol') {
+    if (
+      user.app_metadata.roles &&
+      user.app_metadata.roles.find((i) => i === 'acol')
+    ) {
+      authToken = 'acol';
+    }
+  }
 
   const raw = await fetch(searchEndpoint, {
     method: 'POST',
@@ -92,7 +106,7 @@ export async function runSearchQuery(query, sourceId, auth) {
     body: JSON.stringify({
       query,
       source: sid,
-      authorization: auth || sid,
+      authorization: authToken,
     }),
   });
 

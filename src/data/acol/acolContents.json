@@ -1,0 +1,820 @@
+[
+  {
+    "title": "Book One: A Course of Love",
+    "bookId": "course",
+    "bid": "1",
+    "image": "/assets/img/acol/course-toc.jpg",
+    "toc": [
+      {
+        "title": "Introduction",
+        "restricted": true,
+        "url": "/en/acol/course/intro"
+      },
+      {
+        "title": "The Prelude",
+        "restricted": true,
+        "url": "/en/acol/course/prelude"
+      },
+      {
+        "title": "A Course of Love",
+        "restricted": false,
+        "url": "/en/acol/course/chap01"
+      },
+      {
+        "title": "What Love Is",
+        "restricted": false,
+        "url": "/en/acol/course/chap02"
+      },
+      {
+        "title": "The First Lesson",
+        "restricted": false,
+        "url": "/en/acol/course/chap03"
+      },
+      {
+        "title": "Love’s Equity",
+        "restricted": false,
+        "url": "/en/acol/course/chap04"
+      },
+      {
+        "title": "Relationship",
+        "restricted": false,
+        "url": "/en/acol/course/chap05"
+      },
+      {
+        "title": "Forgiveness/Joining",
+        "restricted": false,
+        "url": "/en/acol/course/chap06"
+      },
+      {
+        "title": "Withholding",
+        "restricted": true,
+        "url": "/en/acol/course/chap07"
+      },
+      {
+        "title": "The Separation from the Body",
+        "restricted": true,
+        "url": "/en/acol/course/chap08"
+      },
+      {
+        "title": "The Prodigal’s Return",
+        "restricted": false,
+        "url": "/en/acol/course/chap09"
+      },
+      {
+        "title": "Use and Understanding",
+        "restricted": true,
+        "url": "/en/acol/course/chap10"
+      },
+      {
+        "title": "Free Will and Willingness",
+        "restricted": true,
+        "url": "/en/acol/course/chap11"
+      },
+      {
+        "title": "Origin of Separation",
+        "restricted": false,
+        "url": "/en/acol/course/chap12"
+      },
+      {
+        "title": "Observation and Experience",
+        "restricted": true,
+        "url": "/en/acol/course/chap13"
+      },
+      {
+        "title": "Special Relationships, Earthly and Human",
+        "restricted": false,
+        "url": "/en/acol/course/chap14"
+      },
+      {
+        "title": "The Special Self",
+        "restricted": true,
+        "url": "/en/acol/course/chap15"
+      },
+      {
+        "title": "What You Choose Instead",
+        "restricted": true,
+        "url": "/en/acol/course/chap16"
+      },
+      {
+        "title": "Conscious Non-Planning",
+        "restricted": true,
+        "url": "/en/acol/course/chap17"
+      },
+      {
+        "title": "The Mind Engaged",
+        "restricted": false,
+        "url": "/en/acol/course/chap18"
+      },
+      {
+        "title": "Oneness and Duality",
+        "restricted": false,
+        "url": "/en/acol/course/chap19"
+      },
+      {
+        "title": "Wholeheartedness-The Embrace",
+        "restricted": false,
+        "url": "/en/acol/course/chap20"
+      },
+      {
+        "title": "Love Is",
+        "restricted": true,
+        "url": "/en/acol/course/chap21"
+      },
+      {
+        "title": "The Intersection",
+        "restricted": true,
+        "url": "/en/acol/course/chap22"
+      },
+      {
+        "title": "The Freedom of the Body",
+        "restricted": true,
+        "url": "/en/acol/course/chap23"
+      },
+      {
+        "title": "The Time of Tenderness",
+        "restricted": true,
+        "url": "/en/acol/course/chap24"
+      },
+      {
+        "title": "Devotion as a Type of Participation",
+        "restricted": true,
+        "url": "/en/acol/course/chap25"
+      },
+      {
+        "title": "The Full Life",
+        "restricted": false,
+        "url": "/en/acol/course/chap26"
+      },
+      {
+        "title": "Being",
+        "restricted": true,
+        "url": "/en/acol/course/chap27"
+      },
+      {
+        "title": "Bearing Witness",
+        "restricted": true,
+        "url": "/en/acol/course/chap28"
+      },
+      {
+        "title": "Attention",
+        "restricted": true,
+        "url": "/en/acol/course/chap29"
+      },
+      {
+        "title": "Being Present",
+        "restricted": true,
+        "url": "/en/acol/course/chap30"
+      },
+      {
+        "title": "The Nature of the Mind",
+        "restricted": true,
+        "url": "/en/acol/course/chap31"
+      },
+      {
+        "title": "Love Returned to Love",
+        "restricted": true,
+        "url": "/en/acol/course/chap32"
+      },
+      {
+        "title": "Learning in the Time of Christ-Part One",
+        "restricted": true,
+        "url": "/en/acol/course/learning1"
+      }
+    ]
+  },
+  {
+    "title": "Book Two: The Treatises of A Course of Love",
+    "bookId": "treatise",
+    "bid": "2",
+    "image": "/assets/img/acol/treatise-toc.jpg",
+    "toc": [
+      {
+        "title": "A Treatise on The Art of Thought: The First Treatise",
+        "contents": [
+          {
+            "title": "The First Instruction",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap01"
+          },
+          {
+            "title": "The Art of Thought",
+            "restricted": false,
+            "url": "/en/acol/treatise/t1chap02"
+          },
+          {
+            "title": "The Call to the Miracle",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap03"
+          },
+          {
+            "title": "The Center of the Universe",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap04"
+          },
+          {
+            "title": "The Choice for Love",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap05"
+          },
+          {
+            "title": "The Act of Prayer",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap06"
+          },
+          {
+            "title": "Suffering and the New Learning",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap07"
+          },
+          {
+            "title": "Incarnation and Resurrection",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap08"
+          },
+          {
+            "title": "Giving and Receiving",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap09"
+          },
+          {
+            "title": "Peace",
+            "restricted": true,
+            "url": "/en/acol/treatise/t1chap10"
+          }
+        ]
+      },
+      {
+        "title": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
+        "contents": [
+          {
+            "title": "Treasure",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap01"
+          },
+          {
+            "title": "To Hear the Call",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap02"
+          },
+          {
+            "title": "To Answer the Call",
+            "restricted": false,
+            "url": "/en/acol/treatise/t2chap03"
+          },
+          {
+            "title": "The Call to Who You Are",
+            "restricted": false,
+            "url": "/en/acol/treatise/t2chap04"
+          },
+          {
+            "title": "The Source of Your Call",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap05"
+          },
+          {
+            "title": "The Belief: Accomplishment",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap06"
+          },
+          {
+            "title": "The Belief: Giving and Receiving As One",
+            "restricted": false,
+            "url": "/en/acol/treatise/t2chap07"
+          },
+          {
+            "title": "The Belief: No Relationships Are Special",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap08"
+          },
+          {
+            "title": "The Belief: There Is No Loss But Only Gain",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap09"
+          },
+          {
+            "title": "The Belief: We Only Learn in Unity",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap10"
+          },
+          {
+            "title": "The Belief: We Exist in Relationship and Unity",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap11"
+          },
+          {
+            "title": "The Belief: Correction and Atonement",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap12"
+          },
+          {
+            "title": "The Final Call",
+            "restricted": true,
+            "url": "/en/acol/treatise/t2chap13"
+          }
+        ]
+      },
+      {
+        "title": "A Treatise on The Personal Self: The Third Treatise",
+        "contents": [
+          {
+            "title": "True and False Representation",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap01"
+          },
+          {
+            "title": "The Purpose of Representation",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap02"
+          },
+          {
+            "title": "The True Self",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap03"
+          },
+          {
+            "title": "The Dismantling of Illusion",
+            "restricted": false,
+            "url": "/en/acol/treatise/t3chap04"
+          },
+          {
+            "title": "Original Purpose",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap05"
+          },
+          {
+            "title": "The Desire for Reward",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap06"
+          },
+          {
+            "title": "The Explosion of Belief",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap07"
+          },
+          {
+            "title": "The House of Truth",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap08"
+          },
+          {
+            "title": "To Dwell in the House of Truth",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap09"
+          },
+          {
+            "title": "An Exercise in Forgetting",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap10"
+          },
+          {
+            "title": "The Temptations of the Human Experience",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap11"
+          },
+          {
+            "title": "The Physical Self in the House of Truth",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap12"
+          },
+          {
+            "title": "The Practice: No Loss But Only Gain",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap13"
+          },
+          {
+            "title": "Not Other Than Who You Are",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap14"
+          },
+          {
+            "title": "The New Beginning",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap15"
+          },
+          {
+            "title": "Willingness, Temptation, and Belief",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap16"
+          },
+          {
+            "title": "A Mistake in Learning",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap17"
+          },
+          {
+            "title": "Observation",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap18"
+          },
+          {
+            "title": "Physical Reality",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap19"
+          },
+          {
+            "title": "Suffering and Observance",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap20"
+          },
+          {
+            "restricted": false,
+            "url": "/en/acol/treatise/t3chap21"
+          },
+          {
+            "title": "The True Self in Observable Form",
+            "restricted": true,
+            "url": "/en/acol/treatise/t3chap22"
+          }
+        ]
+      },
+      {
+        "title": "A Treatise on The New: The Fourth Treatise",
+        "contents": [
+          {
+            "title": "All Are Chosen",
+            "restricted": false,
+            "url": "/en/acol/treatise/t4chap01"
+          },
+          {
+            "title": "Shared Vision",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap02"
+          },
+          {
+            "title": "Natural Vision",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap03"
+          },
+          {
+            "title": "The Inheritance of Everlasting Life",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap04"
+          },
+          {
+            "title": "The Energy of Creation and the Body of Christ",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap05"
+          },
+          {
+            "title": "A New Choice",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap06"
+          },
+          {
+            "title": "An End to Learning",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap07"
+          },
+          {
+            "title": "To Come to Know",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap08"
+          },
+          {
+            "title": "Beyond Learning",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap09"
+          },
+          {
+            "title": "Creating Anew",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap10"
+          },
+          {
+            "title": "The End of Learning and the Sustainability of Christ-Consciousness",
+            "restricted": true,
+            "url": "/en/acol/treatise/t4chap11"
+          },
+          {
+            "title": "A Prelude to The Dialogues",
+            "restricted": false,
+            "url": "/en/acol/treatise/t4chap12"
+          },
+          {
+            "title": "Learning in the Time of Christ-Part 2",
+            "restricted": true,
+            "url": "/en/acol/treatise/learning2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookId": "dialog",
+    "bid": "3",
+    "title": "Book Three: The Dialogues of A Course of Love",
+    "image": "/assets/img/acol/dialog-toc.jpg",
+    "toc": [
+      {
+        "title": "Acceptance of the State of Grace of the Newly Identified Child of God",
+        "restricted": false,
+        "url": "/en/acol/dialog/chap01"
+      },
+      {
+        "title": "Acceptance and Denial",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap02"
+      },
+      {
+        "title": "The Covenant of the New",
+        "restricted": false,
+        "url": "/en/acol/dialog/chap03"
+      },
+      {
+        "title": "The New You",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap04"
+      },
+      {
+        "title": "True Representation",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap05"
+      },
+      {
+        "title": "The Body and the Elevation of Form",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap06"
+      },
+      {
+        "title": "Time and the Experience of Transformation",
+        "restricted": false,
+        "url": "/en/acol/dialog/chap07"
+      },
+      {
+        "title": "The Territory of Conscious Awareness",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap08"
+      },
+      {
+        "title": "Awareness that Does Not Come from Thought",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap09"
+      },
+      {
+        "title": "The Goal and the Accomplishment of the Elevated Self of Form",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap10"
+      },
+      {
+        "title": "The Return to Unity and the End of Thought As You Know It",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap11"
+      },
+      {
+        "title": "The Body and Your Thoughts",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap12"
+      },
+      {
+        "title": "Sharing and a Refinement of Your Means of Expressing What You Know",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap13"
+      },
+      {
+        "title": "New Frontiers Beyond the Body and Mind, Form and Time",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap14"
+      },
+      {
+        "title": "Becoming and the Principles of Creation",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap15"
+      },
+      {
+        "title": "From Image to Presence",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap16"
+      },
+      {
+        "title": "The Secret of Succession",
+        "restricted": true,
+        "url": "/en/acol/dialog/chap17"
+      },
+      {
+        "title": "The Forty Days and Forty Nights",
+        "contents": [
+          {
+            "title": "Accept Me",
+            "restricted": true,
+            "url": "/en/acol/dialog/day01"
+          },
+          {
+            "title": "Accept Your Self",
+            "restricted": true,
+            "url": "/en/acol/dialog/day02"
+          },
+          {
+            "title": "Accept Abundance",
+            "restricted": true,
+            "url": "/en/acol/dialog/day03"
+          },
+          {
+            "title": "The New Temptations",
+            "restricted": true,
+            "url": "/en/acol/dialog/day04"
+          },
+          {
+            "title": "Access to Unity",
+            "restricted": true,
+            "url": "/en/acol/dialog/day05"
+          },
+          {
+            "title": "The Time In Between",
+            "restricted": true,
+            "url": "/en/acol/dialog/day06"
+          },
+          {
+            "title": "Conditions of the Time of Acceptance",
+            "restricted": true,
+            "url": "/en/acol/dialog/day07"
+          },
+          {
+            "title": "Accept the Present",
+            "restricted": true,
+            "url": "/en/acol/dialog/day08"
+          },
+          {
+            "title": "Freedom",
+            "restricted": true,
+            "url": "/en/acol/dialog/day09"
+          },
+          {
+            "title": "Power",
+            "restricted": false,
+            "url": "/en/acol/dialog/day10"
+          },
+          {
+            "title": "Christ-Consciousness",
+            "restricted": true,
+            "url": "/en/acol/dialog/day11"
+          },
+          {
+            "title": "The Spacious Self Joined in Relationship",
+            "restricted": true,
+            "url": "/en/acol/dialog/day12"
+          },
+          {
+            "title": "Union with the Spacious Self",
+            "restricted": true,
+            "url": "/en/acol/dialog/day13"
+          },
+          {
+            "title": "Healing",
+            "restricted": true,
+            "url": "/en/acol/dialog/day14"
+          },
+          {
+            "title": "Entering the Dialogue",
+            "restricted": true,
+            "url": "/en/acol/dialog/day15"
+          },
+          {
+            "title": "Paradise Re-Found",
+            "restricted": true,
+            "url": "/en/acol/dialog/day16"
+          },
+          {
+            "title": "The Fulfillment of the Way of Jesus",
+            "restricted": true,
+            "url": "/en/acol/dialog/day17"
+          },
+          {
+            "title": "The Way to Paradise",
+            "restricted": true,
+            "url": "/en/acol/dialog/day18"
+          },
+          {
+            "title": "The Way of Mary",
+            "restricted": true,
+            "url": "/en/acol/dialog/day19"
+          },
+          {
+            "title": "The First Transition",
+            "restricted": true,
+            "url": "/en/acol/dialog/day20"
+          },
+          {
+            "title": "The Reversal",
+            "restricted": true,
+            "url": "/en/acol/dialog/day21"
+          },
+          {
+            "title": "Channeling",
+            "restricted": true,
+            "url": "/en/acol/dialog/day22"
+          },
+          {
+            "title": "Carrying",
+            "restricted": true,
+            "url": "/en/acol/dialog/day23"
+          },
+          {
+            "title": "Potential",
+            "restricted": true,
+            "url": "/en/acol/dialog/day24"
+          },
+          {
+            "title": "Tending Your Garden",
+            "restricted": true,
+            "url": "/en/acol/dialog/day25"
+          },
+          {
+            "title": "Self-Guidance",
+            "restricted": true,
+            "url": "/en/acol/dialog/day26"
+          },
+          {
+            "title": "The Apprehension of Levels of Experience",
+            "restricted": true,
+            "url": "/en/acol/dialog/day27"
+          },
+          {
+            "title": "From Externally to Internally Directed Life Experience",
+            "restricted": true,
+            "url": "/en/acol/dialog/day28"
+          },
+          {
+            "title": "The Common Denominator of Experience",
+            "restricted": true,
+            "url": "/en/acol/dialog/day29"
+          },
+          {
+            "title": "Yielding to Wholeness",
+            "restricted": true,
+            "url": "/en/acol/dialog/day30"
+          },
+          {
+            "title": "Joining",
+            "restricted": true,
+            "url": "/en/acol/dialog/day31"
+          },
+          {
+            "title": "The Experience of the Self and the Power of God",
+            "restricted": true,
+            "url": "/en/acol/dialog/day32"
+          },
+          {
+            "title": "Being in Relationship",
+            "restricted": true,
+            "url": "/en/acol/dialog/day33"
+          },
+          {
+            "title": "Saying Yes to Power",
+            "restricted": true,
+            "url": "/en/acol/dialog/day34"
+          },
+          {
+            "title": "Being a Creator in Unity and Relationship",
+            "restricted": true,
+            "url": "/en/acol/dialog/day35"
+          },
+          {
+            "title": "Who You Are in Unity and Relationship",
+            "restricted": true,
+            "url": "/en/acol/dialog/day36"
+          },
+          {
+            "title": "A New Idea of God",
+            "restricted": true,
+            "url": "/en/acol/dialog/day37"
+          },
+          {
+            "title": "Who I Am",
+            "restricted": true,
+            "url": "/en/acol/dialog/day38"
+          },
+          {
+            "title": "Who I Am to You",
+            "restricted": true,
+            "url": "/en/acol/dialog/day39"
+          },
+          {
+            "title": "Who You Are to Me",
+            "restricted": true,
+            "url": "/en/acol/dialog/day40"
+          },
+          {
+            "title": "Epilogue : A Note on Being",
+            "restricted": true,
+            "url": "/en/acol/dialog/epilog"
+          }
+        ]
+      },
+      {
+        "title": "Learning in the Time of Christ",
+        "contents": [
+          {
+            "title": "Learning in the Time of Christ-Part Three",
+            "restricted": true,
+            "url": "/en/acol/dialog/learning3"
+          },
+          {
+            "title": "Dialogue Unveiled",
+            "restricted": true,
+            "url": "/en/acol/dialog/dialog"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -15,24 +15,6 @@ import { displaySharedBookmark } from '../utils/cmiUtils';
 const StyledContainer = styled(Container)``;
 
 /**
- *  Look backwards through array for first item containing url and title
- *
- * @param {array} array - toc array
- * @param {*} c - position in array to start
- */
-function findPrevious(array, c) {
-  if (!array[c]) {
-    return;
-  }
-
-  if (!array[c].contents) {
-    return { url: array[c].url, title: array[c].title };
-  }
-
-  return findPrevious(array[c].contents, array[c].contents.length - 1);
-}
-
-/**
  *  Find title and url of the next and previous pages
  *
  * @param {array} list - The array to search
@@ -70,6 +52,8 @@ export function GenericTranscriptTemplate({ location, data }) {
   const [prev, setPrev] = useState({});
   const [next, setNext] = useState({});
   const transcriptRef = useRef(null);
+
+  console.log('book: %o', book);
 
   useEffect(() => {
     if (!location.search) return;

@@ -29,14 +29,22 @@
     "sourceId": "oe",
     "sid": "15",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/oe/audio",
-    "language": "en"
+    "language": "en",
+    "group": {
+      "title": "ACIM Group Page",
+      "url": "/en/acim"
+    }
   },
   {
-    "title": "ACIM: Sparkley Edition",
+    "title": "ACIM: Sparkly Edition",
     "url": "/en/acim/sp",
     "sourceId": "sp",
     "sid": "12",
-    "language": "en"
+    "language": "en",
+    "group": {
+      "title": "ACIM Group Page",
+      "url": "/en/acim"
+    }
   },
   {
     "title": "A Course Of Love",
@@ -45,5 +53,14 @@
     "sid": "14",
     "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/acol/audio",
     "language": "en"
+  },
+  {
+    "title": "The Impersonal Life",
+    "url": "/en/jsb",
+    "sourceId": "jsb",
+    "sid": "11",
+    "audioBaseUrl": "https://s3.amazonaws.com/assets.christmind.info/jsb/audio",
+    "language": "en",
+    "search": "false"
   }
 ]

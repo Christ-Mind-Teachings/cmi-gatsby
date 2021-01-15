@@ -4,9 +4,10 @@
  *  Includes: Authenticated page access for signed in users
  */
 
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
+import { menuItemEnabled } from '../utils/cmiUtils';
 import { Authenticate } from './Authenticate';
 import SearchModal from './SearchModal';
 
@@ -53,18 +54,20 @@ export default function PageNav(props) {
           style={menuFixed ? fixedMenuStyle : menuStyle}
         >
           <Container text>
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="search"
-                  active={activeItem === 'search'}
-                  onClick={toggleSearchModal}
-                >
-                  <Icon name="search" />
-                </Menu.Item>
-              }
-              content={t('Search')}
-            />
+            {menuItemEnabled(source, 'search') && (
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="search"
+                    active={activeItem === 'search'}
+                    onClick={toggleSearchModal}
+                  >
+                    <Icon name="search" />
+                  </Menu.Item>
+                }
+                content={t('Search')}
+              />
+            )}
 
             <Menu.Menu position="right">
               <Popup

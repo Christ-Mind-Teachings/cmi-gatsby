@@ -1,34 +1,80 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'gatsby';
 // import { Link } from 'gatsby-plugin-react-i18next';
 import { List } from 'semantic-ui-react';
+import { IdentityContext } from './IdentityContextProvider';
 
-function createSubList(contents, bid, pIdx, url) {
+function isFullACOLUser(user) {
+  if (
+    user.app_metadata.roles &&
+    user.app_metadata.roles.find((i) => i === 'acol')
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+/*
+ * If the item contains a url we render a link unless the item is restricted (ACOL only) and the
+ * the user has not been granted full ACOL access. In that case we render text of the item title.
+ *
+ * If there is no url we return the title as a header.
+ *
+ * Note: we may want to change 'lesson' in <sourceId>Contents.json to 'prefix' as is what is used
+ * in <sourceId>Pages.json.
+ */
+function levelN(user, item) {
+  if (item.url) {
+    if (item.restricted && !isFullACOLUser(user)) {
+      return item.lesson ? `${item.lesson}. ${item.title}` : item.title;
+    }
+    return (
+      <Link to={item.url}>
+        {item.lesson ? `${item.lesson}. ${item.title}` : item.title}
+      </Link>
+    );
+  }
+  return <List.Header>{item.title}</List.Header>;
+}
+
+function createSubList(user, contents, bid, pIdx, url) {
   const subList = contents.map((item, index) => (
     <List.Item
       target={item.url}
       key={`${bid}-${pIdx}-${index}`}
       active={url ? item.url === url : false}
     >
-      <span>
-        {item.url ? (
-          <Link to={item.url}>
-            {item.lesson ? `${item.lesson}. ${item.title}` : item.title}
-          </Link>
-        ) : (
-          <List.Header>{item.title}</List.Header>
-        )}
-      </span>
+      <span>{levelN(user, item)}</span>
       {item.contents
-        ? createSubList(item.contents, `${bid}-ref`, index, url)
+        ? createSubList(user, item.contents, `${bid}-ref`, index, url)
         : undefined}
     </List.Item>
   ));
   return <List.List>{subList}</List.List>;
 }
 
+/*
+ * If the item contains a url we render a link unless the item is restricted
+ * which happens only for ACOL and the user is not granted full ACOL access in
+ * which case we just return the item title.
+ *
+ * If there is no url we return the title as a header
+ */
+function level1(user, item) {
+  if (item.url) {
+    if (item.restricted && !isFullACOLUser(user)) {
+      return item.title;
+    }
+
+    return <Link to={item.url}>{item.title}</Link>;
+  }
+  return <List.Header>{item.title}</List.Header>;
+}
+
 export default function TableOfContents(props) {
   const { bid, toc, unit } = props;
+  const { user } = useContext(IdentityContext);
 
   const contents = toc.map((item, index) => (
     <List.Item
@@ -36,13 +82,9 @@ export default function TableOfContents(props) {
       key={`${bid}-${index}`}
       active={unit ? item.url === unit.url : false}
     >
-      {item.url ? (
-        <Link to={item.url}>{item.title}</Link>
-      ) : (
-        <List.Header>{item.title}</List.Header>
-      )}
+      {level1(user, item)}
       {item.contents
-        ? createSubList(item.contents, bid, index, unit ? unit.url : null)
+        ? createSubList(user, item.contents, bid, index, unit ? unit.url : null)
         : undefined}
     </List.Item>
   ));

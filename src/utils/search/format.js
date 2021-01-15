@@ -3,6 +3,7 @@ import pwom from './pwom';
 import raj from './raj';
 import oe from './oe';
 import sp from './sp';
+import acol from './acol';
 
 /*
  * Modify the value of sourceId (sid) to match changes from the
@@ -95,7 +96,19 @@ function formatter(sourceId, books, pages, hits, t, language) {
       return b;
     });
 
-  return { count: hits.count, query: hits.query, matches: formatted };
+  const result = {
+    count: hits.count,
+    query: hits.query,
+    matches: formatted,
+  };
+
+  // ACOL restricts query results to authorized users
+  if (hits.restricted) {
+    result.count = hits.count - hits.restricted;
+    result.restricted = hits.restricted;
+  }
+
+  return result;
 }
 
 export default function formatSearchResults(hits, t, language) {
@@ -105,6 +118,8 @@ export default function formatSearchResults(hits, t, language) {
       return formatter('wom', wom.books, wom.pages, hits, t, language);
     case 'raj':
       return formatter('raj', raj.books, raj.pages, hits, t, language);
+    case 'acol':
+      return formatter('acol', acol.books, acol.pages, hits, t, language);
     case 'pwom':
       return formatter('pwom', pwom.books, pwom.pages, hits, t, language);
     // 'acimoe' identifies 'oe' in search results

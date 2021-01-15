@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { navigate, Link } from 'gatsby';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import { useI18next } from 'gatsby-plugin-react-i18next';
+import { menuItemEnabled } from '../utils/cmiUtils';
 import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
 import AudioPlayer from './AudioPlayer';
@@ -87,18 +88,20 @@ export default function TranscriptNav(props) {
               />
             ) : null}
 
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="search"
-                  active={activeItem === 'search'}
-                  onClick={toggleSearchModal}
-                >
-                  <Icon name="search" />
-                </Menu.Item>
-              }
-              content={t('Search')}
-            />
+            {menuItemEnabled(source, 'search') && (
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="search"
+                    active={activeItem === 'search'}
+                    onClick={toggleSearchModal}
+                  >
+                    <Icon name="search" />
+                  </Menu.Item>
+                }
+                content={t('Search')}
+              />
+            )}
 
             <Popup
               trigger={

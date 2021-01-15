@@ -1,0 +1,85 @@
+[
+  {
+    "bookId": "til",
+    "bid": "11",
+    "title": "The Impersonal Life",
+    "image": "/assets/img/jsb/til-toc.jpg",
+    "toc": [
+      {
+        "title": "I AM",
+        "url": "/en/jsb/til/chap01"
+      },
+      {
+        "title": "Be Still and Know I AM God",
+        "url": "/en/jsb/til/chap02"
+      },
+      {
+        "title": "I, Life, God",
+        "url": "/en/jsb/til/chap03"
+      },
+      {
+        "title": "For I AM Life",
+        "url": "/en/jsb/til/chap04"
+      },
+      {
+        "title": "Consciousness, Intelligence, Will",
+        "url": "/en/jsb/til/chap05"
+      },
+      {
+        "url": "/en/jsb/til/chap06"
+      },
+      {
+        "title": "Thinking and Creating",
+        "url": "/en/jsb/til/chap07"
+      },
+      {
+        "title": "The Word",
+        "url": "/en/jsb/til/chap08"
+      },
+      {
+        "title": "My Idea",
+        "url": "/en/jsb/til/chap09"
+      },
+      {
+        "title": "The Garden of Eden",
+        "url": "/en/jsb/til/chap10"
+      },
+      {
+        "title": "Good and Evil",
+        "url": "/en/jsb/til/chap11"
+      },
+      {
+        "title": "Use",
+        "url": "/en/jsb/til/chap12"
+      },
+      {
+        "title": "Soul Mates",
+        "url": "/en/jsb/til/chap13"
+      },
+      {
+        "title": "Authority",
+        "url": "/en/jsb/til/chap14"
+      },
+      {
+        "title": "Mediums and Mediators",
+        "url": "/en/jsb/til/chap15"
+      },
+      {
+        "title": "Masters",
+        "url": "/en/jsb/til/chap16"
+      },
+      {
+        "title": "The Christ and Love",
+        "url": "/en/jsb/til/chap17"
+      },
+      {
+        "title": "Finding Me",
+        "url": "/en/jsb/til/chap18"
+      },
+      {
+        "title": "Union",
+        "url": "/en/jsb/til/chap19"
+      }
+    ]
+  }
+]

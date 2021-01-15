@@ -9,6 +9,6 @@
   "See Search Documentation": "Zobacz dokumentację wyszukiwania",
   "Please wait...": "Proszę czekać...",
   "Enter search query": "Wpisz zapytanie",
-  "Searching": "Badawczy",
+  "Searching": "Mencari '{{query}}'",
   "Title Not Found": "Nie znaleziono tytułu"
 }

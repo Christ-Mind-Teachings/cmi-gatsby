@@ -6,8 +6,8 @@ import ContentsModal from '../../../components/ContentsModal';
 import spContents from '../../../data/acim/sp/spContents.json';
 import text from '../../../assets/images/sp/text.jpg';
 import preface from '../../../assets/images/sp/preface.jpg';
-import workbook from '../../../assets/images/sp/manual.jpg';
-import manual from '../../../assets/images/sp/workbook.jpg';
+import workbook from '../../../assets/images/sp/workbook.jpg';
+import manual from '../../../assets/images/sp/manual.jpg';
 
 export default function SpPage({ data }) {
   const sourceInfo = data.source;
@@ -88,6 +88,10 @@ export const pageQuery = graphql`
       sid
       title
       sourceId
+      group {
+        title
+        url
+      }
     }
   }
 `;

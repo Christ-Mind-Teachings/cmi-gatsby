@@ -7,6 +7,8 @@ async function createTranscriptPage({ actions, graphql, reporter }) {
     raj: path.resolve(`src/templates/rajTranscript.js`),
     oe: path.resolve(`src/templates/oeTranscript.js`),
     sp: path.resolve(`src/templates/spTranscript.js`),
+    acol: path.resolve(`src/templates/acolTranscript.js`),
+    jsb: path.resolve(`src/templates/jsbTranscript.js`),
   };
   const { createPage } = actions;
 

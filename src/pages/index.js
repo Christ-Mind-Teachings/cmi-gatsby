@@ -12,7 +12,6 @@ import { navigate } from 'gatsby';
 import SiteHeader from '../components/SiteHeader';
 import LibraryNav from '../components/LibraryNav';
 import acimGroup from '../assets/images/cmi/covers/acim-group.png';
-// import oe from '../assets/images/cmi/covers/acimoe-big.jpg';
 import jsb from '../assets/images/cmi/covers/jsb-big.jpg';
 import acol from '../assets/images/cmi/covers/acol2-big.jpg';
 import raj from '../assets/images/cmi/covers/raj-big.jpg';
@@ -108,7 +107,7 @@ export default function ChristMindLibrary() {
               </Card.Content>
             </Card>
           )}
-          <Card name="acol">
+          <Card name="acol" onClick={() => navigate('/en/acol')}>
             <Image src={acol} size="medium" wrapped ui={false} />
             <Card.Content>
               <Card.Description>A Course Of Love</Card.Description>
@@ -120,7 +119,7 @@ export default function ChristMindLibrary() {
               <Card.Description>The Raj Materials</Card.Description>
             </Card.Content>
           </Card>
-          <Card name="jsb">
+          <Card name="jsb" onClick={() => navigate('/en/jsb')}>
             <Image src={jsb} size="medium" wrapped ui={false} />
             <Card.Content>
               <Card.Description>The Impersonal Life</Card.Description>
