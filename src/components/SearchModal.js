@@ -62,10 +62,13 @@ function SearchResults(props) {
         <List.Content>
           <List.Header>
             {adjustUrl(url) === path ? (
-              <a location={h.location} onClick={viewSearchMatchOnPage}>
+              <span>
                 {t('Paragraph')} {incrementLocation(h.location)}
-              </a>
+              </span>
             ) : (
+              // <a location={h.location} onClick={viewSearchMatchOnPage}>
+              //   {t('Paragraph')} {incrementLocation(h.location)}
+              // </a>
               <Link state={{ search: h.location }} to={adjustUrl(url)}>
                 {t('Paragraph')} {incrementLocation(h.location)}
               </Link>

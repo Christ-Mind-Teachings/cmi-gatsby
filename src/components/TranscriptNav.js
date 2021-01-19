@@ -1,21 +1,24 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { navigate, Link } from 'gatsby';
-import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
+import { navigate } from 'gatsby';
+import { Popup, Container, Icon, Menu } from 'semantic-ui-react';
 import { useI18next } from 'gatsby-plugin-react-i18next';
 import { menuItemEnabled } from '../utils/cmiUtils';
 import ContentsModal from './ContentsModal';
 import SearchModal from './SearchModal';
 import AudioPlayer from './AudioPlayer';
 import { Authenticate } from './Authenticate';
+import { QuickLink } from './QuickLink';
 
 const menuStyle = {
-  border: 'none',
+  // border: 'none',
+  border: '1px solid #ddd',
   backgroundColor: '#F1F1F7',
   borderRadius: 0,
-  boxShadow: 'none',
+  // boxShadow: 'none',
+  boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.2)',
   marginBottom: '1em',
-  marginTop: '4em',
-  transition: 'box-shadow 0.5s ease, padding 0.5s ease',
+  marginTop: '0',
+  transition: 'box-shadow 1s ease, padding 1s ease',
 };
 
 const fixedMenuStyle = {
@@ -60,110 +63,105 @@ export default function TranscriptNav(props) {
         />
       ) : null}
       <SearchModal open={searchOpen} setOpen={setSearchOpen} source={source} />
-      <Visibility
+      {/* <Visibility
         onTopPassed={stickTopMenu}
         onTopVisible={unStickTopMenu}
         once={false}
-      >
-        <Menu
-          icon
-          borderless
-          size="small"
-          fixed={menuFixed ? 'top' : undefined}
-          style={menuFixed ? fixedMenuStyle : menuStyle}
-        >
-          <Container text>
-            {unit?.audio ? (
-              <Popup
-                trigger={
-                  <Menu.Item
-                    name="audio"
-                    active={activeItem === 'audio'}
-                    onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
-                  >
-                    <Icon name="volume up" />
-                  </Menu.Item>
-                }
-                content={t('Listen')}
-              />
-            ) : null}
-
-            {menuItemEnabled(source, 'search') && (
-              <Popup
-                trigger={
-                  <Menu.Item
-                    name="search"
-                    active={activeItem === 'search'}
-                    onClick={toggleSearchModal}
-                  >
-                    <Icon name="search" />
-                  </Menu.Item>
-                }
-                content={t('Search')}
-              />
-            )}
-
+      > */}
+      <Menu attached="top" borderless style={menuStyle}>
+        <Container text>
+          {unit?.audio ? (
             <Popup
               trigger={
                 <Menu.Item
-                  name="previous"
-                  url={prev.url}
-                  active={activeItem === 'previous'}
+                  name="audio"
+                  active={activeItem === 'audio'}
+                  onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
+                >
+                  <Icon name="volume up" />
+                </Menu.Item>
+              }
+              content={t('Listen')}
+            />
+          ) : null}
+
+          {menuItemEnabled(source, 'search') && (
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="search"
+                  active={activeItem === 'search'}
+                  onClick={toggleSearchModal}
+                >
+                  <Icon name="search" />
+                </Menu.Item>
+              }
+              content={t('Search')}
+            />
+          )}
+
+          <Popup
+            trigger={
+              <Menu.Item
+                name="previous"
+                url={prev.url}
+                active={activeItem === 'previous'}
+                onClick={handleItemClick}
+                disabled={prev.url === undefined}
+              >
+                <Icon name="arrow circle left" />
+              </Menu.Item>
+            }
+            content={prev.url !== undefined ? prev.title : undefined}
+          />
+
+          <Popup
+            trigger={
+              <Menu.Item
+                name="toc"
+                active={activeItem === 'toc'}
+                onClick={toggleContentsModal}
+              >
+                <Icon name="align justify" />
+              </Menu.Item>
+            }
+            content={t('Table of Contents')}
+          />
+
+          <Popup
+            trigger={
+              <Menu.Item
+                name="next"
+                url={next.url}
+                active={activeItem === 'next'}
+                onClick={handleItemClick}
+                disabled={next.url === undefined}
+              >
+                <Icon name="arrow circle right" />
+              </Menu.Item>
+            }
+            content={next.url !== undefined ? next.title : undefined}
+          />
+          <QuickLink sourceId={source.sourceId} />
+
+          <Menu.Menu position="right">
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="help"
+                  active={activeItem === 'help'}
                   onClick={handleItemClick}
-                  disabled={prev.url === undefined}
                 >
-                  <Icon name="arrow circle left" />
+                  <Icon name="question" />
                 </Menu.Item>
               }
-              content={prev.url !== undefined ? prev.title : undefined}
+              content={t('Help')}
             />
-
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="toc"
-                  active={activeItem === 'toc'}
-                  onClick={toggleContentsModal}
-                >
-                  <Icon name="align justify" />
-                </Menu.Item>
-              }
-              content={t('Table of Contents')}
-            />
-
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="next"
-                  url={next.url}
-                  active={activeItem === 'next'}
-                  onClick={handleItemClick}
-                  disabled={next.url === undefined}
-                >
-                  <Icon name="arrow circle right" />
-                </Menu.Item>
-              }
-              content={next.url !== undefined ? next.title : undefined}
-            />
-
-            <Menu.Menu position="right">
-              <Popup
-                trigger={
-                  <Menu.Item
-                    name="help"
-                    active={activeItem === 'help'}
-                    onClick={handleItemClick}
-                  >
-                    <Icon name="question" />
-                  </Menu.Item>
-                }
-                content={t('Help')}
-              />
-              <Authenticate />
-            </Menu.Menu>
-          </Container>
-        </Menu>
-      </Visibility>
+            <Authenticate />
+          </Menu.Menu>
+        </Container>
+      </Menu>
+      {/* </Visibility> */}
     </>
   );
 }

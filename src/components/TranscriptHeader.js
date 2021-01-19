@@ -5,21 +5,25 @@ import styled from 'styled-components';
 import { Link, useTranslation } from 'gatsby-plugin-react-i18next';
 
 const StyledHeader = styled(Header)`
-  h1 {
+  &.ui.header {
+    margin-bottom: 4rem;
+  }
+
+  h1.ui.header {
+    font-size: 2.5rem;
     font-weight: 500;
   }
-  h2 {
+  h2.ui.header {
     font-weight: 400;
   }
   h1.ui.header {
     margin-top: 2em;
   }
-  h2.ui.header,
-  h3.ui.header,
-  h2 a,
-  h1 a {
+  h2.ui.header a,
+  h1.ui.header a {
     color: #871212;
   }
+
   h2 a:hover,
   h1 a:hover {
     color: #1f70bf;

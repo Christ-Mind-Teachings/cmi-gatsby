@@ -69,19 +69,17 @@ That is when I hear Him. No, first, I feel Him. Strongly.
 
 More strongly than ever.
 
-<div data-index="1" markdown="1" class="indent">
-
 Hello, My brother.<br/>
 And so we begin to take the next step<br/>
 in an ancient Work shared before.<br/>
 You have again given Me your trust.<br/>
 I shall not leave you until all is done.
+{: .indent}
 
 Now,<br/>
 I ask that you open your Bible.<br/>
 Please begin reading in Jeremiah.
-
-</div>
+{: .indent}
 
 Did I hear Him right? The Bible? I don’t even know where the damn thing
 is. Jeremiah? For some bizarre reason, all I can think of is that old
@@ -145,7 +143,7 @@ of the Atonement of creation?
 
 Again, I say unto you,<br/>
 trust - together with your unceasing willingness -<br/>
-is all that you need bring to ourWork together.
+is all that you need bring to our Work together.
 
 It shall come to pass that, one day,<br/>
 all will realize this is all that is ever needed<br/>

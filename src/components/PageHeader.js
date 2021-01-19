@@ -5,17 +5,22 @@ import styled from 'styled-components';
 import { Link, useI18next } from 'gatsby-plugin-react-i18next';
 
 const StyledHeader = styled(Header)`
-  h1 {
+  &.ui.header {
+    margin-bottom: 4rem;
+  }
+
+  h1.ui.header {
+    font-size: 2.5rem;
     font-weight: 500;
   }
-  h2 {
+  h2.ui.header {
     font-weight: 400;
   }
   h1.ui.header {
     margin-top: 2em;
   }
-  h2 a,
-  h1 a {
+  h2.ui.header a,
+  h1.ui.header a {
     color: #871212;
   }
   h1 a:hover {
@@ -46,9 +51,9 @@ export default function PageHeader(props) {
           </Link>
         </Header>
       )}
-      <Header as="h2" textAlign="center">
+      {/* <Header as="h2" textAlign="center">
         {title}
-      </Header>
+      </Header> */}
     </StyledHeader>
   );
 }

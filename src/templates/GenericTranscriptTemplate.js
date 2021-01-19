@@ -1,7 +1,7 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { createRef, useRef, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Helmet } from 'react-helmet';
-import { Icon, Header, Container, Dimmer } from 'semantic-ui-react';
+import { Sticky, Icon, Header, Container, Dimmer } from 'semantic-ui-react';
 import styled from 'styled-components';
 import TranscriptNav from '../components/TranscriptNav';
 import TranscriptHeader from '../components/TranscriptHeader';
@@ -52,8 +52,7 @@ export function GenericTranscriptTemplate({ location, data }) {
   const [prev, setPrev] = useState({});
   const [next, setNext] = useState({});
   const transcriptRef = useRef(null);
-
-  console.log('book: %o', book);
+  const contextRef = createRef();
 
   useEffect(() => {
     if (!location.search) return;
@@ -90,37 +89,49 @@ export function GenericTranscriptTemplate({ location, data }) {
     <>
       <GlobalStyles />
       <Helmet title={`Transcript Name - ${unit?.title}`} />
-      <StyledContainer text>
-        <TranscriptHeader source={source} book={book} unit={unit} />
-        <GlobalContext.Provider
-          value={{
-            transcript: { source, book, unit },
-            searchPid,
-            setSearchPid,
-          }}
-        >
-          <TranscriptNav
-            source={source}
-            book={book}
-            unit={unit}
-            next={next}
-            prev={prev}
-            timing={timing}
-          />
-          <div
-            className="transcript-content"
-            ref={transcriptRef}
-            dangerouslySetInnerHTML={{ __html: content.html }}
-          />
-          {searchPid && (
-            <SearchNavigator
-              path={location.pathname}
+      <GlobalContext.Provider
+        value={{
+          transcript: { source, book, unit },
+          searchPid,
+          setSearchPid,
+        }}
+      >
+        <div ref={contextRef}>
+          <Sticky context={contextRef}>
+            <TranscriptNav
               source={source}
-              paragraph={searchPid}
+              book={book}
+              unit={unit}
+              next={next}
+              prev={prev}
+              timing={timing}
             />
-          )}
-        </GlobalContext.Provider>
-      </StyledContainer>
+          </Sticky>
+          <TranscriptHeader source={source} book={book} unit={unit} />
+          <div
+            style={{
+              minHeight: '100vh',
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <StyledContainer text attached="bottom">
+              <div
+                className="transcript-content"
+                ref={transcriptRef}
+                dangerouslySetInnerHTML={{ __html: content.html }}
+              />
+              {searchPid && (
+                <SearchNavigator
+                  path={location.pathname}
+                  source={source}
+                  paragraph={searchPid}
+                />
+              )}
+            </StyledContainer>
+          </div>
+        </div>
+      </GlobalContext.Provider>
       <ToastContainer />
       <Dimmer active={loading} page onClickOutside={() => setLoading(false)}>
         <Header as="h2" icon inverted>

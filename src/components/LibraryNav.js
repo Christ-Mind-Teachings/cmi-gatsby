@@ -8,15 +8,18 @@ import React, { useState } from 'react';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import { ChangeLanguage } from './ChangeLanguage';
 import { Authenticate } from './Authenticate';
+import { QuickLink } from './QuickLink';
 
 const menuStyle = {
-  border: 'none',
+  // border: 'none',
+  border: '1px solid #ddd',
   backgroundColor: '#F1F1F7',
   borderRadius: 0,
-  boxShadow: 'none',
+  // boxShadow: 'none',
+  boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.2)',
   marginBottom: '1em',
-  marginTop: '4em',
-  transition: 'box-shadow 0.5s ease, padding 0.5s ease',
+  marginTop: '0',
+  transition: 'box-shadow 1s ease, padding 1s ease',
 };
 
 const fixedMenuStyle = {
@@ -34,29 +37,29 @@ export default function LibraryNav() {
 
   return (
     <>
-      <Visibility
+      {/* <Visibility
         onTopPassed={stickTopMenu}
         onTopVisible={unStickTopMenu}
         once={false}
+      > */}
+      <Menu
+        borderless
+        // fixed={menuFixed ? 'top' : undefined}
+        // style={menuFixed ? fixedMenuStyle : menuStyle}
+        style={menuStyle}
       >
-        <Menu
-          icon
-          borderless
-          size="small"
-          fixed={menuFixed ? 'top' : undefined}
-          style={menuFixed ? fixedMenuStyle : menuStyle}
-        >
-          <Container text>
-            <ChangeLanguage />
-            <Menu.Menu position="right">
-              <Menu.Item name="help" active={activeItem === 'help'}>
-                <Popup trigger={<Icon name="question" />} content="Get Help" />
-              </Menu.Item>
-              <Authenticate />
-            </Menu.Menu>
-          </Container>
-        </Menu>
-      </Visibility>
+        <Container text>
+          <ChangeLanguage />
+          <QuickLink sourceId="ACIM" />
+          <Menu.Menu position="right">
+            <Menu.Item name="help" active={activeItem === 'help'}>
+              <Popup trigger={<Icon name="question" />} content="Get Help" />
+            </Menu.Item>
+            <Authenticate />
+          </Menu.Menu>
+        </Container>
+      </Menu>
+      {/* </Visibility> */}
     </>
   );
 }
