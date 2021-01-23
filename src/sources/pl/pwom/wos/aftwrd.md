@@ -96,9 +96,16 @@ na moją pamiątkę.
 
 ---
 
-<p class="iam">JESTEM</p>
-<p class="i1">zawsze</p>
-<p class="i2">z</p>
-<p class="i3">wami &hellip;</p>
+JESTEM
+{: .iam}
+
+zawsze
+{: .i1}
+
+z
+{: .i2}
+
+wami&hellip;
+{: .i3}
 
 

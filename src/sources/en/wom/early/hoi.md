@@ -205,7 +205,7 @@ yet the mind can be trained more and more to make that choice.
 Would you be willing to enjoin such a challenge? Remember, we will be
 watching!
 
-*{Audience laughter}*
+*[Laughter]*
 
 And always, beloved friends, without judgment, without condemnation.
 

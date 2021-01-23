@@ -11,7 +11,7 @@ yet again.
 ![line](./line2.jpg)
 {: .chHead.omit}
 
-<span class="capital1">S</span>tepping out of the waiting area at the
+<span class="capital">S</span>tepping out of the waiting area at the
 airport gate, I am hit by the sweet, delicious fragrances of Maui, the
 heart-island. Closing my eyes, I drink deeply with my breath this
 intoxicating scent. It’s enough to bring a touch of tears to my eyes. Is
@@ -319,7 +319,8 @@ bit-by-bit to be present with it as Jeshua has been instructing me,
 feeling it enter, not just into my lungs, but oozing in through every
 pour, streaming out as every tension dissolves into Light.
 
-<p class="indent">Remember, my brother, to let God’s love breathe you.</p>
+Remember, my brother, to let God’s love breathe you.
+{: .indent}
 
 Perhaps one day I will know what that really means. I no longer trust my
 intellect’s understanding, the one thing I had always banked on! Perhaps

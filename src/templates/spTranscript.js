@@ -38,7 +38,7 @@ export const pageQuery = graphql`
           contents {
             title
             url
-            lesson
+            prefix
           }
         }
       }

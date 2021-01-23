@@ -58,11 +58,11 @@ break in our communication. This simple fact is a gentle reminder that
 time is somehow not quite what I have learned it is. As He speaks, I see
 it, the title:
 
-<p markdown="1" class="omit center"><b>The Way of the Servant</b></p>
+<p class="omit center"><b>The Way of the Servant</b></p>
 
-<p markdown="1" class="omit center"><em>Living the Light of Christ</em></p>
+<p class="omit center"><em>Living the Light of Christ</em></p>
 
-<p markdown="1" class="omit center">“For the first shall be last, and the last, first.”</p>
+<p class="omit center">“For the first shall be last, and the last, first.”</p>
 
 *This teaching was not intended for the use it has been given by those
 who would find in me justification for the judgment of their brothers

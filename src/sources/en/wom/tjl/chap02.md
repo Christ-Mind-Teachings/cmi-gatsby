@@ -869,7 +869,8 @@ everything is perfectly quiet. I cannot hear the cars around me, nor
 even my radio. My visual field loses sight of everything, temporarily
 overshadowed by three words:
 
-<p class="center">THE JESHUA LETTERS</p>
+THE JESHUA LETTERS
+{: .center}
 
 My whole body is electrified, from the tip of my head to my toes. Then,
 just as suddenly, it is gone, and everything is back to normal.

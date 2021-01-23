@@ -344,7 +344,8 @@ Amen
 November 13, 1987
 {: .date.omit}
 
-<p markdown="1" class="indent">Hello, Marc.</p>
+Hello, Marc.
+{: .indent}
 
 “Hello, Jeshua.”
 
@@ -689,7 +690,8 @@ so that I turn to look, expecting Him to be setting in the
 passenger-seat, even as I slam my foot on the brakes, and come to a
 halt.
 
-<p class="indent">Your apartment awaits you.</p>
+Your apartment awaits you.
+{: .indent}
 
 Just as abruptly the curious feeling lets go of my cells; a liquid light
 withdrawing like a wave from the shoreline. It’s again just me, sitting
@@ -761,8 +763,9 @@ second, then the third, finally the fourth. My eyes stop, my breath
 stops. There is a small ad, sandwiched between two I had previously
 circled and called.
 
-<p class="indent">For rent. Large one bedroom.<br/>
-Marine view. Available Dec. 1.</p>
+For rent. Large one bedroom.<br/>
+Marine view. Available Dec. 1.
+{: .indent}
 
 I cannot believe I hadn’t seen it before. It had to have been there.
 
@@ -812,7 +815,8 @@ It is 3 a.m; 3:22 to be exact. I am, or was, sleeping soundly. As I
 begin to stir restlessly, I am further awakened by a gentle voice which,
 this time, carries a sense of persistence.
 
-<p class="indent">Marc, arise and write.</p>
+Marc, arise and write.
+{: .indent}
 
 “Shit” is my only thought. It is 3:30 in the morning, and nobody gets up
 at 3:30 in the morning because some voice suggests they do so.

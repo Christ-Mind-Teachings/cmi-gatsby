@@ -156,6 +156,11 @@ const GlobalStyles = createGlobalStyle`
     margin-left: 20px;
   }
 
+  .transcript-content .normal,
+  .transcript-content .tr_normal {
+    font-style: normal;
+  }
+
   .transcript-content.raj blockquote {
     font-style: italic;
   }
@@ -188,9 +193,14 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 20px;
   }
 
-  .transcript-content p:before {
-    content: "("attr(id)") ";
+  .transcript-content.acol .prose {
+    font-style: italic;
+    margin-bottom: 1rem;
   }
+
+  /* .transcript-content p:before {
+    content: "("attr(id)") ";
+  } */
 `;
 
 export default GlobalStyles;

@@ -38,7 +38,7 @@ Self is what is in need of identification and acknowledgment. This
 identification and acknowledgment was the stated goal of *A Course of
 Love*. It does not negate your existence as a human being nor does it
 deny your existence as being a gift of the Creator. Recall the sunset.
-<sup>A</sup>re you any less the glory of God than the sun? This is a
+Are you any less the glory of God than the sun? This is a
 call to be as aware of your Self as you are capable of being aware of
 the sunset. 
 

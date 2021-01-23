@@ -5,11 +5,12 @@ title: Book Two
 ![line](./line2.jpg)
 {: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">S</span><em>ervantship</em><br/>
+<span class="dropcaps">S</span><em>ervantship</em><br/>
 It appears an odd word,<br/>
 yet within it lies the meaning of sacrifice,<br/>
 of Love,<br/>
-of true Being.</p>
+of true Being.
+{: .top}
 
 What, then,<br/>
 can we say of sacrifice?
@@ -121,6 +122,7 @@ of releasing the allure of sleep.
 I AM,<br/>
 simply, that,<br/>
 I AM.
+
 </div>
 
 It is this<br/>
@@ -289,11 +291,13 @@ The dreamer,<br/>
 vanquished and reborn,<br/>
 decrees:
 
-<div markdown="1" class="indent">
+<div class="indent">
+
 I live,<br/>
 yet not I,<br/>
 but Christ,<br/>
 dwells as me.
+
 </div>
 
 And the Word is made flesh,<br/>
@@ -303,7 +307,7 @@ and dwells among us.
 but not *of* the world,<br/>
 for the world is overcome<br/>
 not by effort,<br/>
-but by Grace...<br/>
+but by Grace&hellip;<br/>
 the simple correction<br/>
 of one mistaken perception.
 
@@ -349,7 +353,7 @@ Innocent as a child,<br/>
 he considers not limitation,<br/>
 for he sees with certainty that:
 
-<div markdown="1" class="indent">
+<div class="indent">
 
 The works I do<br/>
 you also shall do,<br/>
@@ -382,7 +386,7 @@ is likened unto one<br/>
 who has journeyed to a distant land,<br/>
 for his master had commanded him:
 
-<div markdown="1" class="indent">
+<div class="indent">
 
 Go, and share with all<br/>
 who have ears to hear<br/>
@@ -424,7 +428,7 @@ was the servant<br/>
 that she could hear not<br/>
 the judgments of the small-minded.
 
-<div markdown="1" class="indent">
+<div class="indent">
 
 Will you choose to have ears to hear?
 
@@ -671,7 +675,8 @@ even more shall be added,<br/>
 and her giving shall be unlimited<br/>
 and without end.
 
-<p class="indent">She who gives all receives all.</p>
+She who gives all receives all.
+{: .indent}
 
 The true servant gives even this:<br/>
 all traces of attachment<br/>
@@ -690,7 +695,8 @@ go, and do likewise.”
 
 Hear again:
 
-<p class="indent">He who gives all, receives all.</p>
+He who gives all, receives all.
+{: .indent}
 
 The servant<br/>
 gives as he has been given,<br/>
@@ -706,7 +712,8 @@ and gives thanks to the Father,<br/>
 for the servant lives<br/>
 the simplest of truths:
 
-<p class="indent">My brothers and sisters are my salvation.</p>
+My brothers and sisters are my salvation.
+{: .indent}
 
 The servant knows she fixes nothing.<br/>
 Seeing not a fearful world,<br/>

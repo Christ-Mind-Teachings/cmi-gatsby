@@ -1,8 +1,8 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 import { Icon, Header } from 'semantic-ui-react';
 import styled from 'styled-components';
-import { Link, useTranslation } from 'gatsby-plugin-react-i18next';
+import { useTranslation } from 'gatsby-plugin-react-i18next';
 
 const StyledHeader = styled(Header)`
   &.ui.header {
@@ -48,10 +48,18 @@ export default function TranscriptHeader(props) {
           <Icon name="linkify" size="tiny" color="blue" />
         </Link>
       </Header>
-      <Header as="h3" textAlign="center">
-        {/* {unit?.title} */}
-        {unit?.prefix ? `${unit.prefix}. ${unit.title}` : unit?.title}
-      </Header>
+      {unit?.sectionTitle && (
+        <Header as="h3" textAlign="center">
+          {unit.sectionTitle}
+          <br />
+          {unit?.prefix ? `${unit.prefix} ${unit.title}` : unit?.title}
+        </Header>
+      )}
+      {!unit?.sectionTitle && (
+        <Header as="h3" textAlign="center">
+          {unit?.prefix ? `${unit.prefix} ${unit.title}` : unit?.title}
+        </Header>
+      )}
     </StyledHeader>
   );
 }

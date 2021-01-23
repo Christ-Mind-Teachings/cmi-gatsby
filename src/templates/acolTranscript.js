@@ -19,6 +19,7 @@ export const pageQuery = graphql`
       title
       key
       prefix
+      sectionTitle
       url
     }
     list: allAcolPagesJson(filter: { url: { regex: $regex } }) {
@@ -34,9 +35,13 @@ export const pageQuery = graphql`
       toc {
         title
         url
+        prefix
+        restricted
         contents {
           title
           url
+          prefix
+          restricted
         }
       }
     }

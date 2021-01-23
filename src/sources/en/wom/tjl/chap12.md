@@ -101,37 +101,41 @@ clear, that I can turn away and look out the window with no loss of
 connection, not unlike a friend talking to you while you attend to other
 things. Only I am unsuccessful at tuning this friend out!
 
-<p class="indent">Begin reading now.</p>
+Begin reading now.
+{: .indent}
 
 I do so. As I reach the fifth verse, He stops me.
 
-<p class="indent">Please read out loud, slowly,<br/>
+Please read out loud, slowly,<br/>
 That you may truly hear,<br/>
-For these are my words to you now.</p>
+For these are my words to you now.
+{: .indent}
 
 Out loud. Slowly. Okay. I guess this is one of those moments that was
 sure to come when I said I would trust Him, after all.
 
-<p class="quote">‘Before I formed you in the womb I knew you;<br/>
+‘Before I formed you in the womb I knew you;<br/>
 before you were born I sanctified you;<br/>
-I have made you a prophet to the nations.’</p>
+I have made you a prophet to the nations.’
+{: .quote}
 
 As I gasp, and feel that familiar nemesis strike hard and quick in my
 belly, He speaks again:
 
-<p class="indent">Now, read Verse Nine.</p>
+Now, read Verse Nine.
+{: .indent}
 
-<p class="quote">‘And the Lord said to me: I shall put My words in thy mouth.’</p>
+‘And the Lord said to me: I shall put My words in thy mouth.’
+{: .quote}
 
 My mind, my breath, my body’s movement are all slammed into stillness.
-
-<div data-index="1" markdown="1" class="indent">
 
 My brother,<br/>
 I have chosen you because you first chose Me,<br/>
 long ago.<br/>
 I shall direct you to those whom I serve,<br/>
 those who have called out to Me.
+{: .indent}
 
 Fear not,<br/>
 for do you truly believe<br/>
@@ -140,35 +144,41 @@ from speaking to those I send to you,<br/>
 or distort what I would share<br/>
 as I continue My Father’s will in service<br/>
 of the Atonement of creation?
+{: .indent}
 
 Again, I say unto you,<br/>
 trust - together with your unceasing willingness -<br/>
 is all that you need bring to our Work together.
+{: .indent}
 
 It shall come to pass that, one day,<br/>
 all will realize this is all that is ever needed<br/>
 as miracles come to heal all suffering.
+{: .indent}
 
 Heed not the voices of others,<br/>
 but turn to Me,<br/>
 and I am with you.
+{: .indent}
 
 Trust, again, is essential.<br/>
 It is also<br/>
 Your final learning lesson<br/>
 in the field of time.
+{: .indent}
 
 Now,<br/>
 The time is upon us.<br/>
 Let us go,<br/>
 and abide with those<br/>
 who are now gathering.
+{: .indent}
 
 Fear not, beloved brother.
+{: .indent}
 
 Fear not.
-
-</div>
+{: .indent}
 
 ![line](./line4.jpg)
 {: .center.omit}
@@ -194,8 +204,9 @@ and peace engulf me.
 It all gives way and I am aware only of Him, perceiving us together in
 an infinite field of purplish light.
 
-<p class="indent">All things are prepared,<br/>
-And now we will begin.</p>
+All things are prepared,<br/>
+And now we will begin.
+{: .indent}
 
 This is when I notice we are not alone. There seems to be a host, a
 large circle, of beings, all shimmering in light. All within this field
@@ -206,7 +217,8 @@ No! They are staring at my body, and so am I! Only, I am looking down on
 it. Jeshua moves to a place just behind it. He seems, then, to move into
 it. It is the last thing I am aware of, until it is all over.
 
-<p class="indent">Thank you, My brother.</p>
+Thank you, My brother.
+{: .indent}
 
 His voice startles me. Rapidly, I become aware of my body again. It’s a
 rather rude experience. I open my eyes, but it takes several moments

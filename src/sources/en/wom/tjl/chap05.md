@@ -16,6 +16,7 @@ January 3, 1988
 {: .break.date.omit}
 
 <div data-index="1" markdown="1" class="indent">
+
 <span class="capital">N</span>ow, we begin.
 
 A little while and you shall be where I AM.<br/>
@@ -96,7 +97,8 @@ Amen.
 January 22, 1988
 {: .date.omit}
 
-<p class="indent">Hello, Marc.</p>
+Hello, Marc.
+{: .indent}
 
 “Hello, Jeshua. I love you.”
 

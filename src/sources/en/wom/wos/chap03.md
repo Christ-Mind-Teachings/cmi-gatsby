@@ -5,11 +5,12 @@ title: Book Three
 ![line](./line2.jpg)
 {: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">H</span>e who looks upon me<br/>
+<span class="dropcaps">H</span>e who looks upon me<br/>
 and truly <em>sees</em> me<br/>
 has learned<br/>
 to look upon himself<br/>
-<em>as our Father knows him.</em></p>
+<em>as our Father knows him.</em>
+{: .top}
 
 She who sees me,<br/>
 thus has she seen<br/>
@@ -18,19 +19,21 @@ even as she, too,<br/>
 has been sent of the Father<br/>
 to proclaim but this:
 
-<p markdown="1" class="indent">Love alone is Real.<br/>
+Love alone is Real.<br/>
 God is but Love.<br/>
 Therefore,<br/>
-God <b>is</b>.</p>
+God <b>is</b>.
+{: .indent}
 
 Herein lies the meaning of my words,<br/>
 read often,<br/>
 yet often not understood:
 
-<p class="indent">It is not possible<br/>
+It is not possible<br/>
 for what is Real to be threatened,<br/>
 nor is it possible<br/>
-for what is unreal to exist.</p>
+for what is unreal to exist.
+{: .indent}
 
 Because you know *only* that you exist,<br/>
 you must be in God,<br/>
@@ -58,10 +61,11 @@ the recognition of freedom,<br/>
 and in perfect freedom<br/>
 lies true power:
 
-<p markdown="1" class="indent">I can do absolutely nothing,<br/>
+I can do absolutely nothing,<br/>
 nor need I do anything,<br/>
 for the One who has sent me<br/>
-alone does all things.</p>
+alone does all things.
+{: .indent}
 
 Joy flows gently from the heart<br/>
 of one who has awakened.
@@ -176,10 +180,11 @@ When I said,<br/>
 it is just this<br/>
 to which I was referring.
 
-<p markdown="1" class="indent">For as many as received Him,<br/>
+For as many as received Him,<br/>
 gave He the power to become<br/>
 the Sons and Daughters<br/>
-of the Living God.</p>
+of the Living God.
+{: .indent}
 
 This can only mean<br/>
 that when you give the gift<br/>
@@ -229,11 +234,12 @@ which is the end of fear,<br/>
 is the choice to see<br/>
 with the eyes of Christ:
 
-<p markdown="1" class="ident">God has not failed me,<br/>
+God has not failed me,<br/>
 and I cannot fail those<br/>
 who are sent to me,<br/>
 because the One who has sent me<br/>
-lives in me.</p>
+lives in me.
+{: .indent}
 
 Giving them to God –<br/>
 by seeing that Christ is in them –<br/>
@@ -370,7 +376,8 @@ and through many channels –<br/>
 that there is but one lesson<br/>
 you need learn:
 
-<p markdown="1" class="indent">There is nothing outside you.</p>
+There is nothing outside you.
+{: .indent}
 
 As with all expressions of wisdom,<br/>
 this statement is true<br/>
@@ -564,7 +571,8 @@ to take the necessary step,<br/>
 and accept the final meaning<br/>
 of the one lesson:
 
-<p markdown="1" class="indent">There is nothing outside you.</p>
+There is nothing outside you.
+{: .indent}
 
 You are your brother’s keeper<br/>
 because you *are* your brother.
@@ -635,5 +643,6 @@ and *the ego* remains enthroned.
 
 Again I ask of you:
 
-<p markdown="1" class="indent">What do you <b>want</b>, truly?</p>
+What do you <b>want</b>, truly?
+{: .indent}
 

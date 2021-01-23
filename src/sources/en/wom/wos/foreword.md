@@ -1,8 +1,9 @@
 ---
 title: Foreword
 ---
-<p class="center">By Rev. Kay Hunter</p>
-{: .omit}
+
+By Rev. Kay Hunter
+{: .center.omit}
 
 At each junction in my unfolding it would appear I have been given
 exactly what I needed to see my God-self more clearly. The right

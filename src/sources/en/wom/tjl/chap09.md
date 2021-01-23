@@ -144,7 +144,8 @@ cloaked momentarily in a dream of aloneness.
 I flip through the printed pages of His recent communications, my eyes
 stopping on one more strange statement:
 
-<p class="center">The completion of this project is inevitable now.</p>
+The completion of this project is inevitable now.
+{: .center}
 
 “Right!” I suddenly shout. “What the hell do I know about writing a
 book, much less getting it published! And who the f--- would read this

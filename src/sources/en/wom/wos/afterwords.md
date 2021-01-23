@@ -7,12 +7,13 @@ title: After Words
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">N</span>ow is the<br/>
+<span class="dropcaps">N</span>ow is the<br/>
 end come.<br/>
 We are returned<br/>
 to the ancient<br/>
 beginning.
-</p>
+{: .top}
+
 
 Here,<br/>
 where Truth is restored,<br/>
@@ -21,12 +22,12 @@ upon the world.
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">Y</span>ou are here only to be<br/>
+<span class="dropcaps">Y</span>ou are here only to be<br/>
 truly helpful.<br/>
 Yet<br/>
 you do not know<br/>
 what needs to be done.
-</p>
+{: .top}
 
 Would you know<br/>
 your Father's will for you?
@@ -38,13 +39,14 @@ from you.
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">W</span>here does the
+<span class="dropcaps">W</span>here does the
 servant go,<br/> awakened to the eternal?<br/> "Here,"<br/> comes the
-quiet reply.  </p>
+quiet reply.
+{: .top}
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">B</span>ecause *you*<br/>
+<span class="dropcaps">B</span>ecause *you*<br/>
 are awake *here*<br/>
 and your sister<br/>
 is awake *here*,<br/>
@@ -52,17 +54,17 @@ though bodies are<br/>
 seemingly separate,<br/>
 there is not two,<br/>
 but one.
-</p>
+{: .top}
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">P</span>ray<br/>
+<span class="dropcaps">P</span>ray<br/>
 fast,<br/>
 meditate.<br/>
 Journey into the silent places<br/>
 of your precious Earth,<br/>
 for she alone is your mother.
-</p>
+{: .top}
 
 Sing,<br/>
 laugh,<br/>
@@ -83,7 +85,7 @@ from your Father.
 
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">S</span>mile often,<br/>
+<span class="dropcaps">S</span>mile often,<br/>
 and remember<br/>
 you have chosen to come,<br/>
 *here*.<br/>
@@ -91,12 +93,19 @@ Look around you,<br/>
 and bless the place you are.<br/>
 Do these things often,<br/>
 in remembrance of me.
-</p>
+{: .top}
 
 ---
 
-<p class="iam">I AM</p>
-<p class="i1">with</p>
-<p class="i2">you</p>
-<p class="i3">always &hellip;</p>
+I AM
+{: .iam}
+
+with
+{: .i1}
+
+you
+{: .i2}
+
+always &hellip;
+{: .i3}
 

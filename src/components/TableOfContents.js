@@ -5,6 +5,10 @@ import { List } from 'semantic-ui-react';
 import { IdentityContext } from './IdentityContextProvider';
 
 function isFullACOLUser(user) {
+  if (!user) {
+    return false;
+  }
+
   if (
     user.app_metadata.roles &&
     user.app_metadata.roles.find((i) => i === 'acol')
@@ -20,18 +24,17 @@ function isFullACOLUser(user) {
  * the user has not been granted full ACOL access. In that case we render text of the item title.
  *
  * If there is no url we return the title as a header.
- *
- * Note: we may want to change 'lesson' in <sourceId>Contents.json to 'prefix' as is what is used
- * in <sourceId>Pages.json.
  */
 function levelN(user, item) {
   if (item.url) {
-    if (item.restricted && !isFullACOLUser(user)) {
-      return item.lesson ? `${item.lesson}. ${item.title}` : item.title;
+    const acolUser = isFullACOLUser(user);
+    // console.log({ acolUser, item });
+    if (item.restricted && !acolUser) {
+      return item.prefix ? `${item.prefix} ${item.title}` : item.title;
     }
     return (
       <Link to={item.url}>
-        {item.lesson ? `${item.lesson}. ${item.title}` : item.title}
+        {item.prefix ? `${item.prefix} ${item.title}` : item.title}
       </Link>
     );
   }
@@ -45,7 +48,8 @@ function createSubList(user, contents, bid, pIdx, url) {
       key={`${bid}-${pIdx}-${index}`}
       active={url ? item.url === url : false}
     >
-      <span>{levelN(user, item)}</span>
+      {levelN(user, item)}
+      {/* <span>{levelN(user, item)}</span> */}
       {item.contents
         ? createSubList(user, item.contents, `${bid}-ref`, index, url)
         : undefined}
@@ -64,10 +68,14 @@ function createSubList(user, contents, bid, pIdx, url) {
 function level1(user, item) {
   if (item.url) {
     if (item.restricted && !isFullACOLUser(user)) {
-      return item.title;
+      return item.prefix ? `${item.prefix} ${item.title}` : item.title;
     }
 
-    return <Link to={item.url}>{item.title}</Link>;
+    return (
+      <Link to={item.url}>
+        {item.prefix ? `${item.prefix} ${item.title}` : item.title}
+      </Link>
+    );
   }
   return <List.Header>{item.title}</List.Header>;
 }
@@ -75,6 +83,7 @@ function level1(user, item) {
 export default function TableOfContents(props) {
   const { bid, toc, unit } = props;
   const { user } = useContext(IdentityContext);
+  console.log(user);
 
   const contents = toc.map((item, index) => (
     <List.Item

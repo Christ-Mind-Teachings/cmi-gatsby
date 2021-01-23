@@ -207,7 +207,8 @@ Hello, Marc.
 
 “Hello, Jeshua. How are you?”
 
-<p class="indent">I am fine, Marc, though I see you are not.</p>
+I am fine, Marc, though I see you are not.
+{: .indent}
 
 “It shows, huh?”
 
@@ -238,11 +239,13 @@ than an escape from truth to illusion.
 
 “Well, why am I tired?”
 
-<p class="indent">You know the answer to this without asking.</p>
+You know the answer to this without asking.
+{: .indent}
 
 “Because I am not following my heart.”
 
-<p class="indent">It is so.</p>
+It is so.
+{: .indent}
 
 “I seem to hold the belief that reality is ‘out there.’ That if I simply
 and wholly gave up resisting my heart, calamity would ensue, and the

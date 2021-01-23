@@ -124,16 +124,18 @@ useless defence, as we come to see with Him what He once demonstrated in
 the field of space and time, and has patiently been guiding us to all
 along:
 
-<p class="indent">You look not upon another,<br/>
-For you see only your Self.</p>
+You look not upon another,<br/>
+For you see only your Self.
+{: .indent}
 
 May we now live as one act of living devotion, our creations extending
 only the Good, the Holy, and the Beautiful, as we become what we are
 created to be, the Living Word, and fulfil the greatest pathway
 possible:
 
-<p class="indent">Love one another,<br/>
-as I have first loved you.</p>
+Love one another,<br/>
+as I have first loved you.
+{: .indent}
 
 In forever gratitude to the reflection of my Self (and yours) that has
 come ceaselessly into my useless dreams until all darkness has been

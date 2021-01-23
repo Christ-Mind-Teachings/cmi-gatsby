@@ -2,7 +2,7 @@
 title: A Prayer of Remembrance
 ---
 
-<span markdown="1" class="dropcaps">F</span>ather-Mother God,<br/>
+<span class="dropcaps">F</span>ather-Mother God,<br/>
 Source of our Being,<br/>
 we are returned.
 

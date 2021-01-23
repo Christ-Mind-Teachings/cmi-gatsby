@@ -5,11 +5,12 @@ title: Book One
 ![line](./line2.jpg)
 {: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">S</span><em>ervantship</em><br/>
+<span class="dropcaps">S</span><em>ervantship</em><br/>
 It appears an odd word,<br/>
 yet within it lies the meaning of sacrifice,<br/>
 of Love,<br/>
-of true Being.</p>
+of true Being.
+{: .top}
 
 Servantship is a *vocation*<br/>
 to which one is called,<br/>
@@ -233,8 +234,9 @@ The servant is born.
 ![line](./line4.jpg)
 {: .center.omit}
 
-<p markdown="1" class="comit center"><em>For the first shall be last,<br/>
-and the last, first.</em></p>
+<em>For the first shall be last,<br/>
+and the last, first.</em>
+{: .omit.center}
 
 The only begotten Son dreams.<br/>
 And in his dream is forgotten<br/>
@@ -665,8 +667,9 @@ death.
 ![line](./line4.jpg)
 {: .center.omit}
 
-<p markdown="1" class="omit center"><em>And the first shall be last,<br/>
-and the last, first.</em></p>
+<em>And the first shall be last,<br/>
+and the last, first.</em>
+{: .omit.center}
 
 And now,<br/>
 the dreamer is laid to rest.

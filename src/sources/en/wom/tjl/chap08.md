@@ -133,7 +133,8 @@ to?
 ![line](./line4.jpg)
 {: .center.omit}
 
-<p class="indent">Marc, arise and write, please.</p>
+Marc, arise and write, please.
+{: .indent}
 
 The voice startles me, and my eyes pop open.
 
@@ -144,12 +145,14 @@ clock. It is 11:30, and I feel very tired.
 to myself at the nonchalance with which this conversation is taking
 place.
 
-<p class="indent">Yes.</p>
+Yes.
+{: .indent}
 
 God, I love the feeling of His presence so much, and think how nice it
 would be to just curl up on His “lap” and sleep forever.
 
-<p class="indent">At three o’clock, you will be awakened, and we shall continue.</p>
+At three o’clock, you will be awakened, and we shall continue.
+{: .indent}
 
 Three o’clock! I was thinking more along the lines of nine o’clock, or
 even later. I feel his energy subside, and quickly fall back asleep.

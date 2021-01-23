@@ -12,7 +12,7 @@
     "url": "/en/acol/course/prelude"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
     "title": "A Course of Love",
     "key": "1401003",
     "restricted": false,
@@ -20,7 +20,7 @@
     "url": "/en/acol/course/chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
     "title": "What Love Is",
     "key": "1401004",
     "restricted": false,
@@ -28,7 +28,7 @@
     "url": "/en/acol/course/chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
     "title": "The First Lesson",
     "key": "1401005",
     "restricted": false,
@@ -36,7 +36,7 @@
     "url": "/en/acol/course/chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
     "title": "Love’s Equity",
     "key": "1401006",
     "restricted": false,
@@ -44,7 +44,7 @@
     "url": "/en/acol/course/chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
     "title": "Relationship",
     "key": "1401007",
     "restricted": false,
@@ -52,7 +52,7 @@
     "url": "/en/acol/course/chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
     "title": "Forgiveness/Joining",
     "key": "1401008",
     "restricted": false,
@@ -60,98 +60,98 @@
     "url": "/en/acol/course/chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
     "title": "Withholding",
     "key": "1401009",
     "restricted": true,
     "url": "/en/acol/course/chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
     "title": "The Separation from the Body",
     "key": "1401010",
     "restricted": true,
     "url": "/en/acol/course/chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
     "title": "The Prodigal’s Return",
     "key": "1401011",
     "restricted": false,
     "url": "/en/acol/course/chap09"
   },
   {
-    "prefix":"10",
+    "prefix":"Chapter 10:",
     "title": "Use and Understanding",
     "key": "1401012",
     "restricted": true,
     "url": "/en/acol/course/chap10"
   },
   {
-    "prefix":"11",
+    "prefix":"Chapter 11:",
     "title": "Free Will and Willingness",
     "key": "1401013",
     "restricted": true,
     "url": "/en/acol/course/chap11"
   },
   {
-    "prefix":"12",
+    "prefix":"Chapter 12:",
     "title": "Origin of Separation",
     "key": "1401014",
     "restricted": false,
     "url": "/en/acol/course/chap12"
   },
   {
-    "prefix":"13",
+    "prefix":"Chapter 13:",
     "title": "Observation and Experience",
     "key": "1401015",
     "restricted": true,
     "url": "/en/acol/course/chap13"
   },
   {
-    "prefix":"14",
+    "prefix":"Chapter 14:",
     "title": "Special Relationships, Earthly and Human",
     "key": "1401016",
     "restricted": false,
     "url": "/en/acol/course/chap14"
   },
   {
-    "prefix":"15",
+    "prefix":"Chapter 15:",
     "title": "The Special Self",
     "key": "1401017",
     "restricted": true,
     "url": "/en/acol/course/chap15"
   },
   {
-    "prefix":"16",
+    "prefix":"Chapter 16:",
     "title": "What You Choose Instead",
     "key": "1401018",
     "restricted": true,
     "url": "/en/acol/course/chap16"
   },
   {
-    "prefix":"17",
+    "prefix":"Chapter 17:",
     "title": "Conscious Non-Planning",
     "key": "1401019",
     "restricted": true,
     "url": "/en/acol/course/chap17"
   },
   {
-    "prefix":"18",
+    "prefix":"Chapter 18:",
     "title": "The Mind Engaged",
     "key": "1401020",
     "restricted": false,
     "url": "/en/acol/course/chap18"
   },
   {
-    "prefix":"19",
+    "prefix":"Chapter 19:",
     "title": "Oneness and Duality",
     "key": "1401021",
     "restricted": false,
     "url": "/en/acol/course/chap19"
   },
   {
-    "prefix":"20",
+    "prefix":"Chapter 20:",
     "title": "Wholeheartedness-The Embrace",
     "key": "1401022",
     "restricted": false,
@@ -159,84 +159,84 @@
     "url": "/en/acol/course/chap20"
   },
   {
-    "prefix":"21",
+    "prefix":"Chapter 21:",
     "title": "Love Is",
     "key": "1401023",
     "restricted": true,
     "url": "/en/acol/course/chap21"
   },
   {
-    "prefix":"22",
+    "prefix":"Chapter 22:",
     "title": "The Intersection",
     "key": "1401024",
     "restricted": true,
     "url": "/en/acol/course/chap22"
   },
   {
-    "prefix":"23",
+    "prefix":"Chapter 23:",
     "title": "The Freedom of the Body",
     "key": "1401025",
     "restricted": true,
     "url": "/en/acol/course/chap23"
   },
   {
-    "prefix":"24",
+    "prefix":"Chapter 24:",
     "title": "The Time of Tenderness",
     "key": "1401026",
     "restricted": true,
     "url": "/en/acol/course/chap24"
   },
   {
-    "prefix":"25",
+    "prefix":"Chapter 25:",
     "title": "Devotion as a Type of Participation",
     "key": "1401027",
     "restricted": true,
     "url": "/en/acol/course/chap25"
   },
   {
-    "prefix":"26",
+    "prefix":"Chapter 26:",
     "title": "The Full Life",
     "key": "1401028",
     "restricted": false,
     "url": "/en/acol/course/chap26"
   },
   {
-    "prefix":"27",
+    "prefix":"Chapter 27:",
     "title": "Being",
     "key": "1401029",
     "restricted": true,
     "url": "/en/acol/course/chap27"
   },
   {
-    "prefix":"28",
+    "prefix":"Chapter 28:",
     "title": "Bearing Witness",
     "key": "1401030",
     "restricted": true,
     "url": "/en/acol/course/chap28"
   },
   {
-    "prefix":"29",
+    "prefix":"Chapter 29:",
     "title": "Attention",
     "key": "1401031",
     "restricted": true,
     "url": "/en/acol/course/chap29"
   },
   {
-    "prefix":"30",
+    "prefix":"Chapter 30:",
     "title": "Being Present",
     "key": "1401032",
     "restricted": true,
     "url": "/en/acol/course/chap30"
   },
   {
-    "prefix":"31",
+    "prefix":"Chapter 31:",
     "title": "The Nature of the Mind",
     "key": "1401033",
     "restricted": true,
     "url": "/en/acol/course/chap31"
   },
   {
-    "prefix":"32",
+    "prefix":"Chapter 32:",
     "title": "Love Returned to Love",
     "key": "1401034",
     "restricted": true,
@@ -249,399 +249,456 @@
     "url": "/en/acol/course/learning1"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The First Instruction",
     "key": "1402001",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The Art of Thought",
     "key": "1402002",
     "restricted": false,
     "url": "/en/acol/treatise/t1chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The Call to the Miracle",
     "key": "1402003",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The Center of the Universe",
     "key": "1402004",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The Choice for Love",
     "key": "1402005",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "The Act of Prayer",
     "key": "1402006",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "Suffering and the New Learning",
     "key": "1402007",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "Incarnation and Resurrection",
     "key": "1402008",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "Giving and Receiving",
     "key": "1402009",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap09"
   },
   {
-    "prefix": "10",
+    "prefix": "Chapter 10:",
+    "sectionTitle": "A Treatise on The Art of Thought: The First Treatise",
     "title": "Peace",
     "key": "1402010",
     "restricted": true,
     "url": "/en/acol/treatise/t1chap10"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "Treasure",
     "key": "1402011",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "To Hear the Call",
     "key": "1402012",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "To Answer the Call",
     "key": "1402013",
     "restricted": false,
     "url": "/en/acol/treatise/t2chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Call to Who You Are",
     "key": "1402014",
     "restricted": false,
     "url": "/en/acol/treatise/t2chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Source of Your Call",
     "key": "1402015",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: Accomplishment",
     "key": "1402016",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: Giving and Receiving As One",
     "key": "1402017",
     "restricted": false,
     "url": "/en/acol/treatise/t2chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: No Relationships Are Special",
     "key": "1402018",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: There Is No Loss But Only Gain",
     "key": "1402019",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap09"
   },
   {
-    "prefix": "10",
+    "prefix": "Chapter 10:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: We Only Learn in Unity",
     "key": "1402020",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap10"
   },
   {
-    "prefix": "11",
+    "prefix": "Chapter 11:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: We Exist in Relationship and Unity",
     "key": "1402021",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap11"
   },
   {
-    "prefix": "12",
+    "prefix": "Chapter 12:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Belief: Correction and Atonement",
     "key": "1402022",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap12"
   },
   {
-    "prefix": "13",
+    "prefix": "Chapter 13:",
+    "sectionTitle": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
     "title": "The Final Call",
     "key": "1402023",
     "restricted": true,
     "url": "/en/acol/treatise/t2chap13"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "True and False Representation",
     "key": "1402024",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Purpose of Representation",
     "key": "1402025",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The True Self",
     "key": "1402026",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Dismantling of Illusion",
     "key": "1402027",
     "restricted": false,
     "url": "/en/acol/treatise/t3chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Original Purpose",
     "key": "1402028",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Desire for Reward",
     "key": "1402029",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Explosion of Belief",
     "key": "1402030",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The House of Truth",
     "key": "1402031",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "To Dwell in the House of Truth",
     "key": "1402032",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap09"
   },
   {
-    "prefix": "10",
+    "prefix": "Chapter 10:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "An Exercise in Forgetting",
     "key": "1402033",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap10"
   },
   {
-    "prefix": "11",
+    "prefix": "Chapter 11:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Temptations of the Human Experience",
     "key": "1402034",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap11"
   },
   {
-    "prefix": "12",
+    "prefix": "Chapter 12:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Physical Self in the House of Truth",
     "key": "1402035",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap12"
   },
   {
-    "prefix": "13",
+    "prefix": "Chapter 13:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Practice: No Loss But Only Gain",
     "key": "1402036",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap13"
   },
   {
-    "prefix": "14",
+    "prefix": "Chapter 14:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Not Other Than Who You Are",
     "key": "1402037",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap14"
   },
   {
-    "prefix": "15",
+    "prefix": "Chapter 15:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The New Beginning",
     "key": "1402038",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap15"
   },
   {
-    "prefix": "16",
+    "prefix": "Chapter 16:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Willingness, Temptation, and Belief",
     "key": "1402039",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap16"
   },
   {
-    "prefix": "17",
+    "prefix": "Chapter 17:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "A Mistake in Learning",
     "key": "1402040",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap17"
   },
   {
-    "prefix": "18",
+    "prefix": "Chapter 18:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Observation",
     "key": "1402041",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap18"
   },
   {
-    "prefix": "19",
+    "prefix": "Chapter 19:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Physical Reality",
     "key": "1402042",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap19"
   },
   {
-    "prefix": "20",
+    "prefix": "Chapter 20:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "Suffering and Observance",
     "key": "1402043",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap20"
   },
   {
-    "prefix": "21",
+    "prefix": "Chapter 21:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The Identity of the True Self",
     "key": "1402044",
     "restricted": false,
     "url": "/en/acol/treatise/t3chap21"
   },
   {
-    "prefix": "22",
+    "prefix": "Chapter 22:",
+    "sectionTitle": "A Treatise on The Personal Self: The Third Treatise",
     "title": "The True Self in Observable Form",
     "key": "1402045",
     "restricted": true,
     "url": "/en/acol/treatise/t3chap22"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "All Are Chosen",
     "key": "1402046",
     "restricted": false,
     "url": "/en/acol/treatise/t4chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "Shared Vision",
     "key": "1402047",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "Natural Vision",
     "key": "1402048",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "The Inheritance of Everlasting Life",
     "key": "1402049",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "The Energy of Creation and the Body of Christ",
     "key": "1402050",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "A New Choice",
     "key": "1402051",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "An End to Learning",
     "key": "1402052",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "To Come to Know",
     "key": "1402053",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "Beyond Learning",
     "key": "1402054",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap09"
   },
   {
-    "prefix": "10",
+    "prefix": "Chapter 10:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "Creating Anew",
     "key": "1402055",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap10"
   },
   {
-    "prefix": "11",
+    "prefix": "Chapter 11:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "The End of Learning and the Sustainability of Christ-Consciousness",
     "key": "1402056",
     "restricted": true,
     "url": "/en/acol/treatise/t4chap11"
   },
   {
-    "prefix": "12",
+    "prefix": "Chapter 12:",
+    "sectionTitle": "A Treatise on The New: The Fourth Treatise",
     "title": "A Prelude to The Dialogues",
     "key": "1402057",
     "restricted": false,
@@ -654,399 +711,399 @@
     "url": "/en/acol/treatise/learning2"
   },
   {
-    "prefix": "1",
+    "prefix": "Chapter 1:",
     "title": "Acceptance of the State of Grace of the Newly Identified Child of God",
     "key": "1403001",
     "restricted": false,
     "url": "/en/acol/dialog/chap01"
   },
   {
-    "prefix": "2",
+    "prefix": "Chapter 2:",
     "title": "Acceptance and Denial",
     "key": "1403002",
     "restricted": true,
     "url": "/en/acol/dialog/chap02"
   },
   {
-    "prefix": "3",
+    "prefix": "Chapter 3:",
     "title": "The Covenant of the New",
     "key": "1403003",
     "restricted": false,
     "url": "/en/acol/dialog/chap03"
   },
   {
-    "prefix": "4",
+    "prefix": "Chapter 4:",
     "title": "The New You",
     "key": "1403004",
     "restricted": true,
     "url": "/en/acol/dialog/chap04"
   },
   {
-    "prefix": "5",
+    "prefix": "Chapter 5:",
     "title": "True Representation",
     "key": "1403005",
     "restricted": true,
     "url": "/en/acol/dialog/chap05"
   },
   {
-    "prefix": "6",
+    "prefix": "Chapter 6:",
     "title": "The Body and the Elevation of Form",
     "key": "1403006",
     "restricted": true,
     "url": "/en/acol/dialog/chap06"
   },
   {
-    "prefix": "7",
+    "prefix": "Chapter 7:",
     "title": "Time and the Experience of Transformation",
     "key": "1403007",
     "restricted": false,
     "url": "/en/acol/dialog/chap07"
   },
   {
-    "prefix": "8",
+    "prefix": "Chapter 8:",
     "title": "The Territory of Conscious Awareness",
     "key": "1403008",
     "restricted": true,
     "url": "/en/acol/dialog/chap08"
   },
   {
-    "prefix": "9",
+    "prefix": "Chapter 9:",
     "title": "Awareness that Does Not Come from Thought",
     "key": "1403009",
     "restricted": true,
     "url": "/en/acol/dialog/chap09"
   },
   {
-    "prefix": "10",
+    "prefix": "Chapter 10:",
     "title": "The Goal and the Accomplishment of the Elevated Self of Form",
     "key": "1403010",
     "restricted": true,
     "url": "/en/acol/dialog/chap10"
   },
   {
-    "prefix": "11",
+    "prefix": "Chapter 11:",
     "title": "The Return to Unity and the End of Thought As You Know It",
     "key": "1403011",
     "restricted": true,
     "url": "/en/acol/dialog/chap11"
   },
   {
-    "prefix": "12",
+    "prefix": "Chapter 12:",
     "title": "The Body and Your Thoughts",
     "key": "1403012",
     "restricted": true,
     "url": "/en/acol/dialog/chap12"
   },
   {
-    "prefix": "13",
+    "prefix": "Chapter 13:",
     "title": "Sharing and a Refinement of Your Means of Expressing What You Know",
     "key": "1403013",
     "restricted": true,
     "url": "/en/acol/dialog/chap13"
   },
   {
-    "prefix": "14",
+    "prefix": "Chapter 14:",
     "title": "New Frontiers Beyond the Body and Mind, Form and Time",
     "key": "1403014",
     "restricted": true,
     "url": "/en/acol/dialog/chap14"
   },
   {
-    "prefix": "15",
+    "prefix": "Chapter 15:",
     "title": "Becoming and the Principles of Creation",
     "key": "1403015",
     "restricted": true,
     "url": "/en/acol/dialog/chap15"
   },
   {
-    "prefix": "16",
+    "prefix": "Chapter 16:",
     "title": "From Image to Presence",
     "key": "1403016",
     "restricted": true,
     "url": "/en/acol/dialog/chap16"
   },
   {
-    "prefix": "17",
+    "prefix": "Chapter 17:",
     "title": "The Secret of Succession",
     "key": "1403017",
     "restricted": true,
     "url": "/en/acol/dialog/chap17"
   },
   {
-    "prefix": "1",
+    "prefix": "Day 1:",
     "title": "Accept Me",
     "key": "1403018",
     "restricted": true,
     "url": "/en/acol/dialog/day01"
   },
   {
-    "prefix": "2",
+    "prefix": "Day 2:",
     "title": "Accept Your Self",
     "key": "1403019",
     "restricted": true,
     "url": "/en/acol/dialog/day02"
   },
   {
-    "prefix": "3",
+    "prefix": "Day 3:",
     "title": "Accept Abundance",
     "key": "1403020",
     "restricted": true,
     "url": "/en/acol/dialog/day03"
   },
   {
-    "prefix": "4",
+    "prefix": "Day 4:",
     "title": "The New Temptations",
     "key": "1403021",
     "restricted": true,
     "url": "/en/acol/dialog/day04"
   },
   {
-    "prefix": "5",
+    "prefix": "Day 5:",
     "title": "Access to Unity",
     "key": "1403022",
     "restricted": true,
     "url": "/en/acol/dialog/day05"
   },
   {
-    "prefix": "6",
+    "prefix": "Day 6:",
     "title": "The Time In Between",
     "key": "1403023",
     "restricted": true,
     "url": "/en/acol/dialog/day06"
   },
   {
-    "prefix": "7",
+    "prefix": "Day 7:",
     "title": "Conditions of the Time of Acceptance",
     "key": "1403024",
     "restricted": true,
     "url": "/en/acol/dialog/day07"
   },
   {
-    "prefix": "8",
+    "prefix": "Day 8:",
     "title": "Accept the Present",
     "key": "1403025",
     "restricted": true,
     "url": "/en/acol/dialog/day08"
   },
   {
-    "prefix": "9",
+    "prefix": "Day 9:",
     "title": "Freedom",
     "key": "1403026",
     "restricted": true,
     "url": "/en/acol/dialog/day09"
   },
   {
-    "prefix": "10",
+    "prefix": "Day 10:",
     "title": "Power",
     "key": "1403027",
     "restricted": false,
     "url": "/en/acol/dialog/day10"
   },
   {
-    "prefix": "11",
+    "prefix": "Day 11:",
     "title": "Christ-Consciousness",
     "key": "1403028",
     "restricted": true,
     "url": "/en/acol/dialog/day11"
   },
   {
-    "prefix": "12",
+    "prefix": "Day 12:",
     "title": "The Spacious Self Joined in Relationship",
     "key": "1403029",
     "restricted": true,
     "url": "/en/acol/dialog/day12"
   },
   {
-    "prefix": "13",
+    "prefix": "Day 13:",
     "title": "Union with the Spacious Self",
     "key": "1403030",
     "restricted": true,
     "url": "/en/acol/dialog/day13"
   },
   {
-    "prefix": "14",
+    "prefix": "Day 14:",
     "title": "Healing",
     "key": "1403031",
     "restricted": true,
     "url": "/en/acol/dialog/day14"
   },
   {
-    "prefix": "15",
+    "prefix": "Day 15:",
     "title": "Entering the Dialogue",
     "key": "1403032",
     "restricted": true,
     "url": "/en/acol/dialog/day15"
   },
   {
-    "prefix": "16",
+    "prefix": "Day 16:",
     "title": "Paradise Re-Found",
     "key": "1403033",
     "restricted": true,
     "url": "/en/acol/dialog/day16"
   },
   {
-    "prefix": "17",
+    "prefix": "Day 17:",
     "title": "The Fulfillment of the Way of Jesus",
     "key": "1403034",
     "restricted": true,
     "url": "/en/acol/dialog/day17"
   },
   {
-    "prefix": "18",
+    "prefix": "Day 18:",
     "title": "The Way to Paradise",
     "key": "1403035",
     "restricted": true,
     "url": "/en/acol/dialog/day18"
   },
   {
-    "prefix": "19",
+    "prefix": "Day 19:",
     "title": "The Way of Mary",
     "key": "1403036",
     "restricted": true,
     "url": "/en/acol/dialog/day19"
   },
   {
-    "prefix": "20",
+    "prefix": "Day 20:",
     "title": "The First Transition",
     "key": "1403037",
     "restricted": true,
     "url": "/en/acol/dialog/day20"
   },
   {
-    "prefix": "21",
+    "prefix": "Day 21:",
     "title": "The Reversal",
     "key": "1403038",
     "restricted": true,
     "url": "/en/acol/dialog/day21"
   },
   {
-    "prefix": "22",
+    "prefix": "Day 22:",
     "title": "Channeling",
     "key": "1403039",
     "restricted": true,
     "url": "/en/acol/dialog/day22"
   },
   {
-    "prefix": "23",
+    "prefix": "Day 23:",
     "title": "Carrying",
     "key": "1403040",
     "restricted": true,
     "url": "/en/acol/dialog/day23"
   },
   {
-    "prefix": "24",
+    "prefix": "Day 24:",
     "title": "Potential",
     "key": "1403041",
     "restricted": true,
     "url": "/en/acol/dialog/day24"
   },
   {
-    "prefix": "25",
+    "prefix": "Day 25:",
     "title": "Tending Your Garden",
     "key": "1403042",
     "restricted": true,
     "url": "/en/acol/dialog/day25"
   },
   {
-    "prefix": "26",
+    "prefix": "Day 26:",
     "title": "Self-Guidance",
     "key": "1403043",
     "restricted": true,
     "url": "/en/acol/dialog/day26"
   },
   {
-    "prefix": "27",
+    "prefix": "Day 27:",
     "title": "The Apprehension of Levels of Experience",
     "key": "1403044",
     "restricted": true,
     "url": "/en/acol/dialog/day27"
   },
   {
-    "prefix": "28",
+    "prefix": "Day 28:",
     "title": "From Externally to Internally Directed Life Experience",
     "key": "1403045",
     "restricted": true,
     "url": "/en/acol/dialog/day28"
   },
   {
-    "prefix": "29",
+    "prefix": "Day 29:",
     "title": "The Common Denominator of Experience",
     "key": "1403046",
     "restricted": true,
     "url": "/en/acol/dialog/day29"
   },
   {
-    "prefix": "30",
+    "prefix": "Day 30:",
     "title": "Yielding to Wholeness",
     "key": "1403047",
     "restricted": true,
     "url": "/en/acol/dialog/day30"
   },
   {
-    "prefix": "31",
+    "prefix": "Day 31:",
     "title": "Joining",
     "key": "1403048",
     "restricted": true,
     "url": "/en/acol/dialog/day31"
   },
   {
-    "prefix": "32",
+    "prefix": "Day 32:",
     "title": "The Experience of the Self and the Power of God",
     "key": "1403049",
     "restricted": true,
     "url": "/en/acol/dialog/day32"
   },
   {
-    "prefix": "33",
+    "prefix": "Day 33:",
     "title": "Being in Relationship",
     "key": "1403050",
     "restricted": true,
     "url": "/en/acol/dialog/day33"
   },
   {
-    "prefix": "34",
+    "prefix": "Day 34:",
     "title": "Saying Yes to Power",
     "key": "1403051",
     "restricted": true,
     "url": "/en/acol/dialog/day34"
   },
   {
-    "prefix": "35",
+    "prefix": "Day 35:",
     "title": "Being a Creator in Unity and Relationship",
     "key": "1403052",
     "restricted": true,
     "url": "/en/acol/dialog/day35"
   },
   {
-    "prefix": "36",
+    "prefix": "Day 36:",
     "title": "Who You Are in Unity and Relationship",
     "key": "1403053",
     "restricted": true,
     "url": "/en/acol/dialog/day36"
   },
   {
-    "prefix": "37",
+    "prefix": "Day 37:",
     "title": "A New Idea of God",
     "key": "1403054",
     "restricted": true,
     "url": "/en/acol/dialog/day37"
   },
   {
-    "prefix": "38",
+    "prefix": "Day 38:",
     "title": "Who I Am",
     "key": "1403055",
     "restricted": true,
     "url": "/en/acol/dialog/day38"
   },
   {
-    "prefix": "39",
+    "prefix": "Day 39:",
     "title": "Who I Am to You",
     "key": "1403056",
     "restricted": true,
     "url": "/en/acol/dialog/day39"
   },
   {
-    "prefix": "40",
+    "prefix": "Day 40:",
     "title": "Who You Are to Me",
     "key": "1403057",
     "restricted": true,

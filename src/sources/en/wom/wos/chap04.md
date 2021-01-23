@@ -5,9 +5,10 @@ title: Book Four
 ![line](./line2.jpg)
 {: .center.omit}
 
-<p markdown="1" class="top"><span class="dropcaps">S</span>elf-mastery
+<span class="dropcaps">S</span>elf-mastery
 and servantship<br/> are one.<br/> For where one is, the other is
-found.</p>
+found.
+{: .top}
 
 And where the other is,<br/>
 the one is also known.
@@ -147,9 +148,10 @@ and uncompromising.
 Herein will be revealed to you<br/>
 the final meaning of my teaching:
 
-<p markdown="1" class="indent">Take no thought,<br/>
+Take no thought,<br/>
 for the Father knows<br/>
-you have need of these things.</p>
+you have need of these things.
+{: .indent}
 
 In this,<br/>
 the next step *has* been taken.
@@ -182,7 +184,7 @@ that are brought to serve<br/>
 the one desire that alone arises<br/>
 in the holy mind of the servant:
 
-<p markdown="1" class="indent">That all I do<br/>
+That all I do<br/>
 and all I say,<br/>
 that all I think<br/>
 and all I share,<br/>
@@ -196,7 +198,8 @@ the power,<br/>
 the vision,<br/>
 and the mastery<br/>
 of my Father’s one creation:<br/>
-Christ, I AM!</p>
+Christ, I AM!
+{: .indent}
 
 And the things that she wears<br/>
 and the things that she eats<br/>
@@ -304,7 +307,8 @@ from the dream of separation.
 The final lesson has been learned,<br/>
 and now will be gladly lived:
 
-<p markdown="1" class="indent">There is nothing outside me.</p>
+There is nothing outside me.
+{: .indent}
 
 Now, it is finished.
 
@@ -339,5 +343,6 @@ precious,<br/>
 and ancient<br/>
 friend.
 
-<p markdown="1" class="indent">Amen</p>
+Amen
+{: .indent}
 

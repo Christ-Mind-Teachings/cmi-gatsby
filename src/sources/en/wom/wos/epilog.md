@@ -85,8 +85,9 @@ responsibility, it also points to the immeasurable power that lives
 *equally* within each of us, and will shine forth as we unlearn our fear
 of it. The question is this:
 
-<p markdown="1" class="omit center indent">If not NOW, when?<br/>
-If not YOU, who?</p>
+If not NOW, when?<br/>
+If not YOU, who?
+{: .omit.center.indent}
 
 With Jeshua as loving brother and guide, we have learned that the
 choiceless choice is the inevitable recognition that the *when* is now,
@@ -142,7 +143,8 @@ humanity at peace, and to do all we can to share who we really are –
 radical, ecstatic spirit – together with what we can discover that is
 truly helpful with those who will be drawn to us!
 
-<p markdown="1" class="quote">Heaven on Earth.</p>
+Heaven on Earth.
+{: .quote}
 
 Jeshua refers to this as the “adamic process”. ‘Dam’ in his native
 Aramaic language, refers to nature, or the bodymind itself. ‘A’
@@ -155,8 +157,9 @@ seeks in the great cycle of evolution to manifest what has not yet
 completed its full birthing: “Adam” the ‘first man’ of the bible! For we
 are all part of this great birthing as the fulness of real humanity.
 
-<p markdown="1" class="quote">Can there be a greater adventure? <br/>
-Can there be anything more worthy of our being?</p>
+Can there be a greater adventure? <br/>
+Can there be anything more worthy of our being?
+{: .quote}
 
 Streams of joy!
 

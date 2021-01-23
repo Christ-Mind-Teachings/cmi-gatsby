@@ -57,7 +57,6 @@ export default function MailList(props) {
     last: '',
     address: '',
   });
-  console.log('MailList Component');
 
   function cancelEdit() {
     setFormData({

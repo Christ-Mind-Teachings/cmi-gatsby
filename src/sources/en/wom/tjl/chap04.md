@@ -249,7 +249,8 @@ the harbor.
 This time, there is no announcement of his presence, unless I have been
 too hyped up to notice.
 
-<p class="indent">Marc, take your Bible, and turn to Matthew 7:5-8.</p>
+Marc, take your Bible, and turn to Matthew 7:5-8.
+{: .indent}
 
 It startles me, and I look around, reacting to this suggestion as if I
 fear someone might have noticed. Along with the words comes an image of
@@ -388,7 +389,8 @@ last traces of twilight give way to night, and sipping a cup of hot
 chocolate as if it were the only experience to be had anywhere in this
 universe. Not tonight.
 
-<p class="indent">Hello, Marc.</p>
+Hello, Marc.
+{: .indent}
 
 I pause and savor the feeling that comes with His presence. A sublime
 peace.
@@ -590,7 +592,8 @@ mother would be in shock!), and sit down.
 time?” No, that is not the proper attitude, just let go of expectation.
 Soon I grow quiet. Then:
 
-<p class="indent">Turn to Mark 4:9 and begin reading.</p>
+Turn to Mark 4:9 and begin reading.
+{: .indent}
 
 It’s all in red again. Do these “coincidences” ever end? Can’t there be
 a mistake somewhere along the line? I mean, I’m beginning to realize
@@ -913,12 +916,14 @@ Amen.
 December 26, 1987
 {: .date.omit}
 
-<p class="indent">Good evening, Marc.</p>
+Good evening, Marc.
+{: .indent}
 
 “Good evening, Jeshua. How is it that this communication can happen like
 this, so&hellip;”
 
-<p class="indent">I would suggest that you write this down, please.</p>
+>I would suggest that you write this down, please.
+{: .indent}
 
 “Okay.”
 

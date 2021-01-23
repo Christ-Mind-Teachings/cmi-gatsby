@@ -259,9 +259,10 @@ my consciousness, as if someone had slipped by the security guards to my
 archives, picked a file off an obscure shelf in a dimly lit corner, and
 blown the dust off, revealing the label:
 
-<p class="indent">Jeremiah. Nonphysical entity channeled by Billie<br/>
+Jeremiah. Nonphysical entity channeled by Billie<br/>
 Ogden. Kendra is given bizarre, unverifiable<br/>
-information March 1987. File for future reference.</p>
+information March 1987. File for future reference.
+{: .indent}
 
 “Yeah, I remember. We met for lunch at that cafe in Ballard.”
 
@@ -331,7 +332,7 @@ shared. Some of what he said keeps rising to the surface of my mind from
 time to time, and I remember knowing somehow that it was particularly
 important, though I had no idea why it felt that way. He said:
 
-<p markdown="1" class="indent">My friend, ye have been what would be termed<br/>
+My friend, ye have been what would be termed<br/>
 as a philosopher many times.<br/>
 Is it not so again?<br/>
 Indeed, ye were -<br/>
@@ -340,7 +341,8 @@ as “past incarnation” -<br/>
 associated with that of a Great One,<br/>
 a great master.<br/>
 Be of assuredness ye were not this Great One,<br/>
-but ye were in association with this one.</p>
+but ye were in association with this one.
+{: .indent}
 
 I look at Kendra and quickly anticipate her question. “No, it never
 occurred to me to ask who this ‘Great One’ was. As he spoke I was
