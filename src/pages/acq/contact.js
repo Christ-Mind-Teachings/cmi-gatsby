@@ -16,14 +16,16 @@ export default function ContactPage(props) {
 
   function submitHandler(e) {
     e.preventDefault();
+    const body = encode({ 'form-name': 'acq-contact-form', ...formData });
     console.log('onSubmit: %o', formData);
+    console.log('body: %o', body);
 
     fetch('/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
       },
-      body: encode({ 'form-name': 'acq-contact-form', ...formData }),
+      body,
     })
       .then((data) => console.log(data))
       .catch((err) => console.error(err));
@@ -36,10 +38,11 @@ export default function ContactPage(props) {
 
   return (
     <Form
+      action="/acq/contact"
       name="acq-contact-form"
       netlify-honeypot="sneaky-piet"
       onSubmit={submitHandler}
-      netlify-data="true"
+      data-netlify="true"
     >
       <input type="hidden" name="form-name" value="acq-contact-form" />
       <input type="hidden" name="sneaky-piet" value="acq-contact-form" />
