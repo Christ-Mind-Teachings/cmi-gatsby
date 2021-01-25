@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Get Acquainted",
+    "bookId": "acq",
+    "image": "/assets/img/cmi/acq-toc.jpg",
+    "toc": [
+      {
+        "title": "Get In Touch",
+        "url": "/acq/contact"
+      }
+    ]
+  }
+]
+

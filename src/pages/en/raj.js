@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { Segment, Grid, Header, Card, Image } from 'semantic-ui-react';
 import PageLayout from '../../components/PageLayout';

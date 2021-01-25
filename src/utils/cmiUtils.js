@@ -5,6 +5,34 @@ const textPosition = require('dom-anchor-text-position');
 const wrapRange = require('wrap-range-text');
 
 /**
+ *  Find title and url of the next and previous pages
+ *
+ * @param {array} list - array of pages to search
+ * @param {string} url - current page url
+ * @return {object} {next: {url, title}, prev: {url, title}}
+ */
+export function getNextPrev(list, url) {
+  let prev;
+  let next;
+
+  const urlIndex = list.findIndex((p) => p.url === url);
+  if (urlIndex === -1) {
+    console.error("Didn't find index in Pages for page, something is wrong");
+    return { next: { url: null }, prev: { url: null } };
+  }
+
+  if (urlIndex > 0) {
+    prev = list[urlIndex - 1];
+  }
+
+  if (urlIndex < list.length - 1) {
+    next = list[urlIndex + 1];
+  }
+
+  return { url, next, prev };
+}
+
+/**
  *  Check if obj contains property. If it does return a value indicating its value
  *  is truthy or falsy. If it doesn't return true.
  *

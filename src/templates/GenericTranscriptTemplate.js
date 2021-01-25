@@ -10,7 +10,7 @@ import GlobalStyles from '../styles/GlobalStyles';
 import { GlobalContext } from '../components/GlobalContext';
 
 import 'react-toastify/dist/ReactToastify.css';
-import { displaySharedBookmark } from '../utils/cmiUtils';
+import { getNextPrev, displaySharedBookmark } from '../utils/cmiUtils';
 
 const StyledContainer = styled(Container)``;
 
@@ -20,7 +20,6 @@ const StyledContainer = styled(Container)``;
  * @param {array} list - The array to search
  * @param {string} url - The string to look for
  * @return {object} {next: {url, title}, prev: {url, title}}
- */
 function getNextPrev(list, url) {
   let prev;
   let next;
@@ -41,6 +40,7 @@ function getNextPrev(list, url) {
 
   return { url, next, prev };
 }
+*/
 
 export function GenericTranscriptTemplate({ location, data }) {
   const { list, timing, unit, book, source, content } = data;
