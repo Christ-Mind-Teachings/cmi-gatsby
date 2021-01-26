@@ -1,11 +1,13 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Image, Header, Form } from 'semantic-ui-react';
 import { toast } from 'react-toastify';
+import { useI18next, Trans } from 'gatsby-plugin-react-i18next';
 import AcqLayout from '../../components/AcqLayout';
 import { getNextPrev } from '../../utils/cmiUtils';
 import acqContents from '../../data/acq/acqContents.json';
 import acqPages from '../../data/acq/acqPages.json';
 import { IdentityContext } from '../../components/IdentityContextProvider';
+import { ContactIntro } from '../../components/ContactIntro';
 import rick from '../../assets/images/cmi/rick-profile.jpg';
 
 function encode(data) {
@@ -23,7 +25,7 @@ export default function ContactPage() {
     email: user ? user.email : '',
     message: '',
   });
-  console.log('user: %o', user);
+  const { t } = useI18next('contact');
 
   useEffect(() => {
     const { next = {}, prev = {} } = getNextPrev(acqPages, '/acq/contact');
@@ -43,7 +45,7 @@ export default function ContactPage() {
       body,
     })
       .then(() => {
-        toast('Thanks! You have made contact.');
+        toast(t('Thanks! You have made contact.'));
         setFormData({
           name: user ? user.user_metadata.full_name : '',
           email: user ? user.email : '',
@@ -52,51 +54,25 @@ export default function ContactPage() {
       })
       .catch((err) => {
         console.error(err);
-        toast('Sorry, there was an error');
+        toast(t('Sorry, There was an error sending the message'));
       });
   }
 
   function handleChange(e, { name, value }) {
-    console.log({ name, value });
     setFormData({ ...formData, [name]: value });
   }
 
   return (
     <AcqLayout
-      title="Get In Touch"
+      title={t('Get In Touch')}
       book={acqContents[0]}
       next={next}
       prev={prev}
     >
       <Image src={rick} size="medium" floated="left" rounded />
-      <p>
-        Welcome to the Library of Christ Mind Teachings. My name is Rick Mercer.
-      </p>
-      <p>
-        My journey began with <em>A Course In Miracles</em> and followed on to
-        <em>The Way of Mastery</em>, <em>The Raj Material</em> and, most
-        recently, <em>A Course of Love</em>. I hear the same voice in all of
-        them saying the same thing in somewhat different ways. There is profound
-        wisdom here that is clearly not of this world.
-      </p>
-      <p>
-        The Library makes this material easily accessible to everyone and
-        integrates the various pieces. The <em>Search</em> feature supports
-        discovery and
-        <em>Bookmarks and Annotations</em> allow for easy lookup and sharing.
-      </p>
-      <p>
-        I hope you enjoy using and discovering the wisdom in these pages and
-        allow it to transform your life.
-      </p>
-      <p>
-        I would love to hear from you about any subject. You can especially
-        support this project by reporting any errors you find and by suggesting
-        new features and the addition of other teachings. Thank you!
-      </p>
-
+      <ContactIntro />
       <hr />
-      <Header as="h2">Send me a message.</Header>
+      <Header as="h2">{t('Send me a message')}</Header>
       <Form
         action="/acq/contact"
         name="acq-contact-form"
@@ -109,7 +85,7 @@ export default function ContactPage() {
         <Form.Field>
           <Form.Input
             required
-            label="Name"
+            label={t('Name')}
             value={formData.name}
             name="name"
             type="text"
@@ -119,7 +95,7 @@ export default function ContactPage() {
         <Form.Field>
           <Form.Input
             required
-            label="Email Address"
+            label={t('Email Address')}
             value={formData.email}
             name="email"
             type="email"
@@ -129,16 +105,16 @@ export default function ContactPage() {
         <Form.Field>
           <Form.TextArea
             required
-            label="Message"
+            label={t('Message')}
             onChange={handleChange}
             value={formData.message}
             name="message"
             type="text"
             rows="5"
-            placeholder="Your message"
+            placeholder={t('Your message')}
           />
         </Form.Field>
-        <Form.Button content="Submit" />
+        <Form.Button content={t('Submit')} />
       </Form>
     </AcqLayout>
   );

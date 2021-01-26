@@ -5,9 +5,11 @@
 
 import React, { useEffect } from 'react';
 import { Image, Modal } from 'semantic-ui-react';
+import { useI18next } from 'gatsby-plugin-react-i18next';
 import TableOfContents from './TableOfContents';
 
 export default function ContentsModal({ book, unit, open, setOpen }) {
+  const { t } = useI18next('contents');
   /*
    * Scroll current transcript item into view, if present.
    *
@@ -28,7 +30,7 @@ export default function ContentsModal({ book, unit, open, setOpen }) {
   return (
     <Modal onClose={() => setOpen(false)} open={open} dimmer="blurring">
       <Modal.Header>
-        <em>{book.title}</em>
+        <em>{t(book.title)}</em>
       </Modal.Header>
       <Modal.Content image>
         <Image size="small" src={`${book.image}`} wrapped />

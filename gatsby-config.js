@@ -74,6 +74,11 @@ module.exports = {
             languages: ['en'],
           },
           {
+            matchPath: '/:lang?/acim/sp/:book?/:unit?',
+            getLanguageFromPath: true,
+            languages: ['en'],
+          },
+          {
             matchPath: '/:lang?/wom/:book?/:unit?',
             getLanguageFromPath: true,
             languages: ['en'],
@@ -84,7 +89,7 @@ module.exports = {
             languages: ['en'],
           },
           {
-            matchPath: '/cmi/:feature?',
+            matchPath: '/acq/:page',
             getLanguageFromPath: false,
             languages: ['en', 'pl'],
           },
