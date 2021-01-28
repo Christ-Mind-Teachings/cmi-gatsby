@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Segment, Grid, Header, Card, Image } from 'semantic-ui-react';
+import { Segment, Grid, Header, Card } from 'semantic-ui-react';
+import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import rajContents from '../../data/raj/rajContents.json';
@@ -75,13 +76,13 @@ export default function RajPage({ data }) {
       </p>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="yaa" onClick={cardClick}>
-          <Image src={yaa} size="medium" wrapped ui={false} />
+          <CoverAnimator image={yaa} />
           <Card.Content>
             <Card.Description>You Are the Answer</Card.Description>
           </Card.Content>
         </Card>
         <Card name="grad" onClick={cardClick}>
-          <Image src={grad} size="medium" wrapped ui={false} />
+          <CoverAnimator image={grad} />
           <Card.Content>
             <Card.Description>Graduation: The End of Illusion</Card.Description>
           </Card.Content>
@@ -109,7 +110,7 @@ export default function RajPage({ data }) {
       <Grid>
         <Grid.Column width={6}>
           <Card name="acim" onClick={cardClick}>
-            <Image src={acim} size="medium" wrapped ui={false} />
+            <CoverAnimator image={acim} />
             <Card.Content>
               <Card.Description>
                 ACIM Sparkly Edition Cross Reference
@@ -125,115 +126,105 @@ export default function RajPage({ data }) {
           </Segment>
         </Grid.Column>
       </Grid>
-      {/* <Card.Group itemsPerRow={3} stackable>
-        <Card name="acim" onClick={cardClick}>
-          <Image src={acim} size="medium" wrapped ui={false} />
-          <Card.Content>
-            <Card.Description>
-              ACIM Sparkly Edition Cross Reference
-            </Card.Description>
-          </Card.Content>
-        </Card>
-      </Card.Group> */}
       <Card.Group itemsPerRow={3} stackable>
         <Card name="sg2002" onClick={cardClick}>
-          <Image src={sg2002} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2002} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2002</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2003" onClick={cardClick}>
-          <Image src={sg2003} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2003} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2003</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2004" onClick={cardClick}>
-          <Image src={sg2004} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2004} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2004</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2005" onClick={cardClick}>
-          <Image src={sg2005} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2005} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2005</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2006" onClick={cardClick}>
-          <Image src={sg2006} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2006} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2006</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2007" onClick={cardClick}>
-          <Image src={sg2007} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2007} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2007</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2008" onClick={cardClick}>
-          <Image src={sg2008} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2008} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2008</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2009" onClick={cardClick}>
-          <Image src={sg2009} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2009} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2009</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2010" onClick={cardClick}>
-          <Image src={sg2010} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2010} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2010</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2011" onClick={cardClick}>
-          <Image src={sg2011} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2011} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2011</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2012" onClick={cardClick}>
-          <Image src={sg2012} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2012} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2012</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2013" onClick={cardClick}>
-          <Image src={sg2013} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2013} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2013</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2014" onClick={cardClick}>
-          <Image src={sg2014} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2014} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2014</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2015" onClick={cardClick}>
-          <Image src={sg2015} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2015} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2015</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2016" onClick={cardClick}>
-          <Image src={sg2016} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2016} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2016</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2017" onClick={cardClick}>
-          <Image src={sg2017} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2017} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2017</Card.Description>
           </Card.Content>
         </Card>
         <Card name="sg2018" onClick={cardClick}>
-          <Image src={sg2018} size="medium" wrapped ui={false} />
+          <CoverAnimator image={sg2018} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2018</Card.Description>
           </Card.Content>

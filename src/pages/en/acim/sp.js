@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { navigate, Link, graphql } from 'gatsby';
-import { Header, Card, Image } from 'semantic-ui-react';
+import { Header, Card } from 'semantic-ui-react';
+import CoverAnimator from '../../../components/CoverAnimator';
 import PageLayout from '../../../components/PageLayout';
 import ContentsModal from '../../../components/ContentsModal';
 import spContents from '../../../data/acim/sp/spContents.json';
@@ -46,25 +47,26 @@ export default function SpPage({ data }) {
           name="preface"
           onClick={() => navigate('/en/acim/sp/preface/preface')}
         >
-          <Image src={preface} size="medium" wrapped ui={false} />
+          <CoverAnimator image={preface} />
+          {/* <Image src={preface} size="medium" wrapped ui={false} /> */}
           <Card.Content>
             <Card.Description>Preface</Card.Description>
           </Card.Content>
         </Card>
         <Card name="text" onClick={cardClick}>
-          <Image src={text} size="medium" wrapped ui={false} />
+          <CoverAnimator image={text} />
           <Card.Content>
             <Card.Description>Text</Card.Description>
           </Card.Content>
         </Card>
         <Card name="workbook" onClick={cardClick}>
-          <Image src={workbook} size="medium" wrapped ui={false} />
+          <CoverAnimator image={workbook} />
           <Card.Content>
             <Card.Description>Workbook</Card.Description>
           </Card.Content>
         </Card>
         <Card name="manual" onClick={cardClick}>
-          <Image src={manual} size="medium" wrapped ui={false} />
+          <CoverAnimator image={manual} />
           <Card.Content>
             <Card.Description>Manual for Teachers</Card.Description>
           </Card.Content>

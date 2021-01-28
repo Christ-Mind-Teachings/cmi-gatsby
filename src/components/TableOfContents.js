@@ -57,14 +57,7 @@ export default function TableOfContents(props) {
         {levelN(item)}
         {/* <span>{levelN(user, item)}</span> */}
         {item.contents
-          ? createSubList(
-              language,
-              user,
-              item.contents,
-              `${bid}-ref`,
-              index,
-              url
-            )
+          ? createSubList(item.contents, `${bid}-ref`, index, url)
           : undefined}
       </List.Item>
     ));

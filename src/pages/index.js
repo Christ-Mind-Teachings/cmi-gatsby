@@ -4,12 +4,12 @@ import {
   Segment,
   Grid,
   Card,
-  Image,
   Container,
   Header,
   Sticky,
 } from 'semantic-ui-react';
 import { navigate } from 'gatsby';
+import CoverAnimator from '../components/CoverAnimator';
 import { IndexIntro } from '../components/IndexIntro';
 import acqContents from '../data/acq/acqContents.json';
 import ContentsModal from '../components/ContentsModal';
@@ -55,7 +55,7 @@ export default function ChristMindLibrary() {
             <Grid>
               <Grid.Column width={5}>
                 <Card name="acq" onClick={() => setContentsOpen(true)}>
-                  <Image src={acq} size="medium" wrapped ui={false} />
+                  <CoverAnimator image={acq} />
                   <Card.Content>
                     <Card.Description>
                       <Trans>Get Acquainted with the Library</Trans>
@@ -69,7 +69,7 @@ export default function ChristMindLibrary() {
             </Grid>
             <Card.Group itemsPerRow={3} stackable>
               <Card name="acim" onClick={() => navigate('/en/acim')}>
-                <Image src={acimGroup} size="medium" wrapped ui={false} />
+                <CoverAnimator image={acimGroup} />
                 <Card.Content>
                   <Card.Description>
                     <Trans>Multiple versions of A Course in Miracles</Trans>
@@ -78,7 +78,7 @@ export default function ChristMindLibrary() {
               </Card>
               {language === 'en' && (
                 <Card name="wom" onClick={() => navigate('/en/wom')}>
-                  <Image src={wom} size="medium" wrapped ui={false} />
+                  <CoverAnimator image={wom} />
                   <Card.Content>
                     <Card.Description>
                       <Trans>The Way of Mastery</Trans>
@@ -88,7 +88,7 @@ export default function ChristMindLibrary() {
               )}
               {language === 'pl' && (
                 <Card name="pwom" onClick={() => navigate('/pl/pwom')}>
-                  <Image src={pwom} size="medium" wrapped ui={false} />
+                  <CoverAnimator image={pwom} />
                   <Card.Content>
                     <Card.Description>
                       <Trans>The Way of Mastery</Trans>
@@ -97,19 +97,19 @@ export default function ChristMindLibrary() {
                 </Card>
               )}
               <Card name="acol" onClick={() => navigate('/en/acol')}>
-                <Image src={acol} size="medium" wrapped ui={false} />
+                <CoverAnimator image={acol} />
                 <Card.Content>
                   <Card.Description>A Course Of Love</Card.Description>
                 </Card.Content>
               </Card>
               <Card name="raj" onClick={() => navigate('/en/raj')}>
-                <Image src={raj} size="medium" wrapped ui={false} />
+                <CoverAnimator image={raj} />
                 <Card.Content>
                   <Card.Description>The Raj Materials</Card.Description>
                 </Card.Content>
               </Card>
               <Card name="jsb" onClick={() => navigate('/en/jsb')}>
-                <Image src={jsb} size="medium" wrapped ui={false} />
+                <CoverAnimator image={jsb} />
                 <Card.Content>
                   <Card.Description>The Impersonal Life</Card.Description>
                 </Card.Content>

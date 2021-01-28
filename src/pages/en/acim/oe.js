@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Header, Card, Image } from 'semantic-ui-react';
+import { Grid, Segment, Header, Card } from 'semantic-ui-react';
+import CoverAnimator from '../../../components/CoverAnimator';
 import PageLayout from '../../../components/PageLayout';
 import ContentsModal from '../../../components/ContentsModal';
 import oeContents from '../../../data/acim/oe/oeContents.json';
 import QuoteModal from '../../../components/QuoteModal';
+import wisdom from '../../../assets/images/cmi/covers/wisdom.jpg';
 import text from '../../../assets/images/oe/text-big.jpg';
 import workbook from '../../../assets/images/oe/manual-big.jpg';
 import manual from '../../../assets/images/oe/workbook-big.jpg';
@@ -43,24 +45,36 @@ export default function OePage({ data }) {
         that pre-dates the well-known blue book. The ACIM Original Edition,
         published by Course in Miracles Society [CIMS], is that early edition.
       </p>
-      <button type="button" onClick={() => setShowQuote(true)}>
-        Get Random Quote
-      </button>
+      <Grid>
+        <Grid.Column width={10}>
+          <Card name="quotes" onClick={() => setShowQuote(true)}>
+            <CoverAnimator image={wisdom} />
+            <Card.Content>
+              <Card.Description>
+                Quotes from <em>A Course in Miracles</em>
+              </Card.Description>
+            </Card.Content>
+          </Card>
+        </Grid.Column>
+        {/* <Grid.Column width={10}>
+          <Segment>Fill this in later</Segment>
+        </Grid.Column> */}
+      </Grid>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="text" onClick={cardClick}>
-          <Image src={text} size="medium" wrapped ui={false} />
+          <CoverAnimator image={text} />
           <Card.Content>
             <Card.Description>Text</Card.Description>
           </Card.Content>
         </Card>
         <Card name="workbook" onClick={cardClick}>
-          <Image src={workbook} size="medium" wrapped ui={false} />
+          <CoverAnimator image={workbook} />
           <Card.Content>
             <Card.Description>Workbook</Card.Description>
           </Card.Content>
         </Card>
         <Card name="manual" onClick={cardClick}>
-          <Image src={manual} size="medium" wrapped ui={false} />
+          <CoverAnimator image={manual} />
           <Card.Content>
             <Card.Description>Manual for Teachers</Card.Description>
           </Card.Content>
@@ -73,6 +87,10 @@ export default function OePage({ data }) {
         userId="05399539cca9ac38db6db36f5c770ff1"
         header="ACIM Original Edition"
         source={sourceInfo}
+        urlPrefix="/en/acim"
+        onLoad={(quote) => {
+          quote.url = quote.url.replace(/acimoe\/text\/\d\d/, 'oe/text');
+        }}
       />
       {book && (
         <ContentsModal

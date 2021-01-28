@@ -157,7 +157,7 @@ function _getRandomInt(max) {
 }
 
 export default function Quotes(props) {
-  const { source, showQuote, setShowQuote, userId } = props;
+  const { onLoad, urlPrefix, source, showQuote, setShowQuote, userId } = props;
   const [fetchKey, setFetchKey] = useState();
   const [open, setOpen] = useState(false);
   const [mailModalOpen, setMailModalOpen] = useState(false);
@@ -214,7 +214,6 @@ export default function Quotes(props) {
 
     if (quotes.current[key]) {
       markAsUsed(idx);
-      // setCurrentQuote(quotes.current[key]);
       displayQuote(quotes.current[key]);
     } else {
       setFetchKey(key);
@@ -251,6 +250,12 @@ export default function Quotes(props) {
     async function fetchQuote(uid, pk, cd) {
       try {
         const quote = await getQuote(uid, pk, cd);
+        if (urlPrefix) {
+          quote.url = `${urlPrefix}${quote.url}`;
+        }
+        if (onLoad) {
+          onLoad(quote);
+        }
         displayQuote(quote);
       } catch (error) {
         // TODO: notify user of error

@@ -46,6 +46,7 @@
     "gatsby-transformer-json": "^2.9.0",
     "gatsby-transformer-remark": "^2.14.0",
     "gatsby-transformer-sharp": "^2.10.1",
+    "gsap": "^3.6.0",
     "i18next": "^19.8.4",
     "isomorphic-fetch": "^2.2.1",
     "less": "^3.13.1",

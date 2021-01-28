@@ -51,9 +51,9 @@ export default function PageHeader(props) {
           </Link>
         </Header>
       )}
-      {/* <Header as="h2" textAlign="center">
+      <Header as="h2" textAlign="center">
         {title}
-      </Header> */}
+      </Header>
     </StyledHeader>
   );
 }

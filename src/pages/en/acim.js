@@ -1,20 +1,15 @@
 import React, { createRef } from 'react';
-import {
-  Link,
-  useI18next,
-  Trans,
-  useTranslation,
-} from 'gatsby-plugin-react-i18next';
+import { Link, useI18next, useTranslation } from 'gatsby-plugin-react-i18next';
 import {
   Segment,
   Grid,
   Card,
-  Image,
   Container,
   Header,
   Sticky,
 } from 'semantic-ui-react';
 import { navigate } from 'gatsby';
+import CoverAnimator from '../../components/CoverAnimator';
 import PageHeader from '../../components/PageHeader';
 import LibraryNav from '../../components/LibraryNav';
 import oe from '../../assets/images/cmi/covers/acimoe-big.jpg';
@@ -79,7 +74,7 @@ export default function ChristMindLibrary() {
               <Grid.Row>
                 <Grid.Column width={5}>
                   <Card name="oe" onClick={() => navigate('/en/acim/oe')}>
-                    <Image src={oe} size="medium" wrapped ui={false} />
+                    <CoverAnimator image={oe} />
                     <Card.Content>
                       <Card.Description>Original Edition</Card.Description>
                     </Card.Content>
@@ -101,7 +96,7 @@ export default function ChristMindLibrary() {
               <Grid.Row>
                 <Grid.Column width={5}>
                   <Card name="sparkly" onClick={() => navigate('/en/acim/sp')}>
-                    <Image src={sparkly} size="medium" wrapped ui={false} />
+                    <CoverAnimator image={sparkly} />
                     <Card.Content>
                       <Card.Description>Sparkly Edition</Card.Description>
                     </Card.Content>

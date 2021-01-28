@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Header, Card, Image } from 'semantic-ui-react';
+import { Grid, Segment, Header, Card } from 'semantic-ui-react';
+import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import womContents from '../../data/wom/womContents.json';
 import QuoteModal from '../../components/QuoteModal';
+import wisdom from '../../assets/images/cmi/covers/wisdom.jpg';
 import woh from '../../assets/images/wom/woh-big.jpg';
 import wot from '../../assets/images/wom/wot-big.jpg';
 import wok from '../../assets/images/wom/wok-big.jpg';
@@ -39,42 +41,54 @@ export default function WomPage({ data }) {
         material and effective exercises the Way of Mastery is a practical and
         down to earth guide to transformation.
       </p>
-      <button type="button" onClick={() => setShowQuote(true)}>
-        Get Random Quote
-      </button>
+      <Grid>
+        <Grid.Column width={10}>
+          <Card name="quotes" onClick={() => setShowQuote(true)}>
+            <CoverAnimator image={wisdom} />
+            <Card.Content>
+              <Card.Description>
+                Quotes from <em>The Way of Mastery</em>
+              </Card.Description>
+            </Card.Content>
+          </Card>
+        </Grid.Column>
+        {/* <Grid.Column width={10}>
+          <Segment>Fill this in later</Segment>
+        </Grid.Column> */}
+      </Grid>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="woh" onClick={cardClick}>
-          <Image src={woh} size="medium" wrapped ui={false} />
+          <CoverAnimator image={woh} />
           <Card.Content>
             <Card.Description>Way of the Heart</Card.Description>
           </Card.Content>
         </Card>
         <Card name="wot" onClick={cardClick}>
-          <Image src={wot} size="medium" wrapped ui={false} />
+          <CoverAnimator image={wot} />
           <Card.Content>
             <Card.Description>Way of Transformation</Card.Description>
           </Card.Content>
         </Card>
         <Card name="wok" onClick={cardClick}>
-          <Image src={wok} size="medium" wrapped ui={false} />
+          <CoverAnimator image={wok} />
           <Card.Content>
             <Card.Description>Way of Knowing</Card.Description>
           </Card.Content>
         </Card>
         <Card name="tjl" onClick={cardClick}>
-          <Image src={tjl} size="medium" wrapped ui={false} />
+          <CoverAnimator image={tjl} />
           <Card.Content>
             <Card.Description>The Jeshua Letters</Card.Description>
           </Card.Content>
         </Card>
         <Card name="wos" onClick={cardClick}>
-          <Image src={wos} size="medium" wrapped ui={false} />
+          <CoverAnimator image={wos} />
           <Card.Content>
             <Card.Description>Way of the Servant</Card.Description>
           </Card.Content>
         </Card>
         <Card name="early" onClick={cardClick}>
-          <Image src={early} size="medium" wrapped ui={false} />
+          <CoverAnimator image={early} />
           <Card.Content>
             <Card.Description>The Early Years</Card.Description>
           </Card.Content>
@@ -87,6 +101,7 @@ export default function WomPage({ data }) {
         userId="05399539cca9ac38db6db36f5c770ff1"
         header="The Way of Mastery"
         source={sourceInfo}
+        urlPrefix="/en"
       />
       {book && (
         <ContentsModal

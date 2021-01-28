@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Header, Card, Image } from 'semantic-ui-react';
+import { Header, Card } from 'semantic-ui-react';
+import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import jsbContents from '../../data/jsb/jsbContents.json';
@@ -29,7 +30,7 @@ export default function JsbPage({ data }) {
       </p>
       <Card.Group itemsPerRow={3} stackable>
         <Card name="til" onClick={cardClick}>
-          <Image src={til} size="medium" wrapped ui={false} />
+          <CoverAnimator image={til} />
           <Card.Content>
             <Card.Description>
               The Impersonal Life by Joseph S. Benner, 1914
