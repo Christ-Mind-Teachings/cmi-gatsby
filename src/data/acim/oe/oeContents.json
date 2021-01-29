@@ -1,6 +1,7 @@
 [
   {
     "bookId": "text",
+    "description": "The Text of A Course in Miracles",
     "bid": "1",
     "title": "Text",
     "image": "/assets/img/oe/text-toc.jpg",

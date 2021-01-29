@@ -27,6 +27,7 @@ export const pageQuery = graphql`
     }
     book: rajContentsJson(bookId: { eq: $book }) {
       title
+      description
       bookId
       image
       toc {
@@ -42,6 +43,7 @@ export const pageQuery = graphql`
     }
     source: cmiSourcesJson(sourceId: { eq: $source }) {
       title
+      description
       sourceId
       url
       audioBaseUrl

@@ -28,6 +28,7 @@ export const pageQuery = graphql`
     }
     book: jsbContentsJson(bookId: { eq: $book }) {
       title
+      description
       bookId
       image
       toc {

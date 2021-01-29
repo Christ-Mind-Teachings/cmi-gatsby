@@ -29,6 +29,7 @@ export const pageQuery = graphql`
     }
     book: oeContentsJson(bookId: { eq: $book }) {
       title
+      description
       bookId
       image
       toc {

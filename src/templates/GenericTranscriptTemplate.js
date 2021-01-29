@@ -2,7 +2,7 @@ import React, { createRef, useRef, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Sticky, Icon, Header, Container, Dimmer } from 'semantic-ui-react';
 import styled from 'styled-components';
-import CMIHelmet from '../components/CMIHelmet';
+import SEO from '../components/SEO';
 import TranscriptNav from '../components/TranscriptNav';
 import TranscriptHeader from '../components/TranscriptHeader';
 import SearchNavigator from '../components/SearchNavigator';
@@ -60,7 +60,7 @@ export function GenericTranscriptTemplate({ location, data }) {
   return (
     <>
       <GlobalStyles />
-      <CMIHelmet type="transcript" data={{ source, book, unit }} />
+      <SEO type="transcript" data={{ source, book, unit }} />
       <GlobalContext.Provider
         value={{
           transcript: { source, book, unit },

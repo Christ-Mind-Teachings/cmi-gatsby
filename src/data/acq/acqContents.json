@@ -1,6 +1,7 @@
 [
   {
     "title": "Get Acquainted",
+    "description": "Learn about the Library of Christ Mind teachings",
     "bookId": "acq",
     "image": "/assets/img/cmi/acq-toc.jpg",
     "toc": [

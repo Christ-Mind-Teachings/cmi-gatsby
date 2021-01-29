@@ -6,6 +6,7 @@ import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import womContents from '../../data/wom/womContents.json';
 import QuoteModal from '../../components/QuoteModal';
+import SEO from '../../components/SEO';
 import wisdom from '../../assets/images/cmi/covers/wisdom.jpg';
 import woh from '../../assets/images/wom/woh-big.jpg';
 import wot from '../../assets/images/wom/wot-big.jpg';
@@ -31,6 +32,7 @@ export default function WomPage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">
         Welcome to the <em>Way of Mastery</em>
       </Header>
@@ -119,6 +121,7 @@ export const pageQuery = graphql`
   query womSourceInfo {
     source: cmiSourcesJson(sourceId: { eq: "wom" }) {
       sid
+      description
       title
       sourceId
     }

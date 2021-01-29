@@ -1,6 +1,7 @@
 [
   {
     "title": "Book One: A Course of Love",
+    "description": "A Course of Love, Book One: The Course",
     "bookId": "course",
     "bid": "1",
     "image": "/assets/img/acol/course-toc.jpg",

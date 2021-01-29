@@ -224,7 +224,7 @@ export default function RajPage({ data }) {
           </Card.Content>
         </Card>
         <Card name="sg2018" onClick={cardClick}>
-          <CoverAnimator image={sg2018} />
+          <CoverAnimator image={sg2017} />
           <Card.Content>
             <Card.Description>ACIM Study Group: 2018</Card.Description>
           </Card.Content>

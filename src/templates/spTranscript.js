@@ -27,6 +27,7 @@ export const pageQuery = graphql`
     }
     book: spContentsJson(bookId: { eq: $book }) {
       title
+      description
       bookId
       image
       toc {

@@ -13,6 +13,7 @@
   },
   {
     "bookId": "text",
+    "description": "The Text of A Course in Miracles",
     "title": "Text",
     "image": "/assets/img/sp/text-toc.jpg",
     "toc": [
