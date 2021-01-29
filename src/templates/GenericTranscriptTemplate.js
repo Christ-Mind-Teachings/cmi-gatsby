@@ -1,8 +1,8 @@
 import React, { createRef, useRef, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
-import { Helmet } from 'react-helmet';
 import { Sticky, Icon, Header, Container, Dimmer } from 'semantic-ui-react';
 import styled from 'styled-components';
+import CMIHelmet from '../components/CMIHelmet';
 import TranscriptNav from '../components/TranscriptNav';
 import TranscriptHeader from '../components/TranscriptHeader';
 import SearchNavigator from '../components/SearchNavigator';
@@ -13,34 +13,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { getNextPrev, displaySharedBookmark } from '../utils/cmiUtils';
 
 const StyledContainer = styled(Container)``;
-
-/**
- *  Find title and url of the next and previous pages
- *
- * @param {array} list - The array to search
- * @param {string} url - The string to look for
- * @return {object} {next: {url, title}, prev: {url, title}}
-function getNextPrev(list, url) {
-  let prev;
-  let next;
-
-  const urlIndex = list.findIndex((p) => p.url === url);
-  if (urlIndex === -1) {
-    console.error("Didn't find index in Pages for page, something is wrong");
-    return {};
-  }
-
-  if (urlIndex > 0) {
-    prev = list[urlIndex - 1];
-  }
-
-  if (urlIndex < list.length - 1) {
-    next = list[urlIndex + 1];
-  }
-
-  return { url, next, prev };
-}
-*/
 
 export function GenericTranscriptTemplate({ location, data }) {
   const { list, timing, unit, book, source, content } = data;
@@ -88,7 +60,7 @@ export function GenericTranscriptTemplate({ location, data }) {
   return (
     <>
       <GlobalStyles />
-      <Helmet title={`Transcript Name - ${unit?.title}`} />
+      <CMIHelmet type="transcript" data={{ source, book, unit }} />
       <GlobalContext.Provider
         value={{
           transcript: { source, book, unit },
