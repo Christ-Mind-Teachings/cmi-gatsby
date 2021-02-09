@@ -1,19 +1,31 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { useLocation } from '@reach/router';
 import { Image, Header, Form } from 'semantic-ui-react';
 import { toast } from 'react-toastify';
-import { useI18next, Trans } from 'gatsby-plugin-react-i18next';
+import { useI18next } from 'gatsby-plugin-react-i18next';
+import SEO from '../../components/SEO';
 import AcqLayout from '../../components/AcqLayout';
 import { getNextPrev } from '../../utils/cmiUtils';
 import acqContents from '../../data/acq/acqContents.json';
 import acqPages from '../../data/acq/acqPages.json';
 import { IdentityContext } from '../../components/IdentityContextProvider';
-import { ContactIntro } from '../../components/ContactIntro';
+import { AcqContactIntro } from '../../components/AcqContactIntro';
 import rick from '../../assets/images/cmi/rick-profile.jpg';
 
 function encode(data) {
   return Object.keys(data)
     .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
     .join('&');
+}
+
+function getUnit(url) {
+  const unitIndex = acqPages.findIndex((i) => i.url === url);
+
+  if (unitIndex === -1) {
+    return {};
+  }
+
+  return acqPages[unitIndex];
 }
 
 export default function ContactPage() {
@@ -26,6 +38,7 @@ export default function ContactPage() {
     message: '',
   });
   const { t } = useI18next('contact');
+  const { pathname } = useLocation();
 
   useEffect(() => {
     const { next = {}, prev = {} } = getNextPrev(acqPages, '/acq/contact');
@@ -69,8 +82,9 @@ export default function ContactPage() {
       next={next}
       prev={prev}
     >
+      <SEO type="acq" data={{ unit: getUnit(pathname) }} />
       <Image src={rick} size="medium" floated="left" rounded />
-      <ContactIntro />
+      <AcqContactIntro />
       <hr />
       <Header as="h2">{t('Send me a message')}</Header>
       <Form

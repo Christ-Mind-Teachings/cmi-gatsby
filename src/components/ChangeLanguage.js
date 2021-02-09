@@ -46,7 +46,7 @@ export const ChangeLanguage = () => {
                   // onClick={languageSelect}
                   lang={l}
                 >
-                  <Link to={originalPath} language={l}>
+                  <Link className="ui" to={originalPath} language={l}>
                     <Trans>{l}</Trans>
                   </Link>
                 </Dropdown.Item>

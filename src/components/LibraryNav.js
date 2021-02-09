@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 import { Popup, Container, Icon, Menu, Visibility } from 'semantic-ui-react';
 import { ChangeLanguage } from './ChangeLanguage';
 import { Authenticate } from './Authenticate';
-import { QuickLink } from './QuickLink';
+// import { QuickLink } from './QuickLink';
 
 const menuStyle = {
   // border: 'none',
@@ -50,7 +50,7 @@ export default function LibraryNav() {
       >
         <Container text>
           <ChangeLanguage />
-          <QuickLink sourceId="ACIM" />
+          {/* <QuickLink sourceId="ACIM" /> */}
           <Menu.Menu position="right">
             <Menu.Item name="help" active={activeItem === 'help'}>
               <Popup trigger={<Icon name="question" />} content="Get Help" />

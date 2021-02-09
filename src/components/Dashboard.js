@@ -10,11 +10,13 @@ import {
   Input,
   Menu,
 } from 'semantic-ui-react';
+import { QuickLink } from './QuickLink';
 import { NotAuthorized } from './NotAuthorized';
 import { IdentityContext } from './IdentityContextProvider';
 
 import 'react-toastify/dist/ReactToastify.css';
 import './Dashboard.css';
+import { ChangeLanguage } from './ChangeLanguage';
 
 export function Dashboard(props) {
   const { activeItem, children } = props;
@@ -35,16 +37,13 @@ export function Dashboard(props) {
       <Grid padded className="tablet computer only">
         <Menu borderless inverted fluid fixed="top">
           <Menu.Item header>
-            <Link to="/">Library of Christ Mind Teachings</Link>
+            <Link to="/">Home</Link>
           </Menu.Item>
+          <QuickLink sourceId="Dashboard" />
+          <ChangeLanguage />
           {user && (
             <Menu.Menu position="right">
-              <Menu.Item>
-                <Input placeholder="Search..." size="small" />
-              </Menu.Item>
-              <Menu.Item as="a">Dashboard</Menu.Item>
-              <Menu.Item as="a">Settings</Menu.Item>
-              <Menu.Item as="a">{user?.user_metadata.full_name}</Menu.Item>
+              <Menu.Item>{user?.user_metadata.full_name}</Menu.Item>
               <Menu.Item as="a">Help</Menu.Item>
             </Menu.Menu>
           )}
@@ -79,14 +78,27 @@ export function Dashboard(props) {
               vertical
               style={{ display: dropdownDisplay }}
             >
-              <Menu.Item as="a">Dashboard</Menu.Item>
-              <Menu.Item as="a">Settings</Menu.Item>
-              <Menu.Item as="a">{user?.user_metadata.full_name}</Menu.Item>
-              <Menu.Item as="a">Help</Menu.Item>
-              <Divider fitted />
               <Menu.Item>
-                <Input placeholder="Search..." size="small" />
+                <Link to="/">Home</Link>
               </Menu.Item>
+              <Menu.Item
+                name="overview"
+                active={activeItem === 'overview'}
+                as={Link}
+                to="/cmi"
+              >
+                Overview
+              </Menu.Item>
+              <Menu.Item
+                name="maillist"
+                active={activeItem === 'maillist'}
+                as={Link}
+                to="/cmi/maillist"
+              >
+                MailList
+              </Menu.Item>
+              <Menu.Item as="a">Help</Menu.Item>
+              <QuickLink icon={false} sourceId="Dashboard" />
             </Menu>
           )}
         </Menu>

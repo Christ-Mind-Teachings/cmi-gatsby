@@ -6,10 +6,13 @@
     "image": "/assets/img/cmi/acq-toc.jpg",
     "toc": [
       {
+        "title": "About the Library",
+        "url": "/acq/about"
+      },
+      {
         "title": "Get In Touch",
         "url": "/acq/contact"
       }
     ]
   }
 ]
-

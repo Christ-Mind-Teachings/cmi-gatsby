@@ -63,7 +63,7 @@ function pl() {
   );
 }
 
-export function ContactIntro() {
+export function AcqContactIntro() {
   const { language } = useI18next();
 
   switch (language) {

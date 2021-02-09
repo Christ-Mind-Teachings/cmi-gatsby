@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import { Header, Card } from 'semantic-ui-react';
+import SEO from '../../components/SEO';
 import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
@@ -23,12 +24,13 @@ export default function JsbPage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">The Impersonal Life</Header>
       <p>
         Joseph Benner published <em>The Impersonal Life</em> under the pseudonym
         Anonymous in 1914 believing its words were directly from God.
       </p>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="til" onClick={cardClick}>
           <CoverAnimator image={til} />
           <Card.Content>
@@ -54,6 +56,7 @@ export const pageQuery = graphql`
   query jsbSourceInfo {
     source: cmiSourcesJson(sourceId: { eq: "jsb" }) {
       sid
+      description
       title
       sourceId
       search

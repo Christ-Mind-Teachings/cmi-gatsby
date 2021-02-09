@@ -58,7 +58,7 @@ export default function WomPage({ data }) {
           <Segment>Fill this in later</Segment>
         </Grid.Column> */}
       </Grid>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="woh" onClick={cardClick}>
           <CoverAnimator image={woh} />
           <Card.Content>

@@ -1,13 +1,20 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { navigate } from 'gatsby';
-import { Popup, Container, Icon, Menu } from 'semantic-ui-react';
+import { Grid, Popup, Container, Icon, Menu } from 'semantic-ui-react';
 import { useI18next } from 'gatsby-plugin-react-i18next';
+import styled from 'styled-components';
 import { menuItemEnabled } from '../utils/cmiUtils';
 import ContentsModal from './ContentsModal';
-import SearchModal from './SearchModal';
+// import SearchModal from './SearchModal';
 import AudioPlayer from './AudioPlayer';
 import { Authenticate } from './Authenticate';
 import { QuickLink } from './QuickLink';
+
+const StyledGrid = styled(Grid)`
+  &.only {
+    margin-top: 0;
+  }
+`;
 
 const menuStyle = {
   // border: 'none',
@@ -62,105 +69,197 @@ export default function TranscriptNav(props) {
           open={audioPlayerOpen}
         />
       ) : null}
-      <SearchModal open={searchOpen} setOpen={setSearchOpen} source={source} />
+      {/* <SearchModal open={searchOpen} setOpen={setSearchOpen} source={source} /> */}
       {/* <Visibility
         onTopPassed={stickTopMenu}
         onTopVisible={unStickTopMenu}
         once={false}
       > */}
-      <Menu attached="top" borderless style={menuStyle}>
-        <Container text>
-          {unit?.audio ? (
+      <StyledGrid className="tablet computer only">
+        <Menu
+          className="tablet computer only"
+          attached="top"
+          borderless
+          style={menuStyle}
+        >
+          <Container text>
+            {unit?.audio ? (
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="audio"
+                    active={activeItem === 'audio'}
+                    onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
+                  >
+                    <Icon name="volume up" />
+                  </Menu.Item>
+                }
+                content={t('Listen')}
+              />
+            ) : null}
+
+            {/* // Disable search for transcript pages. Doing so prevents the problem where search matches
+            // for the current page do not generate active Link */}
+            {/* {menuItemEnabled(source, 'search') && (
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="search"
+                    active={activeItem === 'search'}
+                    onClick={toggleSearchModal}
+                  >
+                    <Icon name="search" />
+                  </Menu.Item>
+                }
+                content={t('Search')}
+              />
+            )} */}
+
             <Popup
               trigger={
                 <Menu.Item
-                  name="audio"
-                  active={activeItem === 'audio'}
-                  onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
-                >
-                  <Icon name="volume up" />
-                </Menu.Item>
-              }
-              content={t('Listen')}
-            />
-          ) : null}
-
-          {menuItemEnabled(source, 'search') && (
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="search"
-                  active={activeItem === 'search'}
-                  onClick={toggleSearchModal}
-                >
-                  <Icon name="search" />
-                </Menu.Item>
-              }
-              content={t('Search')}
-            />
-          )}
-
-          <Popup
-            trigger={
-              <Menu.Item
-                name="previous"
-                url={prev.url}
-                active={activeItem === 'previous'}
-                onClick={handleItemClick}
-                disabled={prev.url === undefined}
-              >
-                <Icon name="arrow circle left" />
-              </Menu.Item>
-            }
-            content={prev.url !== undefined ? prev.title : undefined}
-          />
-
-          <Popup
-            trigger={
-              <Menu.Item
-                name="toc"
-                active={activeItem === 'toc'}
-                onClick={toggleContentsModal}
-              >
-                <Icon name="align justify" />
-              </Menu.Item>
-            }
-            content={t('Table of Contents')}
-          />
-
-          <Popup
-            trigger={
-              <Menu.Item
-                name="next"
-                url={next.url}
-                active={activeItem === 'next'}
-                onClick={handleItemClick}
-                disabled={next.url === undefined}
-              >
-                <Icon name="arrow circle right" />
-              </Menu.Item>
-            }
-            content={next.url !== undefined ? next.title : undefined}
-          />
-          <QuickLink sourceId={source.sourceId} />
-
-          <Menu.Menu position="right">
-            <Popup
-              trigger={
-                <Menu.Item
-                  name="help"
-                  active={activeItem === 'help'}
+                  name="previous"
+                  url={prev.url}
+                  active={activeItem === 'previous'}
                   onClick={handleItemClick}
+                  disabled={prev.url === undefined}
                 >
-                  <Icon name="question" />
+                  <Icon name="arrow circle left" />
                 </Menu.Item>
               }
-              content={t('Help')}
+              content={prev.url !== undefined ? prev.title : undefined}
             />
-            <Authenticate />
-          </Menu.Menu>
-        </Container>
-      </Menu>
+
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="toc"
+                  active={activeItem === 'toc'}
+                  onClick={toggleContentsModal}
+                >
+                  <Icon name="align justify" />
+                </Menu.Item>
+              }
+              content={t('Table of Contents')}
+            />
+
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="next"
+                  url={next.url}
+                  active={activeItem === 'next'}
+                  onClick={handleItemClick}
+                  disabled={next.url === undefined}
+                >
+                  <Icon name="arrow circle right" />
+                </Menu.Item>
+              }
+              content={next.url !== undefined ? next.title : undefined}
+            />
+            <QuickLink sourceId={source.sourceId} />
+
+            <Menu.Menu position="right">
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="help"
+                    active={activeItem === 'help'}
+                    onClick={handleItemClick}
+                  >
+                    <Icon name="question" />
+                  </Menu.Item>
+                }
+                content={t('Help')}
+              />
+              <Authenticate />
+            </Menu.Menu>
+          </Container>
+        </Menu>
+      </StyledGrid>
+      <StyledGrid className="mobile only">
+        <Menu
+          className="tablet computer only"
+          attached="top"
+          borderless
+          style={menuStyle}
+        >
+          <Container text>
+            {unit?.audio ? (
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="audio"
+                    active={activeItem === 'audio'}
+                    onClick={() => setAudioPlayerOpen(!audioPlayerOpen)}
+                  >
+                    <Icon name="volume up" />
+                  </Menu.Item>
+                }
+                content={t('Listen')}
+              />
+            ) : null}
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="previous"
+                  url={prev.url}
+                  active={activeItem === 'previous'}
+                  onClick={handleItemClick}
+                  disabled={prev.url === undefined}
+                >
+                  <Icon name="arrow circle left" />
+                </Menu.Item>
+              }
+              content={prev.url !== undefined ? prev.title : undefined}
+            />
+
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="toc"
+                  active={activeItem === 'toc'}
+                  onClick={toggleContentsModal}
+                >
+                  <Icon name="align justify" />
+                </Menu.Item>
+              }
+              content={t('Table of Contents')}
+            />
+
+            <Popup
+              trigger={
+                <Menu.Item
+                  name="next"
+                  url={next.url}
+                  active={activeItem === 'next'}
+                  onClick={handleItemClick}
+                  disabled={next.url === undefined}
+                >
+                  <Icon name="arrow circle right" />
+                </Menu.Item>
+              }
+              content={next.url !== undefined ? next.title : undefined}
+            />
+
+            <Menu.Menu position="right">
+              <Popup
+                trigger={
+                  <Menu.Item
+                    name="help"
+                    active={activeItem === 'help'}
+                    onClick={handleItemClick}
+                  >
+                    <Icon name="question" />
+                  </Menu.Item>
+                }
+                content={t('Help')}
+              />
+              <Authenticate />
+            </Menu.Menu>
+          </Container>
+        </Menu>
+      </StyledGrid>
       {/* </Visibility> */}
     </>
   );

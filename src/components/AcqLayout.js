@@ -9,7 +9,6 @@ export default function AcqLayout(props) {
   const { title, book, next, prev, children } = props;
   const contextRef = createRef();
 
-  console.log({ next, prev });
   return (
     <>
       <div ref={contextRef}>

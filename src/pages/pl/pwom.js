@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Grid, Segment, Header, Card } from 'semantic-ui-react';
+import { Grid, Header, Card } from 'semantic-ui-react';
+import SEO from '../../components/SEO';
 import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
@@ -20,7 +21,7 @@ export default function PwomPage({ data }) {
   const [contentsOpen, setContentsOpen] = useState(false);
   const [showQuote, setShowQuote] = useState(false);
 
-  console.log('sourceInfo: %o', sourceInfo);
+  // console.log('sourceInfo: %o', sourceInfo);
 
   function cardClick(e, obj) {
     const selectedBook = pwomContents.find((b) => b.bookId === obj.name);
@@ -33,6 +34,7 @@ export default function PwomPage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">witamy na drodze mistrzostwa</Header>
       <div className="page-introduction">
         <p>
@@ -58,7 +60,7 @@ export default function PwomPage({ data }) {
           <Segment>Fill this in later</Segment>
         </Grid.Column> */}
       </Grid>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="lj" onClick={cardClick}>
           <CoverAnimator image={lj} />
           <Card.Content>
@@ -119,6 +121,7 @@ export const pageQuery = graphql`
   query pwomSourceInfo {
     source: cmiSourcesJson(sourceId: { eq: "pwom" }) {
       sid
+      description
       title
       sourceId
     }

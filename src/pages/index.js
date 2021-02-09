@@ -15,7 +15,7 @@ import acqContents from '../data/acq/acqContents.json';
 import ContentsModal from '../components/ContentsModal';
 import SiteHeader from '../components/SiteHeader';
 import LibraryNav from '../components/LibraryNav';
-import acimGroup from '../assets/images/cmi/covers/acim-group.png';
+import acimGroup from '../assets/images/cmi/covers/acim-group.jpg';
 import jsb from '../assets/images/cmi/covers/jsb-big.jpg';
 import acol from '../assets/images/cmi/covers/acol2-big.jpg';
 import raj from '../assets/images/cmi/covers/raj-big.jpg';
@@ -67,7 +67,7 @@ export default function ChristMindLibrary() {
                 <Segment>Fill this in later</Segment>
               </Grid.Column>
             </Grid>
-            <Card.Group itemsPerRow={3} stackable>
+            <Card.Group itemsPerRow={3}>
               <Card name="acim" onClick={() => navigate('/en/acim')}>
                 <CoverAnimator image={acimGroup} />
                 <Card.Content>

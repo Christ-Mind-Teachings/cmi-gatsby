@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Grid, Segment, Header, Card } from 'semantic-ui-react';
+import { Grid, Header, Card } from 'semantic-ui-react';
+import SEO from '../../../components/SEO';
 import CoverAnimator from '../../../components/CoverAnimator';
 import PageLayout from '../../../components/PageLayout';
 import ContentsModal from '../../../components/ContentsModal';
@@ -28,6 +29,7 @@ export default function OePage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">
         <em>A Course in Miracles</em> Original Edition
       </Header>
@@ -60,7 +62,7 @@ export default function OePage({ data }) {
           <Segment>Fill this in later</Segment>
         </Grid.Column> */}
       </Grid>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="text" onClick={cardClick}>
           <CoverAnimator image={text} />
           <Card.Content>

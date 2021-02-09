@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Grid, Segment, Icon, Header, Card } from 'semantic-ui-react';
+import { Grid, Icon, Header, Card } from 'semantic-ui-react';
 import CoverAnimator from '../../components/CoverAnimator';
+import SEO from '../../components/SEO';
 import PageLayout from '../../components/PageLayout';
 import ContentsModal from '../../components/ContentsModal';
 import acolContents from '../../data/acol/acolContents.json';
@@ -28,6 +29,7 @@ export default function OePage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">
         Welcome to <em>A Course Of Love</em>
       </Header>
@@ -76,7 +78,7 @@ export default function OePage({ data }) {
           <Segment>Fill this in later</Segment>
         </Grid.Column> */}
       </Grid>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="course" onClick={cardClick}>
           <CoverAnimator image={course} />
           <Card.Content>
@@ -121,6 +123,7 @@ export const pageQuery = graphql`
   query acolSourceInfo {
     source: cmiSourcesJson(sourceId: { eq: "acol" }) {
       sid
+      description
       title
       sourceId
     }

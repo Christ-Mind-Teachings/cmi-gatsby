@@ -1,6 +1,7 @@
 [
   {
     "title": "The Way of Mastery",
+    "description": "A pathway of awakening received from Jeshua through Jayem. It includes a three year series of monthly messages called The Way of the Heart, The Way of Transformation, and The Way of Knowing. Also included is The Jeshua Letters, a book recounting Jayem's initial interaction with Jeshua. Also included is The Way of the Servant and The Early Years. The audio of the original channeled sessions is available.",
     "url": "/en/wom",
     "sourceId": "wom",
     "sid": "10",
@@ -9,6 +10,7 @@
   },
   {
     "title": "Drodze Mistrzostwa",
+    "description": "Ścieżka przebudzenia otrzymana od Jeszuy przez Jayem. Zawiera trzyletnią serię comiesięcznych wiadomości zatytułowanych Droga serca, Droga Przemiany i Droga poznania. Zawiera również Listy Jeszuy, książkę opowiadającą o początkowej interakcji Jayema z Jeshuą. Uwzględniono także drogę sługi i wczesne lata. Dostępne jest audio z oryginalnych sesji channelingowych.",
     "url": "/pl/pwom",
     "sourceId": "pwom",
     "sid": "16",
@@ -26,6 +28,7 @@
   },
   {
     "title": "ACIM: Original Edition",
+    "description": "A Course in Miracles Original Edition",
     "url": "/en/acim/oe",
     "sourceId": "oe",
     "sid": "15",
@@ -38,6 +41,7 @@
   },
   {
     "title": "ACIM: Sparkly Edition",
+    "description": "A Course in Miracles Sparkly Edition",
     "url": "/en/acim/sp",
     "sourceId": "sp",
     "sid": "12",
@@ -49,6 +53,7 @@
   },
   {
     "title": "A Course Of Love",
+    "description": "A Course Of Love first received by Mari Perron from Jesus",
     "url": "/en/acol",
     "sourceId": "acol",
     "sid": "14",
@@ -57,6 +62,7 @@
   },
   {
     "title": "The Impersonal Life",
+    "description": "The Impersonal Life by Joseph S. Benner, originally published 1914",
     "url": "/en/jsb",
     "sourceId": "jsb",
     "sid": "11",

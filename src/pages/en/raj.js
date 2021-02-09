@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import { Segment, Grid, Header, Card } from 'semantic-ui-react';
 import CoverAnimator from '../../components/CoverAnimator';
 import PageLayout from '../../components/PageLayout';
+import SEO from '../../components/SEO';
 import ContentsModal from '../../components/ContentsModal';
 import rajContents from '../../data/raj/rajContents.json';
 import yaa from '../../assets/images/raj/yaa-big.jpg';
@@ -59,6 +60,7 @@ export default function RajPage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">
         Welcome to <em>The Raj Material</em>
       </Header>
@@ -74,7 +76,7 @@ export default function RajPage({ data }) {
         Raj and in <em>Graduation</em> he brings us up to date after nine years
         with Raj.
       </p>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="yaa" onClick={cardClick}>
           <CoverAnimator image={yaa} />
           <Card.Content>
@@ -126,7 +128,7 @@ export default function RajPage({ data }) {
           </Segment>
         </Grid.Column>
       </Grid>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card name="sg2002" onClick={cardClick}>
           <CoverAnimator image={sg2002} />
           <Card.Content>
@@ -246,6 +248,7 @@ export const pageQuery = graphql`
   query rajSourceInfo {
     source: cmiSourcesJson(sourceId: { eq: "raj" }) {
       sid
+      description
       title
       sourceId
     }

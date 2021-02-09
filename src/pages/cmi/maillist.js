@@ -135,6 +135,7 @@ export default function MailList(props) {
           setMailList(newList);
           setDataChanged(false);
           toast('Email list updated!');
+          formRef.current.focus();
         }
       } catch (error) {
         toast.error(`Failed to update email list: ${error}`);
@@ -143,7 +144,6 @@ export default function MailList(props) {
         // stop loading
         setLoading(false);
         setSaveChanges(false);
-        formRef.current.focus();
       }
     }
 
@@ -162,6 +162,10 @@ export default function MailList(props) {
   useEffect(() => {
     async function getUserEmailList() {
       try {
+        if (!user) {
+          console.log('useEffect: user is null');
+          return;
+        }
         setLoading(true);
         const list = await getMailList(md5(user.email));
         const modifiedList = list.map((i) => {
@@ -169,12 +173,12 @@ export default function MailList(props) {
           return i;
         });
         setMailList(modifiedList);
+        formRef.current.focus();
       } catch (error) {
         toast.error('Failed to download email list.');
         console.error(error);
       } finally {
         setLoading(false);
-        formRef.current.focus();
       }
     }
 

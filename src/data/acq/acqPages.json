@@ -1,6 +1,12 @@
 [
   {
+    "title": "About the Library",
+    "description": "Introduction to the library of Christ Mind teachings.",
+    "url": "/acq/about"
+  },
+  {
     "title": "Get In Touch",
+    "description": "The Contact page for the Library of Christ Mind teachings. Send me a message, I'd love to hear from you.",
     "url": "/acq/contact"
   }
 ]

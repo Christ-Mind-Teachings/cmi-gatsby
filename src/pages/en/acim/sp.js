@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { navigate, Link, graphql } from 'gatsby';
 import { Header, Card } from 'semantic-ui-react';
+import SEO from '../../../components/SEO';
 import CoverAnimator from '../../../components/CoverAnimator';
 import PageLayout from '../../../components/PageLayout';
 import ContentsModal from '../../../components/ContentsModal';
@@ -26,6 +27,7 @@ export default function SpPage({ data }) {
 
   return (
     <PageLayout source={sourceInfo}>
+      <SEO type="page" data={{ source: sourceInfo }} />
       <Header as="h2">
         <em>A Course in Miracles</em> Sparkly Edition
       </Header>
@@ -42,7 +44,7 @@ export default function SpPage({ data }) {
         <Link to="/en/raj">ACIM Study Group</Link> which is also included in the
         Library.
       </p>
-      <Card.Group itemsPerRow={3} stackable>
+      <Card.Group itemsPerRow={3}>
         <Card
           name="preface"
           onClick={() => navigate('/en/acim/sp/preface/preface')}
@@ -89,6 +91,7 @@ export const pageQuery = graphql`
     source: cmiSourcesJson(sourceId: { eq: "sp" }) {
       sid
       title
+      description
       sourceId
       group {
         title
